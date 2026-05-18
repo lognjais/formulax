@@ -3,18 +3,40 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter_math_fork/flutter_math.dart';
 import 'package:share_plus/share_plus.dart';
+import '../core/inline_math_parser.dart';
 import '../models/formula.dart';
 import '../providers/formula_provider.dart';
+import '../services/analytics_service.dart';
 
-class FormulaDetailScreen extends StatelessWidget {
+class FormulaDetailScreen extends StatefulWidget {
   final Formula formula;
 
   const FormulaDetailScreen({super.key, required this.formula});
 
   @override
+  State<FormulaDetailScreen> createState() => _FormulaDetailScreenState();
+}
+
+class _FormulaDetailScreenState extends State<FormulaDetailScreen> {
+  Formula get formula => widget.formula;
+
+  @override
+  void initState() {
+    super.initState();
+    AnalyticsService.logFormulaViewed(
+      id: formula.id,
+      subject: formula.subject,
+      topic: formula.topic,
+    );
+  }
+
+  @override
   Widget build(BuildContext context) {
-    final isBookmarked =
-        context.watch<FormulaProvider>().isBookmarked(formula.id);
+    final provider = context.watch<FormulaProvider>();
+    final isBookmarked = provider.isBookmarked(formula.id);
+    final mnemonic = provider.metadata.mnemonicFor(formula);
+    final weightage =
+        provider.metadata.weightageFor(formula.subject, formula.topic);
 
     return Scaffold(
       backgroundColor: const Color(0xFF0B1120),
@@ -47,20 +69,29 @@ class FormulaDetailScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Container(
-              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
-              decoration: BoxDecoration(
-                color: const Color(0xFF1E293B),
-                borderRadius: BorderRadius.circular(8),
-                border: Border.all(color: Colors.white12),
-              ),
-              child: Text(
-                formula.topic.toUpperCase(),
-                style: const TextStyle(
-                    fontSize: 12,
-                    fontWeight: FontWeight.bold,
-                    color: Color(0xFF94A3B8)),
-              ),
+            Wrap(
+              spacing: 8,
+              runSpacing: 8,
+              children: [
+                Container(
+                  padding:
+                      const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                  decoration: BoxDecoration(
+                    color: const Color(0xFF1E293B),
+                    borderRadius: BorderRadius.circular(8),
+                    border: Border.all(color: Colors.white12),
+                  ),
+                  child: Text(
+                    formula.topic.toUpperCase(),
+                    style: const TextStyle(
+                        fontSize: 12,
+                        fontWeight: FontWeight.bold,
+                        color: Color(0xFF94A3B8)),
+                  ),
+                ),
+                if (weightage != WeightageTier.unknown)
+                  _WeightageChip(tier: weightage),
+              ],
             ),
             const SizedBox(height: 16),
             Text(
@@ -81,6 +112,10 @@ class FormulaDetailScreen extends StatelessWidget {
                 textColor: const Color(0xFFCBD5E1),
                 mathColor: const Color(0xFF38BDF8)),
             const SizedBox(height: 40),
+            if (mnemonic != null) ...[
+              _MnemonicCard(mnemonic: mnemonic),
+              const SizedBox(height: 40),
+            ],
             if (formula.relatedConcepts.isNotEmpty) ...[
               _buildSectionHeader(
                   Icons.hub, "KEY CONCEPTS", const Color(0xFFC084FC)),
@@ -342,44 +377,129 @@ class FormulaDetailScreen extends StatelessWidget {
       {required Color textColor,
       required Color mathColor,
       double fontSize = 18}) {
-    final RegExp regex = RegExp(r'(\\\((.*?)\\\))|(\$(.*?)\$)');
-
-    List<Widget> spans = [];
-    int lastMatchEnd = 0;
-
-    for (final Match match in regex.allMatches(text)) {
-      if (match.start > lastMatchEnd) {
-        spans.add(Text(
-          text.substring(lastMatchEnd, match.start),
-          style: TextStyle(fontSize: fontSize, height: 1.6, color: textColor),
-        ));
+    final segments = InlineMathParser.parse(text);
+    final List<Widget> spans = segments.map((seg) {
+      if (seg.isMath) {
+        return Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 4.0),
+          child: Math.tex(
+            seg.content,
+            textStyle: TextStyle(fontSize: fontSize, color: mathColor),
+            onErrorFallback: (err) => Text("Error",
+                style: TextStyle(color: Colors.red, fontSize: fontSize)),
+          ),
+        );
       }
-
-      String mathContent = match.group(2) ?? match.group(4) ?? "";
-
-      spans.add(Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 4.0),
-        child: Math.tex(
-          mathContent,
-          textStyle: TextStyle(fontSize: fontSize, color: mathColor),
-          onErrorFallback: (err) => Text("Error",
-              style: TextStyle(color: Colors.red, fontSize: fontSize)),
-        ),
-      ));
-
-      lastMatchEnd = match.end;
-    }
-
-    if (lastMatchEnd < text.length) {
-      spans.add(Text(
-        text.substring(lastMatchEnd),
+      return Text(
+        seg.content,
         style: TextStyle(fontSize: fontSize, height: 1.6, color: textColor),
-      ));
-    }
+      );
+    }).toList();
 
     return Wrap(
       crossAxisAlignment: WrapCrossAlignment.center,
       children: spans,
+    );
+  }
+}
+
+class _WeightageChip extends StatelessWidget {
+  final WeightageTier tier;
+  const _WeightageChip({required this.tier});
+
+  @override
+  Widget build(BuildContext context) {
+    final (label, icon, color) = switch (tier) {
+      WeightageTier.high => ("HIGH YIELD", Icons.local_fire_department,
+          const Color(0xFFEF4444)),
+      WeightageTier.medium =>
+        ("MEDIUM YIELD", Icons.flash_on, const Color(0xFFF59E0B)),
+      WeightageTier.low =>
+        ("LOW YIELD", Icons.remove_circle_outline, const Color(0xFF64748B)),
+      WeightageTier.unknown =>
+        ("", Icons.help_outline, const Color(0xFF64748B)),
+    };
+    if (tier == WeightageTier.unknown) return const SizedBox.shrink();
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+      decoration: BoxDecoration(
+        color: color.withOpacity(0.12),
+        borderRadius: BorderRadius.circular(8),
+        border: Border.all(color: color.withOpacity(0.4)),
+      ),
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Icon(icon, size: 12, color: color),
+          const SizedBox(width: 6),
+          Text(
+            label,
+            style: TextStyle(
+              fontSize: 11,
+              fontWeight: FontWeight.bold,
+              color: color,
+              letterSpacing: 0.5,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class _MnemonicCard extends StatelessWidget {
+  final Mnemonic mnemonic;
+  const _MnemonicCard({required this.mnemonic});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      width: double.infinity,
+      padding: const EdgeInsets.all(20),
+      decoration: BoxDecoration(
+        color: const Color(0xFFFFD700).withOpacity(0.08),
+        borderRadius: BorderRadius.circular(16),
+        border: Border.all(color: const Color(0xFFFFD700).withOpacity(0.4)),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: const [
+              Icon(Icons.lightbulb, color: Color(0xFFFFD700), size: 18),
+              SizedBox(width: 10),
+              Text(
+                "MEMORY TRICK",
+                style: TextStyle(
+                  color: Color(0xFFFFD700),
+                  fontSize: 12,
+                  fontWeight: FontWeight.bold,
+                  letterSpacing: 1.5,
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 14),
+          Text(
+            mnemonic.phrase,
+            style: const TextStyle(
+              color: Colors.white,
+              fontSize: 20,
+              fontWeight: FontWeight.w800,
+              height: 1.2,
+            ),
+          ),
+          const SizedBox(height: 10),
+          Text(
+            mnemonic.explanation,
+            style: const TextStyle(
+              color: Color(0xFFCBD5E1),
+              fontSize: 14,
+              height: 1.5,
+            ),
+          ),
+        ],
+      ),
     );
   }
 }

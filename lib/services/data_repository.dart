@@ -6,11 +6,9 @@ import 'package:http/http.dart' as http;
 import 'package:path_provider/path_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:archive/archive.dart';
+import '../core/app_config.dart';
 
 class DataRepository {
-  static const String _repoOwner = "jvoltci";
-  static const String _repoName = "formulax";
-
   static const String _currentVersionKey = "data_version_tag";
 
   final List<String> _files = [
@@ -19,6 +17,19 @@ class DataRepository {
     'math.json',
     'biology.json'
   ];
+
+  Future<Map<String, List<String>>> loadSynonyms() async {
+    try {
+      final raw = await rootBundle.loadString('assets/data/synonyms.json');
+      final decoded = json.decode(raw) as Map<String, dynamic>;
+      return decoded.map(
+        (k, v) => MapEntry(k, (v as List).cast<String>()),
+      );
+    } catch (e) {
+      debugPrint("⚠️ Failed to load synonyms: $e");
+      return const {};
+    }
+  }
 
   Future<List<String>> loadData() async {
     final dir = await getApplicationDocumentsDirectory();
@@ -62,7 +73,7 @@ class DataRepository {
   Future<void> _checkForUpdates(String? currentVersion) async {
     try {
       final url = Uri.parse(
-          "https://api.github.com/repos/$_repoOwner/$_repoName/releases/latest");
+          "https://api.github.com/repos/${AppConfig.dataRepoOwner}/${AppConfig.dataRepoName}/releases/latest");
       final response = await http.get(url);
 
       if (response.statusCode == 200) {

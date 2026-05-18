@@ -1,18 +1,51 @@
+import 'dart:async';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_crashlytics/firebase_crashlytics.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
+import 'core/app_colors.dart';
+import 'providers/exam_provider.dart';
 import 'providers/formula_provider.dart';
 import 'screens/home_screen.dart';
 
-void main() {
-  runApp(
-    MultiProvider(
-      providers: [
-        ChangeNotifierProvider(create: (_) => FormulaProvider()),
-      ],
-      child: const FormulaDeckApp(),
-    ),
-  );
+Future<void> main() async {
+  runZonedGuarded(() async {
+    WidgetsFlutterBinding.ensureInitialized();
+    try {
+      await Firebase.initializeApp();
+      FlutterError.onError = (details) {
+        if (!kDebugMode) {
+          FirebaseCrashlytics.instance.recordFlutterFatalError(details);
+        } else {
+          FlutterError.presentError(details);
+        }
+      };
+      PlatformDispatcher.instance.onError = (error, stack) {
+        if (!kDebugMode) {
+          FirebaseCrashlytics.instance.recordError(error, stack, fatal: true);
+        }
+        return true;
+      };
+    } catch (e) {
+      debugPrint("Firebase init failed: $e");
+    }
+
+    runApp(
+      MultiProvider(
+        providers: [
+          ChangeNotifierProvider(create: (_) => ExamProvider()),
+          ChangeNotifierProvider(create: (_) => FormulaProvider()),
+        ],
+        child: const FormulaDeckApp(),
+      ),
+    );
+  }, (error, stack) {
+    if (!kDebugMode) {
+      FirebaseCrashlytics.instance.recordError(error, stack, fatal: true);
+    }
+  });
 }
 
 class FormulaDeckApp extends StatelessWidget {
@@ -31,19 +64,19 @@ class FormulaDeckApp extends StatelessWidget {
   ThemeData _buildTheme() {
     final base = ThemeData.dark();
     return base.copyWith(
-      scaffoldBackgroundColor: const Color(0xFF0B1120),
-      primaryColor: const Color(0xFF38BDF8),
+      scaffoldBackgroundColor: AppColors.background,
+      primaryColor: AppColors.accent,
       colorScheme: const ColorScheme.dark(
-        primary: Color(0xFF38BDF8),
-        secondary: Color(0xFF818CF8),
-        surface: Color(0xFF1E293B),
+        primary: AppColors.accent,
+        secondary: AppColors.secondary,
+        surface: AppColors.surface,
       ),
       textTheme: GoogleFonts.outfitTextTheme(base.textTheme).apply(
-        bodyColor: Colors.white,
-        displayColor: Colors.white,
+        bodyColor: AppColors.textPrimary,
+        displayColor: AppColors.textPrimary,
       ),
       appBarTheme: const AppBarTheme(
-        backgroundColor: Color(0xFF0B1120),
+        backgroundColor: AppColors.background,
         elevation: 0,
         scrolledUnderElevation: 0,
       ),

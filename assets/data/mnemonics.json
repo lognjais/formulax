@@ -1,0 +1,145 @@
+{
+  "by_topic": {
+    "Physics::Optics": {
+      "phrase": "VIBGYOR",
+      "explanation": "Violet, Indigo, Blue, Green, Yellow, Orange, Red — order of colours in the visible spectrum (shortest to longest wavelength is reversed: violet has shortest)."
+    },
+    "Physics::Electromagnetic Waves": {
+      "phrase": "Raging Martians Invaded Venus Using X-ray Guns",
+      "explanation": "Radio, Microwave, Infrared, Visible, Ultraviolet, X-ray, Gamma — order of EM spectrum by increasing frequency."
+    },
+    "Physics::Magnetism": {
+      "phrase": "Fleming's Left = Motor, Right = Generator",
+      "explanation": "Left hand rule gives force direction in a MOTOR; right hand rule gives induced current direction in a GENERATOR. Thumb = Force/Motion, First finger = Field, Middle finger = Current."
+    },
+    "Physics::Current Electricity": {
+      "phrase": "Better Be Right Or Your Great Big Venture Goes West",
+      "explanation": "Resistor colour code: Black(0), Brown(1), Red(2), Orange(3), Yellow(4), Green(5), Blue(6), Violet(7), Grey(8), White(9)."
+    },
+    "Physics::Kinematics": {
+      "phrase": "SUVAT",
+      "explanation": "Five kinematic variables for uniform acceleration: S (displacement), U (initial velocity), V (final velocity), A (acceleration), T (time). Each kinematics equation drops one of these."
+    },
+    "Physics::Thermodynamics": {
+      "phrase": "First law: ΔU = Q − W (system POV: heat IN, work OUT)",
+      "explanation": "Energy in = Energy out. Heat added (Q positive) raises internal energy; work done by system (W positive) reduces it."
+    },
+    "Physics::Modern Physics": {
+      "phrase": "E = hf, p = h/λ",
+      "explanation": "Two foundations of quantum: Planck's photon energy and de Broglie matter waves. h = Planck's constant connects both."
+    },
+    "Chemistry::Redox Reactions": {
+      "phrase": "OIL RIG",
+      "explanation": "Oxidation Is Loss (of electrons), Reduction Is Gain (of electrons). The species oxidised is the REDUCING agent; the species reduced is the OXIDISING agent."
+    },
+    "Chemistry::Periodic Table": {
+      "phrase": "Happy Henry Likes Beer But Could Not Obtain Food (Group 1+2 + p-block row 2)",
+      "explanation": "H, He, Li, Be, B, C, N, O, F — first 9 elements in order. Pair with 'Nelly Naps Magnificently After Such Pleasant Sport, Cleopatra Arrived' for Ne, Na, Mg, Al, Si, P, S, Cl, Ar (period 3)."
+    },
+    "Chemistry::s-Block": {
+      "phrase": "Lina K Rabi Cesium Francium",
+      "explanation": "Li, Na, K, Rb, Cs, Fr — Group 1 alkali metals top to bottom. Reactivity INCREASES down the group."
+    },
+    "Chemistry::p-Block": {
+      "phrase": "Fancy Clara Brings Iodine At Tea",
+      "explanation": "F, Cl, Br, I, At — Group 17 halogens. Reactivity DECREASES down the group (opposite to Group 1)."
+    },
+    "Chemistry::Chemical Bonding": {
+      "phrase": "HONC 1234",
+      "explanation": "Common valences: Hydrogen 1, Oxygen 2, Nitrogen 3, Carbon 4. Memorise this and you can draw most organic Lewis structures."
+    },
+    "Chemistry::Organic Chemistry": {
+      "phrase": "Meet Ethel, Pro-Buty, Pent the Hexer, Hep Octo Nona Deca",
+      "explanation": "IUPAC prefixes for 1–10 carbons: Meth, Eth, Prop, But, Pent, Hex, Hept, Oct, Non, Dec."
+    },
+    "Chemistry::Hydrocarbons": {
+      "phrase": "Markovnikov: Rich gets Richer",
+      "explanation": "In HX addition to an unsymmetric alkene, H goes to the carbon that ALREADY has more H atoms; X goes to the more substituted carbon. Peroxide effect (Kharasch) reverses it for HBr only."
+    },
+    "Chemistry::Coordination Compounds": {
+      "phrase": "CFSE: WAH-LOW-spin / WEAK-HIGH-spin",
+      "explanation": "Strong field ligands (CN⁻, CO) cause LARGE splitting → low-spin complexes. Weak field ligands (I⁻, Br⁻, F⁻) cause SMALL splitting → high-spin. Spectrochemical series: I < Br < Cl < F < OH < H₂O < NH₃ < en < NO₂⁻ < CN⁻ < CO."
+    },
+    "Chemistry::Mole Concept": {
+      "phrase": "Moles = Mass / Molar mass = Volume(STP) / 22.4 = Particles / 6.022×10²³",
+      "explanation": "Four ways to count moles. STP volume of any gas = 22.4 L/mol. Avogadro's number = 6.022 × 10²³."
+    },
+    "Chemistry::Thermodynamics": {
+      "phrase": "ΔG = ΔH − TΔS  →  Spontaneous when ΔG < 0",
+      "explanation": "Negative ΔH (exothermic) and positive ΔS (more disorder) favour spontaneity. At high T, ΔS dominates; at low T, ΔH dominates."
+    },
+    "Biology::Cell Division": {
+      "phrase": "IPMAT",
+      "explanation": "Stages of mitosis in order: Interphase, Prophase, Metaphase, Anaphase, Telophase. (Followed by cytokinesis.)"
+    },
+    "Biology::Genetics": {
+      "phrase": "A-T, G-C (Apple-Tree, Girl-Cat)",
+      "explanation": "DNA base pairing: Adenine pairs with Thymine (2 H-bonds), Guanine pairs with Cytosine (3 H-bonds). In RNA, T is replaced by Uracil."
+    },
+    "Biology::Plant Kingdom": {
+      "phrase": "Boys Play Games With Anger",
+      "explanation": "Plant kingdom main groups in order of complexity: Bryophyta, Pteridophyta, Gymnospermae, (With/and) Angiospermae. Add Algae before for completeness."
+    },
+    "Biology::Animal Kingdom": {
+      "phrase": "King Philip Came Over For Good Soup",
+      "explanation": "Taxonomic ranks: Kingdom, Phylum, Class, Order, Family, Genus, Species. Most NEET questions on classification follow this hierarchy."
+    },
+    "Biology::Human Physiology": {
+      "phrase": "On Old Olympus' Towering Top, A Finn And German Viewed Some Hops",
+      "explanation": "12 cranial nerves I–XII: Olfactory, Optic, Oculomotor, Trochlear, Trigeminal, Abducens, Facial, Auditory (Vestibulocochlear), Glossopharyngeal, Vagus, Spinal accessory, Hypoglossal."
+    },
+    "Biology::Plant Physiology": {
+      "phrase": "BAD MAD AGE",
+      "explanation": "Plant hormones: Brassinosteroids, Auxin, abscisic acid (Dormin = ABA), MAD = (more memory aids); core five: Auxin, Gibberellin, Cytokinin, Ethylene, ABA. Auxin/GA/Cyto PROMOTE growth; ABA/Ethylene INHIBIT (mostly)."
+    },
+    "Biology::Reproduction": {
+      "phrase": "Spermato-GO-CY-TE: Spermatogonium → Primary spermatocyte → Secondary spermatocyte → Spermatid → Sperm",
+      "explanation": "Stages of spermatogenesis. Mirror on female side: Oogonium → Primary oocyte → Secondary oocyte → Ootid → Ovum."
+    },
+    "Biology::Biomolecules": {
+      "phrase": "Carbs = (CH₂O)ₙ, Proteins = chains of 20 aa, Lipids = ester of glycerol + fatty acids, Nucleic acids = sugar+phosphate+base",
+      "explanation": "The four classes of biomolecules and their building blocks. NEET LOVES asking about which biomolecule has which monomer."
+    },
+    "Biology::Ecology": {
+      "phrase": "Producers → Primary consumers → Secondary → Tertiary; only 10% energy transfers up (Lindeman's 10% law)",
+      "explanation": "Energy flow in ecosystem is one-directional and lossy. Biomagnification of toxins (DDT) goes UP the food chain; biomass goes DOWN."
+    },
+    "Math::Trigonometry": {
+      "phrase": "SOH CAH TOA",
+      "explanation": "Sin = Opposite/Hypotenuse, Cos = Adjacent/Hypotenuse, Tan = Opposite/Adjacent. Foundation of all right-triangle trig."
+    },
+    "Math::Trigonometric Functions": {
+      "phrase": "All Students Take Calculus (ASTC)",
+      "explanation": "Sign of trig functions by quadrant: Q1 = All positive, Q2 = Sin (and cosec) positive, Q3 = Tan (and cot) positive, Q4 = Cos (and sec) positive."
+    },
+    "Math::Algebra": {
+      "phrase": "BODMAS",
+      "explanation": "Order of operations: Brackets, Of/Orders (powers/roots), Division, Multiplication, Addition, Subtraction. Same as PEMDAS."
+    },
+    "Math::Binomial Theorem": {
+      "phrase": "FOIL",
+      "explanation": "Multiplying (a+b)(c+d): First (ac), Outer (ad), Inner (bc), Last (bd). Generalises to binomial theorem for (a+b)ⁿ."
+    },
+    "Math::Probability": {
+      "phrase": "P(A∪B) = P(A) + P(B) − P(A∩B)",
+      "explanation": "Addition rule — subtract the overlap. If A and B are mutually exclusive, P(A∩B) = 0. For independent events, P(A∩B) = P(A)·P(B)."
+    },
+    "Math::Permutations and Combinations": {
+      "phrase": "P for Position (order matters), C for Choice (order doesn't)",
+      "explanation": "ⁿPr = n!/(n−r)! when arrangement matters. ⁿCr = n!/(r!(n−r)!) when only selection matters. ⁿCr = ⁿPr / r!."
+    },
+    "Math::Calculus": {
+      "phrase": "d/dx (xⁿ) = n·xⁿ⁻¹ — bring down, subtract one",
+      "explanation": "Power rule for differentiation. For integration, REVERSE: add one to exponent, divide by new exponent. ∫xⁿ dx = xⁿ⁺¹/(n+1) + C."
+    },
+    "Math::Vectors": {
+      "phrase": "Dot = Number (scalar), Cross = New vector (perpendicular)",
+      "explanation": "a·b = |a||b|cosθ (scalar). a×b = |a||b|sinθ n̂ (vector, perpendicular to both, direction by right-hand rule). a·a = |a|², a×a = 0."
+    },
+    "Math::Matrices": {
+      "phrase": "AB ≠ BA (in general); (AB)⁻¹ = B⁻¹A⁻¹; (AB)ᵀ = BᵀAᵀ",
+      "explanation": "Three key rules: matrix multiplication is NOT commutative; inverse and transpose REVERSE the order when distributing over a product."
+    }
+  },
+  "by_formula_id": {}
+}
