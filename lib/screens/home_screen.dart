@@ -10,6 +10,7 @@ import '../widgets/bookmark_card.dart';
 import '../widgets/exam_selector_sheet.dart';
 import '../widgets/formula_search_delegate.dart';
 import '../widgets/subject_card.dart';
+import 'syllabus_screen.dart';
 
 const Map<String, _SubjectMeta> _subjectMeta = {
   "Physics": _SubjectMeta(AppColors.physics, Icons.bolt),
@@ -81,7 +82,9 @@ class _HomeScreenState extends State<HomeScreen> {
                   formulas: provider.allFormulas,
                   service: provider.searchService,
                 ),
-                const SizedBox(height: 40),
+                const SizedBox(height: 20),
+                const _SyllabusCard(),
+                const SizedBox(height: 32),
                 const SectionTitle(title: "BROWSE BY SUBJECT"),
                 const SizedBox(height: 16),
               ]),
@@ -317,6 +320,61 @@ class _ErrorView extends StatelessWidget {
                     horizontal: 24, vertical: 12),
               ),
             ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class _SyllabusCard extends StatelessWidget {
+  const _SyllabusCard();
+
+  @override
+  Widget build(BuildContext context) {
+    return GestureDetector(
+      onTap: () => Navigator.push(
+        context,
+        MaterialPageRoute(builder: (_) => const SyllabusScreen()),
+      ),
+      child: Container(
+        padding: const EdgeInsets.all(18),
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            colors: [AppColors.secondary.withOpacity(0.18), AppColors.surface],
+          ),
+          borderRadius: BorderRadius.circular(18),
+          border: Border.all(color: Colors.white10),
+        ),
+        child: Row(
+          children: [
+            Container(
+              padding: const EdgeInsets.all(10),
+              decoration: BoxDecoration(
+                color: AppColors.secondary.withOpacity(0.15),
+                borderRadius: BorderRadius.circular(12),
+              ),
+              child: const Icon(Icons.menu_book_rounded,
+                  color: AppColors.secondary),
+            ),
+            const SizedBox(width: 14),
+            const Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text('Syllabus',
+                      style: TextStyle(
+                          color: Colors.white,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 16)),
+                  SizedBox(height: 2),
+                  Text('NEET / JEE chapters in order → jump to formulas',
+                      style:
+                          TextStyle(color: AppColors.textMuted, fontSize: 12)),
+                ],
+              ),
+            ),
+            const Icon(Icons.chevron_right, color: AppColors.textMuted),
           ],
         ),
       ),

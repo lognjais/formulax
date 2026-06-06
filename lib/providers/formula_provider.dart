@@ -12,6 +12,8 @@ class FormulaProvider with ChangeNotifier {
   List<Formula> _allFormulas = [];
   Map<String, Map<String, List<Formula>>> _structuredData = {};
   List<String> _bookmarkedIds = [];
+  List<String> _revisedIds = [];
+  bool _highYieldOnly = false;
   bool _isLoading = true;
   String? _errorMessage;
   FormulaSearchService? _searchService;
@@ -41,6 +43,8 @@ class FormulaProvider with ChangeNotifier {
     try {
       final prefs = await SharedPreferences.getInstance();
       _bookmarkedIds = prefs.getStringList('bookmarked_formulas') ?? [];
+      _revisedIds = prefs.getStringList('revised_formulas') ?? [];
+      _highYieldOnly = prefs.getBool('high_yield_only') ?? false;
 
       final List<String> jsonStrings = await _repository.loadData();
       final synonyms = await _repository.loadSynonyms();
@@ -113,6 +117,29 @@ class FormulaProvider with ChangeNotifier {
   }
 
   bool isBookmarked(String id) => _bookmarkedIds.contains(id);
+
+  // ---- Revision tracking ----
+  bool isRevised(String id) => _revisedIds.contains(id);
+
+  int revisedCountIn(List<Formula> formulas) =>
+      formulas.where((f) => _revisedIds.contains(f.id)).length;
+
+  Future<void> toggleRevised(String id) async {
+    if (!_revisedIds.remove(id)) _revisedIds.add(id);
+    notifyListeners();
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setStringList('revised_formulas', _revisedIds);
+  }
+
+  // ---- High-yield-only filter (persisted) ----
+  bool get highYieldOnly => _highYieldOnly;
+
+  Future<void> setHighYieldOnly(bool value) async {
+    _highYieldOnly = value;
+    notifyListeners();
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setBool('high_yield_only', value);
+  }
 }
 
 class ParsedData {

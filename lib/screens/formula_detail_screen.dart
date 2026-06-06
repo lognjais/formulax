@@ -98,6 +98,7 @@ class _FormulaDetailScreenState extends State<FormulaDetailScreen> {
   Widget build(BuildContext context) {
     final provider = context.watch<FormulaProvider>();
     final isBookmarked = provider.isBookmarked(formula.id);
+    final isRevised = provider.isRevised(formula.id);
     final mnemonic = provider.metadata.mnemonicFor(formula);
     final weightage =
         provider.metadata.weightageFor(formula.subject, formula.topic);
@@ -111,6 +112,15 @@ class _FormulaDetailScreenState extends State<FormulaDetailScreen> {
           onPressed: () => Navigator.of(context).pop(),
         ),
         actions: [
+          IconButton(
+            tooltip: isRevised ? 'Revised' : 'Mark as revised',
+            icon: Icon(
+              isRevised ? Icons.check_circle : Icons.check_circle_outline,
+              color: isRevised ? const Color(0xFF10B981) : Colors.white70,
+            ),
+            onPressed: () =>
+                context.read<FormulaProvider>().toggleRevised(formula.id),
+          ),
           Builder(
             builder: (btnContext) => IconButton(
               icon: const Icon(Icons.share_outlined, color: Colors.white70),
