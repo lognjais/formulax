@@ -30,6 +30,70 @@ class _FormulaDetailScreenState extends State<FormulaDetailScreen> {
     );
   }
 
+  Future<void> _shareFormula(BuildContext btnContext) async {
+    final body = StringBuffer()
+      ..writeln(formula.title)
+      ..writeln(formula.topic)
+      ..writeln()
+      ..writeln(_plainFormula(formula.latex))
+      ..writeln()
+      ..writeln('📘 Formula X — fast NEET/JEE formula revision')
+      ..write(
+          'https://play.google.com/store/apps/details?id=com.blueshift.formulax');
+
+    final box = btnContext.findRenderObject() as RenderBox?;
+    final origin = (box != null && box.hasSize)
+        ? box.localToGlobal(Offset.zero) & box.size
+        : null;
+    try {
+      await Share.share(
+        body.toString(),
+        subject: '${formula.title} — Formula X',
+        sharePositionOrigin: origin,
+      );
+    } catch (_) {
+      if (btnContext.mounted) {
+        ScaffoldMessenger.of(btnContext).showSnackBar(
+          const SnackBar(content: Text("Couldn't open the share sheet.")),
+        );
+      }
+    }
+  }
+
+  /// Best-effort LaTeX → readable plain text for sharing (safe subset only).
+  static String _plainFormula(String latex) {
+    var s = latex;
+    final frac = RegExp(r'\\frac\{([^{}]*)\}\{([^{}]*)\}');
+    for (var i = 0; i < 4 && frac.hasMatch(s); i++) {
+      s = s.replaceAllMapped(frac, (m) => '(${m[1]})/(${m[2]})');
+    }
+    s = s.replaceAllMapped(RegExp(r'\\sqrt\{([^{}]*)\}'), (m) => '√(${m[1]})');
+    // strip wrappers first so e.g. \left isn't mangled by \le replacement
+    s = s.replaceAll(RegExp(r'\\(left|right|displaystyle|mathrm|text|mathbf)\b'),
+        '');
+    const sym = {
+      r'\times': '×', r'\cdot': '·', r'\pm': '±', r'\mp': '∓',
+      r'\geq': '≥', r'\ge': '≥', r'\leq': '≤', r'\le': '≤',
+      r'\neq': '≠', r'\ne': '≠', r'\approx': '≈', r'\propto': '∝',
+      r'\rightleftharpoons': '⇌', r'\Rightarrow': '⇒', r'\rightarrow': '→',
+      r'\to': '→', r'\infty': '∞', r'\partial': '∂', r'\circ': '°',
+      r'\Delta': 'Δ', r'\alpha': 'α', r'\beta': 'β', r'\gamma': 'γ',
+      r'\theta': 'θ', r'\lambda': 'λ', r'\mu': 'μ', r'\pi': 'π',
+      r'\rho': 'ρ', r'\sigma': 'σ', r'\omega': 'ω', r'\phi': 'φ',
+      r'\varepsilon': 'ε', r'\epsilon': 'ε', r'\tau': 'τ', r'\eta': 'η',
+      r'\nu': 'ν',
+    };
+    sym.forEach((k, v) => s = s.replaceAll(k, v));
+    s = s
+        .replaceAll(r'\quad', '  ')
+        .replaceAll(RegExp(r'\\[,;!:]'), ' ')
+        .replaceAllMapped(RegExp(r'\\([a-zA-Z]+)'), (m) => m[1]!)
+        .replaceAll(RegExp(r'[{}]'), '')
+        .replaceAll(RegExp(r'\s+'), ' ')
+        .trim();
+    return s;
+  }
+
   @override
   Widget build(BuildContext context) {
     final provider = context.watch<FormulaProvider>();
@@ -47,10 +111,11 @@ class _FormulaDetailScreenState extends State<FormulaDetailScreen> {
           onPressed: () => Navigator.of(context).pop(),
         ),
         actions: [
-          IconButton(
-            icon: const Icon(Icons.share_outlined, color: Colors.white70),
-            onPressed: () => Share.share(
-                "Check this formula: ${formula.title} - ${formula.latex}"),
+          Builder(
+            builder: (btnContext) => IconButton(
+              icon: const Icon(Icons.share_outlined, color: Colors.white70),
+              onPressed: () => _shareFormula(btnContext),
+            ),
           ),
           IconButton(
             icon: Icon(
