@@ -1,0 +1,89 @@
+{
+ "note": "Distinctively-worded FormulaX cards. Verbatim appearance elsewhere proves copying of our compilation/expression — basis for DMCA/legal action.",
+ "canaries": [
+  {
+   "id": "phys_mechanical_propert_g001",
+   "subject": "Physics",
+   "topic": "Mechanical Properties of Fluids",
+   "title": "Pressure Definition",
+   "description_fingerprint": "Thrust per unit area exerted by a fluid on a surface. \\(P\\)=pressure, \\(F\\)=normal force, \\(A\\)=area."
+  },
+  {
+   "id": "phys_mechanical_propert_g002",
+   "subject": "Physics",
+   "topic": "Mechanical Properties of Fluids",
+   "title": "Gauge Pressure",
+   "description_fingerprint": "Pressure relative to atmosphere at depth \\(h\\) in a liquid. \\(P_{abs}\\)=absolute pressure, \\(P_0\\)=atmospheric pressure, \\(\\rho\\)=density, \\(h\\)=depth."
+  },
+  {
+   "id": "phys_mechanical_propert_g003",
+   "subject": "Physics",
+   "topic": "Mechanical Properties of Fluids",
+   "title": "Pressure at Same Level",
+   "description_fingerprint": "Hydrostatic paradox: pressure is equal at all points at the same depth in a connected fluid at rest. \\(P_A, P_B\\)=pressures at two points at equal height."
+  },
+  {
+   "id": "chem_structure_of_atom_g001",
+   "subject": "Chemistry",
+   "topic": "Structure of Atom",
+   "title": "Velocity in Bohr Orbit",
+   "description_fingerprint": "Speed of electron in the n-th Bohr orbit. \\(v_n\\)=orbital velocity, \\(Z\\)=atomic number, \\(n\\)=principal quantum number. Equals \\(\\frac{Z}{n}\\times\\) (speed of "
+  },
+  {
+   "id": "chem_structure_of_atom_g002",
+   "subject": "Chemistry",
+   "topic": "Structure of Atom",
+   "title": "Total Energy Relations",
+   "description_fingerprint": "Virial theorem relations for an electron bound in a Bohr orbit. \\(E\\)=total energy, \\(KE\\)=kinetic energy, \\(PE\\)=potential energy. So \\(PE = 2E\\) and \\(KE = -E"
+  },
+  {
+   "id": "chem_structure_of_atom_g003",
+   "subject": "Chemistry",
+   "topic": "Structure of Atom",
+   "title": "Number of Spectral Lines",
+   "description_fingerprint": "Maximum spectral lines from electrons de-exciting between levels \\(n_2\\) and \\(n_1\\). \\(N\\)=number of lines. For de-excitation from level \\(n\\) to ground state,"
+  },
+  {
+   "id": "math_vector_algebra_g001",
+   "subject": "Math",
+   "topic": "Vector Algebra",
+   "title": "Section Formula (Internal)",
+   "description_fingerprint": "Position vector of point dividing AB internally in ratio \\(m:n\\). \\(\\vec{a},\\vec{b}\\)=position vectors of \\(A,B\\); point divides \\(AB\\) so \\(AP:PB=m:n\\)."
+  },
+  {
+   "id": "math_vector_algebra_g002",
+   "subject": "Math",
+   "topic": "Vector Algebra",
+   "title": "Angle Between Two Vectors",
+   "description_fingerprint": "Angle between two non-zero vectors via dot product. \\(\\theta\\)=angle between \\(\\vec{a}\\) and \\(\\vec{b}\\); \\(0\\le\\theta\\le\\pi\\)."
+  },
+  {
+   "id": "math_vector_algebra_g003",
+   "subject": "Math",
+   "topic": "Vector Algebra",
+   "title": "Vector Projection (as a vector)",
+   "description_fingerprint": "Vector (component) of \\(\\vec{a}\\) along \\(\\vec{b}\\). \\(\\frac{\\vec{a}\\cdot\\vec{b}}{|\\vec{b}|^2}\\)=scalar multiplier; differs from scalar projection by factor \\(\\"
+  },
+  {
+   "id": "bio_molecular_basis_of_g001",
+   "subject": "Biology",
+   "topic": "Molecular Basis of Inheritance",
+   "title": "Chargaff's Rule",
+   "description_fingerprint": "Base equivalence in double-stranded DNA (purines = pyrimidines). \\(A\\)=adenine, \\(T\\)=thymine, \\(G\\)=guanine, \\(C\\)=cytosine; ratio \\((A+T)/(G+C)\\) is species-s"
+  },
+  {
+   "id": "bio_molecular_basis_of_g002",
+   "subject": "Biology",
+   "topic": "Molecular Basis of Inheritance",
+   "title": "Base Pair Hydrogen Bonds",
+   "description_fingerprint": "Number of hydrogen bonds per base pair; G-C richer DNA is more thermostable. Adenine pairs with Thymine via 2 bonds, Guanine with Cytosine via 3."
+  },
+  {
+   "id": "bio_molecular_basis_of_g003",
+   "subject": "Biology",
+   "topic": "Molecular Basis of Inheritance",
+   "title": "B-DNA Helix Dimensions",
+   "description_fingerprint": "Watson-Crick B-form DNA geometry (most asked NEET numbers). Pitch = length of one full helical turn; 10 base pairs stacked per turn; each pair rises \\(0.34\\,nm\\"
+  }
+ ]
+}

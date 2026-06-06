@@ -7,6 +7,7 @@ import 'package:path_provider/path_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:archive/archive.dart';
 import '../core/app_config.dart';
+import '../core/crypto.dart';
 
 class DataRepository {
   static const String _currentVersionKey = "data_version_tag";
@@ -44,11 +45,11 @@ class DataRepository {
       try {
         debugPrint("📂 Loading Data from Local Storage ($localVersion)...");
         for (String file in _files) {
-          final filePtr = File('${dir.path}/$file');
+          final filePtr = File('${dir.path}/$file.enc');
           if (await filePtr.exists()) {
-            jsonStrings.add(await filePtr.readAsString());
+            jsonStrings.add(DataCrypto.decryptBytes(await filePtr.readAsBytes()));
           } else {
-            throw Exception("Missing file: $file");
+            throw Exception("Missing file: $file.enc");
           }
         }
       } catch (e) {
@@ -61,8 +62,11 @@ class DataRepository {
 
     if (jsonStrings.isEmpty) {
       debugPrint("📦 Loading Data from Bundled Assets (Default)...");
-      jsonStrings = await Future.wait(
-          _files.map((f) => rootBundle.loadString('assets/data/$f')));
+      jsonStrings = await Future.wait(_files.map((f) async {
+        final bd = await rootBundle.load('assets/data/$f.enc');
+        return DataCrypto.decryptBytes(
+            bd.buffer.asUint8List(bd.offsetInBytes, bd.lengthInBytes));
+      }));
     }
 
     _checkForUpdates(localVersion);
@@ -117,7 +121,7 @@ class DataRepository {
 
       for (final file in archive) {
         if (file.isFile) {
-          if (_files.contains(file.name)) {
+          if (_files.any((base) => file.name == '$base.enc')) {
             final outFile = File('${dir.path}/${file.name}');
 
             await outFile.create(recursive: true);
