@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'package:flutter/material.dart';
 import '../models/formula.dart';
 import '../screens/formula_detail_screen.dart';
@@ -26,30 +27,36 @@ class FormulaSearchDelegate extends SearchDelegate {
 
   @override
   Widget buildResults(BuildContext context) {
-    final results = _rankedResults();
+    final results = _rankedResultsFor(query);
     if (query.trim().isNotEmpty) {
       AnalyticsService.logSearch(query.trim(), results.length);
     }
-    return _buildList(context, precomputed: results);
+    return _resultsList(context, query, results);
   }
 
+  // Live suggestions are debounced so we don't rank 3,518 docs on every keystroke.
   @override
-  Widget buildSuggestions(BuildContext context) => _buildList(context);
-
-  List<Formula> _rankedResults() {
-    if (query.trim().isEmpty) return const [];
-    if (service != null) return service!.search(query, limit: 50);
-    final q = query.toLowerCase();
-    return formulas.where((f) {
-      return f.title.toLowerCase().contains(q) ||
-          f.topic.toLowerCase().contains(q);
-    }).toList();
+  Widget buildSuggestions(BuildContext context) {
+    return _DebouncedResults(
+      query: query,
+      compute: _rankedResultsFor,
+      builder: _resultsList,
+    );
   }
 
-  Widget _buildList(BuildContext context, {List<Formula>? precomputed}) {
-    final results = precomputed ?? _rankedResults();
+  List<Formula> _rankedResultsFor(String q) {
+    if (q.trim().isEmpty) return const [];
+    if (service != null) return service!.search(q, limit: 50);
+    final lower = q.toLowerCase();
+    return formulas
+        .where((f) =>
+            f.title.toLowerCase().contains(lower) ||
+            f.topic.toLowerCase().contains(lower))
+        .toList();
+  }
 
-    if (query.trim().isEmpty) {
+  Widget _resultsList(BuildContext context, String q, List<Formula> results) {
+    if (q.trim().isEmpty) {
       return const Center(
         child: Padding(
           padding: EdgeInsets.all(32),
@@ -66,7 +73,7 @@ class FormulaSearchDelegate extends SearchDelegate {
         child: Padding(
           padding: const EdgeInsets.all(32),
           child: Text(
-            "No matches for \"$query\".\nTry different keywords.",
+            "No matches for \"$q\".\nTry different keywords.",
             textAlign: TextAlign.center,
             style: const TextStyle(color: Colors.white54),
           ),
@@ -92,5 +99,59 @@ class FormulaSearchDelegate extends SearchDelegate {
         );
       },
     );
+  }
+}
+
+/// Debounces ranking: rapid keystrokes only trigger one search after a pause.
+class _DebouncedResults extends StatefulWidget {
+  final String query;
+  final List<Formula> Function(String) compute;
+  final Widget Function(BuildContext, String, List<Formula>) builder;
+  const _DebouncedResults({
+    required this.query,
+    required this.compute,
+    required this.builder,
+  });
+
+  @override
+  State<_DebouncedResults> createState() => _DebouncedResultsState();
+}
+
+class _DebouncedResultsState extends State<_DebouncedResults> {
+  static const _delay = Duration(milliseconds: 180);
+  Timer? _timer;
+  late String _settled;
+
+  @override
+  void initState() {
+    super.initState();
+    _settled = widget.query;
+  }
+
+  @override
+  void didUpdateWidget(_DebouncedResults old) {
+    super.didUpdateWidget(old);
+    if (widget.query != old.query) {
+      _timer?.cancel();
+      // Empty query updates instantly (clearing); otherwise debounce.
+      if (widget.query.trim().isEmpty) {
+        _settled = widget.query;
+      } else {
+        _timer = Timer(_delay, () {
+          if (mounted) setState(() => _settled = widget.query);
+        });
+      }
+    }
+  }
+
+  @override
+  void dispose() {
+    _timer?.cancel();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return widget.builder(context, _settled, widget.compute(_settled));
   }
 }

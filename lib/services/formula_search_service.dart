@@ -18,6 +18,8 @@ class FormulaSearchService {
   final Map<String, List<String>> _synonyms;
 
   late final List<List<String>> _docTokens;
+  late final List<Map<String, int>> _docTf; // per-doc term frequency (O(1) lookup)
+  late final List<int> _docLen;
   late final Map<String, int> _docFreq;
   late final double _avgDocLen;
 
@@ -29,15 +31,22 @@ class FormulaSearchService {
   void _buildIndex() {
     _docTokens = _formulas.map(_docTextOf).map(tokenize).toList();
     _docFreq = {};
+    _docTf = [];
+    _docLen = [];
+    int totalLen = 0;
     for (final tokens in _docTokens) {
-      for (final term in tokens.toSet()) {
+      final tf = <String, int>{};
+      for (final t in tokens) {
+        tf[t] = (tf[t] ?? 0) + 1;
+      }
+      _docTf.add(tf);
+      _docLen.add(tokens.length);
+      totalLen += tokens.length;
+      for (final term in tf.keys) {
         _docFreq[term] = (_docFreq[term] ?? 0) + 1;
       }
     }
-    _avgDocLen = _docTokens.isEmpty
-        ? 0
-        : _docTokens.map((t) => t.length).reduce((a, b) => a + b) /
-            _docTokens.length;
+    _avgDocLen = _docTokens.isEmpty ? 0 : totalLen / _docTokens.length;
   }
 
   String _docTextOf(Formula f) {
@@ -73,16 +82,17 @@ class FormulaSearchService {
 
     final scores = <int, double>{};
     for (int i = 0; i < _formulas.length; i++) {
-      final doc = _docTokens[i];
-      if (doc.isEmpty) continue;
+      final len = _docLen[i];
+      if (len == 0) continue;
+      final tfMap = _docTf[i];
       double score = 0;
       for (final term in expandedTokens) {
-        final tf = doc.where((t) => t == term).length;
+        final tf = tfMap[term] ?? 0; // O(1) lookup
         if (tf == 0) continue;
         final df = _docFreq[term] ?? 0;
         final idf = math.log(((N - df + 0.5) / (df + 0.5)) + 1);
         final numerator = tf * (_k1 + 1);
-        final denom = tf + _k1 * (1 - _b + _b * (doc.length / _avgDocLen));
+        final denom = tf + _k1 * (1 - _b + _b * (len / _avgDocLen));
         score += idf * (numerator / denom);
       }
       if (score > 0) scores[i] = score;

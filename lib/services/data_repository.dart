@@ -32,14 +32,17 @@ class DataRepository {
     }
   }
 
-  Future<List<String>> loadData() async {
+  /// Returns the RAW encrypted bytes for each data file. Decryption is done in
+  /// the parse isolate (see FormulaProvider) so ~2MB of AES never blocks the UI
+  /// thread at startup.
+  Future<List<Uint8List>> loadData() async {
     final dir = await getApplicationDocumentsDirectory();
     final prefs = await SharedPreferences.getInstance();
 
     String? localVersion = prefs.getString(_currentVersionKey);
     bool hasLocalUpdate = localVersion != null;
 
-    List<String> jsonStrings = [];
+    List<Uint8List> encrypted = [];
 
     if (hasLocalUpdate) {
       try {
@@ -47,7 +50,7 @@ class DataRepository {
         for (String file in _files) {
           final filePtr = File('${dir.path}/$file.enc');
           if (await filePtr.exists()) {
-            jsonStrings.add(DataCrypto.decryptBytes(await filePtr.readAsBytes()));
+            encrypted.add(await filePtr.readAsBytes());
           } else {
             throw Exception("Missing file: $file.enc");
           }
@@ -55,23 +58,21 @@ class DataRepository {
       } catch (e) {
         debugPrint(
             "⚠️ Local data corrupted/missing ($e). Reverting to assets.");
-
-        jsonStrings.clear();
+        encrypted.clear();
       }
     }
 
-    if (jsonStrings.isEmpty) {
+    if (encrypted.isEmpty) {
       debugPrint("📦 Loading Data from Bundled Assets (Default)...");
-      jsonStrings = await Future.wait(_files.map((f) async {
+      encrypted = await Future.wait(_files.map((f) async {
         final bd = await rootBundle.load('assets/data/$f.enc');
-        return DataCrypto.decryptBytes(
-            bd.buffer.asUint8List(bd.offsetInBytes, bd.lengthInBytes));
+        return bd.buffer.asUint8List(bd.offsetInBytes, bd.lengthInBytes);
       }));
     }
 
     _checkForUpdates(localVersion);
 
-    return jsonStrings;
+    return encrypted;
   }
 
   Future<void> _checkForUpdates(String? currentVersion) async {
@@ -117,18 +118,42 @@ class DataRepository {
       if (response.statusCode != 200) throw Exception("Download failed");
 
       final archive = ZipDecoder().decodeBytes(response.bodyBytes);
-      final dir = await getApplicationDocumentsDirectory();
 
+      // Collect the expected encrypted files from the archive.
+      final pending = <String, Uint8List>{};
       for (final file in archive) {
-        if (file.isFile) {
-          if (_files.any((base) => file.name == '$base.enc')) {
-            final outFile = File('${dir.path}/${file.name}');
-
-            await outFile.create(recursive: true);
-            await outFile.writeAsBytes(file.content as List<int>);
-            debugPrint("📝 Updated: ${file.name}");
-          }
+        if (file.isFile && _files.any((base) => file.name == '$base.enc')) {
+          pending[file.name] = Uint8List.fromList(file.content as List<int>);
         }
+      }
+      if (pending.length != _files.length) {
+        debugPrint(
+            "⚠️ Update incomplete (${pending.length}/${_files.length} files). Aborting; keeping current data.");
+        return;
+      }
+
+      // VALIDATE before committing: every file must decrypt + parse as a
+      // non-empty JSON list. Prevents a bad release from corrupting the cache.
+      for (final entry in pending.entries) {
+        try {
+          final decoded = json.decode(DataCrypto.decryptBytes(entry.value));
+          if (decoded is! List || decoded.isEmpty) {
+            throw Exception("not a formula list");
+          }
+        } catch (e) {
+          debugPrint(
+              "❌ Update validation failed for ${entry.key} ($e). Aborting; keeping current data.");
+          return;
+        }
+      }
+
+      // All valid — now write atomically-ish and only then bump the version tag.
+      final dir = await getApplicationDocumentsDirectory();
+      for (final entry in pending.entries) {
+        final outFile = File('${dir.path}/${entry.key}');
+        await outFile.create(recursive: true);
+        await outFile.writeAsBytes(entry.value);
+        debugPrint("📝 Updated: ${entry.key}");
       }
 
       final prefs = await SharedPreferences.getInstance();

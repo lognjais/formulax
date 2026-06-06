@@ -26,6 +26,19 @@ class SyllabusScreen extends StatelessWidget {
         centerTitle: true,
         title: const Text('Syllabus',
             style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold)),
+        actions: [
+          IconButton(
+            tooltip: provider.highYieldOnly
+                ? 'Showing high-yield only'
+                : 'Show high-yield only',
+            icon: Icon(Icons.local_fire_department,
+                color: provider.highYieldOnly
+                    ? const Color(0xFFEF4444)
+                    : Colors.white54),
+            onPressed: () => provider.setHighYieldOnly(!provider.highYieldOnly),
+          ),
+          const SizedBox(width: 4),
+        ],
       ),
       body: ListView(
         physics: const BouncingScrollPhysics(),
@@ -50,25 +63,17 @@ class SyllabusScreen extends StatelessWidget {
     final topicsMap = provider.getTopicsForSubject(subject);
     if (topicsMap.isEmpty) return const [];
     final color = subjectColor(subject);
-
-    final out = <Widget>[
-      Padding(
-        padding: const EdgeInsets.fromLTRB(2, 22, 2, 4),
-        child: Row(children: [
-          Icon(subjectIcon(subject), color: color, size: 20),
-          const SizedBox(width: 10),
-          Text(subject.toUpperCase(),
-              style: TextStyle(
-                  color: color,
-                  fontWeight: FontWeight.bold,
-                  fontSize: 15,
-                  letterSpacing: 1.0)),
-        ]),
-      ),
-    ];
+    final highOnly = provider.highYieldOnly;
+    final out = <Widget>[];
 
     void addRows(String label, Iterable<String> chapters) {
-      final list = chapters.where(topicsMap.containsKey).toList();
+      final list = chapters
+          .where((c) =>
+              topicsMap.containsKey(c) &&
+              (!highOnly ||
+                  provider.metadata.weightageFor(subject, c) ==
+                      WeightageTier.high))
+          .toList();
       if (list.isEmpty) return;
       out.add(Padding(
         padding: const EdgeInsets.fromLTRB(4, 12, 4, 4),
@@ -105,7 +110,23 @@ class SyllabusScreen extends StatelessWidget {
     final listed = syl.map((c) => c.name).toSet();
     addRows('OTHER', topicsMap.keys.where((t) => !listed.contains(t)).toList()..sort());
 
-    return out;
+    if (out.isEmpty) return const []; // e.g. high-yield filter hid everything
+    return [
+      Padding(
+        padding: const EdgeInsets.fromLTRB(2, 22, 2, 4),
+        child: Row(children: [
+          Icon(subjectIcon(subject), color: color, size: 20),
+          const SizedBox(width: 10),
+          Text(subject.toUpperCase(),
+              style: TextStyle(
+                  color: color,
+                  fontWeight: FontWeight.bold,
+                  fontSize: 15,
+                  letterSpacing: 1.0)),
+        ]),
+      ),
+      ...out,
+    ];
   }
 }
 

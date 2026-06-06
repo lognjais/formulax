@@ -1,8 +1,9 @@
-v1.1.0 — Biggest content update yet (thanks to your feedback!)
+🚀 Biggest update yet!
 
-• 2,300+ new formulas across Physics, Chemistry, Maths & Biology (now 3,500+ total)
-• Built out Mole Concept, Chemical Equilibrium, Elasticity & Thermal Expansion
-• Limits and Continuity & Differentiability expanded and made clearer
-• Cleaner chapter navigation + fixed formula display bugs
+NEW: Syllabus mode — every NEET/JEE chapter in standard order, tap to jump straight to formulas.
 
-Every formula source-checked and verified. High-yield. Fast revision. 🚀
++2,300 verified formulas (now 3,500+). Fully built out: Elasticity, Thermal Expansion, Chemical Equilibrium, Mole Concept, Limits, Continuity & Differentiability — and much more.
+
+NEW: collapsible chapters, "High-yield only" filter, and Mark-as-revised with per-chapter progress.
+
+Fixed the share button. Faster, cleaner, 100% offline.

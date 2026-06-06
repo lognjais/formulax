@@ -6,6 +6,7 @@ import '../core/syllabus.dart';
 import '../models/formula.dart';
 import '../providers/formula_provider.dart';
 import '../widgets/formula_tile.dart';
+import 'chapter_screen.dart';
 
 class SubjectListScreen extends StatefulWidget {
   final String title;
@@ -69,6 +70,9 @@ class _SubjectListScreenState extends State<SubjectListScreen> {
                   (context, index) {
                     final name = topics[index];
                     final formulas = topicsMap[name]!;
+                    // Large chapters open the lazy ChapterScreen instead of
+                    // building a non-lazy Column of 100+ tiles on expand.
+                    final large = formulas.length > 30;
                     return _ChapterCard(
                       name: name,
                       formulas: formulas,
@@ -78,10 +82,23 @@ class _SubjectListScreenState extends State<SubjectListScreen> {
                       high: provider.metadata.weightageFor(title, name) ==
                           WeightageTier.high,
                       revised: provider.revisedCountIn(formulas),
-                      expanded: _expanded.contains(name),
-                      onToggle: () => setState(() {
-                        if (!_expanded.remove(name)) _expanded.add(name);
-                      }),
+                      large: large,
+                      expanded: !large && _expanded.contains(name),
+                      onTap: large
+                          ? () => Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (_) => ChapterScreen(
+                                      subject: title,
+                                      topic: name,
+                                      color: color),
+                                ),
+                              )
+                          : () => setState(() {
+                                if (!_expanded.remove(name)) {
+                                  _expanded.add(name);
+                                }
+                              }),
                     );
                   },
                   childCount: topics.length,
@@ -143,8 +160,9 @@ class _ChapterCard extends StatelessWidget {
   final String? cls;
   final bool high;
   final int revised;
+  final bool large;
   final bool expanded;
-  final VoidCallback onToggle;
+  final VoidCallback onTap;
 
   const _ChapterCard({
     required this.name,
@@ -154,8 +172,9 @@ class _ChapterCard extends StatelessWidget {
     required this.cls,
     required this.high,
     required this.revised,
+    required this.large,
     required this.expanded,
-    required this.onToggle,
+    required this.onTap,
   });
 
   @override
@@ -176,7 +195,7 @@ class _ChapterCard extends StatelessWidget {
         children: [
           InkWell(
             borderRadius: BorderRadius.circular(14),
-            onTap: onToggle,
+            onTap: onTap,
             child: Padding(
               padding: const EdgeInsets.fromLTRB(14, 14, 12, 14),
               child: Row(
@@ -233,12 +252,15 @@ class _ChapterCard extends StatelessWidget {
                       ],
                     ),
                   ),
-                  AnimatedRotation(
-                    turns: expanded ? 0.5 : 0,
-                    duration: const Duration(milliseconds: 200),
-                    child: const Icon(Icons.keyboard_arrow_down,
-                        color: AppColors.textMuted),
-                  ),
+                  large
+                      ? const Icon(Icons.chevron_right,
+                          color: AppColors.textMuted)
+                      : AnimatedRotation(
+                          turns: expanded ? 0.5 : 0,
+                          duration: const Duration(milliseconds: 200),
+                          child: const Icon(Icons.keyboard_arrow_down,
+                              color: AppColors.textMuted),
+                        ),
                 ],
               ),
             ),

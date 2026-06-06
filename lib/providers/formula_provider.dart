@@ -2,6 +2,7 @@ import 'dart:async';
 import 'dart:convert';
 import 'package:flutter/foundation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import '../core/crypto.dart';
 import '../models/formula.dart';
 import '../services/analytics_service.dart';
 import '../services/content_metadata_service.dart';
@@ -46,10 +47,10 @@ class FormulaProvider with ChangeNotifier {
       _revisedIds = prefs.getStringList('revised_formulas') ?? [];
       _highYieldOnly = prefs.getBool('high_yield_only') ?? false;
 
-      final List<String> jsonStrings = await _repository.loadData();
+      final List<Uint8List> encryptedData = await _repository.loadData();
       final synonyms = await _repository.loadSynonyms();
       await _metadata.load();
-      final result = await compute(_parseAndGroupData, jsonStrings);
+      final result = await compute(_parseAndGroupData, encryptedData);
 
       _allFormulas = result.flatList;
       _structuredData = result.groupedData;
@@ -80,13 +81,14 @@ class FormulaProvider with ChangeNotifier {
     return [];
   }
 
-  static ParsedData _parseAndGroupData(List<String> jsonStrings) {
+  // Runs in a background isolate: decrypt + parse + group, off the UI thread.
+  static ParsedData _parseAndGroupData(List<Uint8List> encryptedFiles) {
     final List<Formula> flatList = [];
     final Map<String, Map<String, List<Formula>>> groupedData = {};
 
-    for (String jsonString in jsonStrings) {
+    for (final bytes in encryptedFiles) {
       try {
-        final List<dynamic> parsed = json.decode(jsonString);
+        final List<dynamic> parsed = json.decode(DataCrypto.decryptBytes(bytes));
         for (var item in parsed) {
           final formula = Formula.fromJson(item);
           flatList.add(formula);
