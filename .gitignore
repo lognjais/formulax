@@ -117,3 +117,17 @@ app.*.symbols
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 !/dev/ci/**/Gemfile.lock
+# content-build scaffolding (FormulaX v2 generation)
+.wf_*.js
+.gen_*.json
+.gen_workflow.py
+.process.py
+.assemble.py
+.classify_input.json
+.classify_result.json
+.chapter_index.json
+.consolidation_scan.json
+.taxonomy.json
+.remap_plan.json
+.latex_vocab.json
+.weightage_new.json

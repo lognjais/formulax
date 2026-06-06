@@ -1,0 +1,3067 @@
+{
+ "phys_elasticity_g001": {
+  "citation": "NCERT Class 11 Physics, Ch 9 Mechanical Properties of Solids; HC Verma Vol 1 Ch 14",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_elasticity_g002": {
+  "citation": "NCERT Class 11 Physics, Ch 9 Mechanical Properties of Solids; HC Verma Vol 1 Ch 14",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_elasticity_g003": {
+  "citation": "NCERT Class 11 Physics, Ch 9 Mechanical Properties of Solids",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_elasticity_g004": {
+  "citation": "NCERT Class 11 Physics, Ch 9 Mechanical Properties of Solids; DC Pandey Mechanics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_elasticity_g005": {
+  "citation": "NCERT Class 11 Physics, Ch 9; DC Pandey / Cengage Mechanics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_elasticity_g006": {
+  "citation": "Cengage Mechanics (B.M. Sharma); DC Pandey Mechanics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_elasticity_g007": {
+  "citation": "NCERT Class 11 Physics, Ch 9; HC Verma Vol 1 Ch 14",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_elasticity_g008": {
+  "citation": "NCERT Class 11 Physics, Ch 9; DC Pandey Mechanics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_elasticity_g009": {
+  "citation": "NCERT Class 11 Physics, Ch 9; HC Verma Vol 1 Ch 14",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_elasticity_g010": {
+  "citation": "DC Pandey Mechanics; Cengage Mechanics (B.M. Sharma)",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_elasticity_g011": {
+  "citation": "NCERT Class 11 Physics, Ch 9; DC Pandey Mechanics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_elasticity_g012": {
+  "citation": "NCERT Class 11 Physics, Ch 9 & Ch 11 Thermal Properties; HC Verma Vol 2",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_elasticity_g013": {
+  "citation": "Cengage Mechanics (B.M. Sharma); Irodov-type problems",
+  "weightage": "low",
+  "generated": true
+ },
+ "phys_elasticity_g014": {
+  "citation": "DC Pandey Mechanics; Cengage Mechanics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_elasticity_g015": {
+  "citation": "NCERT Class 11 Physics, Ch 9 Mechanical Properties of Solids",
+  "weightage": "low",
+  "generated": true
+ },
+ "phys_thermal_properties_g001": {
+  "citation": "NCERT Class 11 Physics Ch 11 (Thermal Properties of Matter); HC Verma Vol 2 Ch 23",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_thermal_properties_g002": {
+  "citation": "NCERT Class 11 Physics Ch 11; DC Pandey Understanding Physics (Thermometry)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_thermal_properties_g003": {
+  "citation": "NCERT Class 11 Physics Ch 11; HC Verma Vol 2 Ch 23",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_thermal_properties_g004": {
+  "citation": "NCERT Class 11 Physics Ch 11; HC Verma Vol 2 Ch 23",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_thermal_properties_g005": {
+  "citation": "NCERT Class 11 Physics Ch 11; HC Verma Vol 2 Ch 23",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_thermal_properties_g006": {
+  "citation": "NCERT Class 11 Physics Ch 11; HC Verma Vol 2 Ch 23",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_thermal_properties_g007": {
+  "citation": "HC Verma Vol 2 Ch 23; DC Pandey Understanding Physics (Calorimetry & Heat Transfer)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_thermal_properties_g008": {
+  "citation": "NCERT Class 11 Physics Ch 11; HC Verma Vol 2 Ch 23",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_thermal_properties_g009": {
+  "citation": "NCERT Class 11 Physics Ch 11; HC Verma Vol 2 Ch 23",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_thermal_properties_g010": {
+  "citation": "HC Verma Vol 2 Ch 23; DC Pandey Understanding Physics (Calorimetry & Heat Transfer)",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_thermal_properties_g011": {
+  "citation": "HC Verma Vol 2 Ch 23; Cengage Physics (Heat & Thermodynamics)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_thermal_properties_g012": {
+  "citation": "NCERT Class 11 Physics Ch 11; HC Verma Vol 2 Ch 25",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_thermal_properties_g013": {
+  "citation": "NCERT Class 11 Physics Ch 11; HC Verma Vol 2 Ch 25",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_thermal_properties_g014": {
+  "citation": "NCERT Class 11 Physics Ch 11; HC Verma Vol 2 Ch 25",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_thermal_properties_g015": {
+  "citation": "NCERT Class 11 Physics Ch 11; HC Verma Vol 2 Ch 25",
+  "weightage": "low",
+  "generated": true
+ },
+ "phys_thermal_properties_g016": {
+  "citation": "NCERT Class 11 Physics Ch 11; HC Verma Vol 2 Ch 28",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_thermal_properties_g017": {
+  "citation": "NCERT Class 11 Physics Ch 11; DC Pandey Understanding Physics (Calorimetry & Heat Transfer)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_thermal_properties_g018": {
+  "citation": "NCERT Class 11 Physics Ch 11; HC Verma Vol 2 Ch 28",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_thermal_properties_g019": {
+  "citation": "NCERT Class 11 Physics Ch 11; HC Verma Vol 2 Ch 28",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_thermal_properties_g020": {
+  "citation": "NCERT Class 11 Physics Ch 11; HC Verma Vol 2 Ch 28",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_thermal_properties_g021": {
+  "citation": "NCERT Class 11 Physics Ch 11; HC Verma Vol 2 Ch 28",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_alternating_curren_g001": {
+  "citation": "NCERT Physics Class 12, Ch.7 Alternating Current; HC Verma Vol.2",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_alternating_curren_g002": {
+  "citation": "NCERT Physics Class 12, Ch.7 Alternating Current; DC Pandey Electromagnetics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_alternating_curren_g003": {
+  "citation": "NCERT Physics Class 12, Ch.7 Alternating Current; HC Verma Vol.2",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_alternating_curren_g004": {
+  "citation": "NCERT Physics Class 12, Ch.7 Alternating Current",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_alternating_curren_g005": {
+  "citation": "NCERT Physics Class 12, Ch.7 Alternating Current; DC Pandey",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_alternating_curren_g006": {
+  "citation": "NCERT Physics Class 12, Ch.7 Alternating Current; HC Verma Vol.2",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_alternating_curren_g007": {
+  "citation": "NCERT Physics Class 12, Ch.7 Alternating Current; Cengage Electromagnetics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_alternating_curren_g008": {
+  "citation": "NCERT Physics Class 12, Ch.7 Alternating Current; HC Verma Vol.2",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_alternating_curren_g009": {
+  "citation": "NCERT Physics Class 12, Ch.7 Alternating Current; DC Pandey",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_alternating_curren_g010": {
+  "citation": "NCERT Physics Class 12, Ch.7 Alternating Current; HC Verma Vol.2",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_alternating_curren_g011": {
+  "citation": "NCERT Physics Class 12, Ch.7 Alternating Current; Cengage Electromagnetics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_alternating_curren_g012": {
+  "citation": "NCERT Physics Class 12, Ch.7 Alternating Current; HC Verma Vol.2",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_alternating_curren_g013": {
+  "citation": "NCERT Physics Class 12, Ch.7 Alternating Current; Cengage Electromagnetics",
+  "weightage": "low",
+  "generated": true
+ },
+ "phys_alternating_curren_g014": {
+  "citation": "NCERT Physics Class 12, Ch.7 Alternating Current; DC Pandey",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_alternating_curren_g015": {
+  "citation": "NCERT Physics Class 12, Ch.7 Alternating Current; HC Verma Vol.2",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_alternating_curren_g016": {
+  "citation": "NCERT Class 12 Physics, Ch. 7 Alternating Current (Sec 7.5-7.6); HC Verma Vol 2",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_alternating_curren_g017": {
+  "citation": "NCERT Class 12 Physics, Ch. 7 Alternating Current (Sec 7.2); DC Pandey",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_alternating_curren_g018": {
+  "citation": "NCERT Class 12 Physics, Ch. 7 Alternating Current (Sec 7.5); HC Verma Vol 2",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_alternating_curren_g019": {
+  "citation": "NCERT Class 12 Physics, Ch. 7 Alternating Current (Sec 7.6); HC Verma Vol 2",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_alternating_curren_g020": {
+  "citation": "NCERT Class 12 Physics, Ch. 7 Alternating Current (Sec 7.7); HC Verma Vol 2",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_alternating_curren_g021": {
+  "citation": "NCERT Class 12 Physics, Ch. 7 Alternating Current (Sec 7.6.2); Cengage",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_alternating_curren_g022": {
+  "citation": "NCERT Class 12 Physics, Ch. 7 Alternating Current (Sec 7.2)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_alternating_curren_g023": {
+  "citation": "NCERT Class 12 Physics, Ch. 7 Alternating Current (Sec 7.7); DC Pandey",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_alternating_curren_g024": {
+  "citation": "NCERT Class 12 Physics, Ch. 7 Alternating Current (Sec 7.7); HC Verma Vol 2",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_alternating_curren_g025": {
+  "citation": "NCERT Class 12 Physics, Ch. 7 Alternating Current (Sec 7.8)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_atoms_bohr_model_g001": {
+  "citation": "NCERT Physics Class 12 Ch-12 (Atoms); HC Verma Vol 2 Ch-43",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_atoms_bohr_model_g002": {
+  "citation": "NCERT Physics Class 12 Ch-12 (Atoms); DC Pandey Modern Physics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_atoms_bohr_model_g003": {
+  "citation": "NCERT Physics Class 12 Ch-12 (Atoms); HC Verma Vol 2 Ch-43",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_atoms_bohr_model_g004": {
+  "citation": "NCERT Physics Class 12 Ch-12 (Atoms); DC Pandey Modern Physics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_atoms_bohr_model_g005": {
+  "citation": "NCERT Physics Class 12 Ch-12 (Atoms); JD Lee / DC Pandey",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_atoms_bohr_model_g006": {
+  "citation": "NCERT Physics Class 12 Ch-12 (Atoms); DC Pandey Modern Physics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_atoms_bohr_model_g007": {
+  "citation": "NCERT Physics Class 12 Ch-12 (Atoms); DC Pandey Modern Physics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_atoms_bohr_model_g008": {
+  "citation": "NCERT Physics Class 12 Ch-12 (Atoms); HC Verma Vol 2 Ch-43",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_atoms_bohr_model_g009": {
+  "citation": "NCERT Physics Class 12 Ch-12 (Atoms); DC Pandey Modern Physics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_atoms_bohr_model_g010": {
+  "citation": "NCERT Physics Class 12 Ch-12 (Atoms); JD Lee Concise Inorganic",
+  "weightage": "low",
+  "generated": true
+ },
+ "phys_atoms_bohr_model_g011": {
+  "citation": "NCERT Physics Class 12 Ch-12 (Atoms) & Ch-11 (Dual Nature); HC Verma Vol 2",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_atoms_bohr_model_g012": {
+  "citation": "NCERT Physics Class 12 Ch-12 (Atoms); DC Pandey Modern Physics",
+  "weightage": "low",
+  "generated": true
+ },
+ "phys_atoms_bohr_model_g013": {
+  "citation": "NCERT Physics Class 12 Ch-12 (Atoms); HC Verma Vol 2 Ch-43",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_capacitance_g001": {
+  "citation": "NCERT Physics Class 12, Ch. 2 (Electrostatic Potential and Capacitance); HC Verma Vol 2, Ch. 31",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_capacitance_g002": {
+  "citation": "NCERT Physics Class 12, Ch. 2 (Electrostatic Potential and Capacitance); HC Verma Vol 2, Ch. 31",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_capacitance_g003": {
+  "citation": "NCERT Physics Class 12, Ch. 2; HC Verma Vol 2, Ch. 31",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_capacitance_g004": {
+  "citation": "NCERT Physics Class 12, Ch. 2; HC Verma Vol 2, Ch. 31",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_capacitance_g005": {
+  "citation": "NCERT Physics Class 12, Ch. 2 (Exercises); HC Verma Vol 2, Ch. 31; Irodov",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_capacitance_g006": {
+  "citation": "NCERT Physics Class 12, Ch. 2; HC Verma Vol 2, Ch. 31",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_capacitance_g007": {
+  "citation": "NCERT Physics Class 12, Ch. 2; DC Pandey (Cengage/Arihant) Electrostatics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_capacitance_g008": {
+  "citation": "NCERT Physics Class 12, Ch. 2; HC Verma Vol 2, Ch. 31",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_capacitance_g009": {
+  "citation": "NCERT Physics Class 12, Ch. 2 / Ch. 3; HC Verma Vol 2, Ch. 32",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_capacitance_g010": {
+  "citation": "NCERT Physics Class 12, Ch. 3; HC Verma Vol 2, Ch. 32",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_capacitance_g011": {
+  "citation": "NCERT Physics Class 12, Ch. 3; HC Verma Vol 2, Ch. 32",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_capacitance_g012": {
+  "citation": "NCERT Physics Class 12, Ch. 2; HC Verma Vol 2, Ch. 31; Irodov",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_capacitance_g013": {
+  "citation": "NCERT Physics Class 12, Ch. 2; DC Pandey Electrostatics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_capacitance_g014": {
+  "citation": "NCERT Physics Class 12, Ch. 2; HC Verma Vol 2, Ch. 31",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_centre_of_mass_col_g001": {
+  "citation": "NCERT Class 11 Physics Ch.7 (System of Particles); HC Verma Vol.1 Ch.9",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_centre_of_mass_col_g002": {
+  "citation": "NCERT Class 11 Physics Ch.7; HC Verma Vol.1 Ch.9",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_centre_of_mass_col_g003": {
+  "citation": "NCERT Class 11 Physics Ch.7; HC Verma Vol.1 Ch.9",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_centre_of_mass_col_g004": {
+  "citation": "NCERT Class 11 Physics Ch.7; HC Verma Vol.1 Ch.9",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_centre_of_mass_col_g005": {
+  "citation": "NCERT Class 11 Physics Ch.7; HC Verma Vol.1 Ch.9",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_centre_of_mass_col_g006": {
+  "citation": "HC Verma Vol.1 Ch.9; Cengage Mechanics (B.M. Sharma)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_centre_of_mass_col_g007": {
+  "citation": "NCERT Class 11 Physics Ch.6 (Work, Energy & Power); HC Verma Vol.1 Ch.9",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_centre_of_mass_col_g008": {
+  "citation": "NCERT Class 11 Physics Ch.6; HC Verma Vol.1 Ch.9",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_centre_of_mass_col_g009": {
+  "citation": "NCERT Class 11 Physics Ch.6; HC Verma Vol.1 Ch.9",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_centre_of_mass_col_g010": {
+  "citation": "NCERT Class 11 Physics Ch.6; HC Verma Vol.1 Ch.9",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_centre_of_mass_col_g011": {
+  "citation": "NCERT Class 11 Physics Ch.6; HC Verma Vol.1 Ch.9",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_centre_of_mass_col_g012": {
+  "citation": "HC Verma Vol.1 Ch.9; Cengage Mechanics (B.M. Sharma)",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_centre_of_mass_col_g013": {
+  "citation": "HC Verma Vol.1 Ch.9; Cengage Mechanics (B.M. Sharma)",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_centre_of_mass_col_g014": {
+  "citation": "HC Verma Vol.1 Ch.9; Cengage Mechanics (B.M. Sharma)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_centre_of_mass_col_g015": {
+  "citation": "HC Verma Vol.1 Ch.9; Cengage Mechanics (B.M. Sharma)",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_centre_of_mass_col_g016": {
+  "citation": "Cengage Mechanics (B.M. Sharma); DC Pandey Mechanics Vol.1",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_centre_of_mass_col_g017": {
+  "citation": "Cengage Mechanics (B.M. Sharma); DC Pandey Mechanics Vol.1",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_centre_of_mass_col_g018": {
+  "citation": "HC Verma Vol.1 Ch.9; Cengage Mechanics (B.M. Sharma)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_centre_of_mass_col_g019": {
+  "citation": "Cengage Mechanics (B.M. Sharma); DC Pandey Mechanics Vol.1",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_centre_of_mass_col_g020": {
+  "citation": "NCERT Class 11 Physics Ch.5 (Laws of Motion); HC Verma Vol.1 Ch.9",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_centre_of_mass_col_g021": {
+  "citation": "NCERT Class 11 Physics Ch.7; HC Verma Vol.1 Ch.9",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_centre_of_mass_col_g022": {
+  "citation": "NCERT Class 11 Physics Ch.7; HC Verma Vol.1 Ch.9",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_centre_of_mass_col_g023": {
+  "citation": "NCERT Class 11 Physics Ch.7; HC Verma Vol.1 Ch.9",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_centre_of_mass_col_g024": {
+  "citation": "Cengage Mechanics (B.M. Sharma); DC Pandey Mechanics Vol.1",
+  "weightage": "low",
+  "generated": true
+ },
+ "phys_centre_of_mass_col_g025": {
+  "citation": "HC Verma Vol.1 Ch.9; Cengage Mechanics (B.M. Sharma)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_centre_of_mass_col_g026": {
+  "citation": "HC Verma Vol.1 Ch.9; Cengage Mechanics (B.M. Sharma)",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_centre_of_mass_col_g027": {
+  "citation": "NCERT Class 11 Physics Ch.6; HC Verma Vol.1 Ch.9",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_current_electricit_g001": {
+  "citation": "NCERT Class 12 Physics, Ch 3 Current Electricity; HC Verma Vol 2",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_current_electricit_g002": {
+  "citation": "NCERT Class 12 Physics, Ch 3 Current Electricity",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_current_electricit_g003": {
+  "citation": "NCERT Class 12 Physics, Ch 3 Current Electricity",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_current_electricit_g004": {
+  "citation": "NCERT Class 12 Physics, Ch 3 Current Electricity",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_current_electricit_g005": {
+  "citation": "NCERT Class 12 Physics, Ch 3 Current Electricity",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_current_electricit_g006": {
+  "citation": "NCERT Class 12 Physics, Ch 3 Current Electricity",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_current_electricit_g007": {
+  "citation": "NCERT Class 12 Physics, Ch 3 Current Electricity",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_current_electricit_g008": {
+  "citation": "NCERT Class 12 Physics, Ch 3 Current Electricity",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_current_electricit_g009": {
+  "citation": "NCERT Class 12 Physics, Ch 3 Current Electricity",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_current_electricit_g010": {
+  "citation": "NCERT Class 12 Physics, Ch 3 Current Electricity",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_current_electricit_g011": {
+  "citation": "NCERT Class 12 Physics, Ch 3 Current Electricity",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_current_electricit_g012": {
+  "citation": "NCERT Class 12 Physics, Ch 3 Current Electricity",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_current_electricit_g013": {
+  "citation": "NCERT Class 12 Physics, Ch 3 Current Electricity",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_current_electricit_g014": {
+  "citation": "HC Verma Vol 2, Electric Current in Conductors; DC Pandey",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_current_electricit_g015": {
+  "citation": "NCERT Class 12 Physics, Ch 3 Current Electricity",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_current_electricit_g016": {
+  "citation": "NCERT Class 12 Physics, Ch 3 Current Electricity",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_current_electricit_g017": {
+  "citation": "NCERT Class 12 Physics, Ch 3 Current Electricity",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_current_electricit_g018": {
+  "citation": "NCERT Class 12 Physics, Ch 3 Current Electricity",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_current_electricit_g019": {
+  "citation": "NCERT Class 12 Physics, Ch 4 Moving Charges (Galvanometer); Ch 3 application",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_current_electricit_g020": {
+  "citation": "NCERT Class 12 Physics, Ch 4 (Galvanometer conversion)",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_current_electricit_g021": {
+  "citation": "NCERT Class 12 Physics, Ch 3 Current Electricity (Wheatstone Bridge)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_current_electricit_g022": {
+  "citation": "NCERT Class 12 Physics, Ch 3 (RC circuits); HC Verma Vol 2",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_current_electricit_g023": {
+  "citation": "NCERT Class 12 Physics, Ch 3 (RC circuits)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_current_electricit_g024": {
+  "citation": "HC Verma Vol 2; DC Pandey Electricity & Magnetism",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_current_electricit_g025": {
+  "citation": "NCERT Class 12 Physics, Ch 3 Current Electricity",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_current_electricit_g026": {
+  "citation": "HC Verma Vol 2; DC Pandey Electricity & Magnetism",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_current_electricit_g027": {
+  "citation": "HC Verma Vol 2; DC Pandey Electricity & Magnetism",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_current_electricit_g028": {
+  "citation": "NCERT Class 12 Physics, Ch 4 (Galvanometer)",
+  "weightage": "low",
+  "generated": true
+ },
+ "phys_current_electricit_g029": {
+  "citation": "HC Verma Vol 2; DC Pandey Electricity & Magnetism",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_current_electricit_g030": {
+  "citation": "HC Verma Vol 2; DC Pandey Electricity & Magnetism",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_dual_nature_of_rad_g001": {
+  "citation": "NCERT Class 12 Physics, Ch.11 Dual Nature of Radiation & Matter; HC Verma Vol.2 Ch.42",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_dual_nature_of_rad_g002": {
+  "citation": "NCERT Class 12 Physics, Ch.11; DC Pandey Modern Physics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_dual_nature_of_rad_g003": {
+  "citation": "NCERT Class 12 Physics, Ch.11; HC Verma Vol.2 Ch.42",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_dual_nature_of_rad_g004": {
+  "citation": "NCERT Class 12 Physics, Ch.11; DC Pandey Modern Physics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_dual_nature_of_rad_g005": {
+  "citation": "NCERT Class 12 Physics, Ch.11 (photon momentum); HC Verma Vol.2 Ch.42",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_dual_nature_of_rad_g006": {
+  "citation": "NCERT Class 12 Physics, Ch.11; Cengage Modern Physics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_dual_nature_of_rad_g007": {
+  "citation": "NCERT Class 12 Physics, Ch.11 (Example); DC Pandey Modern Physics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_dual_nature_of_rad_g008": {
+  "citation": "NCERT Class 12 Physics, Ch.11 (Millikan/Einstein); HC Verma Vol.2 Ch.42",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_dual_nature_of_rad_g009": {
+  "citation": "NCERT Class 12 Physics, Ch.11 (experimental observations)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_dual_nature_of_rad_g010": {
+  "citation": "NCERT Class 12 Physics, Ch.11 (Davisson-Germer experiment); HC Verma Vol.2",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_electromagnetic_in_g001": {
+  "citation": "NCERT Class 12 Physics, Ch.6 EMI; HC Verma Vol.2 Ch.38",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_electromagnetic_in_g002": {
+  "citation": "NCERT Class 12 Physics, Ch.6 EMI (AC Generator)",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_electromagnetic_in_g003": {
+  "citation": "NCERT Class 12 Physics, Ch.6 EMI; HC Verma Vol.2 Ch.39",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_electromagnetic_in_g004": {
+  "citation": "NCERT Class 12 Physics, Ch.6 EMI; HC Verma Vol.2 Ch.39",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_electromagnetic_in_g005": {
+  "citation": "NCERT Class 12 Physics, Ch.6 EMI; DC Pandey Electricity & Magnetism",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_electromagnetic_in_g006": {
+  "citation": "NCERT Class 12 Physics, Ch.6 EMI; DC Pandey Electricity & Magnetism",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_electromagnetic_in_g007": {
+  "citation": "NCERT Class 12 Physics, Ch.6 EMI; HC Verma Vol.2 Ch.39",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_electromagnetic_in_g008": {
+  "citation": "NCERT Class 12 Physics, Ch.6 EMI; HC Verma Vol.2 Ch.39",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_electromagnetic_in_g009": {
+  "citation": "NCERT Class 12 Physics, Ch.6 EMI; HC Verma Vol.2 Ch.39",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_electromagnetic_in_g010": {
+  "citation": "NCERT Class 12 Physics, Ch.6 EMI; HC Verma Vol.2 Ch.38",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_electromagnetic_in_g011": {
+  "citation": "NCERT Class 12 Physics, Ch.6 EMI; DC Pandey Electricity & Magnetism",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_electromagnetic_in_g012": {
+  "citation": "NCERT Class 12 Physics, Ch.6 EMI (LC Oscillations)",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_electromagnetic_in_g013": {
+  "citation": "NCERT Class 12 Physics, Ch.6 EMI (LC Oscillations)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_electrostatics_g001": {
+  "citation": "NCERT Class 12 Physics Ch.1 (Electric Charges and Fields)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_electrostatics_g002": {
+  "citation": "NCERT Class 12 Physics Ch.1 (Electric Charges and Fields)",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_electrostatics_g003": {
+  "citation": "NCERT Class 12 Physics Ch.1 (Electric Charges and Fields)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_electrostatics_g004": {
+  "citation": "NCERT Class 12 Physics Ch.1; HC Verma Vol.2 Ch.29",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_electrostatics_g005": {
+  "citation": "HC Verma Vol.2 Ch.29; DC Pandey Electrostatics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_electrostatics_g006": {
+  "citation": "NCERT Class 12 Physics Ch.2 (Electrostatic Potential and Capacitance)",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_electrostatics_g007": {
+  "citation": "HC Verma Vol.2 Ch.29; DC Pandey Electrostatics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_electrostatics_g008": {
+  "citation": "HC Verma Vol.2 Ch.29; DC Pandey Electrostatics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_electrostatics_g009": {
+  "citation": "NCERT Class 12 Physics Ch.1 (Electric Charges and Fields)",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_electrostatics_g010": {
+  "citation": "NCERT Class 12 Physics Ch.1; HC Verma Vol.2 Ch.30",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_electrostatics_g011": {
+  "citation": "NCERT Class 12 Physics Ch.1 (Electric Charges and Fields)",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_electrostatics_g012": {
+  "citation": "HC Verma Vol.2 Ch.30; DC Pandey Electrostatics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_electrostatics_g013": {
+  "citation": "HC Verma Vol.2 Ch.30; DC Pandey Electrostatics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_electrostatics_g014": {
+  "citation": "NCERT Class 12 Physics Ch.2 (Electrostatic Potential and Capacitance)",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_electrostatics_g015": {
+  "citation": "NCERT Class 12 Physics Ch.2 (Electrostatic Potential and Capacitance)",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_electrostatics_g016": {
+  "citation": "NCERT Class 12 Physics Ch.2 (Electrostatic Potential and Capacitance)",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_electrostatics_g017": {
+  "citation": "NCERT Class 12 Physics Ch.2 (Electrostatic Potential and Capacitance)",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_electrostatics_g018": {
+  "citation": "NCERT Class 12 Physics Ch.2; HC Verma Vol.2 Ch.31",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_electrostatics_g019": {
+  "citation": "NCERT Class 12 Physics Ch.2 (Electrostatic Potential and Capacitance)",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_electrostatics_g020": {
+  "citation": "NCERT Class 12 Physics Ch.2; HC Verma Vol.2 Ch.31",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_electrostatics_g021": {
+  "citation": "NCERT Class 12 Physics Ch.2 (Electrostatic Potential and Capacitance)",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_electrostatics_g022": {
+  "citation": "HC Verma Vol.2 Ch.31; DC Pandey Electrostatics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_electrostatics_g023": {
+  "citation": "HC Verma Vol.2 Ch.31; DC Pandey Electrostatics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_electrostatics_g024": {
+  "citation": "HC Verma Vol.2 Ch.31; DC Pandey Electrostatics",
+  "weightage": "low",
+  "generated": true
+ },
+ "phys_electrostatics_g025": {
+  "citation": "NCERT Class 12 Physics Ch.2 (Electrostatic Potential and Capacitance)",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_electrostatics_g026": {
+  "citation": "NCERT Class 12 Physics Ch.2 (Electrostatic Potential and Capacitance)",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_electrostatics_g027": {
+  "citation": "NCERT Class 12 Physics Ch.2 (Electrostatic Potential and Capacitance)",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_electrostatics_g028": {
+  "citation": "HC Verma Vol.2 Ch.31; DC Pandey Electrostatics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_electrostatics_g029": {
+  "citation": "NCERT Class 12 Physics Ch.2; HC Verma Vol.2 Ch.31",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_electrostatics_g030": {
+  "citation": "NCERT Class 12 Physics Ch.2 (Electrostatic Potential and Capacitance)",
+  "weightage": "low",
+  "generated": true
+ },
+ "phys_electrostatics_g031": {
+  "citation": "NCERT Class 12 Physics Ch.2 (Electrostatic Potential and Capacitance)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_electrostatics_g032": {
+  "citation": "HC Verma Vol.2 Ch.30; DC Pandey Electrostatics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_electrostatics_g033": {
+  "citation": "NCERT Class 12 Physics Ch.1 (Electric Charges and Fields)",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_kinematics_g001": {
+  "citation": "NCERT Class 11 Physics, Ch 3 Motion in a Straight Line; HC Verma Vol 1, Ch 3.",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_kinematics_g002": {
+  "citation": "NCERT Class 11 Physics, Ch 3 Motion in a Straight Line; HC Verma Vol 1, Ch 3.",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_kinematics_g003": {
+  "citation": "NCERT Class 11 Physics, Ch 3 Motion in a Straight Line; HC Verma Vol 1, Ch 3.",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_kinematics_g004": {
+  "citation": "NCERT Class 11 Physics, Ch 3 (additional exercise); HC Verma Vol 1, Ch 3.",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_kinematics_g005": {
+  "citation": "NCERT Class 11 Physics, Ch 3 Motion in a Straight Line.",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_kinematics_g006": {
+  "citation": "NCERT Class 11 Physics, Ch 3; HC Verma Vol 1, Ch 3.",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_kinematics_g007": {
+  "citation": "NCERT Class 11 Physics, Ch 3 Motion in a Straight Line.",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_kinematics_g008": {
+  "citation": "NCERT Class 11 Physics, Ch 3 Motion in a Straight Line.",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_kinematics_g009": {
+  "citation": "NCERT Class 11 Physics, Ch 3 Motion in a Straight Line.",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_kinematics_g010": {
+  "citation": "NCERT Class 11 Physics, Ch 3 (free fall); HC Verma Vol 1, Ch 3.",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_kinematics_g011": {
+  "citation": "NCERT Class 11 Physics, Ch 3 (free fall); HC Verma Vol 1, Ch 3.",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_kinematics_g012": {
+  "citation": "NCERT Class 11 Physics, Ch 3 (motion under gravity); HC Verma Vol 1, Ch 3.",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_kinematics_g013": {
+  "citation": "NCERT Class 11 Physics, Ch 4 Motion in a Plane; HC Verma Vol 1, Ch 3.",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_kinematics_g014": {
+  "citation": "NCERT Class 11 Physics, Ch 4 Motion in a Plane; HC Verma Vol 1, Ch 3.",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_kinematics_g015": {
+  "citation": "HC Verma Vol 1, Ch 3 Rest and Motion: Kinematics; Cengage Mechanics Vol 1.",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_kinematics_g016": {
+  "citation": "NCERT Class 11 Physics, Ch 4 Motion in a Plane.",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_kinematics_g017": {
+  "citation": "HC Verma Vol 1, Ch 3; Cengage Mechanics Vol 1 (Projectile Motion).",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_kinematics_g018": {
+  "citation": "NCERT Class 11 Physics, Ch 4 Motion in a Plane (Uniform Circular Motion).",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_kinematics_g019": {
+  "citation": "NCERT Class 11 Physics, Ch 4 Motion in a Plane (Uniform Circular Motion).",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_kinematics_g020": {
+  "citation": "NCERT Class 11 Physics, Ch 4; HC Verma Vol 1, Ch 7 Circular Motion.",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_kinematics_g021": {
+  "citation": "NCERT Class 11 Physics, Ch 4 Motion in a Plane (Vector Addition).",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_laws_of_motion_fri_g001": {
+  "citation": "NCERT Class 11 Physics, Ch 5 (Laws of Motion); HC Verma Vol 1, Ch 5",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_laws_of_motion_fri_g002": {
+  "citation": "NCERT Class 11 Physics, Ch 5 (Laws of Motion); HC Verma Vol 1, Ch 9",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_laws_of_motion_fri_g003": {
+  "citation": "NCERT Class 11 Physics, Ch 5 (Laws of Motion); HC Verma Vol 1, Ch 6",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_laws_of_motion_fri_g004": {
+  "citation": "NCERT Class 11 Physics, Ch 5 (Laws of Motion); HC Verma Vol 1, Ch 6",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_laws_of_motion_fri_g005": {
+  "citation": "NCERT Class 11 Physics, Ch 5 (Laws of Motion); HC Verma Vol 1, Ch 6",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_laws_of_motion_fri_g006": {
+  "citation": "NCERT Class 11 Physics, Ch 5 (Laws of Motion); HC Verma Vol 1, Ch 5",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_laws_of_motion_fri_g007": {
+  "citation": "NCERT Class 11 Physics, Ch 5 (Laws of Motion); HC Verma Vol 1, Ch 5",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_laws_of_motion_fri_g008": {
+  "citation": "NCERT Class 11 Physics, Ch 5 (Laws of Motion); HC Verma Vol 1, Ch 5",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_laws_of_motion_fri_g009": {
+  "citation": "NCERT Class 11 Physics, Ch 5 (Laws of Motion); HC Verma Vol 1, Ch 5",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_laws_of_motion_fri_g010": {
+  "citation": "NCERT Class 11 Physics, Ch 5 (Laws of Motion); HC Verma Vol 1, Ch 7",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_laws_of_motion_fri_g011": {
+  "citation": "NCERT Class 11 Physics, Ch 5 (Laws of Motion); HC Verma Vol 1, Ch 7",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_laws_of_motion_fri_g012": {
+  "citation": "NCERT Class 11 Physics, Ch 5 (Laws of Motion); HC Verma Vol 1, Ch 7",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_laws_of_motion_fri_g013": {
+  "citation": "NCERT Class 11 Physics, Ch 5 (Laws of Motion); HC Verma Vol 1, Ch 7",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_laws_of_motion_fri_g014": {
+  "citation": "NCERT Class 11 Physics, Ch 5 (Laws of Motion); Cengage Mechanics Vol 1",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_laws_of_motion_fri_g015": {
+  "citation": "NCERT Class 11 Physics, Ch 5 (Laws of Motion); HC Verma Vol 1, Ch 7",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_laws_of_motion_fri_g016": {
+  "citation": "NCERT Class 11 Physics, Ch 5 (Laws of Motion); HC Verma Vol 1, Ch 6",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_laws_of_motion_fri_g017": {
+  "citation": "NCERT Class 11 Physics, Ch 5 (Laws of Motion); Cengage Mechanics Vol 1",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_magnetism_matter_g001": {
+  "citation": "NCERT Class 12 Physics, Ch 5 (Magnetism and Matter), Sec 5.1; HC Verma Vol 2 Ch 36",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_magnetism_matter_g002": {
+  "citation": "NCERT Class 12 Physics, Ch 5, Sec 5.2.1; DC Pandey Electricity & Magnetism",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_magnetism_matter_g003": {
+  "citation": "NCERT Class 12 Physics, Ch 5, Sec 5.1; JEE standard (Cengage Electrostatics & Magnetism)",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_magnetism_matter_g004": {
+  "citation": "NCERT Class 12 Physics, Ch 5, Sec 5.1; HC Verma Vol 2 Ch 36",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_magnetism_matter_g005": {
+  "citation": "NCERT Class 12 Physics, Ch 5, Sec 5.5; JD Lee / Cengage Magnetism",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_magnetism_matter_g006": {
+  "citation": "NCERT Class 12 Physics, Ch 5, Sec 5.5",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_magnetism_matter_g007": {
+  "citation": "NCERT Class 12 Physics, Ch 5, Sec 5.5; HC Verma Vol 2 Ch 36",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_magnetism_matter_g008": {
+  "citation": "NCERT Class 12 Physics, Ch 5, Sec 5.6.3; JD Lee Inorganic / Cengage",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_magnetism_matter_g009": {
+  "citation": "NCERT Class 12 Physics, Ch 5, Sec 5.4; HC Verma Vol 2 Ch 36",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_magnetism_matter_g010": {
+  "citation": "NCERT Class 12 exemplar; DC Pandey Electricity & Magnetism (standard JEE result)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_magnetism_matter_g011": {
+  "citation": "DC Pandey Electricity & Magnetism; Cengage Magnetism (standard JEE result)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_magnetism_matter_g012": {
+  "citation": "NCERT Class 12 Physics, Ch 5, Sec 5.2.2 (bar magnet as solenoid)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_magnetism_matter_g013": {
+  "citation": "NCERT Class 12 Physics, Ch 5 (Earth's magnetism); HC Verma Vol 2 Ch 36",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_magnetism_matter_g014": {
+  "citation": "DC Pandey Electricity & Magnetism; Cengage (standard vibration magnetometer result)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_magnetism_matter_g015": {
+  "citation": "DC Pandey / Cengage Electricity & Magnetism (standard magnetometer experiment)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_magnetism_matter_g016": {
+  "citation": "NCERT Class 12 Physics, Ch 5, Sec 5.3 (Gauss's law for magnetism)",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_moving_charges_mag_g001": {
+  "citation": "NCERT Class 12 Physics, Ch. 4 Moving Charges & Magnetism; HC Verma Vol 2",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_moving_charges_mag_g002": {
+  "citation": "NCERT Class 12 Physics, Ch. 4; HC Verma Vol 2, Magnetic Field",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_moving_charges_mag_g003": {
+  "citation": "NCERT Class 12 Physics, Ch. 4; HC Verma Vol 2",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_moving_charges_mag_g004": {
+  "citation": "NCERT Class 12 Physics, Ch. 4; HC Verma Vol 2, Magnetic Field",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_moving_charges_mag_g005": {
+  "citation": "NCERT Class 12 Physics, Ch. 4; Cengage Electricity & Magnetism",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_moving_charges_mag_g006": {
+  "citation": "NCERT Class 12 Physics, Ch. 4; HC Verma Vol 2",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_moving_charges_mag_g007": {
+  "citation": "NCERT Class 12 Physics, Ch. 4; HC Verma Vol 2",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_moving_charges_mag_g008": {
+  "citation": "NCERT Class 12 Physics, Ch. 4; Cengage Electricity & Magnetism",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_moving_charges_mag_g009": {
+  "citation": "NCERT Class 12 Physics, Ch. 4; HC Verma Vol 2",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_moving_charges_mag_g010": {
+  "citation": "NCERT Class 12 Physics, Ch. 4; HC Verma Vol 2",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_moving_charges_mag_g011": {
+  "citation": "NCERT Class 12 Physics, Ch. 4; HC Verma Vol 2",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_moving_charges_mag_g012": {
+  "citation": "NCERT Class 12 Physics, Ch. 4; Cengage Electricity & Magnetism",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_moving_charges_mag_g013": {
+  "citation": "NCERT Class 12 Physics, Ch. 4; HC Verma Vol 2",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_moving_charges_mag_g014": {
+  "citation": "NCERT Class 12 Physics, Ch. 4; HC Verma Vol 2",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_moving_charges_mag_g015": {
+  "citation": "NCERT Class 12 Physics, Ch. 4; HC Verma Vol 2",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_moving_charges_mag_g016": {
+  "citation": "NCERT Class 12 Physics, Ch. 4; HC Verma Vol 2",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_moving_charges_mag_g017": {
+  "citation": "NCERT Class 12 Physics, Ch. 4; HC Verma Vol 2",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_moving_charges_mag_g018": {
+  "citation": "NCERT Class 12 Physics, Ch. 4; Cengage Electricity & Magnetism",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_moving_charges_mag_g019": {
+  "citation": "NCERT Class 12 Physics, Ch. 4",
+  "weightage": "low",
+  "generated": true
+ },
+ "phys_nuclei_g001": {
+  "citation": "NCERT Class 12 Physics, Ch 13 Nuclei; HC Verma Vol 2 Ch 46",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_nuclei_g002": {
+  "citation": "NCERT Class 12 Physics, Ch 13 Nuclei",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_nuclei_g003": {
+  "citation": "NCERT Class 12 Physics, Ch 13 Nuclei",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_nuclei_g004": {
+  "citation": "NCERT Class 12 Physics, Ch 13 Nuclei; DC Pandey",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_nuclei_g005": {
+  "citation": "NCERT Class 12 Physics, Ch 13 Nuclei",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_nuclei_g006": {
+  "citation": "NCERT Class 12 Physics, Ch 13 Nuclei",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_nuclei_g007": {
+  "citation": "NCERT Class 12 Physics, Ch 13 Nuclei",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_nuclei_g008": {
+  "citation": "NCERT Class 12 Physics, Ch 13 Nuclei",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_nuclei_g009": {
+  "citation": "NCERT Class 12 Physics, Ch 13 Nuclei",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_nuclei_g010": {
+  "citation": "NCERT Class 12 Physics, Ch 13 Nuclei",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_nuclei_g011": {
+  "citation": "NCERT Class 12 Physics, Ch 13 Nuclei",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_nuclei_g012": {
+  "citation": "NCERT Class 12 Physics, Ch 13 Nuclei",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_nuclei_g013": {
+  "citation": "NCERT Class 12 Physics, Ch 13 Nuclei",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_nuclei_g014": {
+  "citation": "NCERT Class 12 Physics, Ch 13 Nuclei",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_nuclei_g015": {
+  "citation": "HC Verma Vol 2 Ch 47; DC Pandey Nuclei",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_nuclei_g016": {
+  "citation": "NCERT Class 12 Physics, Ch 13 Nuclei",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_nuclei_g017": {
+  "citation": "NCERT Class 12 Physics, Ch 13 Nuclei",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_nuclei_g018": {
+  "citation": "NCERT Class 12 Physics, Ch 13 Nuclei",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_nuclei_g019": {
+  "citation": "NCERT Class 12 Physics, Ch 13 Nuclei",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_nuclei_g020": {
+  "citation": "NCERT Class 12 Physics, Ch 13 Nuclei; Cengage",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_nuclei_g021": {
+  "citation": "NCERT Class 12 Physics, Ch 13 Nuclei",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_oscillations_shm_g001": {
+  "citation": "NCERT Class 11 Physics, Ch 14 Oscillations; HC Verma Vol 1 Ch 12",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_oscillations_shm_g002": {
+  "citation": "NCERT Class 11 Physics, Ch 14 Oscillations",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_oscillations_shm_g003": {
+  "citation": "NCERT Class 11 Physics, Ch 14 Oscillations",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_oscillations_shm_g004": {
+  "citation": "NCERT Class 11 Physics, Ch 14 Oscillations; HC Verma Vol 1 Ch 12",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_oscillations_shm_g005": {
+  "citation": "NCERT Class 11 Physics, Ch 14 Oscillations; DC Pandey Mechanics Vol 2",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_oscillations_shm_g006": {
+  "citation": "NCERT Class 11 Physics, Ch 14 Oscillations",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_oscillations_shm_g007": {
+  "citation": "NCERT Class 11 Physics, Ch 14 Oscillations",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_oscillations_shm_g008": {
+  "citation": "DC Pandey Mechanics Vol 2; Cengage Waves & Thermodynamics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_oscillations_shm_g009": {
+  "citation": "Cengage Waves & Thermodynamics; DC Pandey Mechanics Vol 2",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_oscillations_shm_g010": {
+  "citation": "Cengage Waves & Thermodynamics; DC Pandey Mechanics Vol 2",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_oscillations_shm_g011": {
+  "citation": "HC Verma Vol 1 Ch 12; DC Pandey Mechanics Vol 2",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_oscillations_shm_g012": {
+  "citation": "DC Pandey Mechanics Vol 2; Cengage Waves & Thermodynamics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_oscillations_shm_g013": {
+  "citation": "NCERT Class 11 Physics, Ch 14 Oscillations",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_oscillations_shm_g014": {
+  "citation": "DC Pandey Mechanics Vol 2; HC Verma Vol 1 Ch 12",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_oscillations_shm_g015": {
+  "citation": "DC Pandey Mechanics Vol 2; Cengage Waves & Thermodynamics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_oscillations_shm_g016": {
+  "citation": "DC Pandey Electrostatics; Cengage Waves & Thermodynamics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_oscillations_shm_g017": {
+  "citation": "NCERT Class 11 Physics, Ch 14 Oscillations; HC Verma Vol 1 Ch 12",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_oscillations_shm_g018": {
+  "citation": "NCERT Class 11 Physics, Ch 14 Oscillations",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_oscillations_shm_g019": {
+  "citation": "Cengage Waves & Thermodynamics; DC Pandey Mechanics Vol 2",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_oscillations_shm_g020": {
+  "citation": "DC Pandey Mechanics Vol 2; Cengage Waves & Thermodynamics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_oscillations_shm_g021": {
+  "citation": "DC Pandey Mechanics Vol 2; Cengage Waves & Thermodynamics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_oscillations_shm_g022": {
+  "citation": "HC Verma Vol 1 Ch 12; Cengage Waves & Thermodynamics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_oscillations_shm_g023": {
+  "citation": "NCERT Class 11 Physics, Ch 14 Oscillations",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_oscillations_shm_g024": {
+  "citation": "NCERT Class 11 Physics, Ch 14 Oscillations",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_oscillations_shm_g025": {
+  "citation": "NCERT Class 11 Physics, Ch 14 Oscillations",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_oscillations_shm_g026": {
+  "citation": "Cengage Waves & Thermodynamics; DC Pandey Mechanics Vol 2",
+  "weightage": "low",
+  "generated": true
+ },
+ "phys_oscillations_shm_g027": {
+  "citation": "NCERT Class 11 Physics, Ch 14 Oscillations; HC Verma Vol 1 Ch 12",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_oscillations_shm_g028": {
+  "citation": "HC Verma Vol 1 Ch 12; DC Pandey Mechanics Vol 2",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_ray_optics_optical_g001": {
+  "citation": "NCERT Class 12 Physics Ch.9 Ray Optics; HC Verma Vol.1 Ch.18",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_ray_optics_optical_g002": {
+  "citation": "NCERT Class 12 Physics Ch.9; Cengage Optics (B.M. Sharma)",
+  "weightage": "low",
+  "generated": true
+ },
+ "phys_ray_optics_optical_g003": {
+  "citation": "Cengage Optics (B.M. Sharma); DC Pandey Optics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_ray_optics_optical_g004": {
+  "citation": "NCERT Class 12 Physics Ch.9 Ray Optics (Power of a Lens)",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_ray_optics_optical_g005": {
+  "citation": "NCERT Class 12 Physics Ch.9 Ray Optics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_ray_optics_optical_g006": {
+  "citation": "NCERT Class 12 Physics Ch.9; Cengage Optics (B.M. Sharma)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_ray_optics_optical_g007": {
+  "citation": "NCERT Class 12 Physics Ch.9 Ray Optics (Refraction at Spherical Surfaces)",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_ray_optics_optical_g008": {
+  "citation": "Cengage Optics (B.M. Sharma); DC Pandey Optics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_ray_optics_optical_g009": {
+  "citation": "Cengage Optics (B.M. Sharma); DC Pandey Optics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_ray_optics_optical_g010": {
+  "citation": "NCERT Class 12 Physics Ch.9 Ray Optics (Total Internal Reflection)",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_ray_optics_optical_g011": {
+  "citation": "NCERT Class 12 Physics Ch.9 Ray Optics; HC Verma Vol.1 Ch.18",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_ray_optics_optical_g012": {
+  "citation": "NCERT Class 12 Physics Ch.9 Ray Optics (Refraction)",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_ray_optics_optical_g013": {
+  "citation": "NCERT Class 12 Physics Ch.9 Ray Optics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_ray_optics_optical_g014": {
+  "citation": "NCERT Class 12 Physics Ch.9 Ray Optics (Refraction through a Prism)",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_ray_optics_optical_g015": {
+  "citation": "NCERT Class 12 Physics Ch.9 Ray Optics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_ray_optics_optical_g016": {
+  "citation": "Cengage Optics (B.M. Sharma); DC Pandey Optics",
+  "weightage": "low",
+  "generated": true
+ },
+ "phys_ray_optics_optical_g017": {
+  "citation": "Cengage Optics (B.M. Sharma); DC Pandey Optics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_ray_optics_optical_g018": {
+  "citation": "NCERT Class 12 Physics Ch.9 Ray Optics (Dispersion); HC Verma Vol.1 Ch.18",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_ray_optics_optical_g019": {
+  "citation": "Cengage Optics (B.M. Sharma); Irodov Optics",
+  "weightage": "low",
+  "generated": true
+ },
+ "phys_ray_optics_optical_g020": {
+  "citation": "NCERT Class 12 Physics; HC Verma Vol.1 Ch.18 (Displacement Method)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_ray_optics_optical_g021": {
+  "citation": "HC Verma Vol.1 Ch.18; Cengage Optics (B.M. Sharma)",
+  "weightage": "low",
+  "generated": true
+ },
+ "phys_ray_optics_optical_g022": {
+  "citation": "NCERT Class 12 Physics Ch.9 Ray Optics (Telescope)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_ray_optics_optical_g023": {
+  "citation": "NCERT Class 12 Physics Ch.9; HC Verma Vol.1 Ch.19",
+  "weightage": "low",
+  "generated": true
+ },
+ "phys_ray_optics_optical_g024": {
+  "citation": "Cengage Optics (B.M. Sharma); standard optics reference",
+  "weightage": "low",
+  "generated": true
+ },
+ "phys_ray_optics_optical_g025": {
+  "citation": "DC Pandey Optics; Cengage Optics (B.M. Sharma)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_ray_optics_optical_g026": {
+  "citation": "NCERT Class 12 Physics Ch.9; HC Verma Vol.1 Ch.18",
+  "weightage": "low",
+  "generated": true
+ },
+ "phys_ray_optics_optical_g027": {
+  "citation": "HC Verma Vol.1 Ch.18; DC Pandey Optics (Plane Mirrors)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_ray_optics_optical_g028": {
+  "citation": "NCERT Class 12 Physics Ch.9; HC Verma Vol.1 Ch.18 (Reflection)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_ray_optics_optical_g029": {
+  "citation": "Cengage Optics (B.M. Sharma); DC Pandey Optics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_rotational_motion_g001": {
+  "citation": "NCERT Class 11 Physics Ch.7 System of Particles & Rotational Motion; HC Verma Vol.1 Ch.10",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_rotational_motion_g002": {
+  "citation": "HC Verma Vol.1 Ch.10 Rotational Mechanics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_rotational_motion_g003": {
+  "citation": "NCERT Class 11 Physics Ch.7; HC Verma Vol.1 Ch.7 Circular Motion",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_rotational_motion_g004": {
+  "citation": "NCERT Class 11 Physics Ch.7 System of Particles & Rotational Motion",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_rotational_motion_g005": {
+  "citation": "HC Verma Vol.1 Ch.10 Rotational Mechanics",
+  "weightage": "low",
+  "generated": true
+ },
+ "phys_rotational_motion_g006": {
+  "citation": "NCERT Class 11 Physics Ch.7 (Table 7.1)",
+  "weightage": "low",
+  "generated": true
+ },
+ "phys_rotational_motion_g007": {
+  "citation": "NCERT Class 11 Physics Ch.7 System of Particles & Rotational Motion",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_rotational_motion_g008": {
+  "citation": "NCERT Class 11 Physics Ch.7; HC Verma Vol.1 Ch.10",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_rotational_motion_g009": {
+  "citation": "NCERT Class 11 Physics Ch.7 System of Particles & Rotational Motion",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_rotational_motion_g010": {
+  "citation": "HC Verma Vol.1 Ch.10 Rotational Mechanics; DC Pandey Mechanics Vol.2",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_rotational_motion_g011": {
+  "citation": "NCERT Class 11 Physics Ch.7 System of Particles & Rotational Motion",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_rotational_motion_g012": {
+  "citation": "NCERT Class 11 Physics Ch.7 System of Particles & Rotational Motion",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_rotational_motion_g013": {
+  "citation": "HC Verma Vol.1 Ch.10; DC Pandey Mechanics Vol.2",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_rotational_motion_g014": {
+  "citation": "HC Verma Vol.1 Ch.10 Rotational Mechanics; Cengage Mechanics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_rotational_motion_g015": {
+  "citation": "NCERT Class 11 Physics Ch.7; HC Verma Vol.1 Ch.10",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_rotational_motion_g016": {
+  "citation": "NCERT Class 11 Physics Ch.7 System of Particles & Rotational Motion",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_rotational_motion_g017": {
+  "citation": "HC Verma Vol.1 Ch.10 Rotational Mechanics; Cengage Mechanics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_rotational_motion_g018": {
+  "citation": "DC Pandey Mechanics Vol.2; Cengage Mechanics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_rotational_motion_g019": {
+  "citation": "NCERT Class 11 Physics Ch.7; HC Verma Vol.1 Ch.10",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_rotational_motion_g020": {
+  "citation": "NCERT Class 11 Physics Ch.5/Ch.7; HC Verma Vol.1 Ch.7",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_rotational_motion_g021": {
+  "citation": "NCERT Class 11 Physics Ch.5 Laws of Motion; HC Verma Vol.1 Ch.7",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_rotational_motion_g022": {
+  "citation": "NCERT Class 11 Physics Ch.7; HC Verma Vol.1 Ch.7 Circular Motion",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_rotational_motion_g023": {
+  "citation": "HC Verma Vol.1 Ch.7 Circular Motion; DC Pandey Mechanics Vol.1",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_rotational_motion_g024": {
+  "citation": "NCERT Class 11 Physics Ch.7 System of Particles & Rotational Motion",
+  "weightage": "low",
+  "generated": true
+ },
+ "phys_rotational_motion_g025": {
+  "citation": "NCERT Class 11 Physics Ch.7 System of Particles & Rotational Motion",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_rotational_motion_g026": {
+  "citation": "NCERT Class 11 Physics Ch.7 (qualitative); HC Verma Vol.1 Ch.10",
+  "weightage": "low",
+  "generated": true
+ },
+ "phys_thermodynamics_g001": {
+  "citation": "NCERT Class 11 Physics, Ch 12 Thermodynamics; HC Verma Vol 2, Ch 26",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_thermodynamics_g002": {
+  "citation": "NCERT Class 11 Physics, Ch 12 Thermodynamics; DC Pandey Thermodynamics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_thermodynamics_g003": {
+  "citation": "NCERT Class 11 Physics, Ch 12 Thermodynamics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_thermodynamics_g004": {
+  "citation": "NCERT Class 11 Physics, Ch 13 Kinetic Theory; HC Verma Vol 2, Ch 26",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_thermodynamics_g005": {
+  "citation": "NCERT Class 11 Physics, Ch 13 Kinetic Theory; JEE standard",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_thermodynamics_g006": {
+  "citation": "NCERT Class 11 Physics, Ch 12 Thermodynamics; HC Verma Vol 2, Ch 27",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_thermodynamics_g007": {
+  "citation": "Cengage Thermodynamics (BM Sharma); Irodov standard result",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_thermodynamics_g008": {
+  "citation": "HC Verma Vol 2, Ch 27; JEE Advanced standard",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_thermodynamics_g009": {
+  "citation": "Cengage Thermodynamics (BM Sharma); JEE Advanced standard",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_thermodynamics_g010": {
+  "citation": "NCERT Class 11 Physics, Ch 12 Thermodynamics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_thermodynamics_g011": {
+  "citation": "NCERT Class 11 Physics, Ch 12 Thermodynamics; HC Verma Vol 2",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_thermodynamics_g012": {
+  "citation": "NCERT Class 11 Physics, Ch 12 Thermodynamics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_thermodynamics_g013": {
+  "citation": "NCERT Class 11 Physics, Ch 12 Thermodynamics; HC Verma Vol 2, Ch 26",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_thermodynamics_g014": {
+  "citation": "NCERT Class 11 Physics, Ch 12 Thermodynamics; HC Verma Vol 2",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_thermodynamics_g015": {
+  "citation": "NCERT Class 11 Physics, Ch 12 Thermodynamics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_thermodynamics_g016": {
+  "citation": "NCERT Class 11 Physics, Ch 12 Thermodynamics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_thermodynamics_g017": {
+  "citation": "NCERT Class 11 Physics, Ch 13 Kinetic Theory",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_thermodynamics_g018": {
+  "citation": "Cengage Thermodynamics (BM Sharma); standard JEE result",
+  "weightage": "low",
+  "generated": true
+ },
+ "phys_wave_optics_g001": {
+  "citation": "NCERT Class 12 Physics, Ch 10 Wave Optics; DC Pandey Optics & Modern Physics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_wave_optics_g002": {
+  "citation": "NCERT Class 12 Physics, Ch 10 Wave Optics; DC Pandey Optics & Modern Physics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_wave_optics_g003": {
+  "citation": "NCERT Class 12 Physics, Ch 10 Wave Optics; HC Verma Vol 1, Ch 17",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_wave_optics_g004": {
+  "citation": "NCERT Class 12 Physics, Ch 10 Wave Optics; HC Verma Vol 1, Ch 17",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_wave_optics_g005": {
+  "citation": "NCERT Class 12 Physics, Ch 10 Wave Optics; HC Verma Vol 1, Ch 17",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_wave_optics_g006": {
+  "citation": "NCERT Class 12 Physics, Ch 10 Wave Optics; DC Pandey Optics & Modern Physics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_wave_optics_g007": {
+  "citation": "NCERT Class 12 Physics, Ch 10 Wave Optics; DC Pandey Optics & Modern Physics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_wave_optics_g008": {
+  "citation": "NCERT Class 12 Physics, Ch 10 Wave Optics; HC Verma Vol 1, Ch 17",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_wave_optics_g009": {
+  "citation": "NCERT Class 12 Physics, Ch 10 Wave Optics; DC Pandey Optics & Modern Physics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_wave_optics_g010": {
+  "citation": "NCERT Class 12 Physics, Ch 10 Wave Optics; DC Pandey Optics & Modern Physics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_wave_optics_g011": {
+  "citation": "NCERT Class 12 Physics, Ch 10 Wave Optics; DC Pandey Optics & Modern Physics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_wave_optics_g012": {
+  "citation": "NCERT Class 12 Physics, Ch 10 Wave Optics; DC Pandey Optics & Modern Physics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_wave_optics_g013": {
+  "citation": "NCERT Class 12 Physics, Ch 10 Wave Optics (Sec 10.6.3)",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_wave_optics_g014": {
+  "citation": "NCERT Class 12 Physics, Ch 10 Wave Optics (Sec 10.6.2)",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_wave_optics_g015": {
+  "citation": "NCERT Class 12 Physics, Ch 10 Wave Optics (Sec 10.6.1)",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_wave_optics_g016": {
+  "citation": "NCERT Class 12 Physics, Ch 10 Wave Optics (Sec 10.6.3); DC Pandey Optics & Modern Physics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_wave_optics_g017": {
+  "citation": "NCERT Class 12 Physics, Ch 10 Wave Optics (Sec 10.6.3)",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_wave_optics_g018": {
+  "citation": "NCERT Class 12 Physics, Ch 10 Wave Optics (Sec 10.7.2)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_wave_optics_g019": {
+  "citation": "NCERT Class 12 Physics, Ch 10 Wave Optics (Sec 10.3.2)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_wave_optics_g020": {
+  "citation": "NCERT Class 12 Physics, Ch 10 Wave Optics; HC Verma Vol 1, Ch 17",
+  "weightage": "low",
+  "generated": true
+ },
+ "phys_waves_sound_g001": {
+  "citation": "NCERT Class 11 Physics, Ch. 15 Waves; HC Verma Vol. 1, Ch. 15",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_waves_sound_g002": {
+  "citation": "HC Verma Vol. 1, Ch. 15 Wave Motion; DC Pandey Waves",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_waves_sound_g003": {
+  "citation": "NCERT Class 11 Physics, Ch. 15 Waves; HC Verma Vol. 1",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_waves_sound_g004": {
+  "citation": "NCERT Class 11 Physics, Ch. 15 Waves; HC Verma Vol. 1, Ch. 16 Sound Waves",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_waves_sound_g005": {
+  "citation": "NCERT Class 11 Physics, Ch. 15 Waves; DC Pandey Waves & Thermodynamics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_waves_sound_g006": {
+  "citation": "NCERT Class 11 Physics, Ch. 15 Waves; HC Verma Vol. 1, Ch. 16",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_waves_sound_g007": {
+  "citation": "NCERT Class 11 Physics, Ch. 15 Waves; HC Verma Vol. 1, Ch. 16 Sound Waves",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_waves_sound_g008": {
+  "citation": "NCERT Class 11 Physics, Ch. 15 Waves; HC Verma Vol. 1, Ch. 16",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_waves_sound_g009": {
+  "citation": "NCERT Class 11 Physics, Ch. 15 Waves; HC Verma Vol. 1, Ch. 15",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_waves_sound_g010": {
+  "citation": "NCERT Class 11 Physics, Ch. 15 Waves; sonometer experiment",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_waves_sound_g011": {
+  "citation": "NCERT Class 11 Physics, Ch. 15 Waves; HC Verma Vol. 1, Ch. 16",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_waves_sound_g012": {
+  "citation": "NCERT Class 11 Physics, Ch. 15 Waves; HC Verma Vol. 1, Ch. 16",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_waves_sound_g013": {
+  "citation": "NCERT Class 11 Physics, Ch. 15 Waves; DC Pandey Waves",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_waves_sound_g014": {
+  "citation": "NCERT Class 11 Physics, Ch. 15 Waves; HC Verma Vol. 1, Ch. 15",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_waves_sound_g015": {
+  "citation": "NCERT Class 11 Physics, Ch. 15 Waves; DC Pandey Waves",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_waves_sound_g016": {
+  "citation": "NCERT Class 11 Physics, Ch. 15 Waves; HC Verma Vol. 1, Ch. 17 Light Waves (interference)",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_waves_sound_g017": {
+  "citation": "NCERT Class 11 Physics, Ch. 15 Waves; HC Verma Vol. 1, Ch. 17",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_waves_sound_g018": {
+  "citation": "HC Verma Vol. 1, Ch. 17; DC Pandey Optics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_waves_sound_g019": {
+  "citation": "HC Verma Vol. 1, Ch. 15 Wave Motion; DC Pandey Waves",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_waves_sound_g020": {
+  "citation": "NCERT Class 11 Physics, Ch. 15 Waves; HC Verma Vol. 1, Ch. 16",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_work_energy_power_g001": {
+  "citation": "NCERT Physics Class 11, Ch 6 (Work, Energy & Power); HC Verma Vol 1, Ch 8",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_work_energy_power_g002": {
+  "citation": "NCERT Physics Class 11, Ch 6; HC Verma Vol 1, Ch 8",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_work_energy_power_g003": {
+  "citation": "NCERT Physics Class 11, Ch 6; HC Verma Vol 1, Ch 8",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_work_energy_power_g004": {
+  "citation": "NCERT Physics Class 11, Ch 6; DC Pandey Mechanics Vol 1",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_work_energy_power_g005": {
+  "citation": "NCERT Physics Class 11, Ch 6; HC Verma Vol 1, Ch 8",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_work_energy_power_g006": {
+  "citation": "NCERT Physics Class 11, Ch 6; HC Verma Vol 1, Ch 8",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_work_energy_power_g007": {
+  "citation": "NCERT Physics Class 11, Ch 6; HC Verma Vol 1, Ch 8",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_work_energy_power_g008": {
+  "citation": "NCERT Physics Class 11, Ch 6; HC Verma Vol 1, Ch 9 (Centre of Mass, Collisions)",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_work_energy_power_g009": {
+  "citation": "NCERT Physics Class 11, Ch 6; DC Pandey Mechanics Vol 1",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_work_energy_power_g010": {
+  "citation": "NCERT Physics Class 11, Ch 6; HC Verma Vol 1, Ch 9",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_work_energy_power_g011": {
+  "citation": "HC Verma Vol 1, Ch 9; DC Pandey Mechanics Vol 1",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_work_energy_power_g012": {
+  "citation": "NCERT Physics Class 11, Ch 6; HC Verma Vol 1, Ch 9",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_work_energy_power_g013": {
+  "citation": "NCERT Physics Class 11, Ch 6; HC Verma Vol 1, Ch 8",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_work_energy_power_g014": {
+  "citation": "HC Verma Vol 1, Ch 7 (Circular Motion); DC Pandey Mechanics Vol 1",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_work_energy_power_g015": {
+  "citation": "HC Verma Vol 1, Ch 8; DC Pandey Mechanics Vol 1",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_work_energy_power_g016": {
+  "citation": "NCERT Physics Class 11, Ch 6; DC Pandey Mechanics Vol 1",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_work_energy_power_g017": {
+  "citation": "NCERT Physics Class 11, Ch 6; HC Verma Vol 1, Ch 8",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_work_energy_power_g018": {
+  "citation": "NCERT Physics Class 11, Ch 6 (Various Forms of Energy)",
+  "weightage": "low",
+  "generated": true
+ },
+ "phys_work_energy_power_g019": {
+  "citation": "HC Verma Vol 1, Ch 8; DC Pandey Mechanics Vol 1",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_electromagnetic_wa_g001": {
+  "citation": "NCERT Class 12 Physics, Ch.8 EM Waves; HC Verma Vol.2",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_electromagnetic_wa_g002": {
+  "citation": "NCERT Class 12 Physics, Ch.8 EM Waves",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_electromagnetic_wa_g003": {
+  "citation": "NCERT Class 12 Physics, Ch.8 EM Waves",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_electromagnetic_wa_g004": {
+  "citation": "NCERT Class 12 Physics, Ch.8 EM Waves; JD/standard reference",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_electromagnetic_wa_g005": {
+  "citation": "NCERT Class 12 Physics, Ch.8 EM Waves",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_electromagnetic_wa_g006": {
+  "citation": "NCERT Class 12 Physics, Ch.8 EM Waves",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_electromagnetic_wa_g007": {
+  "citation": "NCERT Class 12 Physics, Ch.8 EM Waves",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_electromagnetic_wa_g008": {
+  "citation": "NCERT Class 12 Physics, Ch.8 EM Waves; HC Verma Vol.2",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_electromagnetic_wa_g009": {
+  "citation": "NCERT Class 12 Physics, Ch.8 EM Waves",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_electromagnetic_wa_g010": {
+  "citation": "NCERT Class 12 Physics, Ch.8 EM Waves; HC Verma Vol.2",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_electromagnetic_wa_g011": {
+  "citation": "NCERT Class 12 Physics, Ch.8 EM Waves",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_electromagnetic_wa_g012": {
+  "citation": "NCERT Class 12 Physics, Ch.8 EM Waves; Cengage",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_electromagnetic_wa_g013": {
+  "citation": "NCERT Class 12 Physics, Ch.8 EM Waves; HC Verma Vol.2",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_electromagnetic_wa_g014": {
+  "citation": "NCERT Class 12 Physics, Ch.8 EM Waves",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_electromagnetic_wa_g015": {
+  "citation": "NCERT Class 12 Physics, Ch.8 EM Waves",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_electromagnetic_wa_g016": {
+  "citation": "NCERT Class 12 Physics, Ch.8 EM Waves; Ch.11 Dual Nature",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_experimental_skill_g001": {
+  "citation": "NCERT Class 11 Physics, Units and Measurements; HC Verma Vol 1",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_experimental_skill_g002": {
+  "citation": "NCERT Class 11 Physics, Units and Measurements; DC Pandey Mechanics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_experimental_skill_g003": {
+  "citation": "NCERT Class 11 Physics, Units and Measurements; HC Verma Vol 1",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_experimental_skill_g004": {
+  "citation": "NCERT Class 11 Physics, Units and Measurements; DC Pandey",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_experimental_skill_g005": {
+  "citation": "NCERT Class 12 Physics Ch.3 Current Electricity; HC Verma Vol 2",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_experimental_skill_g006": {
+  "citation": "NCERT Class 12 Physics Ch.3 Current Electricity",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_experimental_skill_g007": {
+  "citation": "NCERT Class 12 Physics Ch.3 Current Electricity; HC Verma Vol 2",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_experimental_skill_g008": {
+  "citation": "NCERT Class 12 Physics Ch.3 Current Electricity; DC Pandey",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_experimental_skill_g009": {
+  "citation": "NCERT Class 12 Physics Ch.3 Current Electricity",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_experimental_skill_g010": {
+  "citation": "NCERT Class 12 Physics Ch.4 Moving Charges and Magnetism; HC Verma Vol 2",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_experimental_skill_g011": {
+  "citation": "NCERT Class 12 Physics Ch.4 Moving Charges and Magnetism",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_experimental_skill_g012": {
+  "citation": "NCERT Class 11 Physics Ch.14 Oscillations; HC Verma Vol 1",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_experimental_skill_g013": {
+  "citation": "NCERT Class 11 Physics Ch.9 Mechanical Properties of Solids; HC Verma Vol 1",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_experimental_skill_g014": {
+  "citation": "NCERT Class 11 Physics Ch.15 Waves; HC Verma Vol 1",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_experimental_skill_g015": {
+  "citation": "NCERT Class 11 Physics Ch.15 Waves; HC Verma Vol 1",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_experimental_skill_g016": {
+  "citation": "NCERT Class 12 Physics Ch.9 Ray Optics; HC Verma Vol 1",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_experimental_skill_g017": {
+  "citation": "NCERT Class 12 Physics Ch.9 Ray Optics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_experimental_skill_g018": {
+  "citation": "NCERT Class 12 Physics Ch.3 Current Electricity (Appendix); HC Verma Vol 2",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_experimental_skill_g019": {
+  "citation": "NCERT Class 11 Physics Ch.2 Units and Measurements; HC Verma Vol 1",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_experimental_skill_g020": {
+  "citation": "NCERT Class 11 Physics Ch.2 Units and Measurements; DC Pandey",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_experimental_skill_g021": {
+  "citation": "NCERT Class 11 Physics Ch.2 Units and Measurements",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_experimental_skill_g022": {
+  "citation": "NCERT Class 11 Physics Ch.10 Mechanical Properties of Fluids; HC Verma Vol 1",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_experimental_skill_g023": {
+  "citation": "NCERT Class 11 Physics Ch.10 Mechanical Properties of Fluids; HC Verma Vol 1",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_gravitation_g001": {
+  "citation": "NCERT Class 11 Physics, Ch 8 Gravitation; HC Verma Vol 1, Ch 11",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_gravitation_g002": {
+  "citation": "NCERT Class 11 Physics, Ch 8; DC Pandey Mechanics Vol 2",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_gravitation_g003": {
+  "citation": "NCERT Class 11 Physics, Ch 8 Gravitation; HC Verma Vol 1, Ch 11",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_gravitation_g004": {
+  "citation": "NCERT Class 11 Physics, Ch 8; DC Pandey Mechanics Vol 2",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_gravitation_g005": {
+  "citation": "NCERT Class 11 Physics, Ch 8; HC Verma Vol 1, Ch 11",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_gravitation_g006": {
+  "citation": "NCERT Class 11 Physics, Ch 8; DC Pandey Mechanics Vol 2",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_gravitation_g007": {
+  "citation": "NCERT Class 11 Physics, Ch 8 Gravitation; HC Verma Vol 1, Ch 11",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_gravitation_g008": {
+  "citation": "NCERT Class 11 Physics, Ch 8; HC Verma Vol 1, Ch 11",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_gravitation_g009": {
+  "citation": "NCERT Class 11 Physics, Ch 8 Gravitation; HC Verma Vol 1, Ch 11",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_gravitation_g010": {
+  "citation": "NCERT Class 11 Physics, Ch 8; DC Pandey Mechanics Vol 2",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_gravitation_g011": {
+  "citation": "NCERT Class 11 Physics, Ch 8 Gravitation; HC Verma Vol 1, Ch 11",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_gravitation_g012": {
+  "citation": "NCERT Class 11 Physics, Ch 8; DC Pandey Mechanics Vol 2",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_gravitation_g013": {
+  "citation": "NCERT Class 11 Physics, Ch 8 Gravitation; HC Verma Vol 1, Ch 11",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_gravitation_g014": {
+  "citation": "NCERT Class 11 Physics, Ch 8 Gravitation; HC Verma Vol 1, Ch 11",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_gravitation_g015": {
+  "citation": "NCERT Class 11 Physics, Ch 8; DC Pandey Mechanics Vol 2",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_gravitation_g016": {
+  "citation": "NCERT Class 11 Physics, Ch 8; HC Verma Vol 1, Ch 11",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_gravitation_g017": {
+  "citation": "NCERT Class 11 Physics, Ch 8; HC Verma Vol 1, Ch 11",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_gravitation_g018": {
+  "citation": "NCERT Class 11 Physics, Ch 8; DC Pandey Mechanics Vol 2",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_gravitation_g019": {
+  "citation": "NCERT Class 11 Physics, Ch 8; DC Pandey Mechanics Vol 2",
+  "weightage": "low",
+  "generated": true
+ },
+ "phys_gravitation_g020": {
+  "citation": "NCERT Class 11 Physics, Ch 8; HC Verma Vol 1, Ch 11",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_gravitation_g021": {
+  "citation": "NCERT Class 11 Physics, Ch 8 Gravitation; HC Verma Vol 1, Ch 11",
+  "weightage": "low",
+  "generated": true
+ },
+ "phys_kinetic_theory_of__g001": {
+  "citation": "NCERT Class 11 Physics, Ch 13 Kinetic Theory; HC Verma Vol 2, Ch 24",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_kinetic_theory_of__g002": {
+  "citation": "NCERT Class 11 Physics, Ch 13 Kinetic Theory; Cengage Waves & Thermodynamics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_kinetic_theory_of__g003": {
+  "citation": "NCERT Class 11 Physics, Ch 13 Kinetic Theory; HC Verma Vol 2, Ch 24",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_kinetic_theory_of__g004": {
+  "citation": "NCERT Class 11 Physics, Ch 13 Kinetic Theory; Cengage Waves & Thermodynamics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_kinetic_theory_of__g005": {
+  "citation": "NCERT Class 11 Physics, Ch 13 Kinetic Theory; HC Verma Vol 2, Ch 24",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_kinetic_theory_of__g006": {
+  "citation": "NCERT Class 11 Physics, Ch 13 Kinetic Theory; HC Verma Vol 2, Ch 24",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_kinetic_theory_of__g007": {
+  "citation": "NCERT Class 11 Physics, Ch 13 Kinetic Theory; HC Verma Vol 2, Ch 24",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_kinetic_theory_of__g008": {
+  "citation": "NCERT Class 11 Physics, Ch 13 Kinetic Theory; Cengage Waves & Thermodynamics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_kinetic_theory_of__g009": {
+  "citation": "NCERT Class 11 Physics, Ch 13 Kinetic Theory; HC Verma Vol 2, Ch 24",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_kinetic_theory_of__g010": {
+  "citation": "NCERT Class 11 Physics, Ch 13 Kinetic Theory; HC Verma Vol 2, Ch 24",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_kinetic_theory_of__g011": {
+  "citation": "NCERT Class 11 Physics, Ch 13 Kinetic Theory; Cengage Waves & Thermodynamics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_kinetic_theory_of__g012": {
+  "citation": "NCERT Class 11 Physics, Ch 13 Kinetic Theory; Cengage Waves & Thermodynamics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_kinetic_theory_of__g013": {
+  "citation": "NCERT Class 11 Physics, Ch 13 Kinetic Theory; HC Verma Vol 2, Ch 24",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_kinetic_theory_of__g014": {
+  "citation": "NCERT Class 11 Physics, Ch 13 Kinetic Theory; Cengage Waves & Thermodynamics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_kinetic_theory_of__g015": {
+  "citation": "NCERT Class 11 Physics, Ch 13 Kinetic Theory; HC Verma Vol 2, Ch 24",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_kinetic_theory_of__g016": {
+  "citation": "NCERT Class 11 Physics, Ch 13 Kinetic Theory; Cengage Waves & Thermodynamics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_kinetic_theory_of__g017": {
+  "citation": "NCERT Class 11 Physics, Ch 13 Kinetic Theory; HC Verma Vol 2, Ch 24",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_kinetic_theory_of__g018": {
+  "citation": "NCERT Class 11 Physics, Ch 13 Kinetic Theory; HC Verma Vol 2, Ch 24",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_kinetic_theory_of__g019": {
+  "citation": "NCERT Class 11 Physics, Ch 13 Kinetic Theory; Cengage Waves & Thermodynamics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_kinetic_theory_of__g020": {
+  "citation": "NCERT Class 11 Physics, Ch 13 Kinetic Theory; HC Verma Vol 2, Ch 24",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_kinetic_theory_of__g021": {
+  "citation": "NCERT Class 11 Physics, Ch 13 Kinetic Theory; Cengage Waves & Thermodynamics",
+  "weightage": "low",
+  "generated": true
+ },
+ "phys_kinetic_theory_of__g022": {
+  "citation": "NCERT Class 11 Physics, Ch 13 Kinetic Theory; HC Verma Vol 2, Ch 24",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_kinetic_theory_of__g023": {
+  "citation": "NCERT Class 11 Physics, Ch 13 Kinetic Theory; Cengage Waves & Thermodynamics",
+  "weightage": "low",
+  "generated": true
+ },
+ "phys_kinetic_theory_of__g024": {
+  "citation": "NCERT Class 11 Physics, Ch 13 Kinetic Theory; HC Verma Vol 2, Ch 24",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_kinetic_theory_of__g025": {
+  "citation": "NCERT Class 11 Physics, Ch 13 Kinetic Theory; HC Verma Vol 2, Ch 24",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_kinetic_theory_of__g026": {
+  "citation": "NCERT Class 11 Physics, Ch 13 Kinetic Theory; Cengage Waves & Thermodynamics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_mechanical_propert_g001": {
+  "citation": "NCERT Class 11 Physics, Ch. Mechanical Properties of Fluids; HC Verma Vol-1 Ch.13",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_mechanical_propert_g002": {
+  "citation": "NCERT Class 11 Physics, Ch. Mechanical Properties of Fluids",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_mechanical_propert_g003": {
+  "citation": "NCERT Class 11 Physics, Ch. Mechanical Properties of Fluids",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_mechanical_propert_g004": {
+  "citation": "NCERT Class 11 Physics, Ch. Mechanical Properties of Fluids",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_mechanical_propert_g005": {
+  "citation": "NCERT Class 11 Physics, Ch. Mechanical Properties of Fluids; HC Verma Vol-1 Ch.13",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_mechanical_propert_g006": {
+  "citation": "HC Verma Vol-1 Ch.13; NCERT Class 11 Physics, Mechanical Properties of Fluids",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_mechanical_propert_g007": {
+  "citation": "NCERT Class 11 Physics, Ch. Mechanical Properties of Fluids",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_mechanical_propert_g008": {
+  "citation": "NCERT Class 11 Physics, Ch. Mechanical Properties of Fluids",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_mechanical_propert_g009": {
+  "citation": "NCERT Class 11 Physics, Ch. Mechanical Properties of Fluids; HC Verma Vol-1 Ch.14",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_mechanical_propert_g010": {
+  "citation": "HC Verma Vol-1 Ch.14; Cengage Mechanics Vol-2",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_mechanical_propert_g011": {
+  "citation": "Cengage Mechanics Vol-2; DC Pandey Mechanics Vol-2",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_mechanical_propert_g012": {
+  "citation": "NCERT Class 11 Physics, Ch. Mechanical Properties of Fluids; HC Verma Vol-1 Ch.14",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_mechanical_propert_g013": {
+  "citation": "HC Verma Vol-1 Ch.14; NCERT Class 11 Physics, Mechanical Properties of Fluids",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_mechanical_propert_g014": {
+  "citation": "NCERT Class 11 Physics, Ch. Mechanical Properties of Fluids",
+  "weightage": "low",
+  "generated": true
+ },
+ "phys_mechanical_propert_g015": {
+  "citation": "NCERT Class 11 Physics, Ch. Mechanical Properties of Fluids; HC Verma Vol-1 Ch.13",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_mechanical_propert_g016": {
+  "citation": "NCERT Class 11 Physics, Ch. Mechanical Properties of Fluids; Cengage Mechanics Vol-2",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_mechanical_propert_g017": {
+  "citation": "NCERT Class 11 Physics, Ch. Mechanical Properties of Fluids",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_mechanical_propert_g018": {
+  "citation": "HC Verma Vol-1 Ch.13; Cengage Mechanics Vol-2",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_mechanical_propert_g019": {
+  "citation": "Cengage Mechanics Vol-2; DC Pandey Mechanics Vol-2",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_mechanical_propert_g020": {
+  "citation": "NCERT Class 11 Physics, Ch. Mechanical Properties of Fluids",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_mechanical_propert_g021": {
+  "citation": "NCERT Class 11 Physics, Ch. Mechanical Properties of Fluids; HC Verma Vol-1 Ch.14",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_mechanical_propert_g022": {
+  "citation": "HC Verma Vol-1 Ch.14; Cengage Mechanics Vol-2",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_mechanical_propert_g023": {
+  "citation": "NCERT Class 11 Physics, Ch. Mechanical Properties of Fluids; HC Verma Vol-1 Ch.13",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_semiconductor_elec_g001": {
+  "citation": "NCERT Class 12 Physics Ch.14 Semiconductor Electronics; HC Verma Vol.2",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_semiconductor_elec_g002": {
+  "citation": "NCERT Class 12 Physics Ch.14; JD Lee / standard texts",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_semiconductor_elec_g003": {
+  "citation": "NCERT Class 12 Physics Ch.14 Semiconductor Electronics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_semiconductor_elec_g004": {
+  "citation": "NCERT Class 12 Physics Ch.14 Semiconductor Electronics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_semiconductor_elec_g005": {
+  "citation": "Standard electronics texts; NCERT Class 12 Physics Ch.14",
+  "weightage": "low",
+  "generated": true
+ },
+ "phys_semiconductor_elec_g006": {
+  "citation": "NCERT Class 12 Physics Ch.14 Semiconductor Electronics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_semiconductor_elec_g007": {
+  "citation": "NCERT Class 12 Physics Ch.14 Semiconductor Electronics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_semiconductor_elec_g008": {
+  "citation": "NCERT Class 12 Physics Ch.14 Semiconductor Electronics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_semiconductor_elec_g009": {
+  "citation": "NCERT Class 12 Physics Ch.14 Semiconductor Electronics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_semiconductor_elec_g010": {
+  "citation": "NCERT Class 12 Physics Ch.14 Semiconductor Electronics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_semiconductor_elec_g011": {
+  "citation": "NCERT Class 12 Physics Ch.14 Semiconductor Electronics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_semiconductor_elec_g012": {
+  "citation": "NCERT Class 12 Physics Ch.14 Semiconductor Electronics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_semiconductor_elec_g013": {
+  "citation": "NCERT Class 12 Physics Ch.14 Semiconductor Electronics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_semiconductor_elec_g014": {
+  "citation": "NCERT Class 12 Physics Ch.14 Semiconductor Electronics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_semiconductor_elec_g015": {
+  "citation": "NCERT Class 12 Physics Ch.14 Semiconductor Electronics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_semiconductor_elec_g016": {
+  "citation": "Boolean algebra; NCERT Class 12 Physics Ch.14",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_semiconductor_elec_g017": {
+  "citation": "NCERT Class 12 Physics Ch.14 Semiconductor Electronics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_semiconductor_elec_g018": {
+  "citation": "NCERT Class 12 Physics Ch.14 Semiconductor Electronics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_units_dimensions_e_g001": {
+  "citation": "NCERT Class 11 Physics, Ch 2 (Units & Measurements); HC Verma Vol 1 Ch 1",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_units_dimensions_e_g002": {
+  "citation": "NCERT Class 11 Physics, Ch 2 (Units & Measurements)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_units_dimensions_e_g003": {
+  "citation": "NCERT Class 11 Physics, Ch 2 (Units & Measurements)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_units_dimensions_e_g004": {
+  "citation": "NCERT Class 11 Physics, Ch 2 (Units & Measurements)",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_units_dimensions_e_g005": {
+  "citation": "NCERT Class 11 Physics, Ch 2 (Units & Measurements); HC Verma Vol 1 Ch 1",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_units_dimensions_e_g006": {
+  "citation": "NCERT Class 11 Physics, Ch 2 (Units & Measurements); HC Verma Vol 1 Ch 1",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_units_dimensions_e_g007": {
+  "citation": "NCERT Class 11 Physics, Ch 2 (Units & Measurements); HC Verma Vol 1 Ch 1",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_units_dimensions_e_g008": {
+  "citation": "NCERT Class 11 Physics, Ch 2 (Units & Measurements); HC Verma Vol 1 Ch 1",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_units_dimensions_e_g009": {
+  "citation": "NCERT Class 11 Physics, Ch 2; Cengage Mechanics Vol 1",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_units_dimensions_e_g010": {
+  "citation": "NCERT Class 11 Physics, Ch 2",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_units_dimensions_e_g011": {
+  "citation": "NCERT Class 11 Physics, Ch 2 (Units & Measurements)",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_units_dimensions_e_g012": {
+  "citation": "NCERT Class 11 Physics, Ch 2; HC Verma Vol 1",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_units_dimensions_e_g013": {
+  "citation": "NCERT Class 11 Physics, Ch 2; HC Verma Vol 1 (Practical Physics)",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_units_dimensions_e_g014": {
+  "citation": "NCERT Class 11 Physics, Ch 2; HC Verma Vol 1",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_units_dimensions_e_g015": {
+  "citation": "NCERT Class 11 Physics, Ch 2 (Units & Measurements)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_units_dimensions_e_g016": {
+  "citation": "NCERT Class 11 Physics, Ch 2 (Units & Measurements)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_units_dimensions_e_g017": {
+  "citation": "NCERT Class 11 Physics, Ch 2 (Units & Measurements)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_units_dimensions_e_g018": {
+  "citation": "NCERT Class 11 Physics, Ch 2 (Units & Measurements)",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_units_dimensions_e_g019": {
+  "citation": "NCERT Class 11 Physics, Ch 2 (Units & Measurements)",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_units_dimensions_e_g020": {
+  "citation": "NCERT Class 11 Physics, Ch 2; HC Verma Vol 1 Ch 1",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_communication_syst_g001": {
+  "citation": "NCERT Physics Class 12, Ch. 15 Communication Systems; HC Verma / Cengage Modern Physics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_communication_syst_g002": {
+  "citation": "NCERT Physics Class 12, Ch. 15; Cengage / DC Pandey Electronics & Communication",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_communication_syst_g003": {
+  "citation": "NCERT Physics Class 12, Ch. 15; Cengage Modern Physics",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_communication_syst_g004": {
+  "citation": "NCERT Physics Class 12, Ch. 15 Communication Systems",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_communication_syst_g005": {
+  "citation": "Cengage / DC Pandey Electronics & Communication; NCERT Ch. 15",
+  "weightage": "high",
+  "generated": true
+ },
+ "phys_communication_syst_g006": {
+  "citation": "Cengage / DC Pandey Electronics & Communication",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_communication_syst_g007": {
+  "citation": "Cengage / DC Pandey Electronics & Communication",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_communication_syst_g008": {
+  "citation": "NCERT Physics Class 12, Ch. 15 Communication Systems",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_communication_syst_g009": {
+  "citation": "NCERT Physics Class 12, Ch. 15 Communication Systems",
+  "weightage": "medium",
+  "generated": true
+ },
+ "phys_communication_syst_g010": {
+  "citation": "NCERT Physics Class 12, Ch. 15 (sky-wave propagation); Cengage Modern Physics",
+  "weightage": "low",
+  "generated": true
+ },
+ "phys_communication_syst_g011": {
+  "citation": "Cengage Modern Physics; standard JEE reference (sky-wave propagation)",
+  "weightage": "low",
+  "generated": true
+ }
+}

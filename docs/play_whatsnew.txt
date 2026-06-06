@@ -1,0 +1,8 @@
+v1.1.0 — Biggest content update yet (thanks to your feedback!)
+
+• 2,300+ new formulas across Physics, Chemistry, Maths & Biology (now 3,500+ total)
+• Built out Mole Concept, Chemical Equilibrium, Elasticity & Thermal Expansion
+• Limits and Continuity & Differentiability expanded and made clearer
+• Cleaner chapter navigation + fixed formula display bugs
+
+Every formula source-checked and verified. High-yield. Fast revision. 🚀

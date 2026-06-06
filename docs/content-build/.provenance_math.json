@@ -1,0 +1,3012 @@
+{
+ "math_continuity_differe_g001": {
+  "citation": "NCERT Class 12 Maths Ch.5 (Continuity & Differentiability); Cengage Calculus",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_continuity_differe_g002": {
+  "citation": "NCERT Class 12 Maths Ch.5; Theorem on differentiability",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_continuity_differe_g003": {
+  "citation": "NCERT Class 12 Maths Ch.5; HC Verma / Cengage Calculus",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_continuity_differe_g004": {
+  "citation": "NCERT Class 12 Maths Ch.5 (Algebra of continuous functions)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_continuity_differe_g005": {
+  "citation": "NCERT Class 12 Maths Ch.5 (Derivatives of inverse trig functions)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_continuity_differe_g006": {
+  "citation": "NCERT Class 12 Maths Ch.5 (Derivatives of standard functions)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_continuity_differe_g007": {
+  "citation": "NCERT Class 12 Maths Ch.5; Cengage Calculus (Inverse function theorem)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_continuity_differe_g008": {
+  "citation": "Cengage Calculus / TMH; JEE Advanced standard result",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_continuity_differe_g009": {
+  "citation": "Cengage / Arihant Differential Calculus (Leibniz theorem)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_continuity_differe_g010": {
+  "citation": "Cengage / TMH Calculus; JEE Advanced standard result",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_continuity_differe_g011": {
+  "citation": "Cengage Calculus / Arihant; Cauchy's MVT",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_continuity_differe_g012": {
+  "citation": "Cengage / Arihant Differential Calculus (standard problem)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_continuity_differe_g013": {
+  "citation": "NCERT Class 11 Maths Ch.13 (Limits & Derivatives); Class 12 Ch.5",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_continuity_differe_g014": {
+  "citation": "NCERT Class 12 Maths Ch.5; Cengage (inverse trig substitution)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_continuity_differe_g015": {
+  "citation": "NCERT Class 12 Maths Ch.5 (Continuity of composite functions)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_limits_g001": {
+  "citation": "NCERT Class 11 Ch.13 Limits & Derivatives; Cengage Calculus (Limits)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_limits_g002": {
+  "citation": "NCERT Class 11 Ch.13; HC Verma-style standard limits / Cengage",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_limits_g003": {
+  "citation": "NCERT Class 11 Ch.13; JEE Cengage Algebra of Limits",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_limits_g004": {
+  "citation": "NCERT Class 11 Ch.13; Cengage Calculus (Definition of e)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_limits_g005": {
+  "citation": "Cengage / Arihand Calculus, Indeterminate Forms; NCERT Class 11 Ch.13",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_limits_g006": {
+  "citation": "Cengage Calculus (L'Hopital); JEE Advanced standard tool",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_limits_g007": {
+  "citation": "NCERT Class 11 Ch.13 Limits; Cengage Calculus",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_limits_g008": {
+  "citation": "NCERT Class 11 Ch.13; Cengage Calculus (Limits at infinity)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_limits_g009": {
+  "citation": "NCERT Class 11 Binomial Theorem; Cengage Series Expansions",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_limits_g010": {
+  "citation": "Cengage / Arihand Series Expansions; standard JEE result",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_limits_g011": {
+  "citation": "Cengage / Arihand Series Expansions; standard JEE result",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_limits_g012": {
+  "citation": "NCERT Class 11 Ch.13; Cengage Series Expansions",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_limits_g013": {
+  "citation": "NCERT Class 11 Ch.13 Limits & Derivatives",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_limits_g014": {
+  "citation": "NCERT Class 11 Ch.13 Limits & Derivatives",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_limits_g015": {
+  "citation": "Cengage Calculus (Indeterminate \\(0\\cdot\\infty\\)); JEE Advanced standard",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_limits_g016": {
+  "citation": "Cengage Calculus (Limits at infinity); JEE Advanced standard",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_limits_g017": {
+  "citation": "NCERT Class 11 Ch.13; Cengage (special case of \\(x^n-a^n\\) rule)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_3d_geometry_g001": {
+  "citation": "NCERT Class 12 Maths Ch 11 (Three Dimensional Geometry); Cengage Vectors & 3D Geometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_3d_geometry_g002": {
+  "citation": "NCERT Class 12 Maths Ch 11 (Three Dimensional Geometry)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_3d_geometry_g003": {
+  "citation": "Cengage Vectors & 3D Geometry; SL Loney Coordinate Geometry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_3d_geometry_g004": {
+  "citation": "NCERT Class 12 Maths Ch 11 (Three Dimensional Geometry)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_3d_geometry_g005": {
+  "citation": "NCERT Class 12 Maths Ch 11; Cengage Vectors & 3D Geometry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_3d_geometry_g006": {
+  "citation": "NCERT Class 12 Maths Ch 11 (Three Dimensional Geometry)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_3d_geometry_g007": {
+  "citation": "Cengage Vectors & 3D Geometry; SL Loney",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_3d_geometry_g008": {
+  "citation": "NCERT Class 12 Maths Ch 11 (Three Dimensional Geometry)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_3d_geometry_g009": {
+  "citation": "NCERT Class 12 Maths Ch 11 (Three Dimensional Geometry)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_3d_geometry_g010": {
+  "citation": "NCERT Class 12 Maths Ch 11 (Three Dimensional Geometry)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_3d_geometry_g011": {
+  "citation": "NCERT Class 12 Maths Ch 11 (Three Dimensional Geometry)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_3d_geometry_g012": {
+  "citation": "NCERT Class 12 Maths Ch 11 (Three Dimensional Geometry)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_3d_geometry_g013": {
+  "citation": "NCERT Class 12 Maths Ch 11 (Three Dimensional Geometry); Cengage",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_3d_geometry_g014": {
+  "citation": "Cengage Vectors & 3D Geometry; SK Goyal Algebra/Vectors",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_3d_geometry_g015": {
+  "citation": "NCERT Class 12 Maths Ch 11 (Three Dimensional Geometry)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_3d_geometry_g016": {
+  "citation": "Cengage Vectors & 3D Geometry; SK Goyal",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_3d_geometry_g017": {
+  "citation": "NCERT Class 12 Maths Ch 11; Cengage Vectors & 3D Geometry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_3d_geometry_g018": {
+  "citation": "NCERT Class 12 Maths Ch 11 (Three Dimensional Geometry)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_3d_geometry_g019": {
+  "citation": "Cengage Vectors & 3D Geometry; SK Goyal",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_3d_geometry_g020": {
+  "citation": "Cengage Vectors & 3D Geometry; SL Loney (sphere analogue)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_3d_geometry_g021": {
+  "citation": "Cengage Vectors & 3D Geometry; SK Goyal",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_applications_of_de_g001": {
+  "citation": "NCERT Class 12 Maths Ch 6 (Application of Derivatives); Cengage Calculus",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_applications_of_de_g002": {
+  "citation": "NCERT Class 12 Maths Ch 6; Cengage Calculus",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_applications_of_de_g003": {
+  "citation": "NCERT Class 12 Maths Ch 6; HC Verma / Cengage",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_applications_of_de_g004": {
+  "citation": "Cengage / Arihant Skills in Mathematics (Differential Calculus)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_applications_of_de_g005": {
+  "citation": "Cengage / Arihant Skills in Mathematics (Differential Calculus)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_applications_of_de_g006": {
+  "citation": "NCERT Class 12 Maths Ch 5/6; Cengage Calculus",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_applications_of_de_g007": {
+  "citation": "NCERT Class 12 Maths Ch 6; Cengage Calculus",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_applications_of_de_g008": {
+  "citation": "NCERT Class 12 Maths Ch 6; Cengage Calculus",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_applications_of_de_g009": {
+  "citation": "Cengage Calculus; Arihant Skills in Mathematics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_applications_of_de_g010": {
+  "citation": "NCERT Class 12 Maths Ch 6; Cengage Calculus",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_applications_of_de_g011": {
+  "citation": "NCERT Class 12 Maths Ch 6 (Maxima and Minima)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_applications_of_de_g012": {
+  "citation": "NCERT Class 12 Maths Ch 5; Cengage Calculus",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_applications_of_de_g013": {
+  "citation": "NCERT Class 12 Maths Ch 5 (MVT); Cengage Calculus",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_applications_of_de_g014": {
+  "citation": "NCERT Class 12 Maths Ch 6 (Approximations)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_applications_of_de_g015": {
+  "citation": "NCERT Class 12 Maths Ch 6 (Rate of Change)",
+  "weightage": "low",
+  "generated": true
+ },
+ "math_applications_of_de_g016": {
+  "citation": "Cengage Calculus; Arihant Skills in Mathematics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_applications_of_de_g017": {
+  "citation": "NCERT Class 12 Maths Ch 6; Cengage Calculus",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_applications_of_de_g018": {
+  "citation": "Cengage Algebra/Calculus; Arihant Skills in Mathematics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_binomial_theorem_g001": {
+  "citation": "NCERT Class 11 Maths Ch.8 (Binomial Theorem); Cengage Algebra",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_binomial_theorem_g002": {
+  "citation": "NCERT Class 11 Maths Ch.8; HC Verma / Cengage Algebra",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_binomial_theorem_g003": {
+  "citation": "NCERT Class 11 Maths Ch.8; Cengage Algebra",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_binomial_theorem_g004": {
+  "citation": "Cengage Algebra (Binomial Theorem); Arihant Skills in Maths",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_binomial_theorem_g005": {
+  "citation": "NCERT Class 11 Maths Ch.7-8; Cengage Algebra",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_binomial_theorem_g006": {
+  "citation": "NCERT Class 11 Maths Ch.8; Cengage Algebra",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_binomial_theorem_g007": {
+  "citation": "NCERT Class 11 Maths Ch.8; HC Verma / Cengage Algebra",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_binomial_theorem_g008": {
+  "citation": "NCERT Class 11 Maths Ch.8; Cengage Algebra",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_binomial_theorem_g009": {
+  "citation": "Cengage Algebra; Arihant Skills in Maths (Binomial)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_binomial_theorem_g010": {
+  "citation": "Cengage Algebra; Arihant Skills in Maths (Binomial)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_binomial_theorem_g011": {
+  "citation": "Cengage Algebra; TMH Course in Mathematics (JEE)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_binomial_theorem_g012": {
+  "citation": "Cengage Algebra; TMH Course in Mathematics (JEE)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_binomial_theorem_g013": {
+  "citation": "NCERT Class 11 Maths Ch.8 (Appendix); Cengage Algebra",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_binomial_theorem_g014": {
+  "citation": "Cengage Algebra; Arihant Skills in Maths (Binomial)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_binomial_theorem_g015": {
+  "citation": "Cengage Algebra (Multinomial); Arihant Skills in Maths",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_binomial_theorem_g016": {
+  "citation": "Cengage Algebra; Arihant Skills in Maths (Binomial)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_binomial_theorem_g017": {
+  "citation": "Cengage Algebra; Arihant Skills in Maths (Binomial applications)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_binomial_theorem_g018": {
+  "citation": "Cengage Algebra; Arihant Skills in Maths (Binomial applications)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_circles_g001": {
+  "citation": "NCERT Class 11, Ch 11 (Conic Sections); SL Loney Coordinate Geometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_circles_g002": {
+  "citation": "NCERT Class 11, Ch 11; SL Loney Coordinate Geometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_circles_g003": {
+  "citation": "Cengage Coordinate Geometry (G. Tewani); SL Loney",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_circles_g004": {
+  "citation": "NCERT Class 11, Ch 11; Cengage Coordinate Geometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_circles_g005": {
+  "citation": "NCERT Class 11, Ch 11; SL Loney Coordinate Geometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_circles_g006": {
+  "citation": "Cengage Coordinate Geometry (G. Tewani); SL Loney",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_circles_g007": {
+  "citation": "Cengage Coordinate Geometry (G. Tewani); SL Loney",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_circles_g008": {
+  "citation": "Cengage Coordinate Geometry (G. Tewani)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_circles_g009": {
+  "citation": "Cengage Coordinate Geometry (G. Tewani); SL Loney",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_circles_g010": {
+  "citation": "Cengage Coordinate Geometry (G. Tewani); SL Loney",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_circles_g011": {
+  "citation": "Cengage Coordinate Geometry (G. Tewani)",
+  "weightage": "low",
+  "generated": true
+ },
+ "math_circles_g012": {
+  "citation": "NCERT Class 11, Ch 11; Cengage Coordinate Geometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_circles_g013": {
+  "citation": "Cengage Coordinate Geometry (G. Tewani)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_circles_g014": {
+  "citation": "SL Loney Coordinate Geometry; Cengage",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_circles_g015": {
+  "citation": "Cengage Coordinate Geometry (G. Tewani); SL Loney",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_circles_g016": {
+  "citation": "Cengage Coordinate Geometry (G. Tewani)",
+  "weightage": "low",
+  "generated": true
+ },
+ "math_circles_g017": {
+  "citation": "SL Loney Coordinate Geometry; Cengage",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_circles_g018": {
+  "citation": "SL Loney Coordinate Geometry; Cengage Coordinate Geometry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_circles_g019": {
+  "citation": "SL Loney Coordinate Geometry; Cengage",
+  "weightage": "low",
+  "generated": true
+ },
+ "math_complex_numbers_g001": {
+  "citation": "NCERT Class 11 Ch.5 Complex Numbers; Cengage Algebra (G. Tewani)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_complex_numbers_g002": {
+  "citation": "NCERT Class 11 Ch.5; HC Verma / Cengage Algebra (G. Tewani)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_complex_numbers_g003": {
+  "citation": "NCERT Class 11 Ch.5; Cengage Algebra (G. Tewani)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_complex_numbers_g004": {
+  "citation": "Cengage Algebra (G. Tewani); Hall & Knight Higher Algebra",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_complex_numbers_g005": {
+  "citation": "NCERT Class 11 Ch.5; Cengage Algebra (G. Tewani)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_complex_numbers_g006": {
+  "citation": "NCERT Class 11 Ch.5; De Moivre extension, Cengage Algebra",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_complex_numbers_g007": {
+  "citation": "NCERT Class 11 Ch.5; JEE standard (Cengage / Arihant)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_complex_numbers_g008": {
+  "citation": "Cengage Algebra (G. Tewani); JEE Advanced standard result",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_complex_numbers_g009": {
+  "citation": "Cengage Algebra (G. Tewani); JEE coordinate-geometry analogy",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_complex_numbers_g010": {
+  "citation": "Cengage Algebra (G. Tewani); rotation-angle standard form",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_complex_numbers_g011": {
+  "citation": "Cengage Algebra (G. Tewani); JEE Advanced classic",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_complex_numbers_g012": {
+  "citation": "Cengage Algebra (G. Tewani); coordinate-geometry diameter form",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_complex_numbers_g013": {
+  "citation": "Cengage Algebra (G. Tewani); JEE Advanced standard",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_complex_numbers_g014": {
+  "citation": "Cengage Algebra (G. Tewani); JEE Advanced locus problems",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_complex_numbers_g015": {
+  "citation": "Cengage Algebra (G. Tewani); JEE Advanced locus standard",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_complex_numbers_g016": {
+  "citation": "NCERT Class 11 Ch.5; Argand plane geometry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_complex_numbers_g017": {
+  "citation": "NCERT Class 11 Ch.5 Complex Numbers",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_complex_numbers_g018": {
+  "citation": "NCERT Class 11 Ch.5; Cengage Algebra (G. Tewani)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_complex_numbers_g019": {
+  "citation": "NCERT Class 11 Ch.5 (section formula extension); Cengage Algebra",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_complex_numbers_g020": {
+  "citation": "Cengage Algebra (G. Tewani); JEE Advanced rotation standard",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_complex_numbers_g021": {
+  "citation": "NCERT Class 11 Ch.5; Cengage Algebra (G. Tewani)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_complex_numbers_g022": {
+  "citation": "Cengage Algebra (G. Tewani); JEE Advanced inequality standard",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_complex_numbers_g023": {
+  "citation": "Cengage Algebra (G. Tewani); JEE Main/Advanced optimization standard",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_definite_integrati_g001": {
+  "citation": "NCERT Class 12 Maths, Ch 7 Integrals (Property P7); Cengage Calculus (Definite Integration)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_definite_integrati_g002": {
+  "citation": "NCERT Class 12 Maths, Ch 7 Integrals; HC Verma / Cengage Definite Integration",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_definite_integrati_g003": {
+  "citation": "NCERT Class 12 Maths, Ch 7 Integrals (Property P8); Cengage Definite Integration",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_definite_integrati_g004": {
+  "citation": "NCERT Class 12 Maths, Ch 7; Thomas Calculus / Cengage",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_definite_integrati_g005": {
+  "citation": "Cengage Calculus (Definite Integration); Thomas Calculus",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_definite_integrati_g006": {
+  "citation": "Cengage Calculus; Thomas Calculus (Definite Integration)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_definite_integrati_g007": {
+  "citation": "Cengage Definite Integration; Arihant Integral Calculus",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_definite_integrati_g008": {
+  "citation": "Cengage Definite Integration (King's Property application); Arihant Integral Calculus",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_definite_integrati_g009": {
+  "citation": "Cengage Definite Integration; Arihant Integral Calculus (King's Property)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_definite_integrati_g010": {
+  "citation": "Cengage Definite Integration; Arihant Integral Calculus",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_definite_integrati_g011": {
+  "citation": "NCERT Class 12 Maths, Ch 7 Integrals (Second FTC)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_definite_integrati_g012": {
+  "citation": "NCERT Class 12 Maths, Ch 7 Integrals (First FTC)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_definite_integrati_g013": {
+  "citation": "NCERT Class 12 Maths, Ch 8 Application of Integrals",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_definite_integrati_g014": {
+  "citation": "NCERT Class 12 Maths, Ch 8 Application of Integrals",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_definite_integrati_g015": {
+  "citation": "NCERT Class 12 Maths, Ch 8 Application of Integrals",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_definite_integrati_g016": {
+  "citation": "NCERT Class 12 Maths, Ch 8 Application of Integrals",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_definite_integrati_g017": {
+  "citation": "NCERT Class 12 Maths, Ch 7; Thomas Calculus (Mean Value Theorem for Integrals)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_definite_integrati_g018": {
+  "citation": "Cengage Definite Integration; Arihant Integral Calculus",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_definite_integrati_g019": {
+  "citation": "Cengage Definite Integration; Arihant Integral Calculus",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_definite_integrati_g020": {
+  "citation": "Cengage Definite Integration (King's Property corollary); Arihant Integral Calculus",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_definite_integrati_g021": {
+  "citation": "Arihant Skills in Mathematics (Integral Calculus); Cengage Definite Integration",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_definite_integrati_g022": {
+  "citation": "Arihant Integral Calculus; Cengage Definite Integration",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_determinants_g001": {
+  "citation": "NCERT Class 12 Maths Ch.4 Determinants, §4.2; Cengage Algebra (Matrices & Determinants)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_determinants_g002": {
+  "citation": "NCERT Class 12 Maths Ch.4 Determinants, §4.4–4.5",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_determinants_g003": {
+  "citation": "Cengage Algebra (Matrices & Determinants); TMH Hall & Knight",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_determinants_g004": {
+  "citation": "NCERT Class 12 Maths Ch.4 Determinants, §4.3 (Properties P-1, P-2)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_determinants_g005": {
+  "citation": "NCERT Class 12 Maths Ch.4 Determinants, §4.3 (Properties P-3, P-4)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_determinants_g006": {
+  "citation": "NCERT Class 12 Maths Ch.4 Determinants, §4.3 (Property P-5)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_determinants_g007": {
+  "citation": "NCERT Class 12 Maths Ch.4 Determinants, §4.3 (Property P-7)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_determinants_g008": {
+  "citation": "NCERT Class 12 Maths Ch.4 Determinants, §4.3 (Property P-6)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_determinants_g009": {
+  "citation": "NCERT Class 12 Maths Ch.4 Determinants, §4.3; Cengage Algebra",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_determinants_g010": {
+  "citation": "NCERT Class 12 Maths Ch.4 Determinants; JEE Advanced standard result",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_determinants_g011": {
+  "citation": "Cengage Algebra (Matrices & Determinants); JEE Main standard",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_determinants_g012": {
+  "citation": "NCERT Class 12 Maths Ch.4 Determinants, §4.6",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_determinants_g013": {
+  "citation": "Cengage Algebra (Matrices & Determinants); JEE Advanced standard result",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_determinants_g014": {
+  "citation": "Cengage Algebra (Matrices & Determinants)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_determinants_g015": {
+  "citation": "NCERT Class 12 Maths Ch.4 Determinants; Cengage Algebra",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_determinants_g016": {
+  "citation": "Cengage Algebra (Matrices & Determinants); JEE Advanced standard",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_determinants_g017": {
+  "citation": "NCERT Class 12 Maths Ch.4 Determinants, §4.7",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_determinants_g018": {
+  "citation": "NCERT Class 12 Maths Ch.4 Determinants, §4.7",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_determinants_g019": {
+  "citation": "Cengage Algebra (Matrices & Determinants); TMH",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_determinants_g020": {
+  "citation": "Cengage Algebra (Matrices & Determinants); SL Loney / TMH",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_determinants_g021": {
+  "citation": "NCERT Class 12 Maths Ch.4 Determinants, §4.8; Cengage Algebra",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_determinants_g022": {
+  "citation": "NCERT Class 12 Maths Ch.4 Determinants, §4.6",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_determinants_g023": {
+  "citation": "Cengage Calculus / Algebra; JEE Advanced standard result",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_differential_equat_g001": {
+  "citation": "NCERT Class 12 Maths Ch-9 Differential Equations; Cengage (G. Tewani)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_differential_equat_g002": {
+  "citation": "NCERT Class 12 Maths Ch-9; Cengage (G. Tewani)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_differential_equat_g003": {
+  "citation": "Cengage (G. Tewani); Arihant Skills in Mathematics (Amit M. Agarwal)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_differential_equat_g004": {
+  "citation": "NCERT Class 12 Maths Ch-9; HC Verma style standard result",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_differential_equat_g005": {
+  "citation": "Cengage (G. Tewani); Arihant (Amit M. Agarwal)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_differential_equat_g006": {
+  "citation": "Cengage (G. Tewani); Arihant Differential Equations (Amit M. Agarwal)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_differential_equat_g007": {
+  "citation": "Cengage (G. Tewani); Arihant (Amit M. Agarwal)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_differential_equat_g008": {
+  "citation": "Cengage (G. Tewani); Arihant (Amit M. Agarwal)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_differential_equat_g009": {
+  "citation": "Cengage (G. Tewani); Arihant Skills in Mathematics (Amit M. Agarwal)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_differential_equat_g010": {
+  "citation": "NCERT Class 12 Maths Ch-9 Differential Equations",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_differential_equat_g011": {
+  "citation": "NCERT Class 12 Maths Ch-9 Differential Equations",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_differential_equat_g012": {
+  "citation": "NCERT Class 12 Maths Ch-9; Cengage (G. Tewani)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_differential_equat_g013": {
+  "citation": "Cengage (G. Tewani); Arihant (Amit M. Agarwal)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_differential_equat_g014": {
+  "citation": "NCERT Class 12 Maths Ch-9 (applications); Cengage (G. Tewani)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_differential_equat_g015": {
+  "citation": "Cengage (G. Tewani); Arihant Skills in Mathematics (Amit M. Agarwal)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_ellipse_g001": {
+  "citation": "NCERT Class 11 Maths Ch 11 Conic Sections; Cengage Coordinate Geometry (G. Tewani)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_ellipse_g002": {
+  "citation": "NCERT Class 11 Maths Ch 11 Conic Sections; SL Loney The Elements of Coordinate Geometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_ellipse_g003": {
+  "citation": "NCERT Class 11 Maths Ch 11 Conic Sections; SL Loney Coordinate Geometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_ellipse_g004": {
+  "citation": "NCERT Class 11 Maths Ch 11 Conic Sections; Cengage Coordinate Geometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_ellipse_g005": {
+  "citation": "Cengage Coordinate Geometry (G. Tewani); SK Goyal Algebra/Coordinate Geometry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_ellipse_g006": {
+  "citation": "Cengage Coordinate Geometry (G. Tewani); SL Loney Coordinate Geometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_ellipse_g007": {
+  "citation": "Cengage Coordinate Geometry (G. Tewani); SK Goyal Coordinate Geometry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_ellipse_g008": {
+  "citation": "NCERT Class 11 Maths Ch 11; Cengage Coordinate Geometry (G. Tewani)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_ellipse_g009": {
+  "citation": "Cengage Coordinate Geometry (G. Tewani); SL Loney Coordinate Geometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_ellipse_g010": {
+  "citation": "Cengage Coordinate Geometry (G. Tewani); SK Goyal Coordinate Geometry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_ellipse_g011": {
+  "citation": "Cengage Coordinate Geometry (G. Tewani); SK Goyal Coordinate Geometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_ellipse_g012": {
+  "citation": "SL Loney Coordinate Geometry; Cengage Coordinate Geometry (G. Tewani)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_ellipse_g013": {
+  "citation": "Cengage Coordinate Geometry (G. Tewani); SK Goyal Coordinate Geometry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_ellipse_g014": {
+  "citation": "NCERT Class 11 Maths Ch 11 Conic Sections; SL Loney Coordinate Geometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_ellipse_g015": {
+  "citation": "NCERT Class 11 Maths Ch 11; Cengage Coordinate Geometry (G. Tewani)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_ellipse_g016": {
+  "citation": "NCERT Class 11 Maths Ch 11 Conic Sections; Cengage Coordinate Geometry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_ellipse_g017": {
+  "citation": "NCERT Class 11 Maths Ch 11 Conic Sections; SK Goyal Coordinate Geometry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_ellipse_g018": {
+  "citation": "NCERT Class 11 Maths Ch 11 Conic Sections; Cengage Coordinate Geometry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_hyperbola_g001": {
+  "citation": "NCERT Class 11, Ch.11 Conic Sections; SL Loney / Cengage Coordinate Geometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_hyperbola_g002": {
+  "citation": "NCERT Class 11, Ch.11 Conic Sections; SL Loney Coordinate Geometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_hyperbola_g003": {
+  "citation": "NCERT Class 11, Ch.11 Conic Sections; HC Verma / Cengage Coordinate Geometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_hyperbola_g004": {
+  "citation": "NCERT Class 11, Ch.11; SL Loney / Cengage Coordinate Geometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_hyperbola_g005": {
+  "citation": "NCERT Class 11, Ch.11 Conic Sections; SL Loney Coordinate Geometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_hyperbola_g006": {
+  "citation": "Cengage Coordinate Geometry; SL Loney",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_hyperbola_g007": {
+  "citation": "SL Loney / Cengage Coordinate Geometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_hyperbola_g008": {
+  "citation": "NCERT Class 11, Ch.11; SL Loney Coordinate Geometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_hyperbola_g009": {
+  "citation": "SL Loney / Cengage Coordinate Geometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_hyperbola_g010": {
+  "citation": "SL Loney / Cengage Coordinate Geometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_hyperbola_g011": {
+  "citation": "SL Loney / Cengage Coordinate Geometry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_hyperbola_g012": {
+  "citation": "Cengage Coordinate Geometry; SL Loney",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_hyperbola_g013": {
+  "citation": "Cengage Coordinate Geometry; SL Loney",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_hyperbola_g014": {
+  "citation": "SL Loney / Cengage Coordinate Geometry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_hyperbola_g015": {
+  "citation": "Cengage Coordinate Geometry; SL Loney",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_hyperbola_g016": {
+  "citation": "SL Loney / Cengage Coordinate Geometry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_hyperbola_g017": {
+  "citation": "SL Loney / Cengage Coordinate Geometry",
+  "weightage": "low",
+  "generated": true
+ },
+ "math_hyperbola_g018": {
+  "citation": "Cengage Coordinate Geometry; SL Loney",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_hyperbola_g019": {
+  "citation": "SL Loney / Cengage Coordinate Geometry",
+  "weightage": "low",
+  "generated": true
+ },
+ "math_indefinite_integra_g001": {
+  "citation": "NCERT Class 12 Maths Ch.7 (Integrals); Cengage Calculus (G. Tewani)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_indefinite_integra_g002": {
+  "citation": "NCERT Class 12 Maths Ch.7 (Integrals)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_indefinite_integra_g003": {
+  "citation": "NCERT Class 12 Maths Ch.7 (Integrals)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_indefinite_integra_g004": {
+  "citation": "Cengage Calculus (G. Tewani); NCERT Class 12 Maths Ch.7",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_indefinite_integra_g005": {
+  "citation": "NCERT Class 12 Maths Ch.7 (Integrals)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_indefinite_integra_g006": {
+  "citation": "NCERT Class 12 Maths Ch.7 (Integrals)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_indefinite_integra_g007": {
+  "citation": "NCERT Class 12 Maths Ch.7 (Integrals)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_indefinite_integra_g008": {
+  "citation": "NCERT Class 12 Maths Ch.7 (Integrals)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_indefinite_integra_g009": {
+  "citation": "NCERT Class 12 Maths Ch.7 (Integrals)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_indefinite_integra_g010": {
+  "citation": "NCERT Class 12 Maths Ch.7 (Integrals)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_indefinite_integra_g011": {
+  "citation": "NCERT Class 12 Maths Ch.7 (Integrals)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_indefinite_integra_g012": {
+  "citation": "NCERT Class 12 Maths Ch.7 (Integrals); Cengage Calculus (G. Tewani)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_indefinite_integra_g013": {
+  "citation": "NCERT Class 12 Maths Ch.7 (Integrals); Cengage Calculus (G. Tewani)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_indefinite_integra_g014": {
+  "citation": "NCERT Class 12 Maths Ch.7 (Integrals); Cengage Calculus (G. Tewani)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_indefinite_integra_g015": {
+  "citation": "Cengage Calculus (G. Tewani); Arihant Skills in Mathematics (Integral Calculus)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_indefinite_integra_g016": {
+  "citation": "Cengage Calculus (G. Tewani)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_indefinite_integra_g017": {
+  "citation": "Cengage Calculus (G. Tewani); Arihant Skills in Mathematics (Integral Calculus)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_indefinite_integra_g018": {
+  "citation": "Cengage Calculus (G. Tewani); Arihant Skills in Mathematics (Integral Calculus)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_indefinite_integra_g019": {
+  "citation": "Cengage Calculus (G. Tewani); Arihant Skills in Mathematics (Integral Calculus)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_indefinite_integra_g020": {
+  "citation": "Cengage Calculus (G. Tewani); Arihant Skills in Mathematics (Integral Calculus)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_indefinite_integra_g021": {
+  "citation": "Cengage Calculus (G. Tewani); Arihant Skills in Mathematics (Integral Calculus)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_indefinite_integra_g022": {
+  "citation": "Cengage Calculus (G. Tewani); Arihant Skills in Mathematics (Integral Calculus)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_indefinite_integra_g023": {
+  "citation": "NCERT Class 12 Maths Ch.7 (Integrals); Cengage Calculus (G. Tewani)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_indefinite_integra_g024": {
+  "citation": "NCERT Class 12 Maths Ch.7 (Integrals)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_indefinite_integra_g025": {
+  "citation": "NCERT Class 12 Maths Ch.7 (Integrals); Cengage Calculus (G. Tewani)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_indefinite_integra_g026": {
+  "citation": "Arihant Skills in Mathematics (Integral Calculus); Cengage Calculus (G. Tewani)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_indefinite_integra_g027": {
+  "citation": "Arihant Skills in Mathematics (Integral Calculus); Cengage Calculus (G. Tewani)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_indefinite_integra_g028": {
+  "citation": "Cengage Calculus (G. Tewani); Arihant Skills in Mathematics (Integral Calculus)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_indefinite_integra_g029": {
+  "citation": "Cengage Calculus (G. Tewani); Arihant Skills in Mathematics (Integral Calculus)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_indefinite_integra_g030": {
+  "citation": "NCERT Class 12 Maths Ch.7 (Integrals)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_indefinite_integra_g031": {
+  "citation": "NCERT Class 12 Maths Ch.7 (Integrals)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_indefinite_integra_g032": {
+  "citation": "NCERT Class 11 Maths Ch.3 (Trigonometric Functions); Cengage Calculus (G. Tewani)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_indefinite_integra_g033": {
+  "citation": "NCERT Class 11 Maths Ch.3 (Trigonometric Functions); Cengage Calculus (G. Tewani)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_indefinite_integra_g034": {
+  "citation": "Arihant Skills in Mathematics (Integral Calculus); Cengage Calculus (G. Tewani)",
+  "weightage": "low",
+  "generated": true
+ },
+ "math_inverse_trigonomet_g001": {
+  "citation": "NCERT Class 12 Maths Ch.2 (Properties of ITF)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_inverse_trigonomet_g002": {
+  "citation": "NCERT Class 12 Maths Ch.2 (Properties of ITF)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_inverse_trigonomet_g003": {
+  "citation": "NCERT Class 12 Maths Ch.2; HC Verma / Cengage (branch corrections)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_inverse_trigonomet_g004": {
+  "citation": "NCERT Class 12 Maths Ch.2 (Properties of ITF)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_inverse_trigonomet_g005": {
+  "citation": "NCERT Class 12 Maths Ch.2; Cengage Trigonometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_inverse_trigonomet_g006": {
+  "citation": "NCERT Class 12 Maths Ch.2; Cengage Trigonometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_inverse_trigonomet_g007": {
+  "citation": "NCERT Class 12 Maths Ch.2; Cengage Trigonometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_inverse_trigonomet_g008": {
+  "citation": "NCERT Class 12 Maths Ch.2; Cengage Trigonometry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_inverse_trigonomet_g009": {
+  "citation": "NCERT Class 12 Maths Ch.2; Cengage Trigonometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_inverse_trigonomet_g010": {
+  "citation": "NCERT Class 12 Maths Ch.2; Cengage Trigonometry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_inverse_trigonomet_g011": {
+  "citation": "NCERT Class 12 Maths Ch.2; Cengage Trigonometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_inverse_trigonomet_g012": {
+  "citation": "NCERT Class 12 Maths Ch.2; HC Verma / Cengage",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_inverse_trigonomet_g013": {
+  "citation": "NCERT Class 12 Maths Ch.2 (Principal value cautions)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_inverse_trigonomet_g014": {
+  "citation": "NCERT Class 12 Maths Ch.2; Cengage (graphs of ITF compositions)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_inverse_trigonomet_g015": {
+  "citation": "NCERT Class 12 Maths Ch.5 (Continuity & Differentiability)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_inverse_trigonomet_g016": {
+  "citation": "NCERT Class 12 Maths Ch.2; Cengage Trigonometry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_matrices_g001": {
+  "citation": "NCERT Class 12 Maths Ch.3 (Matrices); Cengage Algebra",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_matrices_g002": {
+  "citation": "NCERT Class 12 Maths Ch.3 (Matrices)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_matrices_g003": {
+  "citation": "NCERT Class 12 Maths Ch.3 (Matrices)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_matrices_g004": {
+  "citation": "NCERT Class 12 Maths Ch.3 (Matrices)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_matrices_g005": {
+  "citation": "NCERT Class 12 Maths Ch.4 (Determinants); Cengage",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_matrices_g006": {
+  "citation": "NCERT Class 12 Maths Ch.4 (Determinants)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_matrices_g007": {
+  "citation": "NCERT Class 12 Maths Ch.4 (Determinants)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_matrices_g008": {
+  "citation": "Cengage Algebra; TMH JEE Mathematics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_matrices_g009": {
+  "citation": "Cengage Algebra; TMH JEE Mathematics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_matrices_g010": {
+  "citation": "NCERT Class 12 Maths Ch.4 (Determinants)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_matrices_g011": {
+  "citation": "NCERT Class 12 Maths Ch.4 (Determinants)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_matrices_g012": {
+  "citation": "NCERT Class 12 Maths Ch.4 (Determinants); Cengage",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_matrices_g013": {
+  "citation": "NCERT Class 12 Maths Ch.4 (Determinants); Cengage",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_matrices_g014": {
+  "citation": "NCERT Class 12 Maths Ch.4 (Determinants)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_matrices_g015": {
+  "citation": "Cengage Algebra; TMH JEE Mathematics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_matrices_g016": {
+  "citation": "NCERT Class 12 Maths Ch.4 (Determinants)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_matrices_g017": {
+  "citation": "Cengage Algebra; TMH JEE Mathematics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_parabola_g001": {
+  "citation": "NCERT Class 11 Ch.11 Conic Sections; Cengage Coordinate Geometry (Parabola)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_parabola_g002": {
+  "citation": "NCERT Class 11 Ch.11 Conic Sections; SL Loney Coordinate Geometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_parabola_g003": {
+  "citation": "NCERT Class 11 Ch.11; SL Loney Coordinate Geometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_parabola_g004": {
+  "citation": "NCERT Class 11 Ch.11; Cengage Coordinate Geometry (Parabola)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_parabola_g005": {
+  "citation": "Cengage Coordinate Geometry (Parabola); SL Loney",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_parabola_g006": {
+  "citation": "Cengage Coordinate Geometry (Parabola); SL Loney",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_parabola_g007": {
+  "citation": "SL Loney Coordinate Geometry; Cengage (Parabola)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_parabola_g008": {
+  "citation": "Cengage Coordinate Geometry (Parabola); SL Loney",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_parabola_g009": {
+  "citation": "Cengage Coordinate Geometry (Parabola); SL Loney",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_parabola_g010": {
+  "citation": "NCERT Class 11 Ch.11; SL Loney Coordinate Geometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_parabola_g011": {
+  "citation": "Cengage Coordinate Geometry (Parabola); SL Loney",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_parabola_g012": {
+  "citation": "Cengage Coordinate Geometry (Parabola); SL Loney",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_parabola_g013": {
+  "citation": "Cengage Coordinate Geometry (Parabola); SL Loney",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_parabola_g014": {
+  "citation": "Cengage Coordinate Geometry (Parabola); SL Loney",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_parabola_g015": {
+  "citation": "Cengage Coordinate Geometry (Parabola); SL Loney",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_parabola_g016": {
+  "citation": "Cengage Coordinate Geometry (Parabola); SL Loney",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_parabola_g017": {
+  "citation": "Cengage Coordinate Geometry (Parabola); SL Loney",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_parabola_g018": {
+  "citation": "SL Loney Coordinate Geometry; Cengage (Parabola)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_parabola_g019": {
+  "citation": "Cengage Coordinate Geometry (Parabola); SL Loney",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_parabola_g020": {
+  "citation": "NCERT Class 11 Ch.11 Conic Sections; Cengage (Parabola)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_parabola_g021": {
+  "citation": "SL Loney Coordinate Geometry; Cengage (Parabola)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_parabola_g022": {
+  "citation": "Cengage Coordinate Geometry (Parabola); SL Loney",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_permutations_combi_g001": {
+  "citation": "NCERT Class 11 Ch.7 (Permutations & Combinations); Cengage Algebra (G. Tewani)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_permutations_combi_g002": {
+  "citation": "NCERT Class 11 Ch.7 (Permutations & Combinations); Cengage Algebra (G. Tewani)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_permutations_combi_g003": {
+  "citation": "NCERT Class 11 Ch.7; HC Verma / Cengage Algebra (G. Tewani)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_permutations_combi_g004": {
+  "citation": "Cengage Algebra (G. Tewani); Arihant Skills in Mathematics (Algebra)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_permutations_combi_g005": {
+  "citation": "NCERT Class 11 Ch.7 (Permutations with repetition of like things)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_permutations_combi_g006": {
+  "citation": "NCERT Class 11 Ch.7; Cengage Algebra (G. Tewani)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_permutations_combi_g007": {
+  "citation": "Cengage Algebra (G. Tewani); Arihant Skills in Mathematics (Algebra)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_permutations_combi_g008": {
+  "citation": "NCERT Class 11 Ch.7; Cengage Algebra (G. Tewani)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_permutations_combi_g009": {
+  "citation": "Cengage Algebra (G. Tewani); Arihant Skills in Mathematics (Algebra)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_permutations_combi_g010": {
+  "citation": "Cengage Algebra (G. Tewani); Arihant Skills in Mathematics (Algebra)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_permutations_combi_g011": {
+  "citation": "NCERT Class 11 Ch.8 (Binomial Theorem); Cengage Algebra (G. Tewani)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_permutations_combi_g012": {
+  "citation": "Cengage Algebra (G. Tewani); Arihant Skills in Mathematics (Algebra); Hall & Knight Higher Algebra",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_permutations_combi_g013": {
+  "citation": "Cengage Algebra (G. Tewani); Arihant Skills in Mathematics (Number Theory/Algebra)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_permutations_combi_g014": {
+  "citation": "NCERT Class 11 Ch.7 (Examples); Cengage Algebra (G. Tewani)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_permutations_combi_g015": {
+  "citation": "Cengage Algebra (G. Tewani); Arihant Skills in Mathematics (Algebra)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_permutations_combi_g016": {
+  "citation": "Cengage Algebra (G. Tewani); Arihant Skills in Mathematics (Algebra)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_permutations_combi_g017": {
+  "citation": "Cengage Algebra (G. Tewani); Arihant Skills in Mathematics (Algebra/Number Theory)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_permutations_combi_g018": {
+  "citation": "Cengage Algebra (G. Tewani); Arihant Skills in Mathematics (Algebra)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_permutations_combi_g019": {
+  "citation": "Cengage Algebra (G. Tewani); Arihant Skills in Mathematics (Algebra)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_permutations_combi_g020": {
+  "citation": "NCERT Class 11 Ch.7; Cengage Algebra (G. Tewani)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_probability_g001": {
+  "citation": "NCERT Class 11 Ch.16 Probability; Cengage Algebra (Probability)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_probability_g002": {
+  "citation": "NCERT Class 11 Ch.16 Probability; HC Verma / Cengage",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_probability_g003": {
+  "citation": "Cengage Algebra (Probability); SL Loney",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_probability_g004": {
+  "citation": "NCERT Class 12 Ch.13 Probability",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_probability_g005": {
+  "citation": "NCERT Class 12 Ch.13 Probability",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_probability_g006": {
+  "citation": "NCERT Class 12 Ch.13; Cengage Algebra (Probability)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_probability_g007": {
+  "citation": "NCERT Class 12 Ch.13 Probability",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_probability_g008": {
+  "citation": "NCERT Class 11 Ch.16 Probability",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_probability_g009": {
+  "citation": "NCERT Class 11 Ch.16; Cengage Algebra (Probability)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_probability_g010": {
+  "citation": "NCERT Class 12 Ch.13 Probability",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_probability_g011": {
+  "citation": "NCERT Class 12 Ch.13 Probability",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_probability_g012": {
+  "citation": "NCERT Class 12 Ch.13 Probability",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_probability_g013": {
+  "citation": "NCERT Class 12 Ch.13 Probability",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_probability_g014": {
+  "citation": "Cengage Algebra (Probability); JEE Advanced standard",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_probability_g015": {
+  "citation": "Cengage Algebra (Probability); JEE Advanced standard",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_probability_g016": {
+  "citation": "Cengage Algebra (Probability); standard JEE reference",
+  "weightage": "low",
+  "generated": true
+ },
+ "math_probability_g017": {
+  "citation": "Cengage Algebra (Probability); NCERT Class 11 Permutations & Combinations",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_quadratic_equation_g001": {
+  "citation": "NCERT Class 11 Maths Ch. Complex Numbers & Quadratic Equations; Cengage Algebra (G. Tewani)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_quadratic_equation_g002": {
+  "citation": "NCERT Class 11 Maths Ch. Quadratic Equations; Cengage Algebra",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_quadratic_equation_g003": {
+  "citation": "NCERT Class 11 Maths Ch. Quadratic Equations; HC Verma is physics — use S.L. Loney / Cengage Algebra",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_quadratic_equation_g004": {
+  "citation": "NCERT Class 11 Maths Ch. Quadratic Equations; Cengage Algebra",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_quadratic_equation_g005": {
+  "citation": "Cengage Algebra (G. Tewani); S.L. Loney Higher Algebra",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_quadratic_equation_g006": {
+  "citation": "NCERT Class 11 Maths Ch. Quadratic Equations; S.L. Loney Higher Algebra",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_quadratic_equation_g007": {
+  "citation": "NCERT Class 11 Maths Ch. Complex Numbers & Quadratic Equations",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_quadratic_equation_g008": {
+  "citation": "Cengage Algebra (G. Tewani); NCERT Class 11 Maths",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_quadratic_equation_g009": {
+  "citation": "Cengage Algebra (G. Tewani); S.L. Loney Higher Algebra",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_quadratic_equation_g010": {
+  "citation": "Cengage Algebra (G. Tewani); NCERT Class 11 Maths",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_quadratic_equation_g011": {
+  "citation": "Cengage Algebra (G. Tewani); S.L. Loney Higher Algebra",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_quadratic_equation_g012": {
+  "citation": "NCERT Class 11 Maths Ch. Quadratic Equations; Cengage Algebra",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_quadratic_equation_g013": {
+  "citation": "Cengage Algebra (G. Tewani); NCERT Class 11 Maths (sign of quadratic)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_quadratic_equation_g014": {
+  "citation": "NCERT Class 11 Maths Ch. Quadratic Equations; Cengage Algebra",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_quadratic_equation_g015": {
+  "citation": "NCERT Class 11 Maths Ch. Quadratic Equations; Cengage Algebra",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_quadratic_equation_g016": {
+  "citation": "Cengage Algebra (G. Tewani); S.L. Loney Higher Algebra",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_quadratic_equation_g017": {
+  "citation": "Cengage Algebra (G. Tewani); S.L. Loney Higher Algebra",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_quadratic_equation_g018": {
+  "citation": "Cengage Algebra (G. Tewani); Arihant Algebra (location of roots)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_quadratic_equation_g019": {
+  "citation": "Cengage Algebra (G. Tewani); Arihant Algebra (location of roots)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_quadratic_equation_g020": {
+  "citation": "Cengage Algebra (G. Tewani); Arihant Algebra (location of roots)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_quadratic_equation_g021": {
+  "citation": "Cengage Algebra (G. Tewani); Arihant Algebra (location of roots)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_quadratic_equation_g022": {
+  "citation": "NCERT Class 11 Maths Ch. Quadratic Equations; Cengage Algebra",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_quadratic_equation_g023": {
+  "citation": "Cengage Algebra (G. Tewani); S.L. Loney Higher Algebra",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_quadratic_equation_g024": {
+  "citation": "Cengage Algebra (G. Tewani); S.L. Loney Higher Algebra",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_quadratic_equation_g025": {
+  "citation": "Cengage Algebra (G. Tewani); S.L. Loney Higher Algebra",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_quadratic_equation_g026": {
+  "citation": "Cengage Algebra (G. Tewani); S.L. Loney Higher Algebra",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_quadratic_equation_g027": {
+  "citation": "Cengage Algebra (G. Tewani); S.L. Loney Higher Algebra",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_quadratic_equation_g028": {
+  "citation": "Cengage Algebra (G. Tewani); Arihant Algebra (Newton's identities)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_quadratic_equation_g029": {
+  "citation": "Cengage Algebra (G. Tewani); Arihant Algebra (range via quadratic)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_quadratic_equation_g030": {
+  "citation": "S.L. Loney Higher Algebra; Cengage Algebra",
+  "weightage": "low",
+  "generated": true
+ },
+ "math_quadratic_equation_g031": {
+  "citation": "S.L. Loney Higher Algebra; Cengage Algebra",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_quadratic_equation_g032": {
+  "citation": "S.L. Loney Higher Algebra; Cengage Algebra",
+  "weightage": "low",
+  "generated": true
+ },
+ "math_sequences_series_g001": {
+  "citation": "NCERT Class 11 Maths Ch 9 (Sequences and Series); RD Sharma",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_sequences_series_g002": {
+  "citation": "Cengage Algebra (G. Tewani), Sequences & Series",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_sequences_series_g003": {
+  "citation": "NCERT Class 11 Maths Ch 9",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_sequences_series_g004": {
+  "citation": "Cengage Algebra (G. Tewani); NCERT Class 11 Ch 9",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_sequences_series_g005": {
+  "citation": "NCERT Class 11 Maths Ch 9",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_sequences_series_g006": {
+  "citation": "Cengage Algebra (G. Tewani), Sequences & Series",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_sequences_series_g007": {
+  "citation": "NCERT Class 11 Ch 9; HC Verma / RD Sharma",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_sequences_series_g008": {
+  "citation": "NCERT Class 11 Ch 9; Cengage Algebra (G. Tewani)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_sequences_series_g009": {
+  "citation": "NCERT Class 11 Maths Ch 9 (Sequences and Series)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_sequences_series_g010": {
+  "citation": "RD Sharma Class 11; standard result",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_sequences_series_g011": {
+  "citation": "RD Sharma Class 11; standard result",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_sequences_series_g012": {
+  "citation": "NCERT Class 11 Ch 9; standard property",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_sequences_series_g013": {
+  "citation": "NCERT Class 11 Ch 9; Cengage Algebra",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_sequences_series_g014": {
+  "citation": "NCERT Class 11 Ch 9; RD Sharma",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_sequences_series_g015": {
+  "citation": "NCERT Class 11 Ch 9 (Infinite GP application)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_sequences_series_g016": {
+  "citation": "Cengage Algebra (G. Tewani); method of summation",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_sequences_series_g017": {
+  "citation": "Cengage Algebra (G. Tewani), Method of Differences",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_sequences_series_g018": {
+  "citation": "Cengage Algebra (G. Tewani); standard result",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_sequences_series_g019": {
+  "citation": "RD Sharma Class 11; standard result",
+  "weightage": "low",
+  "generated": true
+ },
+ "math_sequences_series_g020": {
+  "citation": "Cengage Algebra (G. Tewani), Arithmetico-Geometric Series",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_sequences_series_g021": {
+  "citation": "NCERT Class 11 Ch 9; RD Sharma (problem-solving technique)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_solution_of_triang_g001": {
+  "citation": "NCERT Class 11 (Trigonometry); SL Loney, Plane Trigonometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_solution_of_triang_g002": {
+  "citation": "NCERT Class 11 (Trigonometry); SL Loney, Plane Trigonometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_solution_of_triang_g003": {
+  "citation": "NCERT Class 11 (Trigonometry); SL Loney, Plane Trigonometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_solution_of_triang_g004": {
+  "citation": "NCERT Class 11 (Trigonometry); Cengage Trigonometry (G. Tewani)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_solution_of_triang_g005": {
+  "citation": "Cengage Trigonometry (G. Tewani); SL Loney, Plane Trigonometry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_solution_of_triang_g006": {
+  "citation": "Cengage Trigonometry (G. Tewani); SL Loney, Plane Trigonometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_solution_of_triang_g007": {
+  "citation": "SL Loney, Plane Trigonometry; Cengage Trigonometry (G. Tewani)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_solution_of_triang_g008": {
+  "citation": "Cengage Trigonometry (G. Tewani); SL Loney, Plane Trigonometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_solution_of_triang_g009": {
+  "citation": "Cengage Trigonometry (G. Tewani); SL Loney, Plane Trigonometry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_solution_of_triang_g010": {
+  "citation": "Cengage Trigonometry (G. Tewani); SL Loney, Plane Trigonometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_solution_of_triang_g011": {
+  "citation": "SL Loney, Plane Trigonometry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_solution_of_triang_g012": {
+  "citation": "NCERT Class 11 (Trigonometric Functions); Cengage Trigonometry (G. Tewani)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_solution_of_triang_g013": {
+  "citation": "NCERT Class 11 (Trigonometric Functions); Cengage Trigonometry (G. Tewani)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_solution_of_triang_g014": {
+  "citation": "Cengage Trigonometry (G. Tewani); SL Loney, Plane Trigonometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_solution_of_triang_g015": {
+  "citation": "SL Loney, Plane Trigonometry",
+  "weightage": "low",
+  "generated": true
+ },
+ "math_solution_of_triang_g016": {
+  "citation": "Cengage Trigonometry (G. Tewani); SL Loney, Plane Trigonometry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_solution_of_triang_g017": {
+  "citation": "NCERT Class 11 (Trigonometric Functions); Cengage Trigonometry (G. Tewani)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_solution_of_triang_g018": {
+  "citation": "NCERT Class 11 (Trigonometric Functions); Cengage Trigonometry (G. Tewani)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_solution_of_triang_g019": {
+  "citation": "Cengage Trigonometry (G. Tewani); SL Loney, Plane Trigonometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_solution_of_triang_g020": {
+  "citation": "SL Loney, Plane Trigonometry; Cengage Trigonometry (G. Tewani)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_solution_of_triang_g021": {
+  "citation": "SL Loney, Plane Trigonometry; Cengage Trigonometry (G. Tewani)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_solution_of_triang_g022": {
+  "citation": "SL Loney, Plane Trigonometry; Cengage Trigonometry (G. Tewani)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_solution_of_triang_g023": {
+  "citation": "SL Loney, Plane Trigonometry; Cengage Trigonometry (G. Tewani)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_solution_of_triang_g024": {
+  "citation": "SL Loney, Plane Trigonometry; Cengage Trigonometry (G. Tewani)",
+  "weightage": "low",
+  "generated": true
+ },
+ "math_solution_of_triang_g025": {
+  "citation": "SL Loney, Plane Trigonometry; Cengage Trigonometry (G. Tewani)",
+  "weightage": "low",
+  "generated": true
+ },
+ "math_solution_of_triang_g026": {
+  "citation": "SL Loney, Plane Trigonometry; Cengage Trigonometry (G. Tewani)",
+  "weightage": "low",
+  "generated": true
+ },
+ "math_solution_of_triang_g027": {
+  "citation": "Cengage Trigonometry (G. Tewani); SL Loney, Plane Trigonometry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_solution_of_triang_g028": {
+  "citation": "Cengage Trigonometry (G. Tewani); SL Loney, Plane Trigonometry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_solution_of_triang_g029": {
+  "citation": "SL Loney, Plane Trigonometry; Cengage Trigonometry (G. Tewani)",
+  "weightage": "low",
+  "generated": true
+ },
+ "math_solution_of_triang_g030": {
+  "citation": "SL Loney, Plane Trigonometry; Cengage Trigonometry (G. Tewani)",
+  "weightage": "low",
+  "generated": true
+ },
+ "math_solution_of_triang_g031": {
+  "citation": "NCERT Class 10 (Some Applications of Trigonometry); NCERT Class 11",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_solution_of_triang_g032": {
+  "citation": "NCERT Class 10 (Applications of Trigonometry); Cengage Trigonometry (G. Tewani)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_solution_of_triang_g033": {
+  "citation": "NCERT Class 10 (Applications of Trigonometry); Cengage Trigonometry (G. Tewani)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_straight_lines_g001": {
+  "citation": "NCERT Class 11 Maths, Ch.10 Straight Lines; SL Loney Coordinate Geometry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_straight_lines_g002": {
+  "citation": "NCERT Class 11 Maths, Ch.10 Straight Lines",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_straight_lines_g003": {
+  "citation": "NCERT Class 11 Maths, Ch.10 Straight Lines",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_straight_lines_g004": {
+  "citation": "SL Loney Coordinate Geometry; Cengage Coordinate Geometry (G. Tewani)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_straight_lines_g005": {
+  "citation": "Cengage Coordinate Geometry (G. Tewani); SL Loney",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_straight_lines_g006": {
+  "citation": "SL Loney Coordinate Geometry; Cengage (G. Tewani)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_straight_lines_g007": {
+  "citation": "NCERT Class 11 Maths, Ch.10 (General Eq.); Cengage (G. Tewani)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_straight_lines_g008": {
+  "citation": "SL Loney Coordinate Geometry; Cengage (G. Tewani)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_straight_lines_g009": {
+  "citation": "NCERT Class 11 Maths, Ch.10 Straight Lines",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_straight_lines_g010": {
+  "citation": "SL Loney Coordinate Geometry; Cengage Coordinate Geometry (G. Tewani)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_straight_lines_g011": {
+  "citation": "SL Loney Coordinate Geometry; Cengage (G. Tewani)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_straight_lines_g012": {
+  "citation": "SL Loney Coordinate Geometry; Cengage (G. Tewani)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_straight_lines_g013": {
+  "citation": "Cengage Coordinate Geometry (G. Tewani); SL Loney",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_straight_lines_g014": {
+  "citation": "NCERT Class 11 Maths, Ch.10 Straight Lines",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_straight_lines_g015": {
+  "citation": "SL Loney Coordinate Geometry; Cengage (G. Tewani)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_straight_lines_g016": {
+  "citation": "NCERT Class 11 Maths, Ch.10; SL Loney",
+  "weightage": "low",
+  "generated": true
+ },
+ "math_straight_lines_g017": {
+  "citation": "SL Loney Coordinate Geometry; Cengage (G. Tewani)",
+  "weightage": "low",
+  "generated": true
+ },
+ "math_trigonometric_rati_g001": {
+  "citation": "NCERT Class 11 Maths, Ch 3 Trigonometric Functions; SL Loney Plane Trigonometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_trigonometric_rati_g002": {
+  "citation": "NCERT Class 11 Maths, Ch 3 Trigonometric Functions",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_trigonometric_rati_g003": {
+  "citation": "NCERT Class 11 Maths, Ch 3 Trigonometric Functions",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_trigonometric_rati_g004": {
+  "citation": "NCERT Class 11 Maths, Ch 3 Trigonometric Functions",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_trigonometric_rati_g005": {
+  "citation": "NCERT Class 11 Maths, Ch 3 Trigonometric Functions",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_trigonometric_rati_g006": {
+  "citation": "NCERT Class 11 Maths, Ch 3 Trigonometric Functions",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_trigonometric_rati_g007": {
+  "citation": "NCERT Class 11 Maths, Ch 3 Trigonometric Functions",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_trigonometric_rati_g008": {
+  "citation": "NCERT Class 11 Maths, Ch 3 Trigonometric Functions",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_trigonometric_rati_g009": {
+  "citation": "NCERT Class 11 Maths, Ch 3 Trigonometric Functions",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_trigonometric_rati_g010": {
+  "citation": "NCERT Class 11 Maths, Ch 3 Trigonometric Functions",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_trigonometric_rati_g011": {
+  "citation": "NCERT Class 11 Maths, Ch 3 Trigonometric Functions",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_trigonometric_rati_g012": {
+  "citation": "SL Loney Plane Trigonometry; Cengage Trigonometry (G Tewani)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_trigonometric_rati_g013": {
+  "citation": "SL Loney Plane Trigonometry; Cengage Trigonometry (G Tewani)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_trigonometric_rati_g014": {
+  "citation": "SL Loney Plane Trigonometry; Cengage Trigonometry (G Tewani)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_trigonometric_rati_g015": {
+  "citation": "SL Loney Plane Trigonometry; Cengage Trigonometry (G Tewani)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_trigonometric_rati_g016": {
+  "citation": "SL Loney Plane Trigonometry; Cengage Trigonometry (G Tewani)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_trigonometric_rati_g017": {
+  "citation": "SL Loney Plane Trigonometry; Cengage Trigonometry (G Tewani)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_trigonometric_rati_g018": {
+  "citation": "NCERT Class 11 Maths, Ch 3 Trigonometric Functions",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_trigonometric_rati_g019": {
+  "citation": "NCERT Class 11 Maths, Ch 3; SL Loney Plane Trigonometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_trigonometric_rati_g020": {
+  "citation": "SL Loney Plane Trigonometry; Cengage Trigonometry (G Tewani)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_trigonometric_rati_g021": {
+  "citation": "NCERT Class 11 Maths, Ch 3 Trigonometric Functions",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_trigonometric_rati_g022": {
+  "citation": "NCERT Class 11 Maths, Ch 3 Trigonometric Functions",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_trigonometric_rati_g023": {
+  "citation": "NCERT Class 11 Maths, Ch 3; Cengage Trigonometry (G Tewani)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_trigonometric_rati_g024": {
+  "citation": "SL Loney Plane Trigonometry; Cengage Trigonometry (G Tewani)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_trigonometric_rati_g025": {
+  "citation": "NCERT Class 11 Maths, Ch 3 Trigonometric Functions",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_trigonometric_rati_g026": {
+  "citation": "Cengage Trigonometry (G Tewani); SL Loney Plane Trigonometry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_vector_algebra_g001": {
+  "citation": "NCERT Class 12 Maths Ch.10 (Vector Algebra); Cengage Vectors & 3D",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_vector_algebra_g002": {
+  "citation": "NCERT Class 12 Maths Ch.10 (Vector Algebra); HC Verma equivalent",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_vector_algebra_g003": {
+  "citation": "NCERT Class 12 Maths Ch.10 (Vector Algebra); Cengage Vectors & 3D",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_vector_algebra_g004": {
+  "citation": "Cengage Vectors & 3D; TMH Vector Algebra",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_vector_algebra_g005": {
+  "citation": "NCERT Class 12 Maths Ch.10 (Vector Algebra)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_vector_algebra_g006": {
+  "citation": "NCERT Class 12 Maths Ch.10 (Vector Algebra); Cengage Vectors & 3D",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_vector_algebra_g007": {
+  "citation": "NCERT Class 12 Maths Ch.10 (Vector Algebra)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_vector_algebra_g008": {
+  "citation": "NCERT Class 12 Maths Ch.10 (Vector Algebra)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_vector_algebra_g009": {
+  "citation": "NCERT Class 12 Maths Ch.10 (Vector Algebra)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_vector_algebra_g010": {
+  "citation": "Cengage Vectors & 3D; SL Loney / TMH Vector Algebra",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_vector_algebra_g011": {
+  "citation": "Cengage Vectors & 3D; TMH Vector Algebra",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_vector_algebra_g012": {
+  "citation": "NCERT Class 12 Maths Ch.10/11; Cengage Vectors & 3D",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_vector_algebra_g013": {
+  "citation": "NCERT Class 12 Maths Ch.10 (Vector Algebra); Cengage Vectors & 3D",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_vector_algebra_g014": {
+  "citation": "NCERT Class 12 Maths Ch.10 (Vector Algebra); Cengage Vectors & 3D",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_vector_algebra_g015": {
+  "citation": "Cengage Vectors & 3D; ML Khanna IIT Maths",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_vector_algebra_g016": {
+  "citation": "Cengage Vectors & 3D; ML Khanna IIT Maths",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_vector_algebra_g017": {
+  "citation": "Cengage Vectors & 3D; ML Khanna IIT Maths",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_vector_algebra_g018": {
+  "citation": "NCERT Class 12 Maths Ch.10 (Vector Algebra); Cengage Vectors & 3D",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_vector_algebra_g019": {
+  "citation": "Cengage Vectors & 3D",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_vector_algebra_g020": {
+  "citation": "Cengage Vectors & 3D; ML Khanna IIT Maths",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_vector_algebra_g021": {
+  "citation": "NCERT Class 12 Maths Ch.10; Cengage Vectors & 3D",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_vector_algebra_g022": {
+  "citation": "NCERT Class 12 Maths Ch.10 (Vector Algebra)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_vector_algebra_g023": {
+  "citation": "NCERT Class 12 Maths Ch.10; Cengage Vectors & 3D",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_vector_algebra_g024": {
+  "citation": "NCERT Class 12 Maths Ch.11 (Three Dim. Geometry); Cengage",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_vector_algebra_g025": {
+  "citation": "NCERT Class 12 Maths Ch.10 (Vector Algebra); Cengage Vectors & 3D",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_vector_algebra_g026": {
+  "citation": "NCERT Class 12 Maths Ch.11 (Three Dim. Geometry)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_vector_algebra_g027": {
+  "citation": "NCERT Class 12 Maths Ch.11 (Three Dim. Geometry); Cengage",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_vector_algebra_g028": {
+  "citation": "Cengage Vectors & 3D; NCERT Class 12 Maths Ch.11",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_vector_algebra_g029": {
+  "citation": "NCERT Class 12 Maths Ch.11 (Three Dim. Geometry)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_vector_algebra_g030": {
+  "citation": "NCERT Class 12 Maths Ch.11 (Three Dim. Geometry)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_vector_algebra_g031": {
+  "citation": "NCERT Class 12 Maths Ch.11 (Three Dim. Geometry); Cengage",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_vector_algebra_g032": {
+  "citation": "NCERT Class 12 Maths Ch.11 (Three Dim. Geometry); Cengage",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_vector_algebra_g033": {
+  "citation": "NCERT Class 12 Maths Ch.11 (Three Dim. Geometry)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_vector_algebra_g034": {
+  "citation": "NCERT Class 12 Maths Ch.10 (Vector Algebra application)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_vector_algebra_g035": {
+  "citation": "NCERT Class 12 Maths Ch.10 (Vector Algebra application)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_vector_algebra_g036": {
+  "citation": "NCERT Class 12 Maths Ch.10 (Vector Algebra)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_vector_algebra_g037": {
+  "citation": "NCERT Class 12 Maths Ch.10 (Vector Algebra); Cengage",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_mathematical_induc_g001": {
+  "citation": "NCERT Class 11 (Sets/Relations supplement); standard ref: SL Loney / Cengage Algebra (Logarithms)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_mathematical_induc_g002": {
+  "citation": "Cengage Algebra (Logarithms); HC Verma equivalent reference",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_mathematical_induc_g003": {
+  "citation": "Cengage Algebra (Logarithms); SL Loney Algebra",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_mathematical_induc_g004": {
+  "citation": "Cengage Algebra (Logarithms); Arihant Algebra",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_mathematical_induc_g005": {
+  "citation": "Cengage Algebra (Logarithms, sign analysis); Arihant Skills in Mathematics: Algebra",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_mathematical_induc_g006": {
+  "citation": "Cengage Algebra (Logarithmic Inequalities); Arihant Algebra",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_mathematical_induc_g007": {
+  "citation": "NCERT Class 11 Algebra; Cengage Algebra (Logarithms)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_mathematical_induc_g008": {
+  "citation": "Cengage Algebra (Logarithms); SL Loney Algebra",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_mathematical_induc_g009": {
+  "citation": "Cengage Algebra (Logarithms, characteristic); Arihant Algebra",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_mathematical_induc_g010": {
+  "citation": "Cengage Algebra (Logarithms); SL Loney Algebra",
+  "weightage": "low",
+  "generated": true
+ },
+ "math_mathematical_induc_g011": {
+  "citation": "NCERT Class 12 Calculus (logarithmic function); Cengage Calculus",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_mathematical_induc_g012": {
+  "citation": "NCERT Class 11 Algebra; Cengage Algebra (Logarithms)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_mathematical_induc_g013": {
+  "citation": "NCERT Class 11 Chapter 4 (Principle of Mathematical Induction)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_mathematical_induc_g014": {
+  "citation": "NCERT Class 11 Chapter 4 (Principle of Mathematical Induction)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_mathematical_induc_g015": {
+  "citation": "NCERT Class 11 Chapter 4 (PMI worked examples); Cengage Algebra",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_mathematical_induc_g016": {
+  "citation": "NCERT Class 11 Chapter 4 (PMI); Cengage Algebra (Sequences)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_mathematical_induc_g017": {
+  "citation": "NCERT Class 11 Chapter 4 (PMI exercises); Arihant Algebra",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_mathematical_induc_g018": {
+  "citation": "NCERT Class 11 Chapter 4 (PMI); Cengage Algebra",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_mathematical_induc_g019": {
+  "citation": "Cengage Algebra (Sequences & Series); NCERT Class 11 PMI exercises",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_mathematical_induc_g020": {
+  "citation": "Standard ref: Cengage Algebra (PMI); TMH JEE Algebra",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_pair_of_straight_l_g001": {
+  "citation": "NCERT-level extension; SL Loney Coordinate Geometry Ch.6 (Pair of Lines); Cengage Coordinate Geometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_pair_of_straight_l_g002": {
+  "citation": "SL Loney Coordinate Geometry Ch.6; Cengage Coordinate Geometry (Pair of Straight Lines)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_pair_of_straight_l_g003": {
+  "citation": "SL Loney Coordinate Geometry Ch.6; Cengage Coordinate Geometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_pair_of_straight_l_g004": {
+  "citation": "SL Loney Coordinate Geometry Ch.6; Cengage Coordinate Geometry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_pair_of_straight_l_g005": {
+  "citation": "SL Loney Coordinate Geometry Ch.6; Cengage Coordinate Geometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_pair_of_straight_l_g006": {
+  "citation": "SL Loney Coordinate Geometry Ch.6; Cengage Coordinate Geometry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_pair_of_straight_l_g007": {
+  "citation": "SL Loney Coordinate Geometry Ch.6; Cengage Coordinate Geometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_pair_of_straight_l_g008": {
+  "citation": "SL Loney Coordinate Geometry Ch.6; Cengage Coordinate Geometry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_pair_of_straight_l_g009": {
+  "citation": "SL Loney Coordinate Geometry Ch.6; Cengage Coordinate Geometry",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_sets_relations_fun_g001": {
+  "citation": "NCERT Class 11 Ch.1 Sets; HC Verma / Cengage Algebra (Sets)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_sets_relations_fun_g002": {
+  "citation": "NCERT Class 11 Ch.1 Sets; JEE standard",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_sets_relations_fun_g003": {
+  "citation": "NCERT Class 11 Ch.1 Sets",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_sets_relations_fun_g004": {
+  "citation": "Cengage / Arihant Algebra (Sets); JEE standard",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_sets_relations_fun_g005": {
+  "citation": "NCERT Class 11 Ch.1 Sets",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_sets_relations_fun_g006": {
+  "citation": "Cengage / Arihant Algebra (Sets); JEE Main standard",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_sets_relations_fun_g007": {
+  "citation": "NCERT Class 11 Ch.1 Sets",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_sets_relations_fun_g008": {
+  "citation": "Cengage Algebra (Relations); JEE Advanced standard",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_sets_relations_fun_g009": {
+  "citation": "Cengage / Arihant Algebra (Relations); JEE Advanced",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_sets_relations_fun_g010": {
+  "citation": "NCERT Class 11 Ch.2 / Class 12 Ch.1; Cengage Algebra",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_sets_relations_fun_g011": {
+  "citation": "Cengage / Arihant Functions; JEE Main standard",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_sets_relations_fun_g012": {
+  "citation": "NCERT Class 12 Ch.1 Relations & Functions",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_sets_relations_fun_g013": {
+  "citation": "NCERT Class 12 Ch.1; Cengage Functions",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_sets_relations_fun_g014": {
+  "citation": "Cengage / Arihant Functions; JEE standard",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_sets_relations_fun_g015": {
+  "citation": "NCERT Class 11 Trig; Cengage Functions",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_sets_relations_fun_g016": {
+  "citation": "Cengage Functions (Functional Equations); JEE Advanced",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_sets_relations_fun_g017": {
+  "citation": "Cengage Functions (Functional Equations); JEE Advanced",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_sets_relations_fun_g018": {
+  "citation": "Cengage / Arihant Algebra (Functions); JEE Main",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_sets_relations_fun_g019": {
+  "citation": "Cengage Algebra (Functions); JEE Main standard",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_sets_relations_fun_g020": {
+  "citation": "Cengage Algebra (Functions)",
+  "weightage": "low",
+  "generated": true
+ },
+ "math_sets_relations_fun_g021": {
+  "citation": "Cengage / Arihant Functions; JEE Advanced",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_statistics_g001": {
+  "citation": "NCERT Class 11 Maths, Ch 15 Statistics; RD Sharma Class 11",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_statistics_g002": {
+  "citation": "NCERT Class 11 Maths, Ch 15 Statistics",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_statistics_g003": {
+  "citation": "NCERT Class 11 Maths, Ch 15 Statistics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_statistics_g004": {
+  "citation": "NCERT Class 11 Maths, Ch 15 Statistics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_statistics_g005": {
+  "citation": "NCERT Class 10 Maths, Ch 14; NCERT Class 11 Statistics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_statistics_g006": {
+  "citation": "NCERT Class 10 Maths, Ch 14; RD Sharma Class 11",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_statistics_g007": {
+  "citation": "NCERT Class 11 Maths, Ch 15 Statistics; RD Sharma",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_statistics_g008": {
+  "citation": "NCERT Class 11 Maths, Ch 15 Statistics",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_statistics_g009": {
+  "citation": "NCERT Class 11 Maths, Ch 15 Statistics",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_statistics_g010": {
+  "citation": "NCERT Class 11 Maths, Ch 15 Statistics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_statistics_g011": {
+  "citation": "NCERT Class 11 Maths, Ch 15 Statistics",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_statistics_g012": {
+  "citation": "Cengage Algebra (G. Tewani); standard JEE result",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_statistics_g013": {
+  "citation": "NCERT Class 11 Maths, Ch 15; Cengage Algebra",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_statistics_g014": {
+  "citation": "Cengage Algebra (G. Tewani); standard result",
+  "weightage": "low",
+  "generated": true
+ },
+ "math_linear_programming_g001": {
+  "citation": "NCERT Class 12 Maths, Ch 12 (Linear Programming)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_linear_programming_g002": {
+  "citation": "NCERT Class 12 Maths, Ch 12 (Linear Programming)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_linear_programming_g003": {
+  "citation": "NCERT Class 12 Maths, Ch 12; HC Verma is N/A — JD/Cengage Algebra",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_linear_programming_g004": {
+  "citation": "NCERT Class 12 Maths, Ch 12 (Linear Programming); Cengage Algebra",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_linear_programming_g005": {
+  "citation": "NCERT Class 12 Maths, Ch 12 (Linear Programming)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_linear_programming_g006": {
+  "citation": "NCERT Class 12 Maths, Ch 12 (Linear Programming)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_mathematical_reaso_g001": {
+  "citation": "NCERT Class 11 Maths, Ch 14 (Mathematical Reasoning), Sec 14.5; Cengage Algebra",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_mathematical_reaso_g002": {
+  "citation": "NCERT Class 11 Maths, Ch 14; JEE Advanced standard result (Cengage Algebra)",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_mathematical_reaso_g003": {
+  "citation": "NCERT Class 11 Maths, Ch 14; HC Verma / standard algebra texts",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_mathematical_reaso_g004": {
+  "citation": "NCERT Class 11 Maths, Ch 14; standard logic algebra",
+  "weightage": "low",
+  "generated": true
+ },
+ "math_mathematical_reaso_g005": {
+  "citation": "NCERT Class 11 Maths, Ch 14; standard logic algebra",
+  "weightage": "low",
+  "generated": true
+ },
+ "math_mathematical_reaso_g006": {
+  "citation": "NCERT Class 11 Maths, Ch 14; standard logic algebra",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_mathematical_reaso_g007": {
+  "citation": "NCERT Class 11 Maths, Ch 14; JD Lee not applicable — Cengage Algebra",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_mathematical_reaso_g008": {
+  "citation": "NCERT Class 11 Maths, Ch 14, Sec 14.4 (Quantifiers); Cengage Algebra",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_mathematical_reaso_g009": {
+  "citation": "NCERT Class 11 Maths, Ch 14; standard combinatorics of truth tables",
+  "weightage": "medium",
+  "generated": true
+ },
+ "math_mathematical_reaso_g010": {
+  "citation": "NCERT Class 11 Maths, Ch 14; Cengage Algebra",
+  "weightage": "high",
+  "generated": true
+ },
+ "math_mathematical_reaso_g011": {
+  "citation": "NCERT Class 11 Maths, Ch 14; standard Boolean/logic algebra",
+  "weightage": "low",
+  "generated": true
+ },
+ "math_mathematical_reaso_g012": {
+  "citation": "NCERT Class 11 Maths, Ch 14; standard logic algebra",
+  "weightage": "low",
+  "generated": true
+ }
+}

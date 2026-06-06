@@ -1,0 +1,4047 @@
+{
+ "chem_chemical_equilibri_g001": {
+  "citation": "NCERT Class 11 Chemistry, Ch.7 Equilibrium (Law of Chemical Equilibrium); JD Lee / NCERT",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_equilibri_g002": {
+  "citation": "NCERT Class 11 Chemistry, Ch.7 Equilibrium; P. Bahadur",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_equilibri_g003": {
+  "citation": "NCERT Class 11 Chemistry, Ch.5 (States of Matter) & Ch.7 Equilibrium; HC Verma analog",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_equilibri_g004": {
+  "citation": "NCERT Class 11 Chemistry, Ch.7 Equilibrium; Cengage (K.S. Verma)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemical_equilibri_g005": {
+  "citation": "NCERT Class 11 Chemistry, Ch.7 Equilibrium; JD Lee",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_equilibri_g006": {
+  "citation": "NCERT Class 11 Chemistry, Ch.7 Equilibrium; Cengage / P. Bahadur",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_equilibri_g007": {
+  "citation": "NCERT Class 11 Chemistry, Ch.7 Equilibrium; Cengage (K.S. Verma)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemical_equilibri_g008": {
+  "citation": "NCERT Class 11 Chemistry, Ch.7 Equilibrium; P. Bahadur / JD Lee",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_equilibri_g009": {
+  "citation": "NCERT Class 11 Chemistry, Ch.7 Equilibrium; JD Lee",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemical_equilibri_g010": {
+  "citation": "NCERT Class 11 Chemistry, Ch.7 Equilibrium; Cengage",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemical_equilibri_g011": {
+  "citation": "NCERT Class 11 Chemistry, Ch.7 Equilibrium; JD Lee (Hess-type combination)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemical_equilibri_g012": {
+  "citation": "NCERT Class 11 Chemistry, Ch.7 Equilibrium & Ch.6 Thermodynamics; Atkins",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_equilibri_g013": {
+  "citation": "NCERT Class 11 Chemistry, Ch.7 Equilibrium (effect of temperature); Atkins / Cengage",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_equilibri_g014": {
+  "citation": "NCERT Class 11 Chemistry, Ch.7 Equilibrium (Le Chatelier's Principle); NCERT",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_equilibri_g015": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 7 (Equilibrium); JD Lee / Atkins Physical Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_equilibri_g016": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 7 (Equilibrium); P. Bahadur Physical Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_equilibri_g017": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 7 (Equilibrium); P. Bahadur Physical Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemical_equilibri_g018": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 7 (Equilibrium); Atkins Physical Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemical_equilibri_g019": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 7 (Equilibrium); R.C. Mukherjee",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_equilibri_g020": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 7 (Equilibrium); P. Bahadur Physical Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemical_equilibri_g021": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 7 (Equilibrium); J.D. Lee",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemical_equilibri_g022": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 7 (Equilibrium); P. Bahadur Physical Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_mole_concept_stoic_g001": {
+  "citation": "NCERT Class 11 Chemistry, Ch.1 (Some Basic Concepts of Chemistry); JD Lee / Cengage Physical Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_mole_concept_stoic_g002": {
+  "citation": "NCERT Class 11 Ch.1 & Class 12 Ch.2 (Solutions); Cengage Physical Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_mole_concept_stoic_g003": {
+  "citation": "NCERT Class 12 Chemistry, Ch.2 (Solutions)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_mole_concept_stoic_g004": {
+  "citation": "NCERT Class 11 Ch.1; Cengage / JD Lee (Volumetric Analysis)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_mole_concept_stoic_g005": {
+  "citation": "NCERT Class 11 Ch.1; Cengage Physical Chemistry (Mole Concept)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_mole_concept_stoic_g006": {
+  "citation": "NCERT Class 11 Ch.1; JD Lee / Cengage (Equivalent Concept)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_mole_concept_stoic_g007": {
+  "citation": "NCERT Class 12 Chemistry, Ch.2 (Solutions); Cengage Physical Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_mole_concept_stoic_g008": {
+  "citation": "NCERT Class 11 Ch.1 & Class 12 (Volumetric Analysis); Cengage Physical Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_mole_concept_stoic_g009": {
+  "citation": "Cengage / Allen Physical Chemistry (Mole Concept); NCERT Class 11 Ch.1",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_mole_concept_stoic_g010": {
+  "citation": "NCERT Class 12 Ch.2 (Solutions); Cengage Physical Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_mole_concept_stoic_g011": {
+  "citation": "NCERT Class 12 Ch.2 (Solutions); Cengage Physical Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_mole_concept_stoic_g012": {
+  "citation": "NCERT Class 12 Chemistry, Ch.2 (Solutions)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_mole_concept_stoic_g013": {
+  "citation": "NCERT Class 11 Ch.1 & Class 12 Ch.2 (Solutions)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_mole_concept_stoic_g014": {
+  "citation": "NCERT Class 11 Chemistry, Ch.1 (Some Basic Concepts of Chemistry)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_mole_concept_stoic_g015": {
+  "citation": "NCERT Class 11 Chemistry, Ch.1 (Some Basic Concepts of Chemistry)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_mole_concept_stoic_g016": {
+  "citation": "NCERT Class 11 Chemistry, Ch.1 (Some Basic Concepts of Chemistry)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_mole_concept_stoic_g017": {
+  "citation": "NCERT Class 11 Chemistry, Ch.5 (States of Matter); Cengage Physical Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_mole_concept_stoic_g018": {
+  "citation": "NCERT Class 11 Chemistry, Ch.5 (States of Matter); Cengage Physical Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_mole_concept_stoic_g019": {
+  "citation": "NCERT Class 11 Chemistry, Ch.1 (Some Basic Concepts of Chemistry)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_mole_concept_stoic_g020": {
+  "citation": "Cengage / Allen Physical Chemistry (Stoichiometry); based on NCERT Class 11 Ch.1 conservation of mass",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_mole_concept_stoic_g021": {
+  "citation": "NCERT Class 11 Chemistry, Ch.1 'Some Basic Concepts of Chemistry' (Limiting Reagent); JD Lee / Cengage Physical Chemistry (R.K. Gupta)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_mole_concept_stoic_g022": {
+  "citation": "NCERT Class 11 Chemistry, Ch.1 & Ch.5; JD Lee, Cengage Physical Chemistry (Vapour Density, dissociation/association)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_mole_concept_stoic_g023": {
+  "citation": "NCERT Class 11 Chemistry, Ch.1 (Stoichiometric Calculations); P. Bahadur Numerical Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_mole_concept_stoic_g024": {
+  "citation": "NCERT Class 11 Chemistry, Ch.1 & Ch.8 'Redox Reactions'; Cengage / R.K. Gupta Physical Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_alcohols_phenols_e_g001": {
+  "citation": "NCERT Class 12 Chemistry Ch-11 Alcohols, Phenols & Ethers; Solomons OCw",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_alcohols_phenols_e_g002": {
+  "citation": "NCERT Class 12 Chemistry Ch-11 Alcohols, Phenols & Ethers",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_alcohols_phenols_e_g003": {
+  "citation": "NCERT Class 12 Chemistry Ch-11; J.D. Lee adapted",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_alcohols_phenols_e_g004": {
+  "citation": "NCERT Class 12 Chemistry Ch-11 Alcohols, Phenols & Ethers",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_alcohols_phenols_e_g005": {
+  "citation": "NCERT Class 12 Chemistry Ch-11 Alcohols, Phenols & Ethers",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_alcohols_phenols_e_g006": {
+  "citation": "NCERT Class 12 Chemistry Ch-11 Alcohols, Phenols & Ethers",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_alcohols_phenols_e_g007": {
+  "citation": "NCERT Class 12 Chemistry Ch-11 Alcohols, Phenols & Ethers",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_alcohols_phenols_e_g008": {
+  "citation": "NCERT Class 12 Chemistry Ch-11 Alcohols, Phenols & Ethers",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_alcohols_phenols_e_g009": {
+  "citation": "NCERT Class 12 Chemistry Ch-11; J.D. Lee Concise Inorganic adapted",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_alcohols_phenols_e_g010": {
+  "citation": "NCERT Class 12 Chemistry Ch-11 / Ch-13 (Amines); Solomons OC",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_alcohols_phenols_e_g011": {
+  "citation": "NCERT Class 12 Chemistry Ch-11 Alcohols, Phenols & Ethers",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_alcohols_phenols_e_g012": {
+  "citation": "NCERT Class 12 Chemistry Ch-11 Alcohols, Phenols & Ethers",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_alcohols_phenols_e_g013": {
+  "citation": "NCERT Class 12 Chemistry Ch-11 Alcohols, Phenols & Ethers",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_alcohols_phenols_e_g014": {
+  "citation": "NCERT Class 12 Chemistry Ch-11 Alcohols, Phenols & Ethers",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_alcohols_phenols_e_g015": {
+  "citation": "NCERT Class 12 Chemistry Ch-11 Alcohols, Phenols & Ethers",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_alcohols_phenols_e_g016": {
+  "citation": "NCERT Class 12 Chemistry Ch-11 Alcohols, Phenols & Ethers",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_alcohols_phenols_e_g017": {
+  "citation": "Standard qualitative organic analysis (Vogel); JEE reference",
+  "weightage": "low",
+  "generated": true
+ },
+ "chem_alcohols_phenols_e_g018": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 'Alcohols, Phenols and Ethers' & 'Aldehydes, Ketones and Carboxylic Acids'; Solomons",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_alcohols_phenols_e_g019": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 'Alcohols, Phenols and Ethers'; Clayden / Solomons",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_alcohols_phenols_e_g020": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 'Alcohols, Phenols and Ethers'; Solomons / Morrison & Boyd",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_alcohols_phenols_e_g021": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 'Alcohols, Phenols and Ethers'; Solomons / Clayden",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_alcohols_phenols_e_g022": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 'Hydrocarbons'; Morrison & Boyd",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_aldehydes_ketones__g001": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Aldehydes, Ketones & Carboxylic Acids; JD Lee / NCERT",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_aldehydes_ketones__g002": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Aldehydes, Ketones & Carboxylic Acids",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_aldehydes_ketones__g003": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Aldehydes, Ketones & Carboxylic Acids; JD Lee",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_aldehydes_ketones__g004": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Aldehydes, Ketones & Carboxylic Acids",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_aldehydes_ketones__g005": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Aldehydes, Ketones & Carboxylic Acids",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_aldehydes_ketones__g006": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Aldehydes, Ketones & Carboxylic Acids",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_aldehydes_ketones__g007": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Aldehydes, Ketones & Carboxylic Acids",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_aldehydes_ketones__g008": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Aldehydes, Ketones & Carboxylic Acids",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_aldehydes_ketones__g009": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Aldehydes, Ketones & Carboxylic Acids",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_aldehydes_ketones__g010": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Aldehydes, Ketones & Carboxylic Acids",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_aldehydes_ketones__g011": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Aldehydes, Ketones & Carboxylic Acids",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_aldehydes_ketones__g012": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Aldehydes, Ketones & Carboxylic Acids",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_aldehydes_ketones__g013": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Aldehydes, Ketones & Carboxylic Acids",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_aldehydes_ketones__g014": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Aldehydes, Ketones & Carboxylic Acids",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_aldehydes_ketones__g015": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Aldehydes, Ketones & Carboxylic Acids",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_aldehydes_ketones__g016": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Aldehydes, Ketones & Carboxylic Acids",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_aldehydes_ketones__g017": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Aldehydes, Ketones & Carboxylic Acids",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_aldehydes_ketones__g018": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Aldehydes, Ketones & Carboxylic Acids; JD Lee",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_aldehydes_ketones__g019": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Aldehydes, Ketones & Carboxylic Acids",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_aldehydes_ketones__g020": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Aldehydes, Ketones & Carboxylic Acids",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_aldehydes_ketones__g021": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Aldehydes, Ketones & Carboxylic Acids",
+  "weightage": "low",
+  "generated": true
+ },
+ "chem_aldehydes_ketones__g022": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 12 'Aldehydes, Ketones and Carboxylic Acids' (Nucleophilic Addition); Solomons Organic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_aldehydes_ketones__g023": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 12 'Aldehydes, Ketones and Carboxylic Acids' (Acidity of Carboxylic Acids)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_amines_diazonium_s_g001": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Amines (basic strength of amines)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_amines_diazonium_s_g002": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Amines; JD Lee / Cengage Organic",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_amines_diazonium_s_g003": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Amines (preparation by ammonolysis)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_amines_diazonium_s_g004": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Amines (preparation by reduction)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_amines_diazonium_s_g005": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Amines (preparation of amines)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_amines_diazonium_s_g006": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Amines (diazonium salts preparation)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_amines_diazonium_s_g007": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Amines (reactions of diazonium salts)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_amines_diazonium_s_g008": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Amines (reactions of diazonium salts)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_amines_diazonium_s_g009": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Amines (replacement by fluorine)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_amines_diazonium_s_g010": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Amines (reactions of diazonium salts)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_amines_diazonium_s_g011": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Amines (reactions of diazonium salts)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_amines_diazonium_s_g012": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Amines (replacement by iodine)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_amines_diazonium_s_g013": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Amines (reactions of diazonium salts)",
+  "weightage": "low",
+  "generated": true
+ },
+ "chem_amines_diazonium_s_g014": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Amines (coupling reactions)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_amines_diazonium_s_g015": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Amines (coupling reactions)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_amines_diazonium_s_g016": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Amines (chemical reactions with nitrous acid)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_amines_diazonium_s_g017": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Amines (acylation)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_amines_diazonium_s_g018": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Amines (electrophilic substitution in aniline)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_amines_diazonium_s_g019": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Amines (nitration of aniline)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_amines_diazonium_s_g020": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Amines (electrophilic substitution); JD Lee",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_amines_diazonium_s_g021": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Amines (Preparation); Morrison & Boyd / Solomons Organic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_amines_diazonium_s_g022": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Amines (Diazonium salts - coupling); Cengage Organic Chemistry (K.S. Verma)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_amines_diazonium_s_g023": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Amines (Distinction of amines - Hinsberg test); J.D. Lee / Cengage",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_amines_diazonium_s_g024": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Amines (Gabriel phthalimide synthesis - limitation); Cengage Organic Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_biomolecules_g001": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Biomolecules (Structure of Glucose); JD Lee",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_biomolecules_g002": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Biomolecules (Structure of Glucose)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_biomolecules_g003": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Biomolecules (Structure of Glucose)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_biomolecules_g004": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Biomolecules (Structure of Glucose)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_biomolecules_g005": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Biomolecules (Structure of Glucose)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_biomolecules_g006": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Biomolecules (Disaccharides)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_biomolecules_g007": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Biomolecules (Disaccharides)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_biomolecules_g008": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Biomolecules (Polysaccharides)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_biomolecules_g009": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Biomolecules (Proteins)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_biomolecules_g010": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Biomolecules (Structure of Proteins)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_biomolecules_g011": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Biomolecules (Nucleic Acids)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_biomolecules_g012": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Biomolecules (DNA); standard reference",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_biomolecules_g013": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Biomolecules (Vitamins)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_biomolecules_g014": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Biomolecules (Carbohydrates - Polysaccharides); JD Lee / NCERT",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_biomolecules_g015": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Biomolecules (Proteins - Denaturation)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_biomolecules_g016": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Biomolecules (Nucleic Acids)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_biomolecules_g017": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Biomolecules (Carbohydrates - reducing/non-reducing sugars)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_biomolecules_g018": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Biomolecules (Carbohydrates - Polysaccharides)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_biomolecules_g019": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Biomolecules (Carbohydrates - Disaccharides)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemical_bonding_g001": {
+  "citation": "NCERT Class 11 Chemistry, Ch 4 (Chemical Bonding), VSEPR; JD Lee Concise Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_bonding_g002": {
+  "citation": "NCERT Class 11 Chemistry, Ch 4, VSEPR Theory",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_bonding_g003": {
+  "citation": "NCERT Class 11 Chemistry, Ch 4 (MOT); JD Lee Concise Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_bonding_g004": {
+  "citation": "NCERT Class 11 Chemistry, Ch 4 (Hybridisation)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_bonding_g005": {
+  "citation": "Cengage Chemical Bonding (K.S. Verma); JD Lee Concise Inorganic Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemical_bonding_g006": {
+  "citation": "JD Lee Concise Inorganic Chemistry; NCERT Class 11 Chemistry, Ch 4",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemical_bonding_g007": {
+  "citation": "NCERT Class 11 Chemistry, Ch 4; JD Lee Concise Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_bonding_g008": {
+  "citation": "NCERT Class 11 Chemistry, Ch 4 (Dipole Moment)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_bonding_g009": {
+  "citation": "NCERT Class 11 Chemistry, Ch 4; HC Verma / Cengage (Vector addition of dipoles)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemical_bonding_g010": {
+  "citation": "JD Lee Concise Inorganic Chemistry; Pauling Scale (NCERT Class 11 Ch 3 reference)",
+  "weightage": "low",
+  "generated": true
+ },
+ "chem_chemical_bonding_g011": {
+  "citation": "JD Lee Concise Inorganic Chemistry; NCERT Class 11 Chemistry",
+  "weightage": "low",
+  "generated": true
+ },
+ "chem_chemical_bonding_g012": {
+  "citation": "NCERT Class 11 Chemistry, Ch 4 (Bond Parameters)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_bonding_g013": {
+  "citation": "JD Lee Concise Inorganic Chemistry; Schomaker-Stevenson relation",
+  "weightage": "low",
+  "generated": true
+ },
+ "chem_chemical_bonding_g014": {
+  "citation": "NCERT Class 11 Chemistry, Ch 4 Chemical Bonding (Bond Parameters); JD Lee Concise Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_bonding_g015": {
+  "citation": "NCERT Class 11 Chemistry, Ch 6 Thermodynamics (Bond Enthalpy) & Ch 4 Chemical Bonding",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_bonding_g016": {
+  "citation": "NCERT Class 11 Chemistry, Ch 4 Chemical Bonding (Hybridisation); JD Lee Concise Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_kinetics_g001": {
+  "citation": "NCERT Class 12 Chemistry, Ch 3 (Chemical Kinetics); Cengage Physical Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_kinetics_g002": {
+  "citation": "JD Lee / Cengage Physical Chemistry; NCERT Class 12 Ch 3",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_kinetics_g003": {
+  "citation": "NCERT Class 12 Chemistry, Ch 3 (Chemical Kinetics)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_kinetics_g004": {
+  "citation": "Cengage Physical Chemistry; NCERT Class 12 Ch 3 (in-text example)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemical_kinetics_g005": {
+  "citation": "NCERT Class 12 Chemistry, Ch 3; HC Verma / Cengage",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_kinetics_g006": {
+  "citation": "NCERT Class 12 Chemistry, Ch 3 (Chemical Kinetics)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemical_kinetics_g007": {
+  "citation": "NCERT Class 12 Chemistry, Ch 3; JD Lee",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemical_kinetics_g008": {
+  "citation": "NCERT Class 12 Chemistry, Ch 3 (Chemical Kinetics)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_kinetics_g009": {
+  "citation": "NCERT Class 12 Chemistry, Ch 3; Cengage Physical Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemical_kinetics_g010": {
+  "citation": "NCERT Class 12 Chemistry, Ch 3; HC Verma / Cengage",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemical_kinetics_g011": {
+  "citation": "NCERT Class 12 Chemistry, Ch 3 (Chemical Kinetics)",
+  "weightage": "low",
+  "generated": true
+ },
+ "chem_chemical_kinetics_g012": {
+  "citation": "NCERT Class 12 Chemistry, Ch 3 (Collision Theory)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemical_kinetics_g013": {
+  "citation": "NCERT Class 12 Chemistry, Ch 3; Cengage Physical Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemical_kinetics_g014": {
+  "citation": "NCERT Class 12 Chemistry, Ch 3; Cengage Physical Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemical_kinetics_g015": {
+  "citation": "NCERT Class 12 Chemistry, Ch 3 (Chemical Kinetics)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_kinetics_g016": {
+  "citation": "Cengage Physical Chemistry; NCERT Class 12 Ch 3",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemical_kinetics_g017": {
+  "citation": "Cengage / OP Tandon Physical Chemistry (pseudo first order applications)",
+  "weightage": "low",
+  "generated": true
+ },
+ "chem_chemical_kinetics_g018": {
+  "citation": "NCERT Class 12 Chemistry, Ch.4 Chemical Kinetics; Cengage Physical Chemistry (K.S. Verma)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_kinetics_g019": {
+  "citation": "NCERT Class 12 Chemistry, Ch.4 Chemical Kinetics",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_kinetics_g020": {
+  "citation": "NCERT Class 12 Chemistry, Ch.4 Chemical Kinetics; HC Verma / JD Lee",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_kinetics_g021": {
+  "citation": "Cengage / P. Bahadur Physical Chemistry; standard JEE reference",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemical_kinetics_g022": {
+  "citation": "P. Bahadur / Cengage Physical Chemistry; standard JEE result",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemical_kinetics_g023": {
+  "citation": "NCERT Class 12 Chemistry, Ch.4 Chemical Kinetics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemical_kinetics_g024": {
+  "citation": "NCERT Class 12 Chemistry, Ch.4 Chemical Kinetics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemical_kinetics_g025": {
+  "citation": "NCERT Class 12 Chemistry, Ch.4 Chemical Kinetics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemical_kinetics_g026": {
+  "citation": "NCERT Class 12 Chemistry, Ch.4 Chemical Kinetics; P. Bahadur",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemical_thermodyn_g001": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Thermodynamics; JD Lee / NCERT",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_thermodyn_g002": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Thermodynamics",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_thermodyn_g003": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Thermodynamics; HC Verma analog",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_thermodyn_g004": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Thermodynamics",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_thermodyn_g005": {
+  "citation": "NCERT Class 11 Chemistry/Physics, Kinetic Theory; HC Verma",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_thermodyn_g006": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Thermodynamics; HC Verma",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_thermodyn_g007": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Thermodynamics; HC Verma",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_thermodyn_g008": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Thermodynamics",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_thermodyn_g009": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Thermodynamics; HC Verma",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_thermodyn_g010": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Thermodynamics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemical_thermodyn_g011": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Thermodynamics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemical_thermodyn_g012": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Thermodynamics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemical_thermodyn_g013": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Thermodynamics",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_thermodyn_g014": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Thermodynamics; JD Lee",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemical_thermodyn_g015": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Thermodynamics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemical_thermodyn_g016": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Thermodynamics",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_thermodyn_g017": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Thermodynamics",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_thermodyn_g018": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Thermodynamics; JD Lee",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemical_thermodyn_g019": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Thermodynamics; Class 12 Electrochemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_thermodyn_g020": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Thermodynamics",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_thermodyn_g021": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Thermodynamics",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_thermodyn_g022": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Thermodynamics (Third Law)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemical_thermodyn_g023": {
+  "citation": "NCERT Class 11 Chemistry (Equilibrium); JD Lee / Cengage",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_thermodyn_g024": {
+  "citation": "JD Lee, Concise Inorganic Chemistry; Atkins",
+  "weightage": "low",
+  "generated": true
+ },
+ "chem_chemical_thermodyn_g025": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Thermodynamics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemical_thermodyn_g026": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 6; NCERT Exemplar",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_thermodyn_g027": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 6 Thermodynamics; Ch. 7 Equilibrium",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemical_thermodyn_g028": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 6 Thermodynamics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemical_thermodyn_g029": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 6 Thermodynamics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemical_thermodyn_g030": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 6 & Ch. 3 Periodicity",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemical_thermodyn_g031": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 6 & Ch. 3 Periodicity",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemical_thermodyn_g032": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 6 Thermodynamics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemical_thermodyn_g033": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 6 Thermodynamics",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_coordination_compo_g001": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Coordination Compounds; JD Lee Concise Inorganic Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_coordination_compo_g002": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Coordination Compounds",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_coordination_compo_g003": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Coordination Compounds",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_coordination_compo_g004": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Coordination Compounds; JD Lee Concise Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_coordination_compo_g005": {
+  "citation": "JD Lee Concise Inorganic Chemistry; NCERT Class 12 Ch. Coordination Compounds",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_coordination_compo_g006": {
+  "citation": "JD Lee Concise Inorganic Chemistry; Cengage Inorganic Chemistry (K.S. Verma)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_coordination_compo_g007": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Coordination Compounds (Werner's Theory)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_coordination_compo_g008": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Coordination Compounds (Werner's experiments)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_coordination_compo_g009": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Coordination Compounds (Isomerism)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_coordination_compo_g010": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Coordination Compounds (Isomerism)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_coordination_compo_g011": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Coordination Compounds (Isomerism)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_coordination_compo_g012": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Coordination Compounds (Valence Bond Theory)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_coordination_compo_g013": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Coordination Compounds (Valence Bond Theory)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_coordination_compo_g014": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Coordination Compounds; Cengage Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_coordination_compo_g015": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Coordination Compounds (Stability); JD Lee Concise Inorganic Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_coordination_compo_g016": {
+  "citation": "JD Lee Concise Inorganic Chemistry; NCERT Class 12 Ch. Coordination Compounds",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_coordination_compo_g017": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Coordination Compounds (Isomerism)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_coordination_compo_g018": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Coordination Compounds",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_coordination_compo_g019": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Coordination Compounds (Crystal Field Theory)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_coordination_compo_g020": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Coordination Compounds (Crystal Field Theory)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_coordination_compo_g021": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 9 Coordination Compounds (Werner/Sidgwick); JD Lee Concise Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_coordination_compo_g022": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 9 (Werner's theory, conductivity); JD Lee Concise Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_coordination_compo_g023": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 9 (Werner); Ch. 2 Solutions (van't Hoff factor)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_coordination_compo_g024": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 9 (Isomerism in coordination compounds)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_coordination_compo_g025": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 9 (Isomerism); JD Lee Concise Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_coordination_compo_g026": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 9 (Isomerism, [Co(en)2Cl2]+ example)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_coordination_compo_g027": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 9 (Nomenclature and oxidation number)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_electrochemistry_g001": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Electrochemistry; JD Lee / NCERT Eq. relating ΔG°, E°, K",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_electrochemistry_g002": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Electrochemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_electrochemistry_g003": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Electrochemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_electrochemistry_g004": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Electrochemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_electrochemistry_g005": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Electrochemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_electrochemistry_g006": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Electrochemistry; HC Verma / JD Lee",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_electrochemistry_g007": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Electrochemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_electrochemistry_g008": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Electrochemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_electrochemistry_g009": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Electrochemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_electrochemistry_g010": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Electrochemistry; JD Lee",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_electrochemistry_g011": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Electrochemistry (Kohlrausch applications)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_electrochemistry_g012": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Electrochemistry; Ostwald dilution law",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_electrochemistry_g013": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Electrochemistry; JD Lee",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_electrochemistry_g014": {
+  "citation": "Cengage Physical Chemistry; thermodynamics of cells",
+  "weightage": "low",
+  "generated": true
+ },
+ "chem_electrochemistry_g015": {
+  "citation": "Cengage Physical Chemistry; \\(\\Delta G = \\Delta H - T\\Delta S\\) applied to cells",
+  "weightage": "low",
+  "generated": true
+ },
+ "chem_electrochemistry_g016": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Electrochemistry (Batteries)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_electrochemistry_g017": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Electrochemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_electrochemistry_g018": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Electrochemistry (Daniell cell)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_electrochemistry_g019": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Electrochemistry (Kohlrausch's law application)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_electrochemistry_g020": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Electrochemistry (Faraday's Laws)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_electrochemistry_g021": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Electrochemistry; Cengage Physical Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_electrochemistry_g022": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Electrochemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_electrochemistry_g023": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Electrochemistry; Cengage",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_haloalkanes_haloar_g001": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Haloalkanes & Haloarenes; JD Lee / MS Chouhan Organic",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_haloalkanes_haloar_g002": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Haloalkanes & Haloarenes; HC Verma not applicable, use Solomons Organic",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_haloalkanes_haloar_g003": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Haloalkanes & Haloarenes; MS Chouhan Organic",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_haloalkanes_haloar_g004": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Haloalkanes & Haloarenes; HC Verma N/A, use Morrison & Boyd",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_haloalkanes_haloar_g005": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Haloalkanes & Haloarenes; Morrison & Boyd Organic",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_haloalkanes_haloar_g006": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Haloalkanes & Haloarenes; MS Chouhan Organic",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_haloalkanes_haloar_g007": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Haloalkanes & Haloarenes",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_haloalkanes_haloar_g008": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Haloalkanes & Haloarenes; Solomons Organic",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_haloalkanes_haloar_g009": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Haloalkanes & Haloarenes; Solomons Organic",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_haloalkanes_haloar_g010": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Haloalkanes & Haloarenes",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_haloalkanes_haloar_g011": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Haloalkanes & Haloarenes (and Ch. Alcohols, Phenols & Ethers)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_haloalkanes_haloar_g012": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Haloalkanes & Haloarenes",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_haloalkanes_haloar_g013": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Haloalkanes & Haloarenes",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_haloalkanes_haloar_g014": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Haloalkanes & Haloarenes",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_haloalkanes_haloar_g015": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Haloalkanes & Haloarenes; MS Chouhan Organic",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_haloalkanes_haloar_g016": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Haloalkanes & Haloarenes; MS Chouhan Organic",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_haloalkanes_haloar_g017": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Haloalkanes & Haloarenes",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_haloalkanes_haloar_g018": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Haloalkanes & Haloarenes",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_haloalkanes_haloar_g019": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Haloalkanes & Haloarenes",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_haloalkanes_haloar_g020": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Haloalkanes & Haloarenes",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_haloalkanes_haloar_g021": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Haloalkanes & Haloarenes; MS Chouhan Organic",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_haloalkanes_haloar_g022": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Haloalkanes & Haloarenes; MS Chouhan Organic",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_haloalkanes_haloar_g023": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Haloalkanes & Haloarenes (stereochemistry section)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_haloalkanes_haloar_g024": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Haloalkanes & Haloarenes (stereochemistry); van't Hoff rule",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_haloalkanes_haloar_g025": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Haloalkanes & Haloarenes",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_haloalkanes_haloar_g026": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Haloalkanes & Haloarenes (Prep from alcohols); JD Lee / NCERT",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_haloalkanes_haloar_g027": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Haloalkanes & Haloarenes (Prep from alcohols)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_haloalkanes_haloar_g028": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Alcohols/Haloalkanes (Lucas test); standard",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_haloalkanes_haloar_g029": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Haloalkanes & Haloarenes (Wurtz limitation)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_haloalkanes_haloar_g030": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Haloalkanes & Haloarenes (Reactivity toward Nu)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_haloalkanes_haloar_g031": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Haloalkanes & Haloarenes / Amines (Ammonolysis)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_haloalkanes_haloar_g032": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Haloalkanes & Haloarenes (Substitution by CN)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_haloalkanes_haloar_g033": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Haloalkanes & Haloarenes (Physical properties)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_haloalkanes_haloar_g034": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Haloalkanes & Haloarenes (Elimination, Saytzeff vs Hofmann)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_hydrocarbons_g001": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Hydrocarbons; JD Lee / Solomons",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_hydrocarbons_g002": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Hydrocarbons; Morrison & Boyd",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_hydrocarbons_g003": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Hydrocarbons",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_hydrocarbons_g004": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Hydrocarbons",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_hydrocarbons_g005": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Haloalkanes; Solomons",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_hydrocarbons_g006": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Hydrocarbons",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_hydrocarbons_g007": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Hydrocarbons",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_hydrocarbons_g008": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Hydrocarbons",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_hydrocarbons_g009": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Hydrocarbons; Morrison & Boyd",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_hydrocarbons_g010": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Hydrocarbons; Solomons",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_hydrocarbons_g011": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Hydrocarbons",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_hydrocarbons_g012": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Hydrocarbons; Morrison & Boyd",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_hydrocarbons_g013": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Hydrocarbons",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_hydrocarbons_g014": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Hydrocarbons",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_hydrocarbons_g015": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Hydrocarbons",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_hydrocarbons_g016": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Hydrocarbons",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_hydrocarbons_g017": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Hydrocarbons",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_hydrocarbons_g018": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Hydrocarbons",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_hydrocarbons_g019": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Hydrocarbons",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_hydrocarbons_g020": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Hydrocarbons",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_hydrocarbons_g021": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Hydrocarbons; Morrison & Boyd",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_hydrocarbons_g022": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Hydrocarbons; Solomons",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_hydrocarbons_g023": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Hydrocarbons; NCERT Class 12 Aldehydes",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_hydrocarbons_g024": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Aldehydes/Ketones; Morrison & Boyd",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_hydrocarbons_g025": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Hydrocarbons",
+  "weightage": "low",
+  "generated": true
+ },
+ "chem_hydrocarbons_g026": {
+  "citation": "NCERT Class 11 Organic Basics; Solomons / Clayden",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_hydrocarbons_g027": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Hydrocarbons (Alkenes, Addition of Water); JD Lee / Solomons Organic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_hydrocarbons_g028": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Hydrocarbons (Free Radical Mechanism); Morrison & Boyd / HC Verma-Cengage Organic",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_hydrocarbons_g029": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Hydrocarbons (Aromaticity); JD Lee / Clayden Organic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_hydrocarbons_g030": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Hydrocarbons (Polymerisation)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_hydrocarbons_g031": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Hydrocarbons (Acidic Character of Alkynes); JD Lee",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_hydrocarbons_g032": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Hydrocarbons (Directive Influence in EAS); JD Lee",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_hydrocarbons_g033": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Hydrocarbons (General formulae); HC Verma-Cengage",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_hydrocarbons_g034": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Hydrocarbons (Ozonolysis); Solomons / Cengage Organic",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_ionic_equilibrium_g001": {
+  "citation": "NCERT Class 11 Chemistry, Ch 7 Equilibrium; JD Lee Concise Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_ionic_equilibrium_g002": {
+  "citation": "NCERT Class 11 Chemistry, Ch 7 Equilibrium",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_ionic_equilibrium_g003": {
+  "citation": "NCERT Class 11 Chemistry, Ch 7 Equilibrium",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_ionic_equilibrium_g004": {
+  "citation": "NCERT Class 11 Chemistry, Ch 7; HC Verma / P Bahadur Physical Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_ionic_equilibrium_g005": {
+  "citation": "NCERT Class 11 Chemistry, Ch 7 Equilibrium",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_ionic_equilibrium_g006": {
+  "citation": "NCERT Class 11 Chemistry, Ch 7 Equilibrium; P Bahadur Physical Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_ionic_equilibrium_g007": {
+  "citation": "NCERT Class 11 Chemistry, Ch 7; P Bahadur Physical Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_ionic_equilibrium_g008": {
+  "citation": "NCERT Class 11 Chemistry, Ch 7 Equilibrium; JD Lee",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_ionic_equilibrium_g009": {
+  "citation": "NCERT Class 12 Chemistry, Ch 3 Electrochemistry; NCERT Class 11 Ch 7",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_ionic_equilibrium_g010": {
+  "citation": "NCERT Class 11 Chemistry, Ch 7 Equilibrium; P Bahadur Physical Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_ionic_equilibrium_g011": {
+  "citation": "NCERT Class 11 Chemistry, Ch 7 Equilibrium; P Bahadur Physical Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_ionic_equilibrium_g012": {
+  "citation": "NCERT Class 11 Chemistry, Ch 7 Equilibrium",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_ionic_equilibrium_g013": {
+  "citation": "NCERT Class 11 Chemistry, Ch 7 Equilibrium",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_ionic_equilibrium_g014": {
+  "citation": "NCERT Class 11 Chemistry, Ch 7 Equilibrium; JD Lee",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_ionic_equilibrium_g015": {
+  "citation": "NCERT Class 11 Chemistry, Ch 7 Equilibrium",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_ionic_equilibrium_g016": {
+  "citation": "NCERT Class 11 Chemistry, Ch 7 Equilibrium",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_ionic_equilibrium_g017": {
+  "citation": "NCERT Class 11 Chemistry, Ch 7 Equilibrium; P Bahadur Physical Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_ionic_equilibrium_g018": {
+  "citation": "NCERT Class 11 Chemistry, Ch 7 Equilibrium",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_ionic_equilibrium_g019": {
+  "citation": "NCERT Class 11 Chemistry, Ch 7 Equilibrium; JD Lee",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_ionic_equilibrium_g020": {
+  "citation": "NCERT Class 11 Chemistry, Ch 7 Equilibrium",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_ionic_equilibrium_g021": {
+  "citation": "NCERT Class 11 Chemistry, Ch 7; P Bahadur / Cengage Physical Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_ionic_equilibrium_g022": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Equilibrium (Ionic Equilibrium); JD Lee / Cengage Physical Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_ionic_equilibrium_g023": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Equilibrium; Cengage / P. Bahadur Physical Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_ionic_equilibrium_g024": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Equilibrium (Polyprotic Acids); JD Lee Inorganic / Cengage",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_ionic_equilibrium_g025": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Equilibrium; JD Lee Inorganic (Qualitative Analysis), Cengage",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_ionic_equilibrium_g026": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Equilibrium (Solubility Product); Cengage / P. Bahadur",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_ionic_equilibrium_g027": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Equilibrium; Cengage Physical Chemistry (Selective Precipitation)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_ionic_equilibrium_g028": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Equilibrium (Common Ion Effect); Cengage / P. Bahadur",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_ionic_equilibrium_g029": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Equilibrium (Ostwald's Law); Cengage Physical Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_ionic_equilibrium_g030": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Equilibrium (Salt Hydrolysis / Titration); Cengage",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_ionic_equilibrium_g031": {
+  "citation": "NCERT Class 11 Chemistry, Ch. Equilibrium; Cengage / J.D. Lee (Acid-Base Equilibria)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_organic_chemistry__g001": {
+  "citation": "NCERT Class 11 Chemistry Ch.12 (Organic Chemistry: Basic Principles); JD Lee / Morrison & Boyd",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_organic_chemistry__g002": {
+  "citation": "NCERT Class 11 Chemistry Ch.12 (Purification & Characterisation)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_organic_chemistry__g003": {
+  "citation": "NCERT Class 11 Chemistry Ch.12 (Reaction Intermediates); Morrison & Boyd",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_organic_chemistry__g004": {
+  "citation": "NCERT Class 11 Chemistry Ch.12 (Reaction Intermediates); HC Verma not applicable / Morrison & Boyd",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_organic_chemistry__g005": {
+  "citation": "NCERT Class 11 Chemistry Ch.12; NCERT Class 12 (Alcohols, Phenols)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_organic_chemistry__g006": {
+  "citation": "NCERT Class 12 Chemistry Ch.13 (Amines)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_organic_chemistry__g007": {
+  "citation": "NCERT Class 11 Chemistry Ch.12 (Quantitative Analysis - Liebig's method)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_organic_chemistry__g008": {
+  "citation": "NCERT Class 11 Chemistry Ch.12 (Duma's method)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_organic_chemistry__g009": {
+  "citation": "NCERT Class 11 Chemistry Ch.12 (Carius method)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_organic_chemistry__g010": {
+  "citation": "NCERT Class 11 Chemistry Ch.12 (Carius method, sulphur)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_organic_chemistry__g011": {
+  "citation": "NCERT Class 11 Chemistry Ch.12 (Estimation of Oxygen)",
+  "weightage": "low",
+  "generated": true
+ },
+ "chem_organic_chemistry__g012": {
+  "citation": "NCERT Class 11 Chemistry Ch.12 (Chromatography - purification)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_organic_chemistry__g013": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 12 (Fission of Covalent Bond); Morrison & Boyd / Solomons",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_periodicity_period_g001": {
+  "citation": "NCERT Class 11 Chemistry Ch.3 (Classification of Elements & Periodicity); JD Lee Concise Inorganic Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_periodicity_period_g002": {
+  "citation": "NCERT Class 11 Chemistry Ch.3 (Periodic Properties); JD Lee Concise Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_periodicity_period_g003": {
+  "citation": "NCERT Class 11 Chemistry Ch.3 (Ionization Enthalpy)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_periodicity_period_g004": {
+  "citation": "NCERT Class 11 Chemistry Ch.3 (Periodic Trends)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_periodicity_period_g005": {
+  "citation": "NCERT Class 11 Chemistry Ch.3 (Variation of Ionization Enthalpy)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_periodicity_period_g006": {
+  "citation": "NCERT Class 11 Chemistry Ch.3 (Atomic and Ionic Radii)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_periodicity_period_g007": {
+  "citation": "NCERT Class 11 Chemistry Ch.3 (Ionic Radii); HC Verma / standard inorganic texts",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_periodicity_period_g008": {
+  "citation": "NCERT Class 11 Chemistry Ch.3 (Atomic Radii)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_periodicity_period_g009": {
+  "citation": "NCERT Class 11 Chemistry Ch.3 (Periodic Trends in Properties)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_periodicity_period_g010": {
+  "citation": "NCERT Class 11 Chemistry Ch.3; JD Lee Concise Inorganic Chemistry (Fajans' rules)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_periodicity_period_g011": {
+  "citation": "NCERT Class 11 Chemistry Ch.3 (Periodic Trends in Chemical Properties)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_periodicity_period_g012": {
+  "citation": "NCERT Class 11 Chemistry Ch.3 (Periodicity in Chemical Properties)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_periodicity_period_g013": {
+  "citation": "NCERT Class 11 Chemistry Ch.3 (Periodicity of Valence/Oxidation States)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_periodicity_period_g014": {
+  "citation": "NCERT Class 11 Ch.3 (Classification of Elements); J.D. Lee Concise Inorganic Chemistry; Cengage Inorganic (K.S. Verma)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_periodicity_period_g015": {
+  "citation": "NCERT Class 11 Ch.4 (Chemical Bonding); J.D. Lee Concise Inorganic Chemistry; Cengage Inorganic",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_periodicity_period_g016": {
+  "citation": "Pauling, Nature of the Chemical Bond; J.D. Lee Concise Inorganic Chemistry; Cengage Inorganic",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_periodicity_period_g017": {
+  "citation": "NCERT Class 11 Ch.3; J.D. Lee Concise Inorganic Chemistry; Cengage Inorganic",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_periodicity_period_g018": {
+  "citation": "J.D. Lee Concise Inorganic Chemistry; Cengage Inorganic",
+  "weightage": "low",
+  "generated": true
+ },
+ "chem_periodicity_period_g019": {
+  "citation": "NCERT Class 11 Ch.4 (Bonding, lattice enthalpy); J.D. Lee Concise Inorganic Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_periodicity_period_g020": {
+  "citation": "NCERT Class 11 Ch.4 (Chemical Bonding, lattice enthalpy); HC Verma/J.D. Lee Inorganic",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_redox_reactions_g001": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 8 Redox Reactions; JD Lee Concise Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_redox_reactions_g002": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 8 Redox Reactions / Ch. 1 Some Basic Concepts",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_redox_reactions_g003": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 8; Cengage Physical Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_redox_reactions_g004": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 8 Redox Reactions",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_redox_reactions_g005": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 3 Electrochemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_redox_reactions_g006": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 3 Electrochemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_redox_reactions_g007": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 3 Electrochemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_redox_reactions_g008": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 3 Electrochemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_redox_reactions_g009": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 3 Electrochemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_redox_reactions_g010": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 3 Electrochemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_redox_reactions_g011": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 3 Electrochemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_redox_reactions_g012": {
+  "citation": "Cengage / JD Lee — Redox Titration Calculations (NCERT Class 11 Ch. 8 basis)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_redox_reactions_g013": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 8 d- and f-Block (KMnO4); Ch. 8 Class 11 Redox",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_redox_reactions_g014": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 8 d- and f-Block; Class 11 Ch. 8 Redox",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_redox_reactions_g015": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 8 d- and f-Block (K2Cr2O7); Class 11 Ch. 8 Redox",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_redox_reactions_g016": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 8 Redox Reactions (rules for oxidation number)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_redox_reactions_g017": {
+  "citation": "NCERT Class 11 Chemistry, Ch 8 (Redox Reactions), Sec 8.3; NCERT Class 12 Electrochemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_redox_reactions_g018": {
+  "citation": "NCERT Class 11 Chemistry, Ch 8 (Redox Reactions), Sec 8.3.1",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_redox_reactions_g019": {
+  "citation": "NCERT Class 11 Chemistry, Ch 8; JD Lee / Cengage Inorganic (Volumetric Analysis)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_redox_reactions_g020": {
+  "citation": "NCERT Class 11 Chemistry, Ch 1 & Ch 8; Cengage Physical Chemistry (Concentration Terms)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_structure_of_atom_g001": {
+  "citation": "NCERT Class 11 Chemistry Ch.2 (Structure of Atom); JD Lee / Cengage Physical Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_structure_of_atom_g002": {
+  "citation": "NCERT Class 11 Chemistry Ch.2; HC Verma / Cengage",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_structure_of_atom_g003": {
+  "citation": "NCERT Class 11 Chemistry Ch.2; Cengage Physical Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_structure_of_atom_g004": {
+  "citation": "NCERT Class 11 Chemistry Ch.2; JD Lee Inorganic Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_structure_of_atom_g005": {
+  "citation": "NCERT Class 11 Chemistry Ch.2; Cengage Physical Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_structure_of_atom_g006": {
+  "citation": "NCERT Class 11 Chemistry Ch.2; JD Lee / Cengage",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_structure_of_atom_g007": {
+  "citation": "NCERT Class 11 Chemistry Ch.2 (Bohr-Bury scheme)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_structure_of_atom_g008": {
+  "citation": "NCERT Class 11 Chemistry Ch.2 (Quantum Numbers)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_structure_of_atom_g009": {
+  "citation": "NCERT Class 11 Chemistry Ch.2 (Quantum Mechanical Model)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_structure_of_atom_g010": {
+  "citation": "NCERT Class 11 Chemistry Ch.2; HC Verma Modern Physics",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_structure_of_atom_g011": {
+  "citation": "NCERT Class 11 Chemistry Ch.2; HC Verma Modern Physics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_structure_of_atom_g012": {
+  "citation": "NCERT Class 11 Chemistry Ch.2 (de Broglie's argument for quantization)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_structure_of_atom_g013": {
+  "citation": "NCERT Class 11 Chemistry Ch.2; Cengage Physical Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_structure_of_atom_g014": {
+  "citation": "NCERT Class 11 Chemistry Ch.2 (Hydrogen Spectrum)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_structure_of_atom_g015": {
+  "citation": "NCERT Class 11 Chemistry Ch.2; HC Verma Modern Physics",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_structure_of_atom_g016": {
+  "citation": "NCERT Class 11 Chemistry Ch.2; HC Verma Modern Physics",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_structure_of_atom_g017": {
+  "citation": "NCERT Class 11 Chemistry Ch.2 (de Broglie concept); Cengage",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_structure_of_atom_g018": {
+  "citation": "NCERT Class 11 Chemistry Ch.2 (Discovery of Electron, Thomson)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_structure_of_atom_g019": {
+  "citation": "NCERT Class 11 Chemistry Ch.2 (Quantum Mechanical Model)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_structure_of_atom_g020": {
+  "citation": "NCERT Class 11 Chemistry, Ch.2 Structure of Atom; JD Lee Concise Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_structure_of_atom_g021": {
+  "citation": "NCERT Class 11 Chemistry, Ch.2 Structure of Atom (Quantum Numbers)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_structure_of_atom_g022": {
+  "citation": "NCERT Class 11 Chemistry, Ch.2 Structure of Atom (Quantum Numbers)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_structure_of_atom_g023": {
+  "citation": "NCERT Class 11 Chemistry, Ch.2 Structure of Atom (Hydrogen Spectrum)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_structure_of_atom_g024": {
+  "citation": "NCERT Class 11 Chemistry, Ch.2 Structure of Atom (Bohr's Model)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_structure_of_atom_g025": {
+  "citation": "NCERT Class 11 Chemistry, Ch.2 Structure of Atom (Bohr's Model)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_structure_of_atom_g026": {
+  "citation": "NCERT Class 11 Chemistry, Ch.2 Structure of Atom (Hydrogen Spectrum)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_structure_of_atom_g027": {
+  "citation": "NCERT Class 11 Chemistry, Ch.2 Structure of Atom; HC Verma (de Broglie waves)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_structure_of_atom_g028": {
+  "citation": "NCERT Class 11 Chemistry, Ch.2 Structure of Atom (Quantum Numbers)",
+  "weightage": "low",
+  "generated": true
+ },
+ "chem_structure_of_atom_g029": {
+  "citation": "NCERT Class 11 Chemistry, Ch.2 Structure of Atom (Hydrogen Spectrum)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_d_f_block_elements_g001": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 'The d- and f-Block Elements'; JD Lee Concise Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_d_f_block_elements_g002": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 'The d- and f-Block Elements'; JD Lee",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_d_f_block_elements_g003": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 'The d- and f-Block Elements'; JD Lee",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_d_f_block_elements_g004": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 'The d- and f-Block Elements'; Cengage Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_d_f_block_elements_g005": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 'The d- and f-Block Elements'; Cengage Inorganic Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_d_f_block_elements_g006": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 'The d- and f-Block Elements'; JD Lee",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_d_f_block_elements_g007": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 'The d- and f-Block Elements'; JD Lee",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_d_f_block_elements_g008": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 'The d- and f-Block Elements'; Cengage Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_d_f_block_elements_g009": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 'The d- and f-Block Elements'; Cengage Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_d_f_block_elements_g010": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 'The d- and f-Block Elements'; JD Lee",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_d_f_block_elements_g011": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 'The d- and f-Block Elements'",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_d_f_block_elements_g012": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 'The d- and f-Block Elements'",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_d_f_block_elements_g013": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 'The d- and f-Block Elements'; JD Lee",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_d_f_block_elements_g014": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 'The d- and f-Block Elements'; JD Lee",
+  "weightage": "low",
+  "generated": true
+ },
+ "chem_d_f_block_elements_g015": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 8 'The d- and f-Block Elements' (Standard Electrode Potentials, Table 8.2); JD Lee Concise Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_d_f_block_elements_g016": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 8 'The d- and f-Block Elements' (Table 8.2, Cu anomaly); JD Lee Concise Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_d_f_block_elements_g017": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 8 'The d- and f-Block Elements' (Potassium Permanganate / Dichromate); JD Lee Concise Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_d_f_block_elements_g018": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 8 'The d- and f-Block Elements' (Properties of Potassium Dichromate); JD Lee Concise Inorganic Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_d_f_block_elements_g019": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 8 'The d- and f-Block Elements' (The Lanthanoids, Oxidation States); JD Lee Concise Inorganic Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_d_f_block_elements_g020": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 8 'The d- and f-Block Elements' (Colour & Magnetic Properties); JD Lee Concise Inorganic Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_d_f_block_elements_g021": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 8 'The d- and f-Block Elements' (Potassium Dichromate, chromate equilibrium)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_p_block_elements_g001": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 7 (p-Block, Group 15); JD Lee Concise Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_p_block_elements_g002": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 7 (Group 15, Nitric Acid); JD Lee",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_p_block_elements_g003": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 7 (Nitric Acid); JD Lee",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_p_block_elements_g004": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 7 (Nitric Acid)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_p_block_elements_g005": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 7 (Nitric Acid)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_p_block_elements_g006": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 7 (Group 15, Ammonia)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_p_block_elements_g007": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 7 (Oxides of Nitrogen)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_p_block_elements_g008": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 7 (Phosphine); JD Lee",
+  "weightage": "low",
+  "generated": true
+ },
+ "chem_p_block_elements_g009": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 7 (Phosphorus Halides)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_p_block_elements_g010": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 7 (Phosphorus Halides)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_p_block_elements_g011": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 7 (Phosphorus Halides); HC Verma/Cengage",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_p_block_elements_g012": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 7 (Oxoacids of Phosphorus)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_p_block_elements_g013": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 7 (Oxoacids of Phosphorus)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_p_block_elements_g014": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 7 (Oxoacids of Phosphorus); JD Lee",
+  "weightage": "low",
+  "generated": true
+ },
+ "chem_p_block_elements_g015": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 7 (Sulphur Dioxide)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_p_block_elements_g016": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 7 (Group 16 Hydrides)",
+  "weightage": "low",
+  "generated": true
+ },
+ "chem_p_block_elements_g017": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 7 (Sulphuric Acid)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_p_block_elements_g018": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 7 (Sulphuric Acid)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_p_block_elements_g019": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 7 (Oxoacids of Sulphur); JD Lee",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_p_block_elements_g020": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 7 (Oxoacids of Sulphur); JD Lee",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_p_block_elements_g021": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 7 (Oxoacids of Sulphur)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_p_block_elements_g022": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 7 (Group 17, Chlorine)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_p_block_elements_g023": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 7 (Hydrogen Chloride)",
+  "weightage": "low",
+  "generated": true
+ },
+ "chem_p_block_elements_g024": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 7 (Chlorine)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_p_block_elements_g025": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 7 (Chlorine)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_p_block_elements_g026": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 7 (Oxoacids of Halogens); JD Lee",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_p_block_elements_g027": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 11 (p-Block, Boron); JD Lee",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_p_block_elements_g028": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 11 (Boron, Borax); JD Lee",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_p_block_elements_g029": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 11 (Boric Acid); JD Lee",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_p_block_elements_g030": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 11 (Diborane)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_p_block_elements_g031": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 11 (Diborane); JD Lee",
+  "weightage": "low",
+  "generated": true
+ },
+ "chem_p_block_elements_g032": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 11 (Aluminium); JD Lee",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_p_block_elements_g033": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 11 (Aluminium); JD Lee",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_p_block_elements_g034": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 11 (Carbon, Oxides of Carbon)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_p_block_elements_g035": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 11 (Oxides of Carbon)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_p_block_elements_g036": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 11 (Oxides of Carbon)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_p_block_elements_g037": {
+  "citation": "JD Lee Concise Inorganic Chemistry; Cengage Inorganic (p-Block)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_p_block_elements_g038": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 7 (Group 15 Hydrides); JD Lee",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_p_block_elements_g039": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 7 (Group 15 Hydrides)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_p_block_elements_g040": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 7 (Group 16 Hydrides)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_p_block_elements_g041": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 7 (Hydrogen Halides)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_p_block_elements_g042": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 7 (Group 17); JD Lee",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_p_block_elements_g043": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 7 (Group 17)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_p_block_elements_g044": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 7 (Group 17, General Trends); JD Lee",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_p_block_elements_g045": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 7 (Fluorine); JD Lee",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_p_block_elements_g046": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 7 (Group 17)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_p_block_elements_g047": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 11 (Group 14 Trends)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_p_block_elements_g048": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 11 (Carbon Allotropes)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_p_block_elements_g049": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 11 (Carbon Allotropes)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_p_block_elements_g050": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 7 (Oxides of Nitrogen)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_p_block_elements_g051": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 7 (Oxides of Nitrogen)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_p_block_elements_g052": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 7 (Ozone)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_p_block_elements_g053": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 7 (Ozone)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_p_block_elements_g054": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 7 (Nitric Acid); NCERT Class 11 Ch. 11 (Aluminium)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_p_block_elements_g055": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 7 (Dinitrogen)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_p_block_elements_g056": {
+  "citation": "NCERT Class 12 Chemistry, Ch 7 (The p-Block Elements), Contact Process; JD Lee",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_p_block_elements_g057": {
+  "citation": "NCERT Class 12 Chemistry, Ch 7 (Sodium thiosulphate); Vogel Quant. Analysis",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_p_block_elements_g058": {
+  "citation": "NCERT Class 12 Chemistry, Ch 7 (Sodium thiosulphate); JD Lee",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_p_block_elements_g059": {
+  "citation": "NCERT Class 12 Chemistry, Ch 7 (Uses of sodium thiosulphate)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_p_block_elements_g060": {
+  "citation": "NCERT Class 12 Chemistry, Ch 7 (Allotropic forms of P); JD Lee",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_p_block_elements_g061": {
+  "citation": "NCERT Class 12 Chemistry, Ch 7 (Oxides of Phosphorus); JD Lee",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_p_block_elements_g062": {
+  "citation": "NCERT Class 12 Chemistry, Ch 7 (Oxides of Phosphorus)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_p_block_elements_g063": {
+  "citation": "NCERT Class 12 Chemistry, Ch 7 (Sulphur halides); JD Lee",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_p_block_elements_g064": {
+  "citation": "NCERT Class 12 Chemistry, Ch 7; JD Lee Concise Inorganic",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_p_block_elements_g065": {
+  "citation": "NCERT Class 12 Chemistry, Ch 7 (Chlorine, bleaching action)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_p_block_elements_g066": {
+  "citation": "NCERT Class 12 Chemistry, Ch 7 (Interhalogen compounds); JD Lee",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_p_block_elements_g067": {
+  "citation": "NCERT Class 12 Chemistry, Ch 7 (Compounds of Xenon); JD Lee",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_p_block_elements_g068": {
+  "citation": "NCERT Class 12 Chemistry, Ch 7 (Compounds of Xenon); JD Lee",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_p_block_elements_g069": {
+  "citation": "NCERT Class 12 Chemistry, Ch 7 (Compounds of Xenon); JD Lee",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_p_block_elements_g070": {
+  "citation": "NCERT Class 11 Chemistry, Ch 11 (Anomalous properties / diagonal relationship)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_p_block_elements_g071": {
+  "citation": "NCERT Class 11/12 Chemistry (Anomalous properties of first element); JD Lee",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_p_block_elements_g072": {
+  "citation": "NCERT Class 11 Chemistry, Ch 11 (Carbon dioxide)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_p_block_elements_g073": {
+  "citation": "NCERT Class 11 Chemistry, Ch 11 (Useful compounds of carbon); JD Lee",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_p_block_elements_g074": {
+  "citation": "NCERT Class 12 Chemistry, Ch 7 (Properties of sulphur dioxide)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_p_block_elements_g075": {
+  "citation": "NCERT Class 12 Chemistry, Ch 7 (Phosphine)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_s_block_elements_g001": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 10 (The s-Block Elements); JD Lee Concise Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_s_block_elements_g002": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 10 (Anomalous behaviour of Lithium)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_s_block_elements_g003": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 10 (Reactivity towards water)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_s_block_elements_g004": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 10 (Solutions in liquid ammonia)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_s_block_elements_g005": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 10 (Carbonates); JD Lee",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_s_block_elements_g006": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 10 (Anomalous behaviour of Lithium)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_s_block_elements_g007": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 10 (Solubility of hydroxides)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_s_block_elements_g008": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 10; JD Lee Concise Inorganic Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_s_block_elements_g009": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 10 (Flame colouration)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_s_block_elements_g010": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 10 (Sodium hydroxide)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_s_block_elements_g011": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 10 (Sodium carbonate / Solvay)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_s_block_elements_g012": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 10 (Calcium oxide, Calcium hydroxide)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_s_block_elements_g013": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 10 (Calcium hydroxide)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_s_block_elements_g014": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 10 (Calcium sulphate / POP)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_s_block_elements_g015": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 10; JD Lee Concise Inorganic Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_s_block_elements_g016": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 10 (Anomalous behaviour of Beryllium)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_s_block_elements_g017": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 10 (Trends in atomic and physical properties)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_s_block_elements_g018": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 10 (Anomalous behaviour of Lithium)",
+  "weightage": "low",
+  "generated": true
+ },
+ "chem_s_block_elements_g019": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 10 (Electrode potentials / reducing nature)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_s_block_elements_g020": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 10 (Oxides; uses of KO2)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_s_block_elements_g021": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 10 (Calcium sulphate)",
+  "weightage": "low",
+  "generated": true
+ },
+ "chem_s_block_elements_g022": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 10 (The s-Block Elements), 'Sodium Carbonate'; JD Lee Concise Inorganic Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_s_block_elements_g023": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 9 (Hydrogen) & Ch. 10 (s-Block); JD Lee Concise Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_s_block_elements_g024": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 10 (s-Block), 'Oxides and Hydroxides'; JD Lee Concise Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_s_block_elements_g025": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 10 (s-Block), 'Anomalous behaviour of Lithium / Sodium Compounds'",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_s_block_elements_g026": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 10 (s-Block), 'Carbonates'; JD Lee Concise Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_s_block_elements_g027": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 10 (s-Block), 'Oxides of Sodium'; JD Lee Concise Inorganic Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_s_block_elements_g028": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 10 (s-Block), 'General Characteristics'; JD Lee Concise Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_s_block_elements_g029": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 10 (s-Block), 'Hydration Enthalpy'; JD Lee Concise Inorganic Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_s_block_elements_g030": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 10 (s-Block), 'Hydroxides'; JD Lee Concise Inorganic Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_s_block_elements_g031": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 10 (s-Block), 'Anomalous Behaviour of Lithium'; JD Lee",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_s_block_elements_g032": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 10 (s-Block), 'Anomalous Behaviour of Lithium' & Fajans' Rules",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_s_block_elements_g033": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 10 (s-Block), 'Solubility'; JD Lee Concise Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_s_block_elements_g034": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 10 (s-Block) & Hydrocarbons; JD Lee",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_s_block_elements_g035": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 10 (s-Block), 'Anomalous Behaviour of Lithium'",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_s_block_elements_g036": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 10 (s-Block), 'Oxides'; JD Lee Concise Inorganic Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_metallurgy_g001": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 6 'General Principles and Processes of Isolation of Elements'; JD Lee Concise Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_metallurgy_g002": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 6 'General Principles and Processes of Isolation of Elements'",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_metallurgy_g003": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 6; JD Lee Concise Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_metallurgy_g004": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 6 'General Principles and Processes of Isolation of Elements'",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_metallurgy_g005": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 6 'General Principles and Processes of Isolation of Elements'",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_metallurgy_g006": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 6; JD Lee Concise Inorganic Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_metallurgy_g007": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 6; JD Lee Concise Inorganic Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_metallurgy_g008": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 6 'General Principles and Processes of Isolation of Elements'",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_metallurgy_g009": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 6 'General Principles and Processes of Isolation of Elements'",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_metallurgy_g010": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 3 'Electrochemistry' (applied in Ch. 6 Metallurgy)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_metallurgy_g011": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 6 'General Principles and Processes of Isolation of Elements'",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_metallurgy_g012": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 6 'General Principles and Processes of Isolation of Elements'",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_metallurgy_g013": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 6 'General Principles and Processes of Isolation of Elements'",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_metallurgy_g014": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 6 'General Principles and Processes of Isolation of Elements'",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_metallurgy_g015": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 6 'General Principles and Processes of Isolation of Elements'",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_metallurgy_g016": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 6 'General Principles and Processes of Isolation of Elements'",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_metallurgy_g017": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 6 'General Principles and Processes of Isolation of Elements'",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_metallurgy_g018": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 6 'General Principles and Processes of Isolation of Elements'",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_metallurgy_g019": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 6 'General Principles and Processes of Isolation of Elements'; JD Lee",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_metallurgy_g020": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 6 'General Principles and Processes of Isolation of Elements'",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_metallurgy_g021": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 6 'General Principles and Processes of Isolation of Elements'",
+  "weightage": "low",
+  "generated": true
+ },
+ "chem_metallurgy_g022": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 6 'General Principles and Processes of Isolation of Elements'; JD Lee",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_metallurgy_g023": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 6; JD Lee Concise Inorganic Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_metallurgy_g024": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 6 'General Principles and Processes of Isolation of Elements'",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_metallurgy_g025": {
+  "citation": "NCERT Class 12 Chemistry Ch.6 (General Principles & Processes of Isolation of Elements); JD Lee Concise Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_metallurgy_g026": {
+  "citation": "NCERT Class 12 Chemistry Ch.6; JD Lee Concise Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_metallurgy_g027": {
+  "citation": "NCERT Class 12 Chemistry Ch.3 (Electrochemistry) & Ch.6; Cengage Physical Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_metallurgy_g028": {
+  "citation": "NCERT Class 12 Chemistry Ch.6 (Refining); JD Lee Concise Inorganic Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g001": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 'Some p-Block / Qualitative Analysis'; Vogel's Qualitative Inorganic Analysis",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g002": {
+  "citation": "JD Lee Concise Inorganic Chemistry; Vogel's Qualitative Inorganic Analysis",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g003": {
+  "citation": "Vogel's Qualitative Inorganic Analysis; JD Lee Concise Inorganic Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g004": {
+  "citation": "Vogel's Qualitative Inorganic Analysis; JD Lee Concise Inorganic Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g005": {
+  "citation": "NCERT Class 11 Chemistry, Equilibrium; JD Lee Concise Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g006": {
+  "citation": "NCERT Class 11 Chemistry, Equilibrium; HC Verma not applicable; Vogel's",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g007": {
+  "citation": "Vogel's Qualitative Inorganic Analysis; JD Lee Concise Inorganic Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g008": {
+  "citation": "NCERT Class 11 Chemistry, Equilibrium; Vogel's Qualitative Inorganic Analysis",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g009": {
+  "citation": "Vogel's Qualitative Inorganic Analysis; JD Lee Concise Inorganic Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g010": {
+  "citation": "NCERT Class 11 Chemistry; Vogel's Qualitative Inorganic Analysis",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g011": {
+  "citation": "NCERT Class 11 Chemistry, s-Block; Vogel's Qualitative Inorganic Analysis",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g012": {
+  "citation": "NCERT Class 11 Chemistry, s-Block; Vogel's Qualitative Inorganic Analysis",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g013": {
+  "citation": "NCERT Class 11 Chemistry, s-Block; Vogel's Qualitative Inorganic Analysis",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g014": {
+  "citation": "Vogel's Qualitative Inorganic Analysis; NCERT Class 11 Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g015": {
+  "citation": "Vogel's Qualitative Inorganic Analysis; NCERT Class 11 Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g016": {
+  "citation": "JD Lee Concise Inorganic Chemistry; Vogel's Qualitative Inorganic Analysis",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g017": {
+  "citation": "NCERT Class 12 Chemistry, Coordination Compounds; Vogel's",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g018": {
+  "citation": "JD Lee Concise Inorganic Chemistry; Vogel's Qualitative Inorganic Analysis",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g019": {
+  "citation": "Vogel's Qualitative Inorganic Analysis; NCERT Class 11 Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g020": {
+  "citation": "JD Lee Concise Inorganic Chemistry; Vogel's Qualitative Inorganic Analysis",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g021": {
+  "citation": "JD Lee Concise Inorganic Chemistry; Vogel's Qualitative Inorganic Analysis",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g022": {
+  "citation": "JD Lee Concise Inorganic Chemistry; Vogel's Qualitative Inorganic Analysis",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g023": {
+  "citation": "Vogel's Qualitative Inorganic Analysis",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g024": {
+  "citation": "Vogel's Qualitative Inorganic Analysis; NCERT Class 11 Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g025": {
+  "citation": "NCERT Class 12 Chemistry, Coordination Compounds; Vogel's",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g026": {
+  "citation": "Vogel's Qualitative Inorganic Analysis; JD Lee Concise Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g027": {
+  "citation": "Vogel's Qualitative Inorganic Analysis; JD Lee Concise Inorganic Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g028": {
+  "citation": "JD Lee Concise Inorganic Chemistry; Vogel's Qualitative Inorganic Analysis",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g029": {
+  "citation": "Vogel's Qualitative Inorganic Analysis",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g030": {
+  "citation": "Vogel's Qualitative Inorganic Analysis; NCERT Class 11 Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g031": {
+  "citation": "Vogel's Qualitative Inorganic Analysis; NCERT Class 11 Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g032": {
+  "citation": "NCERT Class 11 Chemistry; Vogel's Qualitative Inorganic Analysis",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g033": {
+  "citation": "NCERT Class 11 Chemistry; Vogel's Qualitative Inorganic Analysis",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g034": {
+  "citation": "NCERT Class 11 Chemistry; Vogel's Qualitative Inorganic Analysis",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g035": {
+  "citation": "Vogel's Qualitative Inorganic Analysis; NCERT Class 11 Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g036": {
+  "citation": "NCERT Class 11 Chemistry; Vogel's Qualitative Inorganic Analysis",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g037": {
+  "citation": "NCERT Class 11 Chemistry; Vogel's Qualitative Inorganic Analysis",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g038": {
+  "citation": "NCERT Class 11 Chemistry; Vogel's Qualitative Inorganic Analysis",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g039": {
+  "citation": "NCERT Class 11 Chemistry; Vogel's Qualitative Inorganic Analysis",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g040": {
+  "citation": "NCERT Class 12 Chemistry, p-Block; Vogel's Qualitative Inorganic Analysis",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g041": {
+  "citation": "NCERT Class 11 Chemistry, Redox; Vogel's Qualitative Inorganic Analysis",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g042": {
+  "citation": "Vogel's Qualitative Inorganic Analysis; NCERT Class 12 Chemistry, p-Block",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g043": {
+  "citation": "Vogel's Qualitative Inorganic Analysis; NCERT Class 11 Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g044": {
+  "citation": "Vogel's Qualitative Inorganic Analysis; JD Lee Concise Inorganic Chemistry",
+  "weightage": "low",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g045": {
+  "citation": "Vogel's Qualitative Inorganic Analysis; NCERT Class 12 Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g046": {
+  "citation": "NCERT Class 12 Chemistry (p-Block, Halogens); Vogel's Qualitative Inorganic Analysis",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g047": {
+  "citation": "NCERT Class 11 Chemistry (Qualitative Analysis); Vogel's Qualitative Inorganic Analysis",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g048": {
+  "citation": "NCERT Class 11 Chemistry (Qualitative Analysis); Vogel's Qualitative Inorganic Analysis",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g049": {
+  "citation": "NCERT Class 11 Chemistry (Qualitative Analysis); Vogel's Qualitative Inorganic Analysis",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g050": {
+  "citation": "NCERT Class 11 Chemistry (Qualitative Analysis); Vogel's Qualitative Inorganic Analysis",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g051": {
+  "citation": "NCERT Class 11 Chemistry (Qualitative Analysis); Vogel's Qualitative Inorganic Analysis",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g052": {
+  "citation": "NCERT Class 11 Chemistry (Equilibrium / Qualitative Analysis); JD Lee Concise Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g053": {
+  "citation": "NCERT Class 11 Chemistry (Qualitative Analysis); Vogel's Qualitative Inorganic Analysis",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_salt_analysis_qual_g054": {
+  "citation": "NCERT Class 12 Chemistry (p-Block, Halogens); Vogel's Qualitative Inorganic Analysis",
+  "weightage": "low",
+  "generated": true
+ },
+ "chem_solid_state_g001": {
+  "citation": "NCERT Class 12 Chemistry, Ch-1 The Solid State; JD Lee Concise Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_solid_state_g002": {
+  "citation": "NCERT Class 12 Chemistry, Ch-1 The Solid State",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_solid_state_g003": {
+  "citation": "NCERT Class 12 Chemistry, Ch-1 The Solid State",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_solid_state_g004": {
+  "citation": "NCERT Class 12 Chemistry, Ch-1 The Solid State",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_solid_state_g005": {
+  "citation": "NCERT Class 12 Chemistry, Ch-1 The Solid State",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_solid_state_g006": {
+  "citation": "NCERT Class 12 Chemistry, Ch-1 The Solid State; JD Lee Concise Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_solid_state_g007": {
+  "citation": "NCERT Class 12 Chemistry, Ch-1 The Solid State; JD Lee Concise Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_solid_state_g008": {
+  "citation": "NCERT Class 12 Chemistry, Ch-1 The Solid State; JD Lee Concise Inorganic Chemistry",
+  "weightage": "low",
+  "generated": true
+ },
+ "chem_solid_state_g009": {
+  "citation": "NCERT Class 12 Chemistry, Ch-1 The Solid State",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_solid_state_g010": {
+  "citation": "NCERT Class 12 Chemistry, Ch-1 The Solid State",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_solid_state_g011": {
+  "citation": "NCERT Class 12 Chemistry, Ch-1 The Solid State; JD Lee Concise Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_solid_state_g012": {
+  "citation": "NCERT Class 12 Chemistry, Ch-1 The Solid State; JD Lee Concise Inorganic Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_solid_state_g013": {
+  "citation": "NCERT Class 12 Chemistry, Ch-1 The Solid State; JD Lee Concise Inorganic Chemistry",
+  "weightage": "low",
+  "generated": true
+ },
+ "chem_solid_state_g014": {
+  "citation": "NCERT Class 12 Chemistry, Ch-1 The Solid State",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_solid_state_g015": {
+  "citation": "NCERT Class 12 Chemistry, Ch-1 The Solid State",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_solid_state_g016": {
+  "citation": "NCERT Class 12 Chemistry, Ch-1 The Solid State",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_solid_state_g017": {
+  "citation": "NCERT Class 12 Chemistry, Ch-1 The Solid State",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_solid_state_g018": {
+  "citation": "NCERT Chemistry Class 12, Ch. 1 The Solid State; JD Lee / NCERT Exemplar",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_solid_state_g019": {
+  "citation": "NCERT Chemistry Class 12, Ch. 1 The Solid State; Cengage Physical Chemistry (KS Verma)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_solid_state_g020": {
+  "citation": "NCERT Chemistry Class 12, Ch. 1 The Solid State (Electrical Properties)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_solid_state_g021": {
+  "citation": "NCERT Chemistry Class 12, Ch. 1 The Solid State (Magnetic Properties)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_solid_state_g022": {
+  "citation": "NCERT Chemistry Class 12, Ch. 1 The Solid State (Imperfections in Solids)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_solid_state_g023": {
+  "citation": "NCERT Chemistry Class 12, Ch. 1 The Solid State (Close Packed Structures)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_solutions_g001": {
+  "citation": "NCERT Class 12 Chemistry, Ch 2 (Solutions), Sec 2.2; JD Lee / NCERT",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_solutions_g002": {
+  "citation": "NCERT Class 12 Chemistry, Ch 2 (Solutions), Sec 2.2.3",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_solutions_g003": {
+  "citation": "NCERT Class 12 Chemistry, Ch 2 (Solutions), Sec 2.2.1",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_solutions_g004": {
+  "citation": "NCERT Class 12 Chemistry, Ch 2 (Solutions), Sec 2.2.6",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_solutions_g005": {
+  "citation": "NCERT Class 12 Chemistry, Ch 2 (Solutions); Cengage (N. Awasthi)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_solutions_g006": {
+  "citation": "NCERT Class 12 Chemistry, Ch 2 (Solutions), Sec 2.3.2",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_solutions_g007": {
+  "citation": "NCERT Class 12 Chemistry, Ch 2 (Solutions), Sec 2.4.1",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_solutions_g008": {
+  "citation": "NCERT Class 12 Chemistry, Ch 2 (Solutions), Sec 2.4.1; Cengage",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_solutions_g009": {
+  "citation": "NCERT Class 12 Chemistry, Ch 2 (Solutions), Sec 2.4.2",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_solutions_g010": {
+  "citation": "NCERT Class 12 Chemistry, Ch 2 (Solutions), Sec 2.4.3",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_solutions_g011": {
+  "citation": "NCERT Class 12 Chemistry, Ch 2 (Solutions), Sec 2.5.1",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_solutions_g012": {
+  "citation": "NCERT Class 12 Chemistry, Ch 2 (Solutions), Sec 2.6.2",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_solutions_g013": {
+  "citation": "NCERT Class 12 Chemistry, Ch 2 (Solutions), Sec 2.6.3",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_solutions_g014": {
+  "citation": "NCERT Class 12 Chemistry, Ch 2 (Solutions), Sec 2.6.2",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_solutions_g015": {
+  "citation": "NCERT Class 12 Chemistry, Ch 2 (Solutions), Sec 2.6.4",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_solutions_g016": {
+  "citation": "NCERT Class 12 Chemistry, Ch 2 (Solutions), Sec 2.6.5",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_solutions_g017": {
+  "citation": "NCERT Class 12 Chemistry, Ch 2 (Solutions), Sec 2.6.5",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_solutions_g018": {
+  "citation": "Cengage (N. Awasthi) Physical Chemistry, Solutions; standard result",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_solutions_g019": {
+  "citation": "Cengage / JD Lee; standard distillation theory result",
+  "weightage": "low",
+  "generated": true
+ },
+ "chem_solutions_g020": {
+  "citation": "NCERT Class 12 Chemistry, Ch 2 (Solutions), Sec 2.3.2",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_solutions_g021": {
+  "citation": "NCERT Class 12 Chemistry, Ch.1 Solutions (concentration units); JD Lee / Cengage Physical Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_solutions_g022": {
+  "citation": "NCERT Class 12 Chemistry, Ch.1 Solutions (expressing concentration)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_solutions_g023": {
+  "citation": "NCERT Class 12 Chemistry, Ch.1 Solutions (expressing concentration); used in pharmacy/medicine context",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_solutions_g024": {
+  "citation": "NCERT Class 11 Chemistry, Ch.1 (mole concept / equivalent concept); Cengage / JD Lee Physical Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_solutions_g025": {
+  "citation": "NCERT Class 11 Chemistry, Ch.1 (mole concept); standard titration/dilution result, Cengage Physical Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_solutions_g026": {
+  "citation": "NCERT Class 12 Chemistry, Ch.1 Solutions (abnormal molar masses, van't Hoff factor)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_solutions_g027": {
+  "citation": "NCERT Class 12 Chemistry, Ch.1 Solutions (concentration interconversion); Cengage Physical Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_states_of_matter_g_g001": {
+  "citation": "NCERT Chemistry Class 11, Ch 5 (States of Matter); JD Lee / NCERT",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_states_of_matter_g_g002": {
+  "citation": "NCERT Chemistry Class 11, Ch 5 (States of Matter)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_states_of_matter_g_g003": {
+  "citation": "NCERT Chemistry Class 11, Ch 5 (States of Matter)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_states_of_matter_g_g004": {
+  "citation": "NCERT Chemistry Class 11, Ch 5 (States of Matter)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_states_of_matter_g_g005": {
+  "citation": "NCERT Chemistry Class 11, Ch 5 (States of Matter)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_states_of_matter_g_g006": {
+  "citation": "NCERT Chemistry Class 11, Ch 5; HC Verma (Kinetic Theory)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_states_of_matter_g_g007": {
+  "citation": "NCERT Chemistry Class 11, Ch 5; Cengage Physical Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_states_of_matter_g_g008": {
+  "citation": "NCERT Chemistry Class 11, Ch 5 (States of Matter)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_states_of_matter_g_g009": {
+  "citation": "NCERT Chemistry Class 11, Ch 5; NCERT Physics (Kinetic Theory)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_states_of_matter_g_g010": {
+  "citation": "NCERT Chemistry Class 11, Ch 5; HC Verma (Kinetic Theory)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_states_of_matter_g_g011": {
+  "citation": "NCERT Chemistry Class 11, Ch 5 (States of Matter)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_states_of_matter_g_g012": {
+  "citation": "NCERT Chemistry Class 11, Ch 5 (States of Matter)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_states_of_matter_g_g013": {
+  "citation": "NCERT Chemistry Class 11, Ch 5; JD Lee Inorganic Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_states_of_matter_g_g014": {
+  "citation": "NCERT Chemistry Class 11, Ch 5; Cengage Physical Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_states_of_matter_g_g015": {
+  "citation": "NCERT Chemistry Class 11, Ch 5; Cengage Physical Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_states_of_matter_g_g016": {
+  "citation": "Cengage Physical Chemistry; OP Tandon Physical Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_states_of_matter_g_g017": {
+  "citation": "NCERT Physics Class 11, Ch 13 (Kinetic Theory); HC Verma",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_states_of_matter_g_g018": {
+  "citation": "NCERT Physics Class 11, Ch 13 (Kinetic Theory); Atkins Physical Chemistry",
+  "weightage": "low",
+  "generated": true
+ },
+ "chem_states_of_matter_g_g019": {
+  "citation": "NCERT Chemistry Class 11, Ch 5 (States of Matter)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_states_of_matter_g_g020": {
+  "citation": "NCERT Class 11 Chemistry, Ch.5 States of Matter; NCERT Class 11 Physics Ch.13 Kinetic Theory",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_states_of_matter_g_g021": {
+  "citation": "NCERT Class 11 Chemistry Ch.5; NCERT Class 11 Physics Ch.13 Kinetic Theory",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_states_of_matter_g_g022": {
+  "citation": "NCERT Class 11 Physics Ch.13 Kinetic Theory; NCERT Class 11 Chemistry Ch.5",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_states_of_matter_g_g023": {
+  "citation": "NCERT Class 11 Chemistry Ch.5 States of Matter; Atkins' Physical Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_surface_chemistry_g001": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Surface Chemistry; JD Lee / Cengage Physical Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_surface_chemistry_g002": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Surface Chemistry; Cengage Physical Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_surface_chemistry_g003": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Surface Chemistry; P. Bahadur Physical Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_surface_chemistry_g004": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Surface Chemistry (Catalysis); Arrhenius — NCERT Chemical Kinetics",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_surface_chemistry_g005": {
+  "citation": "Cengage / JD Lee Physical Chemistry; standard JEE reference for Langmuir isotherm",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_surface_chemistry_g006": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Surface Chemistry; P. Bahadur Physical Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_surface_chemistry_g007": {
+  "citation": "NCERT Class 12 Chemistry, Ch. Surface Chemistry; JD Lee Concise Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemistry_in_every_g001": {
+  "citation": "NCERT Class 12 Chemistry, Ch 16 'Chemistry in Everyday Life' (Antifertility drugs)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemistry_in_every_g002": {
+  "citation": "NCERT Class 12 Chemistry, Ch 16 'Chemistry in Everyday Life' (Antibiotics); JD Lee context",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemistry_in_every_g003": {
+  "citation": "NCERT Class 12 Chemistry, Ch 16 'Chemistry in Everyday Life' (Antimicrobials)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemistry_in_every_g004": {
+  "citation": "NCERT Class 12 Chemistry, Ch 16 'Chemistry in Everyday Life' (Analgesics)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemistry_in_every_g005": {
+  "citation": "NCERT Class 12 Chemistry, Ch 16 'Chemistry in Everyday Life' (Detergents — environmental aspect)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemistry_in_every_g006": {
+  "citation": "NCERT Class 12 Chemistry, Ch 16 'Chemistry in Everyday Life' (Food preservatives)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemistry_in_every_g007": {
+  "citation": "NCERT Class 12 Chemistry, Ch 16 'Chemistry in Everyday Life' (Antioxidants)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemistry_in_every_g008": {
+  "citation": "NCERT Class 12 Chemistry, Ch 16 'Chemistry in Everyday Life' (Drug-enzyme interaction)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_chemistry_in_every_g009": {
+  "citation": "NCERT Class 12 Chemistry, Ch 16 'Chemistry in Everyday Life' (Drugs as receptors)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemistry_in_every_g010": {
+  "citation": "NCERT Chemistry Class 12, Ch. Chemistry in Everyday Life (Drugs by therapeutic action)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemistry_in_every_g011": {
+  "citation": "NCERT Chemistry Class 12, Ch. Chemistry in Everyday Life (Antihistamines)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemistry_in_every_g012": {
+  "citation": "NCERT Chemistry Class 12, Ch. Chemistry in Everyday Life (Classification of Drugs)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemistry_in_every_g013": {
+  "citation": "NCERT Chemistry Class 12, Ch. Chemistry in Everyday Life (Cleansing agents - Soaps)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemistry_in_every_g014": {
+  "citation": "NCERT Chemistry Class 12, Ch. Chemistry in Everyday Life (Cleansing action of soaps)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemistry_in_every_g015": {
+  "citation": "NCERT Chemistry Class 12, Ch. Chemistry in Everyday Life (Synthetic detergents - classification)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemistry_in_every_g016": {
+  "citation": "NCERT Chemistry Class 12, Ch. Chemistry in Everyday Life (Artificial sweetening agents)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_chemistry_in_every_g017": {
+  "citation": "NCERT Chemistry Class 12, Ch. Chemistry in Everyday Life (Antibiotics)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_environmental_chem_g001": {
+  "citation": "NCERT Class 11 Chemistry, Ch 14 Environmental Chemistry; OP Tandon",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_environmental_chem_g002": {
+  "citation": "NCERT Class 11 Chemistry, Ch 14 Environmental Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_environmental_chem_g003": {
+  "citation": "NCERT Class 11 Chemistry, Ch 14 Environmental Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_environmental_chem_g004": {
+  "citation": "NCERT Class 11 Chemistry, Ch 14 Environmental Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_environmental_chem_g005": {
+  "citation": "NCERT Class 11 Chemistry, Ch 14 Environmental Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_environmental_chem_g006": {
+  "citation": "NCERT Class 11 Chemistry, Ch 14 Environmental Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_environmental_chem_g007": {
+  "citation": "NCERT Class 11 Chemistry, Ch 14 Environmental Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_environmental_chem_g008": {
+  "citation": "NCERT Class 11 Chemistry, Ch 14 Environmental Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_environmental_chem_g009": {
+  "citation": "NCERT Class 11 Chemistry, Ch 14 Environmental Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_environmental_chem_g010": {
+  "citation": "NCERT Class 11 Chemistry, Ch 14 Environmental Chemistry",
+  "weightage": "low",
+  "generated": true
+ },
+ "chem_environmental_chem_g011": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 14 Environmental Chemistry (Greenhouse Effect); JD Lee Concise Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_environmental_chem_g012": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 14 Environmental Chemistry (Water Pollution)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_environmental_chem_g013": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 14 Environmental Chemistry (Water Pollution, permissible limits)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_environmental_chem_g014": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 14 Environmental Chemistry (Ozone Depletion / Ozone Hole)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_environmental_chem_g015": {
+  "citation": "NCERT Class 11 Chemistry, Ch. 14 Environmental Chemistry (Greenhouse gases)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_nuclear_chemistry_g001": {
+  "citation": "NCERT Class 11 Chemistry Ch. Structure of Atom / Class 12 Ch. Chemical Kinetics; JD Lee Concise Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_nuclear_chemistry_g002": {
+  "citation": "NCERT Class 12 Chemistry Ch. Chemical Kinetics; Cengage Physical Chemistry (Nuclear)",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_nuclear_chemistry_g003": {
+  "citation": "NCERT Class 12 Physics Ch. Nuclei; HC Verma Concepts of Physics Vol. 2",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_nuclear_chemistry_g004": {
+  "citation": "NCERT Class 12 Chemistry Ch. Chemical Kinetics (first-order); Cengage Physical Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_nuclear_chemistry_g005": {
+  "citation": "NCERT Class 12 Physics Ch. Nuclei; NCERT Class 12 Chemistry Ch. Chemical Kinetics",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_nuclear_chemistry_g006": {
+  "citation": "NCERT Class 12 Physics Ch. Nuclei; JD Lee Concise Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_nuclear_chemistry_g007": {
+  "citation": "NCERT Class 12 Physics Ch. Nuclei; HC Verma Concepts of Physics Vol. 2",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_nuclear_chemistry_g008": {
+  "citation": "NCERT Class 12 Physics Ch. Nuclei; NCERT Class 11 Chemistry Ch. Structure of Atom",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_nuclear_chemistry_g009": {
+  "citation": "NCERT Class 12 Chemistry Ch. Nuclear Chemistry / Class 12 Physics Ch. Nuclei; JD Lee",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_nuclear_chemistry_g010": {
+  "citation": "NCERT Class 12 Physics Ch. Nuclei; NCERT Class 11 Chemistry Ch. Structure of Atom",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_nuclear_chemistry_g011": {
+  "citation": "NCERT Class 12 Physics Ch. Nuclei; JD Lee Concise Inorganic Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_nuclear_chemistry_g012": {
+  "citation": "NCERT Class 12 Chemistry Ch. Nuclear Chemistry; Cengage / OP Tandon Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_nuclear_chemistry_g013": {
+  "citation": "Cengage Physical Chemistry (Nuclear Chemistry); P Bahadur Numerical Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_nuclear_chemistry_g014": {
+  "citation": "Cengage Physical Chemistry (Nuclear); JD Lee Concise Inorganic Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_nuclear_chemistry_g015": {
+  "citation": "NCERT Class 12 Physics Ch. Nuclei; NCERT Class 11 Chemistry Ch. Structure of Atom",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_nuclear_chemistry_g016": {
+  "citation": "NCERT Class 12 Physics Ch.13 (Nuclei); also Chemical Kinetics (first-order); JD Lee Concise Inorganic Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_nuclear_chemistry_g017": {
+  "citation": "NCERT Class 12 Physics Ch.13 (Nuclei), Sec. on Radioactivity & Activity; HC Verma Vol.2",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_nuclear_chemistry_g018": {
+  "citation": "NCERT Class 12 Physics Ch.13 (Nuclei); P. Bahadur Numerical Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_nuclear_chemistry_g019": {
+  "citation": "NCERT Class 11 Chemistry (Structure of Atom / Nuclear); JD Lee Concise Inorganic Chemistry, Stability of Nuclei",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_nuclear_chemistry_g020": {
+  "citation": "NCERT Class 12 Physics Ch.13 (Nuclei); HC Verma Vol.2, Nuclear Physics",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_nuclear_chemistry_g021": {
+  "citation": "NCERT Class 12 Physics Ch.13 (Nuclei), Size of Nucleus; HC Verma Vol.2",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_polymers_g001": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 'Polymers' (molecular mass); JD Lee / Cengage Organic",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_polymers_g002": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 'Polymers'; Cengage Physical Chemistry",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_polymers_g003": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 'Polymers'; JD Lee",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_polymers_g004": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 'Polymers'; Cengage Organic",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_polymers_g005": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 'Polymers'; JD Lee",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_polymers_g006": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 'Polymers'",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_polymers_g007": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 'Polymers'",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_polymers_g008": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 'Polymers'",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_polymers_g009": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 'Polymers'",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_polymers_g010": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 'Polymers'",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_polymers_g011": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 'Polymers'; JD Lee",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_polymers_g012": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 'Polymers'; JD Lee",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_polymers_g013": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 'Polymers'",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_polymers_g014": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 'Polymers'; JD Lee",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_polymers_g015": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 'Polymers' (biodegradable)",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_polymers_g016": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 'Polymers'",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_polymers_g017": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 'Polymers'",
+  "weightage": "low",
+  "generated": true
+ },
+ "chem_polymers_g018": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 'Polymers'",
+  "weightage": "low",
+  "generated": true
+ },
+ "chem_polymers_g019": {
+  "citation": "NCERT Class 12 Chemistry, Ch. 'Polymers'; JD Lee",
+  "weightage": "low",
+  "generated": true
+ },
+ "chem_polymers_g020": {
+  "citation": "NCERT Class 12 Chemistry, Ch 15 Polymers (supplementary); Morrison & Boyd / J.D. Lee Concise Inorganic — Step-Growth Polymerization",
+  "weightage": "high",
+  "generated": true
+ },
+ "chem_polymers_g021": {
+  "citation": "NCERT Class 12 Chemistry, Ch 15 Polymers — Classification & Examples; J.D. Lee / Cengage Organic Chemistry",
+  "weightage": "medium",
+  "generated": true
+ },
+ "chem_polymers_g022": {
+  "citation": "NCERT Class 12 Chemistry, Ch 15 Polymers — Polythene preparation; Morrison & Boyd Organic Chemistry",
+  "weightage": "medium",
+  "generated": true
+ }
+}

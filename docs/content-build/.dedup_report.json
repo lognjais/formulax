@@ -1,0 +1,450 @@
+{
+ "dropped": [
+  [
+   "Physics",
+   "phys_gate_006",
+   "XOR Gate",
+   "near-dup(same id)"
+  ],
+  [
+   "Physics",
+   "phys_rad_001",
+   "Radiation Pressure (Absorption)",
+   "near-dup(same id)"
+  ],
+  [
+   "Physics",
+   "phys_rad_002",
+   "Radiation Pressure (Reflection)",
+   "near-dup(same id)"
+  ],
+  [
+   "Physics",
+   "phys_mod_011",
+   "X-Ray Cut-off Wavelength",
+   "near-dup(same id)"
+  ],
+  [
+   "Physics",
+   "phys_wave_adv_001",
+   "Wave Speed (Heavy Rope)",
+   "near-dup(same id)"
+  ],
+  [
+   "Physics",
+   "phys_wave_adv_002",
+   "Time to Travel (Heavy Rope)",
+   "near-dup(same id)"
+  ],
+  [
+   "Physics",
+   "phys_wave_adv_003",
+   "Power Transmitted",
+   "near-dup(same id)"
+  ],
+  [
+   "Physics",
+   "phys_wave_adv_006",
+   "Quincke's Tube",
+   "near-dup(same id)"
+  ],
+  [
+   "Physics",
+   "phys_therm_adv_002",
+   "Composite Slab (Parallel)",
+   "near-dup(same id)"
+  ],
+  [
+   "Physics",
+   "phys_therm_adv_003",
+   "Junction Temperature",
+   "near-dup(same id)"
+  ],
+  [
+   "Physics",
+   "phys_exp_001",
+   "Potentiometer Sensitivity",
+   "near-dup(same id)"
+  ],
+  [
+   "Physics",
+   "phys_exp_002",
+   "Post Office Box",
+   "near-dup(same id)"
+  ],
+  [
+   "Physics",
+   "phys_rot_parallel",
+   "Parallel Axis Theorem",
+   "cross-id dup of phys_rot_013"
+  ],
+  [
+   "Physics",
+   "phys_grav_escape",
+   "Escape Velocity",
+   "cross-id dup of phys_grav_004"
+  ],
+  [
+   "Physics",
+   "phys_wopt_009",
+   "Malus' Law",
+   "cross-id dup of phys_wopt_malus"
+  ],
+  [
+   "Physics",
+   "phys_wopt_010",
+   "Brewster's Law",
+   "cross-id dup of phys_wopt_brewster"
+  ],
+  [
+   "Physics",
+   "phys_opt_inst_006",
+   "Resolving Power (Microscope)",
+   "cross-id dup of phys_opt_res_mic"
+  ],
+  [
+   "Physics",
+   "phys_opt_inst_007",
+   "Resolving Power (Telescope)",
+   "cross-id dup of phys_opt_res_tel"
+  ],
+  [
+   "Chemistry",
+   "chem_kin_008",
+   "Arrhenius Equation",
+   "cross-id dup of chem_kin_arrhenius"
+  ],
+  [
+   "Chemistry",
+   "chem_elec_nernst",
+   "Nernst Equation",
+   "cross-id dup of chem_sol_001"
+  ],
+  [
+   "Math",
+   "math_set_001",
+   "Power Set Cardinality",
+   "exact-identical"
+  ],
+  [
+   "Math",
+   "math_set_004",
+   "Number of Reflexive Relations",
+   "exact-identical"
+  ],
+  [
+   "Math",
+   "math_set_006",
+   "Number of One-One Functions",
+   "exact-identical"
+  ],
+  [
+   "Math",
+   "math_set_007",
+   "Number of Onto Functions",
+   "exact-identical"
+  ],
+  [
+   "Math",
+   "math_set_008",
+   "Number of Bijections",
+   "exact-identical"
+  ],
+  [
+   "Math",
+   "math_log_001",
+   "Base Change Formula",
+   "exact-identical"
+  ],
+  [
+   "Math",
+   "math_log_002",
+   "Base Power Rule",
+   "exact-identical"
+  ],
+  [
+   "Math",
+   "math_log_003",
+   "Fundamental Log Identity",
+   "exact-identical"
+  ],
+  [
+   "Math",
+   "math_log_004",
+   "Log Exchange Property",
+   "exact-identical"
+  ],
+  [
+   "Math",
+   "math_ineq_001",
+   "Modulus Inequality (<)",
+   "exact-identical"
+  ],
+  [
+   "Math",
+   "math_ineq_003",
+   "Triangle Inequality",
+   "exact-identical"
+  ],
+  [
+   "Math",
+   "math_logic_003",
+   "Implication Equivalence",
+   "exact-identical"
+  ],
+  [
+   "Math",
+   "math_quad_001",
+   "Roots Relation",
+   "exact-identical"
+  ],
+  [
+   "Math",
+   "math_quad_002",
+   "Nature of Roots",
+   "exact-identical"
+  ],
+  [
+   "Math",
+   "math_quad_003",
+   "Condition for Common Root",
+   "exact-identical"
+  ],
+  [
+   "Math",
+   "math_pnc_001",
+   "Circular Permutation",
+   "exact-identical"
+  ],
+  [
+   "Math",
+   "math_pnc_002",
+   "Derangements",
+   "exact-identical"
+  ],
+  [
+   "Math",
+   "math_pnc_003",
+   "Number of Divisors",
+   "exact-identical"
+  ],
+  [
+   "Math",
+   "math_calc_thm_001",
+   "Rolle's Theorem",
+   "exact-identical"
+  ],
+  [
+   "Math",
+   "math_calc_thm_002",
+   "Lagrange Mean Value Theorem (LMVT)",
+   "exact-identical"
+  ],
+  [
+   "Math",
+   "math_calc_maxmin_001",
+   "Second Derivative Test",
+   "exact-identical"
+  ],
+  [
+   "Math",
+   "math_int_std_005",
+   "Integral of ln(x)",
+   "exact-identical"
+  ],
+  [
+   "Math",
+   "math_int_std_006",
+   "Standard Log Sine Integral",
+   "exact-identical"
+  ],
+  [
+   "Math",
+   "math_conic_011",
+   "Latus Rectum (Parabola)",
+   "exact-identical"
+  ],
+  [
+   "Math",
+   "math_conic_012",
+   "Latus Rectum (Ellipse)",
+   "exact-identical"
+  ],
+  [
+   "Math",
+   "math_circ_006",
+   "Condition for Orthogonality",
+   "exact-identical"
+  ],
+  [
+   "Math",
+   "math_circ_007",
+   "Radical Axis",
+   "exact-identical"
+  ],
+  [
+   "Math",
+   "math_circ_008",
+   "Condition for Tangency (Line)",
+   "exact-identical"
+  ],
+  [
+   "Math",
+   "math_mat_008",
+   "Skew-Symmetric Determinant",
+   "exact-identical"
+  ],
+  [
+   "Math",
+   "math_vec_adv_005",
+   "Vector Area of Triangle",
+   "exact-identical"
+  ],
+  [
+   "Math",
+   "math_cplx_007",
+   "Locus of Ellipse",
+   "exact-identical"
+  ],
+  [
+   "Math",
+   "math_itf_004",
+   "2 tan inverse x Formula",
+   "exact-identical"
+  ],
+  [
+   "Math",
+   "math_set_002",
+   "Cartesian Product Cardinality",
+   "near-dup(same id)"
+  ],
+  [
+   "Math",
+   "math_set_003",
+   "Total Number of Relations",
+   "near-dup(same id)"
+  ],
+  [
+   "Math",
+   "math_set_005",
+   "Number of Symmetric Relations",
+   "near-dup(same id)"
+  ],
+  [
+   "Math",
+   "math_logic_001",
+   "Conjunction (AND)",
+   "near-dup(same id)"
+  ],
+  [
+   "Math",
+   "math_3d_006_b",
+   "Shortest Distance (Skew Lines)",
+   "cross-id dup of math_3d_004"
+  ],
+  [
+   "Math",
+   "math_3d_adv_003",
+   "Shortest Distance (Skew Lines)",
+   "cross-id dup of math_3d_004"
+  ],
+  [
+   "Math",
+   "math_3d_006",
+   "Equation of Plane (Intercept Form)",
+   "cross-id dup of math_3d_009_b"
+  ],
+  [
+   "Math",
+   "math_3d_007",
+   "Distance of Point from Plane",
+   "cross-id dup of math_3d_010_b"
+  ],
+  [
+   "Math",
+   "math_3d_011_b",
+   "Angle Between Two Planes",
+   "cross-id dup of math_3d_008"
+  ],
+  [
+   "Math",
+   "math_conic_008",
+   "Director Circle (Hyperbola)",
+   "cross-id dup of math_conic_adv_007"
+  ]
+ ],
+ "reassigned": [
+  [
+   "Physics",
+   "phys_therm_adv_001",
+   "phys_therm_adv_001_b",
+   "Composite Slab (Series)"
+  ],
+  [
+   "Physics",
+   "phys_exp_003",
+   "phys_exp_003_b",
+   "Focal Length (u-v Method)"
+  ],
+  [
+   "Math",
+   "math_3d_003",
+   "math_3d_003_b",
+   "Equation of Line (Vector)"
+  ],
+  [
+   "Math",
+   "math_3d_004",
+   "math_3d_004_b",
+   "Equation of Line (Cartesian)"
+  ],
+  [
+   "Math",
+   "math_3d_005",
+   "math_3d_005_b",
+   "Angle Between Lines"
+  ],
+  [
+   "Math",
+   "math_3d_006",
+   "math_3d_006_b",
+   "Shortest Distance (Skew Lines)"
+  ],
+  [
+   "Math",
+   "math_3d_007",
+   "math_3d_007_b",
+   "Equation of Plane (Normal Form)"
+  ],
+  [
+   "Math",
+   "math_3d_008",
+   "math_3d_008_b",
+   "Equation of Plane (Point-Normal)"
+  ],
+  [
+   "Math",
+   "math_3d_009",
+   "math_3d_009_b",
+   "Equation of Plane (Intercept Form)"
+  ],
+  [
+   "Math",
+   "math_3d_010",
+   "math_3d_010_b",
+   "Distance of Point from Plane"
+  ],
+  [
+   "Math",
+   "math_3d_011",
+   "math_3d_011_b",
+   "Angle Between Two Planes"
+  ],
+  [
+   "Math",
+   "math_sot_006",
+   "math_sot_006_b",
+   "Inradius (r)"
+  ]
+ ]
+}

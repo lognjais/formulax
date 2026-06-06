@@ -1,0 +1,2396 @@
+{
+ "audits": [
+  {
+   "subject": "Physics",
+   "examRelevance": "NEET+JEE",
+   "chapters": [
+    {
+     "chapter": "Units, Dimensions and Measurement",
+     "cls": "11",
+     "examTag": "JEE+NEET",
+     "weightage": "low",
+     "existingTopics": [
+      "Units & Dimensions"
+     ],
+     "presentCount": 8,
+     "targetCount": 12,
+     "completenessPct": 67,
+     "status": "adequate",
+     "gapNotes": "Has errors, dim formulas, instrument LC. Missing: rules of dimensional analysis/homogeneity, combination of errors (sum/product/power formulas explicitly), least count vs accuracy/precision, parallax method. Error-propagation product/power rule is high-yield and only implied.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Kinematics (Motion in Straight Line + Plane)",
+     "cls": "11",
+     "examTag": "JEE+NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Kinematics"
+     ],
+     "presentCount": 10,
+     "targetCount": 18,
+     "completenessPct": 56,
+     "status": "adequate",
+     "gapNotes": "Heavy on projectile + relative-velocity (river-boat, rain-man) which is good. Missing the 1D core: three equations of motion (v=u+at, s=ut+½at², v²=u²+2as), distance in nth second, average vs instantaneous velocity, projectile from a height / on incline, graph-based area=displacement results.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Laws of Motion (incl. Friction & Circular Dynamics)",
+     "cls": "11",
+     "examTag": "JEE+NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Laws of Motion",
+      "Circular Motion"
+     ],
+     "presentCount": 7,
+     "targetCount": 16,
+     "completenessPct": 44,
+     "status": "adequate",
+     "gapNotes": "Only impulse, angle of repose, rocket eqn + 4 circular (banking, cyclist, vertical circle). Missing: Newton II (F=ma) statement, friction f=μN (static/kinetic), tension/pulley (Atwood) results, pseudo-force in non-inertial frame, conical pendulum, minimum speed at top of vertical circle as standalone. Circular Motion is a fragment of this chapter.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Work, Energy and Power",
+     "cls": "11",
+     "examTag": "JEE+NEET",
+     "weightage": "medium",
+     "existingTopics": [
+      "Work & Energy"
+     ],
+     "presentCount": 6,
+     "targetCount": 12,
+     "completenessPct": 50,
+     "status": "adequate",
+     "gapNotes": "Has WE theorem, variable-force work, power, restitution, 1D elastic/inelastic. Missing: KE=½mv², PE (gravitational mgh + spring ½kx²), conservation of mechanical energy statement, W=Fd cosθ basic, potential energy–force relation F=-dU/dx, 2D oblique collision.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "System of Particles, Center of Mass & Collisions",
+     "cls": "11",
+     "examTag": "JEE+NEET",
+     "weightage": "medium",
+     "existingTopics": [
+      "Center of Mass",
+      "Work & Energy"
+     ],
+     "presentCount": 3,
+     "targetCount": 9,
+     "completenessPct": 33,
+     "status": "thin",
+     "gapNotes": "Only discrete CM + two shape CMs. Missing: CM velocity/acceleration, CM of two-body & continuous bodies (triangle, cone), shift of CM when mass moves, motion of CM under external force, momentum conservation of system. Collisions live in Work & Energy (fragmentation).",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Rotational Motion (Rigid Body Dynamics)",
+     "cls": "11",
+     "examTag": "JEE+NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Rotational Motion"
+     ],
+     "presentCount": 26,
+     "targetCount": 28,
+     "completenessPct": 93,
+     "status": "complete",
+     "gapNotes": "Strongest chapter: rotational kinematics, full MI table, both theorems, torque, angular momentum, rolling, toppling. One duplicate (Parallel Axis Theorem x2). Could add MI of cylinder/cone, angular SHM of physical pendulum cross-ref, rolling on incline minimum friction. Essentially complete.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Gravitation",
+     "cls": "11",
+     "examTag": "JEE+NEET",
+     "weightage": "medium",
+     "existingTopics": [
+      "Gravitation"
+     ],
+     "presentCount": 7,
+     "targetCount": 13,
+     "completenessPct": 54,
+     "status": "adequate",
+     "gapNotes": "Has g-variation, escape/orbital velocity, Kepler-3, gravitational PE. Duplicate Escape Velocity. Missing: Newton's law of gravitation F=Gm1m2/r², gravitational potential V=-GM/r, total/binding energy of satellite, time period of satellite, geostationary parameters, Kepler-1 and Kepler-2 (areal velocity), g at poles vs equator (rotation).",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Mechanical Properties of Solids (Elasticity)",
+     "cls": "11",
+     "examTag": "JEE+NEET",
+     "weightage": "medium",
+     "existingTopics": [
+      "Elasticity",
+      "Properties of Matter"
+     ],
+     "presentCount": 4,
+     "targetCount": 12,
+     "completenessPct": 33,
+     "status": "thin",
+     "gapNotes": "REVIEWER-FLAGGED. Only Stretching Work (in Elasticity) + Young's modulus, Bulk modulus, Thermal stress, Depression of beam (scattered in Properties of Matter). Missing: stress/strain definitions, Hooke's law, Shear modulus, Poisson's ratio, compressibility, elastic PE per unit volume = ½ stress×strain, Y in terms of force/elongation, breaking stress. Split across two topics = fragmentation.",
+     "lokeshFlagged": true
+    },
+    {
+     "chapter": "Mechanical Properties of Fluids",
+     "cls": "11",
+     "examTag": "JEE+NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Fluid Mechanics"
+     ],
+     "presentCount": 16,
+     "targetCount": 18,
+     "completenessPct": 89,
+     "status": "complete",
+     "gapNotes": "Very strong: pressure, Pascal, buoyancy, continuity, Bernoulli, Torricelli, Stokes, terminal velocity, capillarity, excess pressure, Reynolds, Poiseuille. Duplicate Bernoulli entry. Could add surface tension definition T=F/L, surface energy, angle of contact, viscous force basic, gauge vs absolute pressure. Near complete.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Thermal Properties of Matter (Thermal Expansion, Calorimetry, Heat Transfer)",
+     "cls": "11",
+     "examTag": "JEE+NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Thermal Physics",
+      "Properties of Matter"
+     ],
+     "presentCount": 11,
+     "targetCount": 18,
+     "completenessPct": 61,
+     "status": "adequate",
+     "gapNotes": "REVIEWER-FLAGGED thermal expansion. Has only Linear Expansion; MISSING superficial (β=2α) and cubical/volume (γ=3α) expansion, expansion of liquids (real vs apparent), anomalous expansion of water, thermal stress in expansion (in other topic), bimetallic strip. Heat transfer (conduction/Stefan/Wien/Newton cooling) and calorimetry present (some duplicate Composite Slab/Junction Temp entries). Specific heat Q=mcΔT and latent heat Q=mL missing as explicit cards.",
+     "lokeshFlagged": true
+    },
+    {
+     "chapter": "Kinetic Theory of Gases",
+     "cls": "11",
+     "examTag": "JEE+NEET",
+     "weightage": "medium",
+     "existingTopics": [
+      "Thermal Physics"
+     ],
+     "presentCount": 4,
+     "targetCount": 11,
+     "completenessPct": 36,
+     "status": "thin",
+     "gapNotes": "Buried inside Thermal Physics: Pressure of ideal gas, Internal energy, Mean free path, Molecular speeds. Missing: ideal gas law PV=nRT, rms/avg/most-probable speed formulas explicitly with values, degrees of freedom & equipartition, Cv/Cp & γ for mono/di/poly-atomic, average KE per molecule = (3/2)kT. Should be its own canonical chapter.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Thermodynamics",
+     "cls": "11",
+     "examTag": "JEE+NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Thermodynamics"
+     ],
+     "presentCount": 7,
+     "targetCount": 14,
+     "completenessPct": 50,
+     "status": "adequate",
+     "gapNotes": "Has 1st law, Mayer, isothermal/adiabatic work, Carnot, entropy, polytropic. Missing: work in isobaric/isochoric, ΔU=nCvΔT, adiabatic relation PV^γ=const & TV^(γ-1), efficiency of cycle, refrigerator COP, 2nd law statements, free expansion, molar heat capacity of process.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Oscillations (SHM)",
+     "cls": "11",
+     "examTag": "JEE+NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Oscillations"
+     ],
+     "presentCount": 11,
+     "targetCount": 15,
+     "completenessPct": 73,
+     "status": "adequate",
+     "gapNotes": "Good: SHM displacement/velocity/accel, spring & pendulum periods, series/parallel springs, energy, compound/torsional pendulum, damped amplitude. Missing: angular frequency ω=2πf, phase & phase difference, KE/PE expressions separately in SHM, period of liquid column / floating body / U-tube, forced oscillation & resonance condition, SHM from F=-kx general.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Waves and Sound",
+     "cls": "11",
+     "examTag": "JEE+NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Waves",
+      "Waves & Sound"
+     ],
+     "presentCount": 15,
+     "targetCount": 20,
+     "completenessPct": 75,
+     "status": "adequate",
+     "gapNotes": "FRAGMENTED across two topics (Waves + Waves & Sound) — same canonical chapter. Combined covers wave eqn, speed on string, Laplace sound speed, standing waves, beats, Doppler, organ pipes, intensity, Quincke. Duplicates inflate Waves (Wave Speed/Power/Quincke x2). Missing: harmonics/overtones table for strings & pipes, end correction, fundamental frequency formulas, energy density of wave, superposition principle statement.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Electrostatics (Charges, Field, Potential)",
+     "cls": "12",
+     "examTag": "JEE+NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Electrostatics"
+     ],
+     "presentCount": 20,
+     "targetCount": 22,
+     "completenessPct": 91,
+     "status": "complete",
+     "gapNotes": "Excellent: Coulomb, field/potential of point/dipole/shell/ring/disc, Gauss applications, dipole torque/PE, parallel-plate capacitance, energy density, electrostatic pressure, self-energy. Could add: superposition of forces, equipotential property, potential energy of dipole in field cross-ref, grounding/induced charge. Near complete.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Capacitance",
+     "cls": "12",
+     "examTag": "JEE+NEET",
+     "weightage": "medium",
+     "existingTopics": [
+      "Capacitors",
+      "Electrostatics"
+     ],
+     "presentCount": 7,
+     "targetCount": 13,
+     "completenessPct": 54,
+     "status": "adequate",
+     "gapNotes": "Capacitors topic has dielectric slab, force on dielectric, spherical cap, common potential, heat loss on sharing, RC charging (RC duplicated). Parallel-plate capacitance & energy live in Electrostatics (mild fragmentation). Missing: capacitors in series/parallel (core!), energy stored U=½CV²=Q²/2C explicit, cylindrical capacitor, capacitance with dielectric C=KC0, RC discharging & time constant, van de Graaff omit.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Current Electricity",
+     "cls": "12",
+     "examTag": "JEE+NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Current Electricity"
+     ],
+     "presentCount": 12,
+     "targetCount": 16,
+     "completenessPct": 75,
+     "status": "adequate",
+     "gapNotes": "Good: drift velocity, current density, resistivity-temp, KCL/KVL, Wheatstone, meter bridge, potentiometer, internal resistance, power, max power, color code. Missing: Ohm's law V=IR, resistance R=ρL/A, resistors in series/parallel (core revision items), EMF vs terminal voltage, cells in series/parallel, conductance, Joule heating H=I²Rt.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Moving Charges and Magnetism",
+     "cls": "12",
+     "examTag": "JEE+NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Magnetism"
+     ],
+     "presentCount": 16,
+     "targetCount": 18,
+     "completenessPct": 89,
+     "status": "complete",
+     "gapNotes": "Strong: Biot-Savart, field of wire/arc/solenoid/coil-axis, Lorentz, cyclotron radius/frequency, force on wire, parallel wires, dipole moment & torque, magnetic pressure, vibration magnetometer. Could add: Ampere's circuital law statement, field of toroid, moving-coil galvanometer sensitivity (sits in Experimental), helical motion pitch.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Magnetism and Matter",
+     "cls": "12",
+     "examTag": "JEE+NEET",
+     "weightage": "low",
+     "existingTopics": [
+      "Magnetism & Matter",
+      "Magnetism"
+     ],
+     "presentCount": 4,
+     "targetCount": 9,
+     "completenessPct": 44,
+     "status": "adequate",
+     "gapNotes": "Has Earth's field, tangent law, susceptibility, Curie law. Missing: relation B=μ0(H+M), permeability μ=μ0μr, intensity of magnetization M=m/V, dia/para/ferro classification table, magnetic field elements (declination/dip relation tanδ=BV/BH), hysteresis basics. Some overlap with Magnetism topic.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Electromagnetic Induction",
+     "cls": "12",
+     "examTag": "JEE+NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "EMI & AC"
+     ],
+     "presentCount": 15,
+     "targetCount": 12,
+     "completenessPct": 100,
+     "status": "complete",
+     "gapNotes": "Faraday, flux, motional EMF, self/mutual inductance, energy in inductor, LR growth/decay all present (combined with AC in one topic). EMI core is complete; only addition would be EMF of rotating coil/rod (Bωl²/2) and eddy current note.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Alternating Current",
+     "cls": "12",
+     "examTag": "JEE+NEET",
+     "weightage": "medium",
+     "existingTopics": [
+      "Alternating Current",
+      "EMI & AC"
+     ],
+     "presentCount": 13,
+     "targetCount": 15,
+     "completenessPct": 87,
+     "status": "complete",
+     "gapNotes": "FRAGMENTED: AC is split between 'Alternating Current' (3: Q-factor, LC osc, avg half-cycle) and 'EMI & AC' (RMS, reactances, impedance, resonance, power factor, transformer). Combined coverage is strong. Missing: average value over full cycle=0, form factor, peak/rms relations explicit, wattless current, power in pure L/C, bandwidth Δω. Should be one topic.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Electromagnetic Waves",
+     "cls": "12",
+     "examTag": "JEE+NEET",
+     "weightage": "low",
+     "existingTopics": [
+      "EM Waves"
+     ],
+     "presentCount": 6,
+     "targetCount": 9,
+     "completenessPct": 67,
+     "status": "adequate",
+     "gapNotes": "Has c, energy density, intensity, momentum, radiation pressure (duplicated abs/refl entries — 8 raw but 6 distinct). Missing: c=1/√(μ0ε0) & E0/B0=c relation, EM spectrum order/wavelength ranges (high NEET yield), displacement current Id=ε0 dΦE/dt, relation E and B amplitude.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Ray Optics and Optical Instruments",
+     "cls": "12",
+     "examTag": "JEE+NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Ray Optics",
+      "Optical Instruments",
+      "Experimental Physics"
+     ],
+     "presentCount": 18,
+     "targetCount": 22,
+     "completenessPct": 82,
+     "status": "complete",
+     "gapNotes": "Ray Optics (mirror/lens/lensmaker/Snell/prism/dispersion/lateral shift/silvered lens/normal shift) + Optical Instruments (microscopes, telescopes, resolving power — with duplicates) cover most. Missing: magnification (mirror & lens) m=-v/u, power of lens P=1/f & combination P=P1+P2, TIR critical angle, refraction at single spherical surface, apparent depth, eye/defects basic. Spread across 3 topics.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Wave Optics",
+     "cls": "12",
+     "examTag": "JEE+NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Wave Optics"
+     ],
+     "presentCount": 10,
+     "targetCount": 13,
+     "completenessPct": 77,
+     "status": "adequate",
+     "gapNotes": "YDSE path diff, maxima/minima, fringe width, intensity ratio/resultant, single-slit diffraction minima & central width, Malus, Brewster (Malus & Brewster duplicated). Missing: fringe shift due to slab/medium, fringe width in medium (β/n), Huygens principle statement, condition for sustained interference/coherence, angular fringe width.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Dual Nature of Radiation and Matter",
+     "cls": "12",
+     "examTag": "JEE+NEET",
+     "weightage": "medium",
+     "existingTopics": [
+      "Modern Physics"
+     ],
+     "presentCount": 4,
+     "targetCount": 10,
+     "completenessPct": 40,
+     "status": "adequate",
+     "gapNotes": "Inside Modern Physics: Photoelectric eqn, stopping potential, de Broglie, plus X-ray cut-off. Missing: work function & threshold frequency relation, Einstein's photoelectric equation Kmax=hf−φ explicit, photon energy E=hf=hc/λ & momentum p=h/λ, intensity vs photocurrent, de Broglie for accelerated charge λ=h/√(2mqV). Lumped in a catch-all Modern Physics topic.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Atoms (Bohr Model)",
+     "cls": "12",
+     "examTag": "JEE+NEET",
+     "weightage": "medium",
+     "existingTopics": [
+      "Atomic Physics",
+      "Modern Physics"
+     ],
+     "presentCount": 5,
+     "targetCount": 10,
+     "completenessPct": 50,
+     "status": "adequate",
+     "gapNotes": "Atomic Physics has Bohr radius, energy levels, Rydberg; Modern Physics adds Moseley, X-ray cut-off, closest approach. Missing: Bohr velocity (v∝Z/n), orbital frequency/time period, total energy = -13.6 Z²/n² eV explicit, spectral series wavelengths (Lyman/Balmer), ionization & excitation energy, number of spectral lines n(n-1)/2.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Nuclei (Nuclear Physics)",
+     "cls": "12",
+     "examTag": "JEE+NEET",
+     "weightage": "medium",
+     "existingTopics": [
+      "Nuclear Physics",
+      "Modern Physics"
+     ],
+     "presentCount": 7,
+     "targetCount": 11,
+     "completenessPct": 64,
+     "status": "adequate",
+     "gapNotes": "Nuclear radius, mass-energy, decay law, half-life, average life, activity (Nuclear Physics) + binding energy, Q-value, parallel decay (Modern Physics). Missing: relation t½=0.693/λ explicit & tavg=1.44 t½, binding energy per nucleon curve note, mass defect Δm, nuclear density (constant), 1 amu=931.5 MeV, units of activity (Bq/Ci).",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Semiconductor Electronics",
+     "cls": "12",
+     "examTag": "JEE+NEET",
+     "weightage": "medium",
+     "existingTopics": [
+      "Semiconductors"
+     ],
+     "presentCount": 10,
+     "targetCount": 14,
+     "completenessPct": 71,
+     "status": "adequate",
+     "gapNotes": "Mass action law, conductivity, α/β & relation, voltage gain, transconductance, logic gates (XOR duplicated). Missing: diode/rectifier ripple & efficiency, dynamic resistance of diode, conductivity σ=e(neμe+nhμh) explicit, depletion/barrier note, ripple factor, OR/AND/NOT truth tables, transistor configurations relations. NEET-relevant logic & diode thin.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Communication Systems",
+     "cls": "12",
+     "examTag": "JEE",
+     "weightage": "low",
+     "existingTopics": [
+      "Communication Systems"
+     ],
+     "presentCount": 5,
+     "targetCount": 6,
+     "completenessPct": 83,
+     "status": "complete",
+     "gapNotes": "Modulation index, sideband freq, antenna length, LOS distance, coverage area — covers the deleted/legacy chapter adequately. Note: this chapter is OUT of current NCERT/NEET-JEE syllabus (removed), so low priority. Could add bandwidth of AM signal.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Experimental Physics / Practical Skills",
+     "cls": "11&12",
+     "examTag": "JEE+NEET",
+     "weightage": "low",
+     "existingTopics": [
+      "Experimental Physics"
+     ],
+     "presentCount": 8,
+     "targetCount": 12,
+     "completenessPct": 67,
+     "status": "adequate",
+     "gapNotes": "Potentiometer sensitivity, post office box, focal length u-v, resonance column, galvanometer current sensitivity, ammeter shunt, voltmeter resistance (several duplicated). Missing: vernier/screw-gauge LC (sit in Units topic), sonometer, Searle's apparatus (Y measurement), meter-bridge balance (in Current), Ohm's law verification, p-n junction characteristics. JEE-Advanced specific.",
+     "lokeshFlagged": false
+    }
+   ],
+   "fragmentationNotes": [
+    "'Waves' (9 distinct) and 'Waves & Sound' (9) are the SAME canonical chapter (Waves) split into two topics — merge into one 'Waves & Sound' topic; also contains internal duplicates (Wave Speed Heavy Rope, Power Transmitted, Quincke's Tube each appear twice).",
+    "'Alternating Current' (3) and 'EMI & AC' (15) split the AC chapter; the AC content should be unified (EMI is its own chapter, AC its own — currently EMI+AC are bundled while a separate small 'Alternating Current' topic also exists).",
+    "'Circular Motion' (4) is a fragment of 'Laws of Motion' (dynamics of circular motion) — not a standalone NCERT chapter.",
+    "'Center of Mass' (3) and the collision formulas inside 'Work & Energy' both belong to the 'System of Particles' chapter — collisions are separated from CM.",
+    "'Elasticity' (1 formula) and the elasticity formulas (Young's/Bulk modulus, thermal stress, beam depression) sitting inside 'Properties of Matter' are one chapter (Mechanical Properties of Solids) split apart.",
+    "Parallel-plate capacitance & 'Energy in Capacitor' live in 'Electrostatics' while the rest of capacitance is in 'Capacitors' — capacitance content is split across two topics.",
+    "Atomic/nuclear/dual-nature content is split: 'Atomic Physics' vs items in 'Modern Physics' (Moseley, closest approach), and 'Nuclear Physics' vs binding-energy/Q-value in 'Modern Physics' — the catch-all 'Modern Physics' topic fragments three distinct chapters.",
+    "Thermal expansion + heat transfer + kinetic theory are all merged inside one 'Thermal Physics' topic (which also has duplicate Composite Slab/Junction Temperature entries), blurring three canonical chapters (Thermal Properties of Matter, Kinetic Theory)."
+   ],
+   "orphanTopics": [
+    "'Properties of Matter' — non-standard umbrella name; its contents are elasticity (Young's/Bulk modulus, thermal stress, beam depression) plus a stray 'Doppler (Reflection)' (a Waves formula) and 'Ascent Formula' (a capillarity/Fluids formula). Mis-bucketed and mis-named.",
+    "'Thermal Physics' — broad non-NCERT name bundling Thermal Properties of Matter + Kinetic Theory + heat transfer; not a single canonical chapter.",
+    "'Modern Physics' — catch-all that mixes Dual Nature, Atoms, and Nuclei content; not a canonical chapter name.",
+    "'Magnetism' vs 'Magnetism & Matter' — 'Magnetism' is fine as Moving Charges & Magnetism but the naming pair invites confusion with the separate Magnetism and Matter chapter.",
+    "'Experimental Physics' contains a duplicate-laden mix and overlaps with instrument least-count items that also live under 'Units & Dimensions'."
+   ],
+   "summary": {
+    "totalChapters": 30,
+    "missing": 0,
+    "thin": 3,
+    "adequate": 15,
+    "complete": 12,
+    "overallCompletenessPct": 67
+   }
+  },
+  {
+   "subject": "Chemistry",
+   "examRelevance": "NEET+JEE",
+   "fragmentationNotes": [
+    "'Equilibrium' (2: Kp/Kc relation, Reaction Quotient) and 'Ionic Equilibrium' (11) are both fragments of the single NCERT chapter 'Equilibrium'. 'Equilibrium' here is purely the gaseous Chemical-Equilibrium half (Kp/Kc, Q) and 'Ionic Equilibrium' is the acid-base/Ksp half. Should be one navigable chapter; the gaseous-equilibrium half is the reviewer-flagged 'only 1 formula' (effectively 2) gap.",
+    "'Atomic Structure' (11) and 'Periodic Properties' (2) are NCERT Class 11 'Structure of Atom' and 'Classification of Elements & Periodicity' respectively — distinct NCERT chapters, so this is acceptable, NOT fragmentation. Listed here only to confirm they were checked.",
+    "Organic chemistry is split across many topic strings (GOC, Reaction Mechanisms, Isomerism, Organic Reagents, Practical Organic Chem, Hydrocarbons, Haloalkanes, Alcohols Phenols, Aldehydes & Ketones, Carboxylic Acids, Amines, Biomolecules, Polymers, Everyday Life). Most map cleanly to canonical chapters, but 'Organic Reagents', 'Reaction Mechanisms' and 'GOC' are cross-cutting buckets, not NCERT chapters — their reagent/mechanism content is genuinely chapter-spanning so the split is defensible for a revision app, but 'Isomerism' content (stereochemistry) overlaps GOC/Haloalkanes and could be consolidated under a single Stereochemistry/GOC chapter.",
+    "'Analytical Chem' (3: flame colors, Mohr's salt, potash alum formulas) and 'Qualitative Analysis' (26) both cover inorganic salt analysis / practical inorganic; the 3 'Analytical Chem' items belong inside 'Qualitative Analysis' / Practical chapters. Minor fragmentation.",
+    "'d-Block Elements' (5) and 'Coordination Compounds' (13) are separate canonical chapters (correct), but the d-block magnetic-moment / KMnO4 / dichromate items overlap conceptually with coordination chemistry — acceptable split."
+   ],
+   "orphanTopics": [
+    "GOC — non-standard bucket name (General Organic Chemistry); valid revision grouping but not an NCERT chapter title; better labelled 'Basic Principles of Organic Chemistry / GOC'.",
+    "Organic Reagents — cross-cutting reagent dictionary, not a syllabus chapter; fine as an index but mis-named relative to canonical chapters.",
+    "Reaction Mechanisms — cross-cutting bucket, not an NCERT chapter; its SN1/SN2/E1/E2/EAS content properly belongs to Haloalkanes / Hydrocarbons / GOC.",
+    "Practical Organic Chem — maps to NCERT 'Organic Chemistry: Some Basic Principles & Techniques' (purification/detection/estimation) plus practical tests; non-standard short name.",
+    "Analytical Chem — vague 3-item bucket; content is inorganic salt formulas/flame tests that belong under Qualitative Analysis / Practical Chemistry.",
+    "Everyday Life — short for 'Chemistry in Everyday Life' (NCERT Class 12 chapter); acceptable but abbreviated.",
+    "Equilibrium — mis-leading name: contains ONLY chemical (gaseous) equilibrium while the chapter's ionic half lives under 'Ionic Equilibrium'; should be renamed 'Chemical Equilibrium' and ideally merged."
+   ],
+   "chapters": [
+    {
+     "chapter": "Some Basic Concepts of Chemistry (Mole Concept & Stoichiometry)",
+     "cls": "11",
+     "examTag": "JEE+NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Mole Concept"
+     ],
+     "presentCount": 1,
+     "targetCount": 14,
+     "completenessPct": 7,
+     "status": "thin",
+     "gapNotes": "Only volume-strength of H2O2 present. Missing nearly all core: mole = mass/molar mass, mole = N/NA, molarity, molality, mole fraction, normality & equivalent weight, ppm, % composition by mass, empirical vs molecular formula, density-molarity-%w/w link, dilution M1V1=M2V2, limiting reagent, average atomic mass, percentage yield, strength (g/L). Reviewer (lokesh) explicitly flagged 'too few'.",
+     "lokeshFlagged": true
+    },
+    {
+     "chapter": "Structure of Atom",
+     "cls": "11",
+     "examTag": "JEE+NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Atomic Structure"
+     ],
+     "presentCount": 11,
+     "targetCount": 14,
+     "completenessPct": 79,
+     "status": "adequate",
+     "gapNotes": "Strong (photon energy, Bohr radius/energy, Rydberg, de Broglie, Heisenberg, spin moment, nodes). Could add: number of spectral lines = n(n-1)/2, ionization/separation energy from Bohr, Aufbau/Hund/Pauli quick rules, threshold frequency & KEmax in photoelectric, total nodes = n-1.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Classification of Elements & Periodicity in Properties",
+     "cls": "11",
+     "examTag": "JEE+NEET",
+     "weightage": "medium",
+     "existingTopics": [
+      "Periodic Properties"
+     ],
+     "presentCount": 2,
+     "targetCount": 10,
+     "completenessPct": 20,
+     "status": "thin",
+     "gapNotes": "Only Zeff (Slater) and one Eeg anomaly. Missing periodic trends as quick-recall results: atomic/ionic radius trends, IE1<IE2 & exceptions (Be>B, N>O), electron-gain enthalpy trends, electronegativity (Pauling), Slater's rules detail, diagonal relationship, screening order s>p>d>f, metallic/non-metallic trend.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Chemical Bonding & Molecular Structure",
+     "cls": "11",
+     "examTag": "JEE+NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Chemical Bonding"
+     ],
+     "presentCount": 9,
+     "targetCount": 15,
+     "completenessPct": 60,
+     "status": "adequate",
+     "gapNotes": "Good (dipole moment, formal charge, bond order, steric number, % ionic, Fajan, MOT order, H-bond, back bonding). Missing: VSEPR shape table, bond order from MOT = (Nb-Na)/2 with paramagnetism, lattice energy/Born-Lande qualitative, dipole moment vector addition, % s-character vs bond angle, resonance energy concept, formal vs oxidation state distinction.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "States of Matter: Gases & Liquids",
+     "cls": "11",
+     "examTag": "JEE+NEET",
+     "weightage": "medium",
+     "existingTopics": [
+      "Gaseous State"
+     ],
+     "presentCount": 7,
+     "targetCount": 15,
+     "completenessPct": 47,
+     "status": "adequate",
+     "gapNotes": "Has VdW eqn, Vrms, Graham, Z, Dalton, Tc, inversion temp. Missing: ideal gas law PV=nRT, combined gas law, Boyle/Charles/Gay-Lussac/Avogadro individually, average & most-probable speed, KE per mole = 3/2RT, mean free path, partial pressure mole-fraction form, VdW constants a/b meaning & Tc/Pc/Vc relations, surface tension/viscosity (liquids).",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Thermodynamics (Chemical)",
+     "cls": "11",
+     "examTag": "JEE+NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Thermodynamics"
+     ],
+     "presentCount": 17,
+     "targetCount": 18,
+     "completenessPct": 94,
+     "status": "complete",
+     "gapNotes": "Excellent coverage (1st law, work rev/irrev, adiabatic, enthalpy, Mayer, entropy, Gibbs, Gibbs-Helmholtz, dG-K, Carnot, Hess, bond enthalpy, Clausius-Clapeyron, Kirchhoff, Born-Haber). Could add spontaneity sign table and Trouton's rule as a flourish.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Equilibrium — Chemical (Gaseous) Equilibrium",
+     "cls": "11",
+     "examTag": "JEE+NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Equilibrium"
+     ],
+     "presentCount": 2,
+     "targetCount": 12,
+     "completenessPct": 17,
+     "status": "thin",
+     "gapNotes": "Reviewer flagged 'only 1 formula present' (actually 2: Kp=Kc(RT)^Dng and Q). Missing: Kc/Kp expression & relation to Q for predicting direction, degree of dissociation alpha & Kp in terms of alpha and total P, Le Chatelier qualitative results, relation Kc forward=1/reverse, Kc for added reactions (multiply), vapour density & alpha link, effect of inert gas at const V vs const P, Kc & Kp for heterogeneous equilibria.",
+     "lokeshFlagged": true
+    },
+    {
+     "chapter": "Equilibrium — Ionic Equilibrium",
+     "cls": "11",
+     "examTag": "JEE+NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Ionic Equilibrium"
+     ],
+     "presentCount": 11,
+     "targetCount": 15,
+     "completenessPct": 73,
+     "status": "adequate",
+     "gapNotes": "Strong (pH, Ostwald, Henderson acidic/basic, Ksp, 3 hydrolysis cases, indicator, buffer capacity, double indicator). Missing: Kw=Ka*Kb & pKa+pKb=14, relation alpha & %ionization, common ion effect quantitatively, solubility-Ksp for AB/AB2/A2B types, pH of strong acid/base & very dilute (10^-7) case, salt hydrolysis degree h=sqrt(Kw/KaC).",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Redox Reactions",
+     "cls": "11",
+     "examTag": "JEE+NEET",
+     "weightage": "medium",
+     "existingTopics": [
+      "Redox Reactions"
+     ],
+     "presentCount": 2,
+     "targetCount": 8,
+     "completenessPct": 25,
+     "status": "thin",
+     "gapNotes": "Only n-factor (general) and disproportionation. Missing: oxidation-number rules, equivalent weight = M/n-factor, equivalents = normality*volume, balancing by ion-electron (half-reaction) steps, milliequivalent relation N1V1=N2V2 in titration, types (combination/decomposition/displacement/disproportionation/comproportionation) quick table.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Hydrogen",
+     "cls": "11",
+     "examTag": "NEET",
+     "weightage": "low",
+     "existingTopics": [],
+     "presentCount": 0,
+     "targetCount": 5,
+     "completenessPct": 0,
+     "status": "missing",
+     "gapNotes": "No formulas. Revision-worthy: isotopes (protium/deuterium/tritium), hardness of water (temporary/permanent, Clark's/lime-soda — partly under Practical), H2O2 preparation & redox dual nature, ortho/para hydrogen, hydrides classification (ionic/covalent/interstitial). Largely deleted from latest CBSE but still in some JEE/NEET lists; low yield.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "The s-Block Elements (Alkali & Alkaline Earth Metals)",
+     "cls": "11",
+     "examTag": "NEET",
+     "weightage": "medium",
+     "existingTopics": [
+      "s-Block Elements"
+     ],
+     "presentCount": 4,
+     "targetCount": 9,
+     "completenessPct": 44,
+     "status": "adequate",
+     "gapNotes": "Has Solvay, nitrate trend, BeCl2 structure, Gp-2 sulfate solubility. Missing as quick facts: flame colours of alkali/alkaline-earth metals, diagonal relationship Li-Mg & Be-Al, solubility/thermal-stability trends of carbonates & bicarbonates, lattice vs hydration energy trend, anomalous Li/Be behaviour, Down's & Castner-Kellner processes (NaOH/Na).",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "The p-Block Elements (Groups 13–18, Class 11 & 12)",
+     "cls": "11&12",
+     "examTag": "JEE+NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "p-Block Elements"
+     ],
+     "presentCount": 34,
+     "targetCount": 34,
+     "completenessPct": 100,
+     "status": "complete",
+     "gapNotes": "Very strong structure/process bank (Haber, Ostwald, Contact, Deacon, interhalogens, Xe fluorides & hydrolysis, oxoacids, boron/silicon structures, allotropes). Inherently descriptive chapter; coverage is comprehensive for revision.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Organic Chemistry: Some Basic Principles & Techniques (GOC + Purification/Estimation)",
+     "cls": "11",
+     "examTag": "JEE+NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "GOC",
+      "Practical Organic Chem",
+      "Isomerism"
+     ],
+     "presentCount": 16,
+     "targetCount": 20,
+     "completenessPct": 80,
+     "status": "adequate",
+     "gapNotes": "GOC effects (I, M, hyperconjugation, aromaticity, ortho effect) + purification/estimation (Lassaigne, Kjeldahl, Duma, Carius — partial) + stereochem (specific rotation, ee, stereoisomer count) are good. Missing: DoU/degree of unsaturation formula, resonance/hybridization quick rules, stability orders of carbocation/carbanion/free radical/carbene, acidity & basicity ordering logic, R/S & E/Z assignment rules, % of element in Kjeldahl/Carius (halogen, S, P) formulas, Duma's N2-volume formula.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Hydrocarbons (Alkanes, Alkenes, Alkynes, Aromatic)",
+     "cls": "11",
+     "examTag": "JEE+NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Hydrocarbons",
+      "Reaction Mechanisms"
+     ],
+     "presentCount": 11,
+     "targetCount": 18,
+     "completenessPct": 61,
+     "status": "adequate",
+     "gapNotes": "Reaction Mechanisms (EAS, Markovnikov etc.) supplements Hydrocarbons. Missing as quick recall: general formulas CnH2n+2 / CnH2n / CnH2n-2, Markovnikov & anti-Markovnikov(peroxide) outcomes, ozonolysis products, Baeyer's & Wurtz, EAS directing (o/p vs m) table, Friedel-Crafts, combustion stoichiometry, Huckel for aromaticity (in GOC), Kolbe/decarboxylation for alkanes.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Environmental Chemistry",
+     "cls": "11",
+     "examTag": "NEET",
+     "weightage": "low",
+     "existingTopics": [
+      "Environmental Chem"
+     ],
+     "presentCount": 9,
+     "targetCount": 9,
+     "completenessPct": 100,
+     "status": "complete",
+     "gapNotes": "Descriptive chapter (BOD/COD, smog, ozone hole, greenhouse, pollutants). 9 items adequately cover the few quantifiable/recall results needed; low exam yield.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "The Solid State",
+     "cls": "12",
+     "examTag": "JEE+NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Solid State"
+     ],
+     "presentCount": 10,
+     "targetCount": 13,
+     "completenessPct": 77,
+     "status": "adequate",
+     "gapNotes": "Good (density of unit cell, packing FCC/BCC, Bragg, radius ratio, Schottky/Frenkel, NaCl/ZnS, F-centre). Missing: number of atoms per unit cell (SC/BCC/FCC = 1/2/4), packing efficiency SC (52%), relation a & r for SC/BCC/FCC, voids (tetrahedral=2n, octahedral=n), coordination numbers table, n-type/p-type doping quick note.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Solutions",
+     "cls": "12",
+     "examTag": "JEE+NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Solutions"
+     ],
+     "presentCount": 10,
+     "targetCount": 13,
+     "completenessPct": 77,
+     "status": "adequate",
+     "gapNotes": "Good colligative coverage (Raoult, RLVP, dTb, dTf, osmotic pressure, van't Hoff i ×2, azeotrope, isotonic). Missing: Henry's law p=KH*x, molality/mole-fraction concentration conversions, Kb/Kf definition link to molal & ebullioscopic/cryoscopic constant, abnormal molar mass = normal/i, % association/dissociation from i, ideal vs non-ideal (+/- deviation) quick table. Has a duplicate van't Hoff entry (consolidate).",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Electrochemistry",
+     "cls": "12",
+     "examTag": "JEE+NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Electrochemistry"
+     ],
+     "presentCount": 16,
+     "targetCount": 16,
+     "completenessPct": 100,
+     "status": "complete",
+     "gapNotes": "Comprehensive (Nernst, EMF, dG=-nFE, dG-K, Kohlrausch, molar/equiv conductivity, Faraday's laws, conductivity-resistance, EMF-thermodynamics expected). Strong revision set.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Chemical Kinetics",
+     "cls": "12",
+     "examTag": "JEE+NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Chemical Kinetics"
+     ],
+     "presentCount": 14,
+     "targetCount": 15,
+     "completenessPct": 93,
+     "status": "complete",
+     "gapNotes": "Strong (rate law, integrated 0/1st/2nd order, t1/2, Arrhenius, half-life relations, collision theory expected). Could add: graphical methods table (what to plot for each order), Arrhenius two-temperature form ln(k2/k1), threshold/activation energy & catalyst effect note.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Surface Chemistry",
+     "cls": "12",
+     "examTag": "JEE+NEET",
+     "weightage": "medium",
+     "existingTopics": [
+      "Surface Chemistry"
+     ],
+     "presentCount": 6,
+     "targetCount": 8,
+     "completenessPct": 75,
+     "status": "adequate",
+     "gapNotes": "Has Freundlich, Langmuir, Hardy-Schulze, Tyndall, gold number, CMC. Missing: catalysis types (homo/hetero/enzyme) quick note, adsorption isotherm types, emulsion types (o/w, w/o), shape-selective catalysis (zeolites), physisorption vs chemisorption comparison table.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "General Principles & Processes of Isolation of Elements (Metallurgy)",
+     "cls": "12",
+     "examTag": "JEE+NEET",
+     "weightage": "medium",
+     "existingTopics": [
+      "Metallurgy"
+     ],
+     "presentCount": 10,
+     "targetCount": 11,
+     "completenessPct": 91,
+     "status": "complete",
+     "gapNotes": "Good (Ellingham, froth flotation, roasting/calcination, refining methods, specific extractions). Could add van Arkel & Mond process explicit rows and thermodynamics of reduction (dG crossover) note if not present.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "The d- and f-Block Elements",
+     "cls": "12",
+     "examTag": "JEE+NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "d-Block Elements"
+     ],
+     "presentCount": 5,
+     "targetCount": 12,
+     "completenessPct": 42,
+     "status": "adequate",
+     "gapNotes": "Has magnetic moment, chromyl chloride, KMnO4 titration, lanthanoid contraction, chromate-dichromate. Missing high-yield: spin-only moment with examples, oxidation-state stability trends, colour & cause (d-d transition), catalytic & alloy-forming behaviour, K2Cr2O7 & KMnO4 preparation + oxidation half-reactions (acidic/basic/neutral n-factors), lanthanoid vs actinoid contraction comparison, interstitial compounds, magnetic property trend.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Coordination Compounds",
+     "cls": "12",
+     "examTag": "JEE+NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Coordination Compounds"
+     ],
+     "presentCount": 13,
+     "targetCount": 15,
+     "completenessPct": 87,
+     "status": "complete",
+     "gapNotes": "Strong (CFSE oct/tet, splitting, spin-only moment, isomerism geometrical/optical, 18e rule, spectrochemical series, colour, Jahn-Teller, trans effect, Wilkinson). Missing: EAN rule formula, number of geometrical/optical isomers count formulas for common Werner complexes, VBT hybridization-geometry table, naming/oxidation-state quick rules.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Haloalkanes & Haloarenes",
+     "cls": "12",
+     "examTag": "JEE+NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Haloalkanes",
+      "Reaction Mechanisms",
+      "Organic Reagents"
+     ],
+     "presentCount": 11,
+     "targetCount": 14,
+     "completenessPct": 79,
+     "status": "adequate",
+     "gapNotes": "Haloalkanes + SN1/SN2/E1/E2 mechanisms (Reaction Mechanisms) + NBS reagent cover this well. Missing as quick-recall: SN1 vs SN2 comparison table (rate, stereo, substrate order), reactivity order of alkyl halides, named reactions (Finkelstein, Swarts, Wurtz, Sandmeyer, Gattermann), Saytzeff rule, optical inversion (Walden), reactivity of haloarenes (why less reactive).",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Alcohols, Phenols & Ethers",
+     "cls": "12",
+     "examTag": "JEE+NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Alcohols Phenols",
+      "Organic Reagents"
+     ],
+     "presentCount": 6,
+     "targetCount": 13,
+     "completenessPct": 46,
+     "status": "adequate",
+     "gapNotes": "Thin: 6 items + a few reagents (Jones/PCC). Ethers essentially absent from topic name. Missing high-yield: Lucas test (1/2/3 alcohol distinction), preparation routes (hydroboration-oxidation, Grignard, oxymercuration), Williamson ether synthesis, Reimer-Tiemann, Kolbe, phenol acidity & EAS on phenol, Victor Meyer test, esterification, dehydration order, Riemer-Tiemann/Houben-Hoesch.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Aldehydes, Ketones & Carboxylic Acids",
+     "cls": "12",
+     "examTag": "JEE+NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Aldehydes & Ketones",
+      "Carboxylic Acids",
+      "Organic Reagents"
+     ],
+     "presentCount": 22,
+     "targetCount": 22,
+     "completenessPct": 100,
+     "status": "complete",
+     "gapNotes": "Aldehydes&Ketones (18) + Carboxylic Acids (4) + reagents (LiAlH4, DIBAL-H, Schotten-Baumann, etc.) give comprehensive named-reaction coverage (Aldol, Cannizzaro, Clemmensen, Wolff-Kishner, HVZ, etc. expected). Strong. Minor: ensure carboxylic-acid acidity-order & derivatives reactivity table present.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Amines (incl. Diazonium Salts)",
+     "cls": "12",
+     "examTag": "JEE+NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Amines",
+      "Organic Reagents"
+     ],
+     "presentCount": 9,
+     "targetCount": 12,
+     "completenessPct": 75,
+     "status": "adequate",
+     "gapNotes": "Has amine set + Hinsberg test (reagents). Missing: basicity order (aliphatic vs aromatic, gas vs aqueous), diazonium salt reactions (Sandmeyer, Gattermann, Balz-Schiemann, coupling), carbylamine test, Hofmann bromamide, Gabriel synthesis, distinction of 1/2/3 amines, azo dye coupling.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Biomolecules",
+     "cls": "12",
+     "examTag": "JEE+NEET",
+     "weightage": "medium",
+     "existingTopics": [
+      "Biomolecules"
+     ],
+     "presentCount": 12,
+     "targetCount": 12,
+     "completenessPct": 100,
+     "status": "complete",
+     "gapNotes": "Strong (glucose, peptide bond, zwitterion, mutarotation, isoelectric point, qualitative tests, DNA, reducing sugars). Largely descriptive; coverage complete for revision.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Polymers",
+     "cls": "12",
+     "examTag": "JEE+NEET",
+     "weightage": "medium",
+     "existingTopics": [
+      "Polymers"
+     ],
+     "presentCount": 7,
+     "targetCount": 9,
+     "completenessPct": 78,
+     "status": "adequate",
+     "gapNotes": "Has core (addition/condensation, monomers, types). Missing: number/weight average molar mass & PDI = Mw/Mn formulas, degree of polymerization, copolymer examples, natural vs synthetic rubber & vulcanization, biodegradable polymers (PHBV, nylon-2-nylon-6) quick list.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Chemistry in Everyday Life",
+     "cls": "12",
+     "examTag": "NEET",
+     "weightage": "low",
+     "existingTopics": [
+      "Everyday Life"
+     ],
+     "presentCount": 6,
+     "targetCount": 7,
+     "completenessPct": 86,
+     "status": "complete",
+     "gapNotes": "Descriptive chapter (drugs classification, detergents, antiseptics/disinfectants, vitamins). 6 items cover the few recall results needed; low yield.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Qualitative & Practical Inorganic Analysis (Salt Analysis)",
+     "cls": "11&12",
+     "examTag": "NEET",
+     "weightage": "medium",
+     "existingTopics": [
+      "Qualitative Analysis",
+      "Analytical Chem"
+     ],
+     "presentCount": 29,
+     "targetCount": 24,
+     "completenessPct": 100,
+     "status": "complete",
+     "gapNotes": "Very thorough (26 + 3 analytical). Cation group separation, anion tests, flame colours, salt formulas all present. Coverage exceeds target; consolidate the 3 'Analytical Chem' items into this chapter for navigation.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Nuclear Chemistry / Radioactivity",
+     "cls": "11&12",
+     "examTag": "JEE",
+     "weightage": "low",
+     "existingTopics": [
+      "Nuclear Chemistry"
+     ],
+     "presentCount": 4,
+     "targetCount": 7,
+     "completenessPct": 57,
+     "status": "adequate",
+     "gapNotes": "Has decay constant, average life, binding energy, Q-value. Missing: N=N0e^-lt and half-life t1/2=0.693/lambda explicitly, activity A=lN, units (Bq/Ci), n/p ratio & stability belt, group-displacement law (alpha/beta emission shifts). Mostly overlaps Physics; low chemistry yield.",
+     "lokeshFlagged": false
+    }
+   ],
+   "summary": {
+    "totalChapters": 31,
+    "missing": 1,
+    "thin": 4,
+    "adequate": 13,
+    "complete": 13,
+    "overallCompletenessPct": 68
+   }
+  },
+  {
+   "subject": "Math",
+   "examRelevance": "JEE only",
+   "chapters": [
+    {
+     "chapter": "Sets, Relations and Functions",
+     "cls": "11&12",
+     "examTag": "JEE",
+     "weightage": "medium",
+     "existingTopics": [
+      "Sets & Relations",
+      "Functions"
+     ],
+     "presentCount": 18,
+     "targetCount": 22,
+     "completenessPct": 82,
+     "status": "complete",
+     "gapNotes": "Sets & Relations is heavily duplicated (16 entries = only 8 unique counting results: power set, relations counts, one-one/onto/bijection counts). Functions topic is starved (2). Missing core function-revision results: domain/range standard functions, even/odd test, composite (fog)/inverse properties, periodicity of standard combos, fundamental period of sin/cos/tan, greatest-integer & fractional-part identities, signum, functional-equation standard forms. The counting-of-relations content is over-represented vs actual high-yield function calculus prerequisites.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Complex Numbers",
+     "cls": "11",
+     "examTag": "JEE",
+     "weightage": "high",
+     "existingTopics": [
+      "Complex Numbers"
+     ],
+     "presentCount": 10,
+     "targetCount": 18,
+     "completenessPct": 56,
+     "status": "adequate",
+     "gapNotes": "Has 9 unique (modulus-arg, De Moivre, cube roots of unity, rotation, section, lines/circles, triangle inequality, ellipse locus). Missing high-yield: nth roots of unity & sum/product properties, properties of arg & conjugate, |z1+z2|^2 identity, equation of perpendicular bisector, condition for collinearity/concyclic, equilateral triangle condition, area of triangle in complex form, Euler form e^{i\\theta}.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Quadratic Equations & Theory of Equations",
+     "cls": "11",
+     "examTag": "JEE",
+     "weightage": "high",
+     "existingTopics": [
+      "Quadratic Equations"
+     ],
+     "presentCount": 6,
+     "targetCount": 16,
+     "completenessPct": 38,
+     "status": "thin",
+     "gapNotes": "Only 3 unique (nature of roots/discriminant, sum-product of roots, common-root condition) duplicated to 6. Missing: location of roots (both >k, opposite signs, in interval), max/min of quadratic & vertex, sign of quadratic, condition for both roots common, transformation of equations, range of rational expression, descartes rule, relation between roots & coeffs for cubic, AM-GM bounds on roots.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Sequences and Series",
+     "cls": "11",
+     "examTag": "JEE",
+     "weightage": "high",
+     "existingTopics": [
+      "Sequences"
+     ],
+     "presentCount": 8,
+     "targetCount": 16,
+     "completenessPct": 50,
+     "status": "adequate",
+     "gapNotes": "Good base (AP/GP sums, infinite GP, AGP, sum n/n^2/n^3, telescoping, AM-GM). Missing: nth term & general AP/GP term, sum of n natural numbers, HP & relation AM>=GM>=HM, GM=sqrt(AM.HM), HM/GM/AM inequality chain, sum of squares/cubes formula references for series, insertion of means, special series (Sigma method / V_n), geometric-mean & weighted-mean inequalities, sum 1/n(n+1).",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Permutations and Combinations",
+     "cls": "11",
+     "examTag": "JEE",
+     "weightage": "high",
+     "existingTopics": [
+      "Permutations & Combinations"
+     ],
+     "presentCount": 6,
+     "targetCount": 16,
+     "completenessPct": 38,
+     "status": "thin",
+     "gapNotes": "Only 3 unique (circular permutation, derangements, number of divisors) duplicated to 6. Missing the backbone: nPr, nCr, nCr identities (Pascal, nCr=nC(n-r)), sum of nCr, permutations with repetition, identical objects, gap/grouping method, distribution into groups, selection of one-or-more, total ways with restrictions, multinomial distributions, number of integral solutions (stars & bars), sum of divisors.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Binomial Theorem",
+     "cls": "11",
+     "examTag": "JEE",
+     "weightage": "high",
+     "existingTopics": [
+      "Binomial Theorem"
+     ],
+     "presentCount": 3,
+     "targetCount": 14,
+     "completenessPct": 21,
+     "status": "thin",
+     "gapNotes": "Severely thin (3: general term independent of x, sum of coeffs, multinomial). Missing nearly the whole chapter: general term Tr+1, middle term(s), greatest term, greatest coefficient, numerically greatest term, coefficient of x^r, sum of odd/even coefficients, properties of binomial coefficients (C0+C1+..., C0^2+C1^2...=2nCn), binomial series for any index (1+x)^n, differentiation/integration of binomial series, putting x=1,-1,i.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Mathematical Induction & Logarithms",
+     "cls": "11",
+     "examTag": "JEE",
+     "weightage": "low",
+     "existingTopics": [
+      "Logarithms"
+     ],
+     "presentCount": 8,
+     "targetCount": 10,
+     "completenessPct": 80,
+     "status": "adequate",
+     "gapNotes": "Logarithms covered (8 entries = 4 unique: base change, base-power rule, fundamental identity, log exchange) duplicated. Missing: product/quotient/power log laws explicitly, log inequality rules (base>1 vs <1), characteristic & mantissa, a^{log_a x}=x, change to natural log. Mathematical Induction has no dedicated formula presence (less formula-driven, acceptable).",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Trigonometric Ratios, Identities & Equations",
+     "cls": "11",
+     "examTag": "JEE",
+     "weightage": "high",
+     "existingTopics": [
+      "Trigonometry"
+     ],
+     "presentCount": 10,
+     "targetCount": 24,
+     "completenessPct": 42,
+     "status": "adequate",
+     "gapNotes": "Only 10, skewed to multiple-angle (sin3A/cos3A/tan3A) and general solutions. Missing the bulk of high-yield revision: sum/difference formulas (sin(A+B) etc.), product-to-sum & sum-to-product full set, double-angle (sin2A, cos2A 3 forms, tan2A), half-angle, conditional identities (A+B+C=pi), sum of sines/cosines in AP, values of standard angles table, range of trig functions, sin/cos/tan of 15,18,36,72.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Properties of Triangles & Heights and Distances",
+     "cls": "11",
+     "examTag": "JEE",
+     "weightage": "medium",
+     "existingTopics": [
+      "Properties of Triangles"
+     ],
+     "presentCount": 12,
+     "targetCount": 16,
+     "completenessPct": 75,
+     "status": "adequate",
+     "gapNotes": "Strong (sine/cosine/projection/tangent rules, R, r, ex-radii, Heron, median, Napier, Euler OI, orthocenter). Missing: area formulas (1/2 ab sinC, rs, abc/4R), half-angle formulas for sin(A/2) etc., r=4R sin(A/2)sin(B/2)sin(C/2), distance of orthocenter/circumcenter, mollweide. Heights & Distances application formulas absent.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Straight Lines",
+     "cls": "11",
+     "examTag": "JEE",
+     "weightage": "high",
+     "existingTopics": [
+      "Straight Lines",
+      "2D Geometry"
+     ],
+     "presentCount": 13,
+     "targetCount": 18,
+     "completenessPct": 72,
+     "status": "adequate",
+     "gapNotes": "Good (all line forms, distance point-line & parallel lines, angle, centroid/incenter, area). 2D Geometry orphan adds only Shoelace area (belongs here). Missing: point form/slope-point form explicit, foot of perpendicular & image of point in line, family of lines (L1+lambda L2), concurrency condition (determinant), position of point relative to line, angle bisectors of two lines (acute/obtuse), reflection of line.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Pair of Straight Lines",
+     "cls": "11",
+     "examTag": "JEE",
+     "weightage": "medium",
+     "existingTopics": [
+      "Pair of Straight Lines"
+     ],
+     "presentCount": 4,
+     "targetCount": 8,
+     "completenessPct": 50,
+     "status": "adequate",
+     "gapNotes": "Has homogeneous eqn, angle between pair, general second-degree condition, angle bisectors. Missing: point of intersection of pair, condition for perpendicular/coincident lines, distance between parallel lines of a pair, combined equation from two lines, pair through origin parallel to given pair, homogenization (line + conic intersection).",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Circles",
+     "cls": "11",
+     "examTag": "JEE",
+     "weightage": "high",
+     "existingTopics": [
+      "Circles"
+     ],
+     "presentCount": 12,
+     "targetCount": 18,
+     "completenessPct": 67,
+     "status": "adequate",
+     "gapNotes": "12 entries but duplicated (orthogonality, radical axis, tangency line repeated) ~ 9 unique. Missing: standard/center-radius forms explicitly, equation of tangent in slope form, pair of tangents (SS1=T^2), chord of contact, chord bisected at point (T=S1), family of circles (S+lambda L, S+lambda S'), angle of intersection, position of point, common tangents count, radical center.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Parabola",
+     "cls": "11",
+     "examTag": "JEE",
+     "weightage": "high",
+     "existingTopics": [
+      "Conic Sections",
+      "Parabola"
+     ],
+     "presentCount": 7,
+     "targetCount": 14,
+     "completenessPct": 50,
+     "status": "adequate",
+     "gapNotes": "Split across Conic Sections (tangent/normal slope & parametric, latus rectum, chord of contact) and a 1-item Parabola topic (reflection). Missing as single revision unit: standard forms & key elements (focus, directrix, vertex, LR=4a), parametric point (at^2,2at), tangent/normal at point form, condition of tangency c=a/m, focal chord & focal distance, point of intersection of tangents, properties (tangent at vertex, sub-normal=2a). Needs consolidation into one Parabola chapter.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Ellipse",
+     "cls": "11",
+     "examTag": "JEE",
+     "weightage": "high",
+     "existingTopics": [
+      "Conic Sections",
+      "Ellipse"
+     ],
+     "presentCount": 8,
+     "targetCount": 14,
+     "completenessPct": 57,
+     "status": "adequate",
+     "gapNotes": "Split: Conic Sections holds standard eqn, tangent slope/parametric, normal, director circle, auxiliary circle, latus rectum; Ellipse topic only has reflection. Missing consolidated: eccentricity & b^2=a^2(1-e^2), foci/directrices, focal distance property (SP+S'P=2a), chord of contact & midpoint chord, condition of tangency c^2=a^2m^2+b^2, eccentric angle, position of point. Fragmented.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Hyperbola",
+     "cls": "11",
+     "examTag": "JEE",
+     "weightage": "high",
+     "existingTopics": [
+      "Conic Sections",
+      "Hyperbola"
+     ],
+     "presentCount": 12,
+     "targetCount": 14,
+     "completenessPct": 86,
+     "status": "complete",
+     "gapNotes": "Well covered across Conic Sections (standard eqn, tangent, director circle, rectangular xy=c^2 tangent/normal/LR) + Hyperbola topic (asymptotes, angle, conjugate relation, rect parametric). Minor gaps: focal distance |SP-S'P|=2a, eccentricity e^2=1+b^2/a^2, conjugate hyperbola eccentricity relation 1/e^2+1/e'^2=1, condition of tangency c^2=a^2m^2-b^2. Still fragmented across two topics.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Limits",
+     "cls": "11&12",
+     "examTag": "JEE",
+     "weightage": "high",
+     "existingTopics": [
+      "Limits"
+     ],
+     "presentCount": 10,
+     "targetCount": 14,
+     "completenessPct": 71,
+     "status": "adequate",
+     "gapNotes": "Reviewer-flagged. Has standard limits (sin/tan/log/exp/algebraic), 1^inf form, Maclaurin e^x/sinx/cosx, log expansion. Missing for full revision: list of indeterminate forms, (a^x-1)/x, (1+x)^{1/x}->e, sandwich theorem statement, limit of [x]/{x}, L'Hopital quick form, expansion of (1+x)^n & tan/sin series, standard trig-substitution limits. Reviewer says Limits needs strengthening.",
+     "lokeshFlagged": true
+    },
+    {
+     "chapter": "Continuity and Differentiability",
+     "cls": "12",
+     "examTag": "JEE",
+     "weightage": "high",
+     "existingTopics": [
+      "Continuity",
+      "Differentiation"
+     ],
+     "presentCount": 12,
+     "targetCount": 20,
+     "completenessPct": 60,
+     "status": "adequate",
+     "gapNotes": "Reviewer-flagged as 'not clear'. Continuity has ONLY 1 formula (condition for continuity); Differentiation has 11 but skewed to theorems (Rolle, LMVT dup, L'Hopital). Missing: full standard derivatives table (x^n, e^x, a^x, ln x, trig, inverse-trig), differentiability definition & relation to continuity, types of discontinuity, derivative of |x| & [x], implicit differentiation, derivative of inverse-trig combos, higher-order derivatives, derivative from first principles, Cauchy MVT. Continuity is the weakest sub-area; consolidate Continuity+Differentiation+(Differentiability).",
+     "lokeshFlagged": true
+    },
+    {
+     "chapter": "Applications of Derivatives",
+     "cls": "12",
+     "examTag": "JEE",
+     "weightage": "high",
+     "existingTopics": [
+      "AOD"
+     ],
+     "presentCount": 12,
+     "targetCount": 18,
+     "completenessPct": 67,
+     "status": "adequate",
+     "gapNotes": "Good base (tangent/normal slope, increasing/decreasing, rate measure, angle of intersection, approximation, subtangent/subnormal, critical point, 2nd derivative test). Missing: equation of tangent & normal at point, length of tangent/normal, maxima-minima first-derivative test, global max/min on interval, point of inflection, concavity, monotonicity in interval, errors & relative/percentage error, Rolle/MVT geometric application. Topic name 'AOD' is a non-standard abbreviation.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Indefinite Integration",
+     "cls": "12",
+     "examTag": "JEE",
+     "weightage": "high",
+     "existingTopics": [
+      "Indefinite Integration",
+      "Integration"
+     ],
+     "presentCount": 13,
+     "targetCount": 22,
+     "completenessPct": 59,
+     "status": "adequate",
+     "gapNotes": "Split between 'Indefinite Integration' (sqrt forms, ln x, by parts via e^x(f+f')) and a generic 'Integration' topic (by parts, standard 1/(x^2-a^2), Leibniz, e^x(f+f')). Missing standard integral table: x^n, 1/x, e^x, a^x, sin/cos/sec^2/cosec^2, tan/cot/sec/cosec, 1/(a^2+x^2)->arctan, 1/sqrt(a^2-x^2)->arcsin, 1/sqrt(x^2±a^2)->log, partial fractions, linear/quadratic in denominator (px+q)/(ax^2+bx+c), trig substitution standard set, integration of sin^m cos^n. Fragmented with the 'Integration' grab-bag.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Definite Integration & Areas",
+     "cls": "12",
+     "examTag": "JEE",
+     "weightage": "high",
+     "existingTopics": [
+      "Definite Integration",
+      "Integration",
+      "Area Under Curve"
+     ],
+     "presentCount": 13,
+     "targetCount": 20,
+     "completenessPct": 65,
+     "status": "adequate",
+     "gapNotes": "Definite Integration (limit-of-sum, Wallis dup, King/Queen property, log-sin dup, Gamma) + King's rule & Leibniz from 'Integration' + 1-item Area Under Curve. Missing: fundamental theorem of calculus, all standard definite-integral properties (even/odd, periodic, a->b reversal, 0->2a split), area between two curves, area bounded by curve & axis, area in parametric/polar, estimation/comparison properties. Heavily fragmented across 3 topics; Area Under Curve nearly empty.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Differential Equations",
+     "cls": "12",
+     "examTag": "JEE",
+     "weightage": "medium",
+     "existingTopics": [
+      "Differential Equations"
+     ],
+     "presentCount": 5,
+     "targetCount": 12,
+     "completenessPct": 42,
+     "status": "adequate",
+     "gapNotes": "Has linear DE (IF), Bernoulli, homogeneous, Newton cooling, orthogonal trajectory. Missing: order & degree, variable separable form, reducible to homogeneous, exact equations, formation of DE by elimination, general vs particular solution, IF for linear in x, standard growth/decay model, solution of dy/dx=f(ax+by+c).",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Matrices",
+     "cls": "12",
+     "examTag": "JEE",
+     "weightage": "high",
+     "existingTopics": [
+      "Matrices"
+     ],
+     "presentCount": 12,
+     "targetCount": 16,
+     "completenessPct": 75,
+     "status": "adequate",
+     "gapNotes": "Strong on adjoint/inverse properties (adj of adj, det adj, A.adjA=|A|I, inverse reversal, Cayley-Hamilton, orthogonal, skew-symmetric det, trace). Missing: definition/order of matrix operations, (AB)^T & (AB)^{-1} laws (transpose reversal present), symmetric/skew decomposition A=(A+A')/2+..., idempotent/nilpotent/involutory definitions, properties of trace tr(AB)=tr(BA), elementary row operations & inverse by them, solving AX=B via matrix inverse.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Determinants",
+     "cls": "12",
+     "examTag": "JEE",
+     "weightage": "high",
+     "existingTopics": [
+      "Determinants"
+     ],
+     "presentCount": 5,
+     "targetCount": 12,
+     "completenessPct": 42,
+     "status": "adequate",
+     "gapNotes": "Has area of triangle, Cramer (3 consistency cases), factor theorem. Missing: expansion/properties of determinants (row/column ops, scalar multiple |kA|=k^n|A|, |AB|=|A||B|, |A^T|=|A|), minors & cofactors, determinant of triangular/diagonal, condition for collinearity, system consistency summary (homogeneous nontrivial when |A|=0), differentiation of determinant (present under Differentiation, mislocated).",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Vector Algebra",
+     "cls": "12",
+     "examTag": "JEE",
+     "weightage": "high",
+     "existingTopics": [
+      "Vector Algebra",
+      "Vectors"
+     ],
+     "presentCount": 14,
+     "targetCount": 18,
+     "completenessPct": 78,
+     "status": "adequate",
+     "gapNotes": "Vector Algebra (magnitude, dot, projection, cross, unit, STP, VTP, Lagrange, angle bisector) + Vectors topic (volume tetrahedron, VTP expansion, Lagrange dup, reciprocal system, vector area triangle dup, linear dependence). Note 'Vectors' topic ALSO contains 3D-geometry items (sphere, plane-through-origin loci) that belong in 3D. Missing here: section formula (internal/external), collinearity & coplanarity conditions, components & direction ratios, angle between vectors via dot, area of parallelogram, condition for perpendicular/parallel, [a b c]^2 Gram. Fragmented Vectors<->Vector Algebra.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Three Dimensional Geometry",
+     "cls": "12",
+     "examTag": "JEE",
+     "weightage": "high",
+     "existingTopics": [
+      "3D Geometry",
+      "Vectors"
+     ],
+     "presentCount": 30,
+     "targetCount": 22,
+     "completenessPct": 100,
+     "status": "complete",
+     "gapNotes": "Largest topic (29) but ~40% duplicates: Equation of Line (vector/cartesian), Plane normal/intercept forms, distance point-plane, angle between planes, shortest distance skew lines, family of planes all appear TWICE. Plus 'Vectors' topic leaks 3D content (sphere, loci/planes). De-duplicated unique ~18 covering DCs/DRs, line & plane forms, skew distance, image/foot of perpendicular, coplanarity, bisector planes. Coverage is genuinely complete; the issue is duplication & cross-topic bleed, not gaps.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Probability",
+     "cls": "11&12",
+     "examTag": "JEE",
+     "weightage": "high",
+     "existingTopics": [
+      "Probability"
+     ],
+     "presentCount": 5,
+     "targetCount": 14,
+     "completenessPct": 36,
+     "status": "thin",
+     "gapNotes": "Only 5 (addition theorem, conditional, Bayes, binomial distribution, variance binomial). Missing: classical definition P=fav/total, multiplication theorem & independence, total probability theorem, complement, odds for/against, mean/variance of binomial (mean present?), at-least-one probability, mutually exclusive vs independent, random variable & expectation E(X), Poisson (low), geometric probability.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Statistics",
+     "cls": "11",
+     "examTag": "JEE",
+     "weightage": "low",
+     "existingTopics": [
+      "Statistics"
+     ],
+     "presentCount": 4,
+     "targetCount": 9,
+     "completenessPct": 44,
+     "status": "adequate",
+     "gapNotes": "Has variance, combined mean, combined variance, coefficient of variation. Missing: mean (mean/median/mode) formulas, relation mode=3median-2mean, standard deviation definition & shortcut formula SD=sqrt(Sigma x^2/n - mean^2), mean deviation about mean/median, variance of first n naturals, effect of change of scale/origin on mean & variance.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Inverse Trigonometric Functions",
+     "cls": "12",
+     "examTag": "JEE",
+     "weightage": "medium",
+     "existingTopics": [
+      "Inverse Trig"
+     ],
+     "presentCount": 3,
+     "targetCount": 12,
+     "completenessPct": 25,
+     "status": "thin",
+     "gapNotes": "Only 2 unique (2tan^-1 x conversion, sum formula for tan^-1) padded to 3. Missing nearly all: domains & ranges (principal values) of all 6 inverse functions, sin^-1 x + cos^-1 x = pi/2 (and tan/cot, sec/cosec pairs), sin^-1(-x)=-sin^-1 x parity, conversion between inverse functions, sin^-1 x + sin^-1 y formula, 2sin^-1 x / 3sin^-1 x, tan^-1 x + tan^-1 y +/- pi conditions, simplification substitutions.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Linear Programming",
+     "cls": "12",
+     "examTag": "JEE",
+     "weightage": "low",
+     "existingTopics": [
+      "Linear Programming"
+     ],
+     "presentCount": 1,
+     "targetCount": 5,
+     "completenessPct": 20,
+     "status": "thin",
+     "gapNotes": "Only corner-point theorem. Missing: standard LPP terminology (objective function, constraints, feasible region), bounded vs unbounded feasible region max/min existence conditions, graphical method steps, isoprofit line concept. Low JEE weight but currently skeletal.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Mathematical Reasoning",
+     "cls": "11",
+     "examTag": "JEE",
+     "weightage": "low",
+     "existingTopics": [
+      "Mathematical Reasoning",
+      "Reasoning"
+     ],
+     "presentCount": 11,
+     "targetCount": 12,
+     "completenessPct": 92,
+     "status": "complete",
+     "gapNotes": "Split across two topics (Mathematical Reasoning: AND/OR/IFF, implication equivalence, negation of implication; Reasoning: contrapositive, De Morgan, tautology, contradiction/fallacy). Combined this fully covers the (low-weight, now de-emphasized in JEE) chapter. The split into 'Mathematical Reasoning' + 'Reasoning' is pure fragmentation/duplication — should be one chapter.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Relations and Functions (XII - composition/inverse, binary operations)",
+     "cls": "12",
+     "examTag": "JEE",
+     "weightage": "low",
+     "existingTopics": [],
+     "presentCount": 0,
+     "targetCount": 6,
+     "completenessPct": 0,
+     "status": "missing",
+     "gapNotes": "No dedicated coverage of XII Relations & Functions specifics: types of relations (reflexive/symmetric/transitive/equivalence) as definitions, composition of functions properties, condition for invertibility & finding f^-1, binary operations (commutative/associative/identity/inverse). Counting versions live under Sets & Relations but the conceptual XII results are absent. Low standalone yield but a genuine syllabus gap.",
+     "lokeshFlagged": false
+    }
+   ],
+   "fragmentationNotes": [
+    "Vectors + Vector Algebra are split representations of the same canonical Vector Algebra chapter (Lagrange's Identity, VTP, vector area of triangle all duplicated across both); additionally the 'Vectors' topic leaks 3D Geometry content (Sphere equation, plane-through-origin loci) into the vectors bucket.",
+    "Conic Sections (24) + Parabola (1) + Ellipse (1) + Hyperbola (4) are the SAME conics cluster split apart: the big 'Conic Sections' grab-bag holds the parabola/ellipse/hyperbola tangent-normal-LR formulas while the individually named Parabola/Ellipse topics are nearly empty (only 'Reflection Property' each). A revising student looking under 'Parabola' finds 1 formula, not 7.",
+    "Integration + Indefinite Integration + Definite Integration + Area Under Curve are four topics for what is really two chapters (Indefinite Integration; Definite Integration & Areas). The generic 'Integration' topic mixes by-parts/standard-integral (indefinite) with King's rule & Leibniz (definite), straddling both.",
+    "Limits + Continuity + Differentiation should sit in one 'Limits, Continuity & Differentiability' cluster; Continuity is isolated as a 1-formula topic and Differentiation carries the differentiability load.",
+    "Mathematical Reasoning + Reasoning are the same chapter duplicated under two names (contrapositive/De Morgan/tautology in one, AND/OR/IFF/implication in the other).",
+    "Sets & Relations absorbs counting-of-functions results (one-one/onto/bijection counts) while the separate Functions topic has only 2 entries, splitting one logical Sets-Relations-Functions chapter."
+   ],
+   "orphanTopics": [
+    "AOD - non-standard abbreviation; should be the canonical 'Applications of Derivatives'.",
+    "2D Geometry - vague catch-all holding a single Shoelace (area) formula that belongs under Straight Lines / Coordinate Geometry.",
+    "Reasoning - mis-named duplicate of Mathematical Reasoning (no standard chapter is simply called 'Reasoning' in math).",
+    "Vectors - mis-scoped: name implies vector algebra but content is mostly 3D geometry (sphere, planes, loci) plus duplicates of Vector Algebra; not a clean canonical chapter on its own.",
+    "Integration - non-canonical umbrella overlapping Indefinite and Definite Integration; not a distinct syllabus chapter."
+   ],
+   "summary": {
+    "totalChapters": 32,
+    "missing": 1,
+    "thin": 6,
+    "adequate": 20,
+    "complete": 5,
+    "overallCompletenessPct": 58
+   }
+  },
+  {
+   "subject": "Biology",
+   "examRelevance": "NEET only",
+   "chapters": [
+    {
+     "chapter": "The Living World",
+     "cls": "11",
+     "examTag": "NEET",
+     "weightage": "low",
+     "existingTopics": [
+      "The Living World"
+     ],
+     "presentCount": 4,
+     "targetCount": 6,
+     "completenessPct": 67,
+     "status": "adequate",
+     "gapNotes": "Has taxonomic hierarchy, binomial nomenclature, taxonomic aids, properties of life. Thin on: nomenclature rules (ICBN/ICZN), taxonomical categories full ladder with examples, diversity numbers. Adequate for low-yield chapter.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Biological Classification",
+     "cls": "11",
+     "examTag": "NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Biological Classification"
+     ],
+     "presentCount": 5,
+     "targetCount": 12,
+     "completenessPct": 42,
+     "status": "adequate",
+     "gapNotes": "Has Five Kingdom, viruses/viroids, bacteriophage, Fungi groups, Protozoa. Missing high-yield: Monera/bacteria classification (eubacteria, archaebacteria, cyanobacteria), Protista groups full (dinoflagellates, euglenoids, slime moulds), nutritional modes table, lichens, mycorrhiza, Whittaker's criteria table, prions. Borderline thin for a top-yield chapter.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Plant Kingdom",
+     "cls": "11",
+     "examTag": "NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Plant Kingdom"
+     ],
+     "presentCount": 4,
+     "targetCount": 10,
+     "completenessPct": 40,
+     "status": "adequate",
+     "gapNotes": "Has life cycles, algae classification, bryophytes, pteridophytes. Missing: gymnosperms features, angiosperm life cycle detail, algae pigments/stored food/cell wall comparison table (Chloro/Phaeo/Rhodophyceae), alternation of generations (haplontic/diplontic/haplo-diplontic), classes of pteridophytes. High-yield NEET chapter, under-covered.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Animal Kingdom",
+     "cls": "11",
+     "examTag": "NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Animal Kingdom"
+     ],
+     "presentCount": 17,
+     "targetCount": 16,
+     "completenessPct": 100,
+     "status": "complete",
+     "gapNotes": "Excellent coverage: all major phyla Porifera through Chordata + vertebrate classes + basis-of-classification features. One of the strongest chapters. Could add a single consolidated basis-of-classification (symmetry/coelom/segmentation) recall card but effectively complete.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Morphology of Flowering Plants",
+     "cls": "11",
+     "examTag": "NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Morphology"
+     ],
+     "presentCount": 13,
+     "targetCount": 13,
+     "completenessPct": 100,
+     "status": "complete",
+     "gapNotes": "Strong: root/stem/leaf modifications, aestivation, placentation, inflorescence, floral formula/symmetry, fruit types, seed, 3 families (Solanaceae, Fabaceae, Liliaceae). Complete for NEET morphology recall.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Anatomy of Flowering Plants",
+     "cls": "11",
+     "examTag": "NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Anatomy of Plants",
+      "Anatomy of Flowering Plants"
+     ],
+     "presentCount": 7,
+     "targetCount": 11,
+     "completenessPct": 64,
+     "status": "adequate",
+     "gapNotes": "Combined 7 (xylem/phloem, vascular bundles, secondary growth root & dicot stem, leaf types, bulliform, simple tissues). Missing: meristem types/classification, complex permanent tissues detail, monocot vs dicot stem/root/leaf full anatomy table, periderm/cork cambium, annual rings, tissue system (epidermal/ground/vascular). NOTE: split across two topic names = fragmentation.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Structural Organisation in Animals",
+     "cls": "11",
+     "examTag": "NEET",
+     "weightage": "medium",
+     "existingTopics": [
+      "Structural Org. in Animals"
+     ],
+     "presentCount": 4,
+     "targetCount": 9,
+     "completenessPct": 44,
+     "status": "adequate",
+     "gapNotes": "Has epithelial tissue, cockroach excretion/vision, frog anatomy. Missing high-yield: connective tissue types table, muscle tissue types, neural tissue, cockroach full digestive/circulatory/nervous systems, frog systems comparison. Animal tissues table is a frequent NEET item and is thin.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Cell: The Unit of Life",
+     "cls": "11",
+     "examTag": "NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Cell Unit of Life",
+      "Cell Structure"
+     ],
+     "presentCount": 11,
+     "targetCount": 14,
+     "completenessPct": 79,
+     "status": "adequate",
+     "gapNotes": "Combined 11 across two topics (mitochondria, chloroplast, fluid mosaic, nucleus, Golgi, ribosomes, cilia/flagella, cytoskeleton, prokaryotic envelope, endomembrane system). Missing: cell theory, prokaryote vs eukaryote comparison table, ER (rough/smooth), lysosome, vacuole, centrosome/centriole 9+0, microbodies. NOTE: 'Cell Structure' + 'Cell Unit of Life' = same canonical chapter split = fragmentation.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Biomolecules",
+     "cls": "11",
+     "examTag": "NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Biomolecules"
+     ],
+     "presentCount": 6,
+     "targetCount": 12,
+     "completenessPct": 50,
+     "status": "adequate",
+     "gapNotes": "Has enzyme inhibition, DNA bonds, Michaelis-Menten, lipid/protein structure, co-factors. Missing high-yield: classification of carbohydrates/proteins/lipids, amino acid types & essential AAs, primary metabolites vs secondary, nucleotide vs nucleoside, enzyme classification (6 classes), factors affecting enzyme activity, polysaccharides (cellulose/starch/glycogen/inulin). Under-covered for a high-yield chapter.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Cell Cycle and Cell Division",
+     "cls": "11",
+     "examTag": "NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Cell Cycle"
+     ],
+     "presentCount": 8,
+     "targetCount": 9,
+     "completenessPct": 89,
+     "status": "complete",
+     "gapNotes": "Strong: phases, prophase I substages, mitosis stages, checkpoints, anaphase I vs II, crossing over, significance of meiosis, meiosis II. Near complete; could add interphase (G1/S/G2) duration detail and mitosis vs meiosis comparison card.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Transport in Plants / Plant–Water Relations",
+     "cls": "11",
+     "examTag": "NEET",
+     "weightage": "medium",
+     "existingTopics": [
+      "Transport in Plants"
+     ],
+     "presentCount": 7,
+     "targetCount": 9,
+     "completenessPct": 78,
+     "status": "adequate",
+     "gapNotes": "Has water potential, stomatal apparatus, apoplast/symplast, cohesion-tension, guttation, imbibition, plasmolysis. Missing: diffusion vs osmosis vs active transport comparison, root pressure, transpiration types & significance, phloem loading/unloading (mass flow / pressure flow). NOTE: topic largely deleted from current NCERT but still NEET-relevant; reasonable coverage.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Mineral Nutrition",
+     "cls": "11",
+     "examTag": "NEET",
+     "weightage": "low",
+     "existingTopics": [
+      "Mineral Nutrition"
+     ],
+     "presentCount": 3,
+     "targetCount": 7,
+     "completenessPct": 43,
+     "status": "adequate",
+     "gapNotes": "Has nitrogen cycle, root nodule formation, deficiency symptoms. Missing: macro vs micronutrients list, criteria of essentiality, mobile vs immobile elements, role of essential elements table, mechanism of biological nitrogen fixation (nitrogenase/leghaemoglobin), hydroponics. Thin-leaning.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Photosynthesis in Higher Plants",
+     "cls": "11",
+     "examTag": "NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Photosynthesis"
+     ],
+     "presentCount": 6,
+     "targetCount": 9,
+     "completenessPct": 67,
+     "status": "adequate",
+     "gapNotes": "Has Calvin cycle, C4 (Hatch-Slack), Z-scheme, Blackman's law, photorespiration, pigments. Missing high-yield: cyclic vs non-cyclic photophosphorylation comparison, C3 vs C4 vs CAM comparison table, chemiosmotic hypothesis (ATP synthase), light vs dark reaction net equation, red drop/Emerson effect, factors affecting rate. High-yield chapter, should reach 9.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Respiration in Plants",
+     "cls": "11",
+     "examTag": "NEET",
+     "weightage": "medium",
+     "existingTopics": [
+      "Respiration"
+     ],
+     "presentCount": 5,
+     "targetCount": 8,
+     "completenessPct": 63,
+     "status": "adequate",
+     "gapNotes": "Has glycolysis (EMP), Krebs/TCA, RQ, ETS. (Oxygen dissociation curve actually belongs to human Breathing.) Missing: net ATP yield calculation (38 vs 36), fermentation (alcoholic/lactic), aerobic vs anaerobic comparison, amphibolic pathway, oxidative phosphorylation summary, link reaction (pyruvate to acetyl-CoA). Solid core but missing the ATP-accounting items NEET loves.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Plant Growth and Development",
+     "cls": "11",
+     "examTag": "NEET",
+     "weightage": "medium",
+     "existingTopics": [
+      "Plant Growth"
+     ],
+     "presentCount": 5,
+     "targetCount": 8,
+     "completenessPct": 63,
+     "status": "adequate",
+     "gapNotes": "Has sigmoid curve, hormones functions, photoperiodism, vernalization, absolute vs relative growth. Missing: 5 PGRs detailed (auxin/GA/cytokinin/ABA/ethylene) with discoverers & specific effects, differentiation/dedifferentiation/redifferentiation, growth phases (meristematic/elongation/maturation), seed dormancy, applications of PGRs. Good but extend hormone detail.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Digestion and Absorption",
+     "cls": "11",
+     "examTag": "NEET",
+     "weightage": "medium",
+     "existingTopics": [
+      "Digestion & Absorption"
+     ],
+     "presentCount": 4,
+     "targetCount": 8,
+     "completenessPct": 50,
+     "status": "adequate",
+     "gapNotes": "Has protein digestion, dental formula, liver/bile, absorption. Missing high-yield: digestive enzymes full table (mouth to ileum, substrate-enzyme-product), gastric/intestinal/pancreatic juice composition, alimentary canal layers, disorders (PEM, jaundice, indigestion), hormones (gastrin/secretin/CCK). Thin-leaning for a recall-heavy chapter.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Breathing and Exchange of Gases",
+     "cls": "11",
+     "examTag": "NEET",
+     "weightage": "medium",
+     "existingTopics": [
+      "Breathing & Exchange"
+     ],
+     "presentCount": 4,
+     "targetCount": 8,
+     "completenessPct": 50,
+     "status": "adequate",
+     "gapNotes": "Has lung volumes, capacities, regulation, gas transport. Missing: oxygen dissociation curve & Bohr effect (currently mis-filed under Respiration), CO2 transport forms (bicarbonate/carbamino), chloride shift, partial pressure values table (pO2/pCO2 alveoli/blood/tissue), respiratory disorders (asthma/emphysema/occupational). Should consolidate ODC here.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Body Fluids and Circulation",
+     "cls": "11",
+     "examTag": "NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Body Fluids & Circulation"
+     ],
+     "presentCount": 7,
+     "targetCount": 10,
+     "completenessPct": 70,
+     "status": "adequate",
+     "gapNotes": "Has heart flow, ECG, blood groups, coagulation, cardiac cycle, lymph, disorders. Missing: blood composition (plasma proteins, formed elements counts), cardiac output/stroke volume values, double circulation, conducting system (SA/AV node/Purkinje), Rh incompatibility/erythroblastosis. Good high-yield base.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Excretory Products and their Elimination",
+     "cls": "11",
+     "examTag": "NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Excretory Products"
+     ],
+     "presentCount": 4,
+     "targetCount": 9,
+     "completenessPct": 44,
+     "status": "adequate",
+     "gapNotes": "Has nephron, counter-current, haemodialysis, RAAS. Missing high-yield: urine formation steps (filtration/reabsorption/secretion) with values (GFR 125ml/min), ammonotelic/ureotelic/uricotelic comparison, juxtaglomerular apparatus, hormonal regulation (ADH/aldosterone/ANF), micturition, other excretory organs, disorders (uremia, nephritis). Thin for a high-yield chapter.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Locomotion and Movement",
+     "cls": "11",
+     "examTag": "NEET",
+     "weightage": "medium",
+     "existingTopics": [
+      "Locomotion"
+     ],
+     "presentCount": 5,
+     "targetCount": 8,
+     "completenessPct": 63,
+     "status": "adequate",
+     "gapNotes": "Has sarcomere, sliding filament, joints, 206 bones, muscular disorders. Missing: axial vs appendicular skeleton breakdown (numbers per region), red vs white muscle fibres comparison, types of movement (amoeboid/ciliary/muscular), pectoral & pelvic girdle detail, muscle protein detail (actin/myosin/troponin/tropomyosin), skeletal disorders (arthritis/osteoporosis/gout).",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Neural Control and Coordination",
+     "cls": "11",
+     "examTag": "NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Neural Control"
+     ],
+     "presentCount": 7,
+     "targetCount": 10,
+     "completenessPct": 70,
+     "status": "adequate",
+     "gapNotes": "Has nerve impulse, synaptic transmission, photoreception, cochlea, brain structure, reflex arc, vestibular apparatus. Missing: resting vs action potential ionic mechanism (Na+/K+) with mV values, eye structure & accommodation, CNS/PNS/ANS organisation (sympathetic vs parasympathetic table), parts of neuron, all-or-none. Strong base for high-yield chapter.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Chemical Coordination and Integration",
+     "cls": "11",
+     "examTag": "NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Chemical Coordination"
+     ],
+     "presentCount": 6,
+     "targetCount": 10,
+     "completenessPct": 60,
+     "status": "adequate",
+     "gapNotes": "Has thyroid, pancreas, adrenal, hormone action, PTH, pineal. Missing high-yield: hypothalamus-pituitary axis & all anterior/posterior pituitary hormones, GH disorders (gigantism/dwarfism/acromegaly), thyroid disorders (goitre/cretinism/Graves), diabetes I vs II, complete endocrine gland-hormone-function summary table, hormones of heart/kidney/GI tract. Should reach 10.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Reproduction in Organisms (Asexual/Sexual basics)",
+     "cls": "12",
+     "examTag": "NEET",
+     "weightage": "low",
+     "existingTopics": [],
+     "presentCount": 0,
+     "targetCount": 5,
+     "completenessPct": 0,
+     "status": "missing",
+     "gapNotes": "MISSING. Foundational reproduction chapter (asexual modes: binary fission, budding, fragmentation, spore formation; vegetative propagules; sexual phases pre/post-fertilisation; events in sexual reproduction; juvenile/reproductive/senescent phases; oestrous vs menstrual cycle). Low weight but a clean miss; some content folded into other repro topics but no dedicated recall card set.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Sexual Reproduction in Flowering Plants",
+     "cls": "12",
+     "examTag": "NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Sexual Repro. in Plants"
+     ],
+     "presentCount": 3,
+     "targetCount": 10,
+     "completenessPct": 30,
+     "status": "thin",
+     "gapNotes": "THIN (3 only). Has double fertilization, embryo sac, pollination agents. Missing major high-yield: microsporogenesis vs megasporogenesis, anther/microsporangium structure (4 wall layers, tapetum), structure of mature pollen grain, ovule/megasporangium structure, embryo sac development (Polygonum 8-nucleate 7-celled), pollen-pistil interaction, endosperm development, apomixis & polyembryony, dicot vs monocot embryo. One of the highest-yield NEET chapters and badly under-covered.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Human Reproduction",
+     "cls": "12",
+     "examTag": "NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Human Reproduction"
+     ],
+     "presentCount": 7,
+     "targetCount": 11,
+     "completenessPct": 64,
+     "status": "adequate",
+     "gapNotes": "Has menstrual cycle hormones, spermatogenesis vs oogenesis, embryonic development, sperm structure, follicular development, parturition, male system. Missing: female reproductive system detail, structure of ovary/Graafian follicle/corpus luteum, fertilisation & implantation steps, placenta structure & hormones (hCG/hPL), lactation, gametogenesis hormonal control (GnRH/FSH/LH). High-yield, push to 11.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Reproductive Health",
+     "cls": "12",
+     "examTag": "NEET",
+     "weightage": "medium",
+     "existingTopics": [
+      "Reproductive Health"
+     ],
+     "presentCount": 4,
+     "targetCount": 7,
+     "completenessPct": 57,
+     "status": "adequate",
+     "gapNotes": "Has ART, infertility treatments, contraceptives, MTP. Missing: contraceptive methods full classification (natural/barrier/IUD/oral/surgical) comparison, STDs list & causative agents, amniocentesis misuse, population/RCH programmes, infertility causes. Adequate.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Principles of Inheritance and Variation",
+     "cls": "12",
+     "examTag": "NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Principles of Inheritance",
+      "Genetics"
+     ],
+     "presentCount": 14,
+     "targetCount": 15,
+     "completenessPct": 93,
+     "status": "complete",
+     "gapNotes": "Combined 14 across 'Principles of Inheritance' + 'Genetics' (Mendel laws via test cross, dihybrid, incomplete/co-dominance, linkage Morgan, sex determination, mutation, pedigree, polygenic, Mendelian & chromosomal disorders, colour blindness, thalassemia). Very strong. Missing: Mendel's laws stated explicitly (dominance/segregation/independent assortment), 9:3:3:1 & modified ratios card, multiple alleles. NOTE: 'Genetics' is a non-standard split of this chapter = fragmentation.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Molecular Basis of Inheritance",
+     "cls": "12",
+     "examTag": "NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Molecular Basis"
+     ],
+     "presentCount": 13,
+     "targetCount": 14,
+     "completenessPct": 93,
+     "status": "complete",
+     "gapNotes": "Excellent: DNA helix, central dogma, tRNA, replication fork, transcription unit, DNA fingerprinting, lac operon, genetic code, HGP, RNA types, nucleosome, post-transcriptional mods, DNA vs RNA. Missing only: Hershey-Chase/Griffith/Meselson-Stahl experiments card, translation initiation/elongation/termination detail. Near complete. NOTE: 'Lac Operon' also appears under 'Genetics' = duplicate/overlap.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Evolution",
+     "cls": "12",
+     "examTag": "NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Evolution"
+     ],
+     "presentCount": 11,
+     "targetCount": 12,
+     "completenessPct": 92,
+     "status": "complete",
+     "gapNotes": "Strong: homologous/analogous organs, Hardy-Weinberg factors & equation, Miller-Urey, adaptive radiation, human evolution, industrial melanism, origin-of-life theories, divergent/convergent, geological time scale. Missing only: Darwinism vs Lamarckism vs neo-Darwinism comparison, types of natural selection (stabilising/directional/disruptive), evidences of evolution consolidated (palaeontological/embryological/molecular). Effectively complete.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Human Health and Disease",
+     "cls": "12",
+     "examTag": "NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Human Health"
+     ],
+     "presentCount": 15,
+     "targetCount": 15,
+     "completenessPct": 100,
+     "status": "complete",
+     "gapNotes": "Excellent: antibody structure, HIV, immunity types, vaccination, malaria, cancer, bacterial/fungal/helminth diseases (ringworm, ascariasis, filariasis), drugs/alcohol, B vs T cells, innate barriers. Complete for NEET. Could add allergy/autoimmunity & disease-causative-agent master table but coverage is full.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Microbes in Human Welfare",
+     "cls": "12",
+     "examTag": "NEET",
+     "weightage": "medium",
+     "existingTopics": [
+      "Microbes in Human Welfare"
+     ],
+     "presentCount": 5,
+     "targetCount": 8,
+     "completenessPct": 63,
+     "status": "adequate",
+     "gapNotes": "Has biogas plant, sewage treatment, antibiotics, biocontrol, bioactive molecules. Missing: microbes in household products (curd/cheese/bread/beverages organisms table), industrial products (acids/enzymes/alcohol with organisms), microbes as biofertilisers (Rhizobium/Azotobacter/mycorrhiza/cyanobacteria), primary vs secondary sewage treatment detail. Should reach 8.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Biotechnology: Principles and Processes",
+     "cls": "12",
+     "examTag": "NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Biotechnology",
+      "Biotechnology / Botany"
+     ],
+     "presentCount": 15,
+     "targetCount": 16,
+     "completenessPct": 94,
+     "status": "complete",
+     "gapNotes": "Combined with applications below this is the strongest cluster: PCR & applications, pBR322, EcoRI restriction site, gel electrophoresis, insulin maturation/recombinant insulin, bioreactor, Bt cotton, RNAi, GEAC ethics, ELISA, cloning vectors, transgenic animals, tissue culture. Near complete. NOTE: covers BOTH NCERT Ch11 (Principles) and Ch12 (Applications); 'Biotechnology / Botany' (tissue culture) is a mis-named orphan that belongs here.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Biotechnology and its Applications",
+     "cls": "12",
+     "examTag": "NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Biotechnology"
+     ],
+     "presentCount": 7,
+     "targetCount": 9,
+     "completenessPct": 78,
+     "status": "adequate",
+     "gapNotes": "Applications items inside 'Biotechnology': Bt cotton, RNAi, recombinant insulin, transgenic animals, GEAC ethics, ELISA, applications of PCR. Missing distinct cards: gene therapy (ADA-SCID), molecular diagnostics summary, biopiracy/patents (Basmati/turmeric/neem), Flavr Savr/golden rice/pest-resistant plants table, GMO benefits & concerns. NOTE: not separated from 'Principles' topic — see fragmentation.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Organisms and Populations",
+     "cls": "12",
+     "examTag": "NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Organisms & Populations"
+     ],
+     "presentCount": 8,
+     "targetCount": 10,
+     "completenessPct": 80,
+     "status": "adequate",
+     "gapNotes": "Has population interactions, age pyramids, growth models, biotic potential r, biomes, adaptations, commensalism, population attributes. Missing: exponential vs logistic growth equations explicit (dN/dt, K carrying capacity), full interaction table with +/- signs & examples (mutualism/competition/predation/parasitism/amensalism), responses to abiotic factors (regulate/conform/migrate/suspend). Strong; nearly complete.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Ecosystem",
+     "cls": "12",
+     "examTag": "NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Ecosystem"
+     ],
+     "presentCount": 9,
+     "targetCount": 11,
+     "completenessPct": 82,
+     "status": "complete",
+     "gapNotes": "Strong: pyramids (number/biomass/energy), succession (xerarch), carbon vs phosphorus cycle, decomposition, stratification, food web vs chain. Missing: energy flow & 10% law / productivity (GPP/NPP/secondary), standing crop vs standing state, nutrient cycling types, ecosystem services. Just over complete threshold.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Biodiversity and Conservation",
+     "cls": "12",
+     "examTag": "NEET",
+     "weightage": "high",
+     "existingTopics": [
+      "Biodiversity"
+     ],
+     "presentCount": 5,
+     "targetCount": 9,
+     "completenessPct": 56,
+     "status": "adequate",
+     "gapNotes": "Has hotspots, species-area curve, in-situ vs ex-situ, Evil Quartet, in-situ conservation. Missing high-yield: levels of biodiversity (genetic/species/ecological), patterns (latitudinal gradients, species richness), rivet-popper hypothesis, importance of biodiversity, Red Data Book/IUCN categories, sacred groves, Ramsar/biosphere reserves/national parks numbers. Should reach 9.",
+     "lokeshFlagged": false
+    },
+    {
+     "chapter": "Environmental Issues",
+     "cls": "12",
+     "examTag": "NEET",
+     "weightage": "medium",
+     "existingTopics": [
+      "Environmental Issues"
+     ],
+     "presentCount": 8,
+     "targetCount": 9,
+     "completenessPct": 89,
+     "status": "complete",
+     "gapNotes": "Strong: biomagnification, ozone depletion & hole mechanism, greenhouse gases, eutrophication, solid waste, deforestation case studies, protocols. Missing: air pollution (electrostatic precipitator/scrubber, catalytic converter), water pollution & BOD, noise pollution, case studies consolidated. NOTE: chapter largely deleted from current NCERT but still NEET-tested; well covered.",
+     "lokeshFlagged": false
+    }
+   ],
+   "fragmentationNotes": [
+    "'Cell Structure' (5) and 'Cell Unit of Life' (6) are the SAME canonical chapter 'Cell: The Unit of Life' split into two topics - merge for navigation.",
+    "'Anatomy of Plants' (6) and 'Anatomy of Flowering Plants' (1) are the same chapter split apart - the 1-formula topic should be absorbed into the main anatomy topic.",
+    "'Genetics' (5) is a non-standard split of 'Principles of Inheritance and Variation' (and overlaps Molecular Basis) - 'Lac Operon' appears in BOTH 'Genetics' and 'Molecular Basis' (duplicate). Consolidate genetics content under one canonical chapter.",
+    "'Biotechnology / Botany' (1, tissue culture) is a stray split of the Biotechnology cluster - merge into 'Biotechnology'.",
+    "The single 'Biotechnology' topic (14) actually conflates two distinct NCERT chapters - 'Principles & Processes' and 'and its Applications' - which inflates one topic and hides whether applications-specific items (gene therapy, GMOs, biopiracy) are covered."
+   ],
+   "orphanTopics": [
+    "History of Biology (1) - 'Famous Scientists & Discoveries' is not an NCERT/NEET chapter; non-standard catch-all, better distributed into relevant chapters or kept as a meta/quick-fact card.",
+    "Biotechnology / Botany (1) - mis-named; content (tissue culture) belongs under Biotechnology: Principles and Processes.",
+    "Genetics (5) - non-standard chapter label; real NCERT chapter is 'Principles of Inheritance and Variation'.",
+    "Cell Structure (5) - duplicative/non-canonical label overlapping 'Cell: The Unit of Life'."
+   ],
+   "summary": {
+    "totalChapters": 38,
+    "missing": 1,
+    "thin": 1,
+    "adequate": 24,
+    "complete": 12,
+    "overallCompletenessPct": 68
+   }
+  }
+ ],
+ "critic": {
+  "misMappings": [
+   {
+    "subject": "Physics",
+    "issue": "EMI ('EMI & AC') is scored presentCount=15 > targetCount=12 with completenessPct=100. present>target is an over-count: the bundled 'EMI & AC' topic lets Alternating Current cards leak into the EMI tally, inflating EMI while the separate 'Alternating Current' (3 cards) topic is starved. Same canonical AC chapter is split across 'Alternating Current' + 'EMI & AC' — confirmed fragmentation; the two should be one AC topic and EMI scored on its own cards only."
+   },
+   {
+    "subject": "Physics",
+    "issue": "Orphan topic 'Properties of Matter' contains cards that belong to OTHER chapters: 'Doppler (Reflection)' is a Waves/Sound formula and 'Ascent Formula' is a capillarity/Fluids formula. These two are mis-mapped into an elasticity bucket — they should move to Waves & Sound and Mechanical Properties of Fluids respectively. The remaining elasticity cards in 'Properties of Matter' should merge with the 'Elasticity' topic (the lokesh-flagged chapter)."
+   },
+   {
+    "subject": "Chemistry",
+    "issue": "'Equilibrium' topic is mis-named and mis-scoped: it holds ONLY gaseous/chemical-equilibrium content (Kp/Kc, Q) while the ionic half of the same NCERT 'Equilibrium' chapter lives under 'Ionic Equilibrium'. For navigation the gaseous topic should be renamed 'Chemical Equilibrium'. The 3 'Analytical Chem' cards (flame colours, Mohr's salt, potash alum) are mis-bucketed and belong inside 'Qualitative Analysis'."
+   },
+   {
+    "subject": "Math",
+    "issue": "'Vectors' topic is mis-scoped: its name implies Vector Algebra but it actually leaks 3D Geometry content (sphere equation, plane-through-origin loci) into the vectors bucket while ALSO duplicating Vector Algebra cards (Lagrange's Identity, VTP, vector area of triangle). 3D content should move to '3D Geometry' and the duplicates merged into 'Vector Algebra'. Separately, 'Differentiation of a determinant' sits under Differentiation but conceptually belongs to Determinants."
+   },
+   {
+    "subject": "Math",
+    "issue": "Conics fragmentation creates a navigation trap that the agent flagged but is worth re-stating as a mis-mapping: the tangent/normal/LR formulas for Parabola, Ellipse and Hyperbola are dumped in the catch-all 'Conic Sections' topic, so a student opening the named 'Parabola' (1 card) or 'Ellipse' (1 card) topics finds only the reflection property. Cards are mapped to the wrong (umbrella) topic instead of their named conic."
+   },
+   {
+    "subject": "Biology",
+    "issue": "'Oxygen dissociation curve' (and Bohr effect) is mapped under 'Respiration' (plant respiration chapter) but belongs to 'Breathing and Exchange of Gases' (human gas transport). Confirmed by the agent; it should be consolidated into Breathing. Also 'Lac Operon' is duplicated across both 'Genetics' and 'Molecular Basis', and the non-standard 'Genetics' label fragments 'Principles of Inheritance and Variation'."
+   }
+  ],
+  "missedChapters": [
+   {
+    "subject": "Biology",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "why": "NCERT Class 12 chapter (animal husbandry: dairy/poultry/apiculture/fisheries; plant breeding steps, mutation breeding, biofortification; single-cell protein; tissue culture/micropropagation, somatic hybridisation). The Biology agent listed 38 chapters but never lists this one — not even as status='missing'. It is still in the NEET syllabus and yields ~2-3 recall questions per paper. A clean, total omission from the audit."
+   },
+   {
+    "subject": "Chemistry",
+    "chapter": "Volumetric / Titrimetric Practical Analysis (Quantitative Practical Chemistry)",
+    "why": "The Chemistry audit captured QUALITATIVE inorganic salt analysis thoroughly but never lists the QUANTITATIVE practical chapter (acid-base & redox titration calculations, choice of indicators, primary standards, equivalent-based titre formulas N1V1=N2V2). It is only thinly implied via the orphan 'Analytical Chem' bucket. This is a JEE/NEET practical-skills component with standard formulas and is effectively un-audited; borderline between missed-chapter and mis-mapping but worth surfacing as un-covered."
+   },
+   {
+    "subject": "Math",
+    "chapter": "Heights and Distances (application of trigonometry)",
+    "why": "The audit folds Heights & Distances into 'Properties of Triangles & Heights and Distances' and then notes 'Heights & Distances application formulas absent' — but it is never scored as its own line. It is a distinct, formula-light but exam-relevant application block (angle of elevation/depression, leaning tower, two-observer problems). Low standalone yield, but it is effectively un-tracked rather than evaluated."
+   }
+  ],
+  "prioritizedGapList": [
+   {
+    "rank": 1,
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry (Mole Concept & Stoichiometry)",
+    "priority": "critical",
+    "rationale": "LOKESH-FLAGGED ('too few') + high weightage + JEE-core + the single thinnest chapter in the entire audit at 7% (1/14, only volume-strength of H2O2). Mole concept is foundational to all of chemistry numericals; a near-empty chapter is the highest-impact, fastest win. Close first."
+   },
+   {
+    "rank": 2,
+    "subject": "Chemistry",
+    "chapter": "Equilibrium — Chemical (Gaseous) Equilibrium",
+    "priority": "critical",
+    "rationale": "LOKESH-FLAGGED ('only 1 formula present') + high weightage + JEE-core, scored 17% (2/12). Missing Kc/Kp direction prediction, degree of dissociation alpha, Le Chatelier results. Reviewer named it explicitly; also blocked by the mis-named 'Equilibrium' topic needing a rename/merge."
+   },
+   {
+    "rank": 3,
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids (Elasticity)",
+    "priority": "critical",
+    "rationale": "LOKESH-FLAGGED + JEE+NEET, thin at 33% (4/12) and fragmented across 'Elasticity' (1 card) + 'Properties of Matter'. Missing stress/strain definitions, Hooke's law, shear modulus, Poisson's ratio, elastic PE per unit volume. Reviewer named it; fix requires both adding cards and merging the split topics."
+   },
+   {
+    "rank": 4,
+    "subject": "Math",
+    "chapter": "Continuity and Differentiability",
+    "priority": "high",
+    "rationale": "LOKESH-FLAGGED ('not clear') + high weightage + JEE-core. Continuity sub-topic has only 1 card and the standard derivatives table is missing. The 'not clear' signal maps directly to the 1-formula Continuity topic; consolidate Limits+Continuity+Differentiation and add the derivatives table."
+   },
+   {
+    "rank": 5,
+    "subject": "Math",
+    "chapter": "Limits",
+    "priority": "high",
+    "rationale": "LOKESH-FLAGGED + high weightage + JEE-core. At 71% it is the least-thin of the flagged items, but reviewer explicitly said Limits needs strengthening. Add indeterminate-forms list, (a^x-1)/x, (1+x)^(1/x)->e, sandwich theorem, standard expansions. Pairs naturally with rank 4 (same cluster)."
+   },
+   {
+    "rank": 6,
+    "subject": "Physics",
+    "chapter": "Thermal Properties of Matter (Thermal Expansion)",
+    "priority": "high",
+    "rationale": "LOKESH-FLAGGED (thermal expansion of solids/liquids/gases) + high weightage + JEE+NEET. Has only Linear Expansion; MISSING superficial (beta=2alpha), cubical (gamma=3alpha), real vs apparent liquid expansion, anomalous water expansion. Specific high-yield gap the reviewer named precisely; buried in the 'Thermal Physics' umbrella."
+   },
+   {
+    "rank": 7,
+    "subject": "Math",
+    "chapter": "Binomial Theorem",
+    "priority": "high",
+    "rationale": "Not flagged, but JEE-core + high weightage + the single thinnest non-flagged JEE chapter at 21% (3/14). Almost the whole chapter is missing: general term Tr+1, middle/greatest term, coefficient properties (sum of C0^2+C1^2..=2nCn). Severe thinness on a high-yield JEE topic warrants near-top priority for a JEE reviewer."
+   },
+   {
+    "rank": 8,
+    "subject": "Math",
+    "chapter": "Quadratic Equations & Theory of Equations",
+    "priority": "high",
+    "rationale": "JEE-core + high weightage, thin at 38% (3 unique padded to 6). Missing location of roots, max/min & vertex, sign of quadratic, range of rational expression. Foundational and heavily tested in JEE Main; high impact relative to effort."
+   },
+   {
+    "rank": 9,
+    "subject": "Math",
+    "chapter": "Permutations and Combinations",
+    "priority": "high",
+    "rationale": "JEE-core + high weightage, thin at 38%. Backbone (nPr, nCr, Pascal identity, identical objects, stars & bars) entirely missing — only circular perms/derangements/divisors present. Prerequisite for Binomial and Probability; close alongside rank 7-8."
+   },
+   {
+    "rank": 10,
+    "subject": "Math",
+    "chapter": "Probability",
+    "priority": "high",
+    "rationale": "JEE-core + high weightage, thin at 36% (5/14). Missing classical definition, multiplication/independence, total probability, at-least-one. High-yield JEE topic that is currently skeletal."
+   },
+   {
+    "rank": 11,
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "priority": "high",
+    "rationale": "JEE+NEET + thin at 36% (4/11), buried inside 'Thermal Physics' umbrella. Missing PV=nRT, rms/avg/most-probable speeds, degrees of freedom & equipartition, Cv/Cp & gamma, (3/2)kT. Both a content gap and a fragmentation fix (should be its own chapter)."
+   },
+   {
+    "rank": 12,
+    "subject": "Physics",
+    "chapter": "System of Particles, Centre of Mass & Collisions",
+    "priority": "high",
+    "rationale": "JEE+NEET, thin at 33% (3/9), fragmented (collisions live in Work & Energy, CM in its own topic). Missing CM velocity/acceleration, motion of CM under external force, momentum conservation. Core mechanics; fix is part content, part de-fragmentation."
+   },
+   {
+    "rank": 13,
+    "subject": "Chemistry",
+    "chapter": "Classification of Elements & Periodicity in Properties",
+    "priority": "medium",
+    "rationale": "JEE+NEET, thin at 20% (2/10). Missing all periodic trends as quick-recall (radius, IE exceptions Be>B/N>O, electronegativity, electron-gain enthalpy). High recall value for NEET; medium JEE weight."
+   },
+   {
+    "rank": 14,
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "priority": "medium",
+    "rationale": "JEE+NEET, thin at 25% (2/8). Missing oxidation-number rules, equivalent weight = M/n-factor, N1V1=N2V2 titration link, ion-electron balancing. Also the gateway to the missed volumetric-practical content; medium weightage."
+   },
+   {
+    "rank": 15,
+    "subject": "Math",
+    "chapter": "Inverse Trigonometric Functions",
+    "priority": "medium",
+    "rationale": "JEE-core, thin at 25% (2 unique). Missing domains/ranges of all 6, sin^-1+cos^-1=pi/2, parity, addition formulas. Medium weightage but currently almost empty; quick high-value fill."
+   },
+   {
+    "rank": 16,
+    "subject": "Math",
+    "chapter": "Trigonometric Ratios, Identities & Equations",
+    "priority": "high",
+    "rationale": "JEE-core + high weightage, at 42% but missing the BULK of high-yield content (sum/difference, product-to-sum, double/half-angle, conditional identities, standard-angle table). targetCount is large (24) so the absolute gap is big; prerequisite for Limits/Integration."
+   },
+   {
+    "rank": 17,
+    "subject": "Physics",
+    "chapter": "Laws of Motion (incl. Friction & Circular Dynamics)",
+    "priority": "high",
+    "rationale": "JEE+NEET + high weightage, 44% with fragmentation ('Circular Motion' is a fragment). Missing F=ma statement, friction f=muN, Atwood/pulley, pseudo-force, conical pendulum. Foundational; both content and merge of Circular Motion."
+   },
+   {
+    "rank": 18,
+    "subject": "Chemistry",
+    "chapter": "The d- and f-Block Elements",
+    "priority": "medium",
+    "rationale": "JEE+NEET + high weightage, 42% (5/12). Missing spin-only moment examples, K2Cr2O7/KMnO4 prep & half-reactions with n-factors, colour cause, lanthanoid vs actinoid contraction. High-yield inorganic for both exams."
+   },
+   {
+    "rank": 19,
+    "subject": "Chemistry",
+    "chapter": "States of Matter: Gases & Liquids",
+    "priority": "medium",
+    "rationale": "JEE+NEET, 47% (7/15). Missing PV=nRT, combined gas law, individual gas laws, speed formulas, Tc/Pc/Vc relations. Medium weightage; overlaps Kinetic Theory (physics) so fixes reinforce each other."
+   },
+   {
+    "rank": 20,
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols & Ethers",
+    "priority": "medium",
+    "rationale": "JEE+NEET + high weightage, 46% (6/13), Ethers essentially absent. Missing Lucas test, Williamson synthesis, Reimer-Tiemann, Kolbe, hydroboration. High-yield organic; biggest organic gap among adequate-status chapters."
+   },
+   {
+    "rank": 21,
+    "subject": "Math",
+    "chapter": "Definite Integration & Areas",
+    "priority": "high",
+    "rationale": "JEE-core + high weightage, 65% but heavily fragmented across 3 topics (Definite Integration + Integration + near-empty Area Under Curve). Missing FTC, even/odd & periodic properties, area between curves. Large chapter; de-fragmentation plus content."
+   },
+   {
+    "rank": 22,
+    "subject": "Math",
+    "chapter": "Indefinite Integration",
+    "priority": "high",
+    "rationale": "JEE-core + high weightage, 59%, fragmented with the 'Integration' grab-bag. The standard integral table (x^n,1/x,e^x,trig, arctan/arcsin/log forms, partial fractions) is missing — that table is the single most-used revision asset. High ROI."
+   },
+   {
+    "rank": 23,
+    "subject": "Physics",
+    "chapter": "Work, Energy and Power",
+    "priority": "medium",
+    "rationale": "JEE+NEET, 50%. Missing KE=1/2mv^2, PE (mgh, 1/2kx^2), conservation statement, W=Fd cos theta, F=-dU/dx. Basic results a reviser expects at a glance; medium weightage but foundational."
+   },
+   {
+    "rank": 24,
+    "subject": "Physics",
+    "chapter": "Thermodynamics (Physics)",
+    "priority": "medium",
+    "rationale": "JEE+NEET + high weightage, 50%. Missing isobaric/isochoric work, dU=nCvdT, adiabatic relations PV^gamma & TV^(gamma-1), COP, 2nd-law statements. High weightage offsets medium thinness."
+   },
+   {
+    "rank": 25,
+    "subject": "Math",
+    "chapter": "Complex Numbers",
+    "priority": "medium",
+    "rationale": "JEE-core + high weightage, 56%. Missing nth roots of unity properties, arg/conjugate properties, |z1+z2|^2 identity, Euler form, equilateral-triangle condition. Solid base but notable high-yield gaps."
+   },
+   {
+    "rank": 26,
+    "subject": "Math",
+    "chapter": "Determinants",
+    "priority": "medium",
+    "rationale": "JEE-core + high weightage, 42%. Missing core properties (|kA|=k^n|A|, |AB|=|A||B|, |A^T|=|A|), minors/cofactors, consistency summary. Prerequisite for Matrices/3D; quick to fill."
+   },
+   {
+    "rank": 27,
+    "subject": "Biology",
+    "chapter": "Sexual Reproduction in Flowering Plants",
+    "priority": "high",
+    "rationale": "NEET high-weightage and one of the highest-yield NEET chapters, but THIN at 30% (3/10) — the thinnest high-yield biology chapter. Missing micro/megasporogenesis, anther & ovule structure, Polygonum embryo sac, endosperm, apomixis. Top biology priority (ranked below JEE-core gaps because reviewer is a JEE aspirant)."
+   },
+   {
+    "rank": 28,
+    "subject": "Math",
+    "chapter": "Sequences and Series",
+    "priority": "medium",
+    "rationale": "JEE-core + high weightage, 50%. Missing nth-term forms, HP & AM-GM-HM chain, GM=sqrt(AM.HM), sum of n naturals/squares/cubes references. Good base, but standard general terms absent."
+   },
+   {
+    "rank": 29,
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "priority": "medium",
+    "rationale": "JEE+NEET, 54%. Missing Newton's law F=Gm1m2/r^2 itself, gravitational potential V=-GM/r, satellite binding/total energy & time period, Kepler-1/2. Notable that the defining law is absent; medium weightage."
+   },
+   {
+    "rank": 30,
+    "subject": "Physics",
+    "chapter": "Capacitance",
+    "priority": "medium",
+    "rationale": "JEE+NEET, 54%, mildly fragmented (parallel-plate cap & energy in Electrostatics). Missing the CORE revision items: capacitors in series/parallel, U=1/2CV^2=Q^2/2C explicit, C=KC0, RC discharging. Quick, high-recall fills."
+   },
+   {
+    "rank": 31,
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes & Haloarenes / Hydrocarbons (named-reaction & comparison tables)",
+    "priority": "medium",
+    "rationale": "JEE+NEET + high weightage; Haloalkanes 79% but missing the SN1-vs-SN2 comparison table and named reactions (Finkelstein, Swarts, Sandmeyer), and Hydrocarbons 61% missing general formulas/Markovnikov/EAS directing table. These comparison/named-reaction cards are exactly the at-a-glance revision assets the app is for."
+   },
+   {
+    "rank": 32,
+    "subject": "Biology",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "priority": "medium",
+    "rationale": "MISSED ENTIRELY by the Biology agent. NEET-tested (~2-3 Q): animal husbandry, plant breeding/biofortification, SCP, tissue culture. Must be added as a new chapter line (status would be missing, 0 present). Medium NEET weight; ranked here because reviewer is JEE-focused but it is a true coverage hole."
+   },
+   {
+    "rank": 33,
+    "subject": "Math",
+    "chapter": "Differential Equations",
+    "priority": "medium",
+    "rationale": "JEE-core, 42%, medium weightage. Missing order/degree, variable-separable, exact equations, formation by elimination, dy/dx=f(ax+by+c). Self-contained and quick to round out."
+   },
+   {
+    "rank": 34,
+    "subject": "Biology",
+    "chapter": "Biological Classification / Plant Kingdom",
+    "priority": "medium",
+    "rationale": "Both NEET high-weightage but borderline-thin (42% and 40%). Missing Monera/Protista full groups, nutritional-mode tables, algae pigment/stored-food comparison, alternation-of-generations types. High NEET recall yield; consolidate the comparison tables."
+   },
+   {
+    "rank": 35,
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation and Matter",
+    "priority": "medium",
+    "rationale": "JEE+NEET, 40%, lumped in catch-all 'Modern Physics'. Missing Einstein photoelectric eqn Kmax=hf-phi explicit, E=hf=hc/lambda, p=h/lambda, de Broglie for accelerated charge. De-fragment from 'Modern Physics' and add explicit cards; medium weightage, lower rank as it is a smaller chapter."
+   }
+  ],
+  "verdict": "The four audit matrices are largely sound and exhaustive on the canonical chapter lists for Physics, Chemistry and Math — no STANDARD chapter in those three subjects was omitted, and all six lokesh-flagged chapters were correctly flagged. Biology, however, has one clean miss: 'Strategies for Enhancement in Food Production' (NCERT Class 12) is never listed at all, not even as status='missing' — a genuine coverage hole on a NEET-tested chapter. Two softer gaps exist: Math's 'Heights and Distances' is folded into Properties of Triangles and never scored on its own, and Chemistry's quantitative/volumetric practical analysis is only implied via the orphan 'Analytical Chem' bucket. The agents' fragmentation and orphan-topic catalogues are accurate and consistent with what I re-derived (Waves split, AC/EMI split, Conics cluster, Integration cluster, Limits-Continuity-Differentiation cluster, Vectors-vs-Vector-Algebra leak, Cell/Anatomy/Genetics/Biotech splits). One scoring artefact to note: Physics EMI is given present=15 > target=12 (pct capped at 100), which reflects AC cards leaking into the EMI tally inside the bundled 'EMI & AC' topic rather than true over-coverage. The single prioritized gap list (35 ranked items) closes lokesh-flagged JEE-core chemistry first (Mole Concept 7%, Chemical Equilibrium 17%, both catastrophically thin), then flagged Elasticity, then the flagged Math calculus cluster (Continuity & Differentiability, Limits) and flagged Thermal Expansion, then the thinnest high-weight JEE-core chapters (Binomial 21%, Quadratics 38%, P&C 38%, Probability 36%, Kinetic Theory 36%), with the highest-yield NEET biology gap (Sexual Reproduction in Plants, 30%) and the missed food-production chapter slotted in lower because the flagging reviewer is a JEE aspirant. Recommended immediate action: rank 1-6 (the lokesh-flagged set) are the documented 4-to-5-star roadmap and should be closed before any new feature work."
+ }
+}
