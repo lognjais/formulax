@@ -9,6 +9,7 @@ import '../services/formula_search_service.dart';
 import '../widgets/bookmark_card.dart';
 import '../widgets/exam_selector_sheet.dart';
 import '../widgets/formula_search_delegate.dart';
+import '../widgets/questionx_card.dart';
 import '../widgets/subject_card.dart';
 import 'syllabus_screen.dart';
 
@@ -133,6 +134,10 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
             const SliverToBoxAdapter(child: SizedBox(height: 40)),
           ],
+          const SliverPadding(
+            padding: EdgeInsets.fromLTRB(24, 8, 24, 40),
+            sliver: SliverToBoxAdapter(child: QuestionXCard()),
+          ),
         ],
       ),
     );

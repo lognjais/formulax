@@ -46,6 +46,9 @@ class AnalyticsService {
   static Future<void> logBookmarkToggled(String id, bool added) =>
       _log(added ? 'bookmark_added' : 'bookmark_removed', {'formula_id': id});
 
+  static Future<void> logCrossPromoTap(String target) =>
+      _log('cross_promo_tap', {'target': target});
+
   static void recordError(Object error, StackTrace stack, {String? reason}) {
     if (kDebugMode || !_firebaseReady) return;
     FirebaseCrashlytics.instance
