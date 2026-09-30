@@ -3,7 +3,7 @@ class AppConfig {
 
   static const String dataRepoOwner = String.fromEnvironment(
     'DATA_REPO_OWNER',
-    defaultValue: 'jvoltci',
+    defaultValue: 'lognjais',
   );
   static const String dataRepoName = String.fromEnvironment(
     'DATA_REPO_NAME',
