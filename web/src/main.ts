@@ -1,5 +1,6 @@
 import "./styles/app.css";
 import katex from "katex";
+import { telemetry } from "./telemetry/tracker";
 
 interface RelatedConcept {
   name: string;
@@ -32,14 +33,16 @@ interface Manifest {
   subjects: SubjectMeta[];
 }
 
-class SutraApp {
+class RevisionApp {
   private appContainer: HTMLElement;
   private manifest: Manifest | null = null;
+  private weightages: Record<string, string> = {};
   private currentSubject: string = "physics";
   private currentTopic: string = "All";
   private searchQuery: string = "";
   private formulasCache: Map<string, FormulaRecord[]> = new Map();
   private currentFormulas: FormulaRecord[] = [];
+  private searchTimer: any = null;
 
   constructor() {
     this.appContainer = document.getElementById("app") as HTMLElement;
@@ -54,19 +57,23 @@ class SutraApp {
     const themeIcon = document.getElementById("theme-icon");
 
     const savedTheme = localStorage.getItem("revision_theme");
-    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    const isDark = savedTheme ? savedTheme === "dark" : prefersDark;
+    // Default to dark theme for QuestionX aesthetic
+    const isDark = savedTheme ? savedTheme === "dark" : true;
 
-    root.classList.toggle("dark", isDark);
-    root.classList.toggle("light", !isDark);
-    if (themeIcon) themeIcon.textContent = isDark ? "☀️" : "🌙";
+    const applyTheme = (dark: boolean) => {
+      root.style.colorScheme = dark ? "dark" : "light";
+      root.setAttribute("data-theme", dark ? "dark" : "light");
+      root.classList.toggle("dark", dark);
+      root.classList.toggle("light", !dark);
+      if (themeIcon) themeIcon.textContent = dark ? "☀️" : "🌙";
+    };
+
+    applyTheme(isDark);
 
     themeBtn?.addEventListener("click", () => {
       const willBeDark = !root.classList.contains("dark");
-      root.classList.toggle("dark", willBeDark);
-      root.classList.toggle("light", !willBeDark);
+      applyTheme(willBeDark);
       localStorage.setItem("revision_theme", willBeDark ? "dark" : "light");
-      if (themeIcon) themeIcon.textContent = willBeDark ? "☀️" : "🌙";
     });
   }
 
@@ -81,9 +88,15 @@ class SutraApp {
   private async initApp() {
     this.renderLoading();
     try {
-      const res = await fetch("data/manifest.json");
-      if (res.ok) {
-        this.manifest = await res.json();
+      const [manifestRes, weightRes] = await Promise.all([
+        fetch("data/manifest.json"),
+        fetch("data/topic_weightage.json"),
+      ]);
+      if (manifestRes.ok) {
+        this.manifest = await manifestRes.json();
+      }
+      if (weightRes.ok) {
+        this.weightages = await weightRes.json();
       }
     } catch {}
 
@@ -99,6 +112,22 @@ class SutraApp {
         </div>
       </div>
     `;
+  }
+
+  private getWeightage(subjectId: string, topicName: string): "high" | "medium" | "low" | null {
+    const subjectNameMap: Record<string, string> = {
+      physics: "Physics",
+      chemistry: "Chemistry",
+      math: "Mathematics",
+      biology: "Biology",
+    };
+    const subName = subjectNameMap[subjectId] || subjectId;
+    const key = `${subName}::${topicName}`;
+    if (this.weightages[key]) return this.weightages[key] as any;
+    for (const [k, v] of Object.entries(this.weightages)) {
+      if (k.endsWith(`::${topicName}`)) return v as any;
+    }
+    return null;
   }
 
   private async loadSubject(subjectId: string) {
@@ -134,7 +163,6 @@ class SutraApp {
 
   private renderMathInText(text: string): string {
     if (!text) return "";
-    // Replace \( ... \) with KaTeX inline
     return text.replace(/\\\((.*?)\\\)/g, (_, latex) => {
       try {
         return katex.renderToString(latex, { displayMode: false, throwOnError: false });
@@ -152,7 +180,6 @@ class SutraApp {
       { id: "biology", name: "Biology", count: 0, topics: [], file: "biology.json" },
     ];
 
-    // Subject tabs
     const subjectTabsHtml = subjects
       .map(
         (s) => `
@@ -164,7 +191,6 @@ class SutraApp {
       )
       .join("");
 
-    // Topics list with counts
     const topicCounts = new Map<string, number>();
     for (const f of this.currentFormulas) {
       const t = f.topic || "General";
@@ -179,17 +205,26 @@ class SutraApp {
         <span class="sutra-topic-count">${this.currentFormulas.length}</span>
       </div>
     `,
-      ...topics.map(
-        (t) => `
+      ...topics.map((t) => {
+        const w = this.getWeightage(this.currentSubject, t);
+        const badge =
+          w === "high"
+            ? `<span class="yield-badge-high" title="Frequently tested in exams">🔥 High</span>`
+            : w === "medium"
+            ? `<span class="yield-badge-core" title="Core foundation topic">⚡ Core</span>`
+            : "";
+        return `
       <div class="sutra-topic-item ${this.currentTopic === t ? "active" : ""}" data-topic="${t}">
-        <span style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 170px;">${t}</span>
-        <span class="sutra-topic-count">${topicCounts.get(t)}</span>
+        <span style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 140px;">${t}</span>
+        <span style="display: flex; align-items: center; gap: 0.35rem;">
+          ${badge}
+          <span class="sutra-topic-count">${topicCounts.get(t)}</span>
+        </span>
       </div>
-    `
-      ),
+    `;
+      }),
     ].join("");
 
-    // Filter formulas
     let filtered = this.currentFormulas;
     if (this.currentTopic !== "All") {
       filtered = filtered.filter((f) => f.topic === this.currentTopic);
@@ -205,7 +240,6 @@ class SutraApp {
       );
     }
 
-    // Formula cards
     const formulaCardsHtml =
       filtered.length === 0
         ? `
@@ -227,6 +261,13 @@ class SutraApp {
               }
 
               const formattedDesc = this.renderMathInText(f.description);
+              const w = this.getWeightage(this.currentSubject, f.topic);
+              const yieldBadge =
+                w === "high"
+                  ? `<span class="yield-badge-high" title="Frequently tested in exams">🔥 High Yield</span>`
+                  : w === "medium"
+                  ? `<span class="yield-badge-core" title="Core foundation concept">⚡ Core</span>`
+                  : "";
 
               const conceptsHtml =
                 f.related_concepts && f.related_concepts.length > 0
@@ -248,7 +289,7 @@ class SutraApp {
               const derivationHtml = f.derivation
                 ? `
                 <div class="formula-derivation">
-                  <div class="formula-derivation-toggle" data-formula-id="${f.id}">
+                  <div class="formula-derivation-toggle" data-formula-id="${f.id}" data-formula-title="${encodeURIComponent(f.title)}">
                     <span>▶ Show Derivation</span>
                   </div>
                   <div class="formula-derivation-content" id="derivation-${f.id}" style="display: none;">
@@ -261,9 +302,12 @@ class SutraApp {
               return `
             <div class="glass-card formula-card" id="card-${f.id}">
               <div class="formula-header">
-                <span class="formula-topic-badge">${f.topic}</span>
+                <div style="display: flex; align-items: center; gap: 0.45rem; flex-wrap: wrap;">
+                  <span class="formula-topic-badge">${f.topic}</span>
+                  ${yieldBadge}
+                </div>
                 <div class="formula-actions">
-                  <button class="formula-btn-icon copy-latex-btn" data-latex="${encodeURIComponent(f.visual_data)}" title="Copy LaTeX">
+                  <button class="formula-btn-icon copy-latex-btn" data-latex="${encodeURIComponent(f.visual_data)}" data-formula-id="${f.id}" data-formula-title="${encodeURIComponent(f.title)}" title="Copy LaTeX">
                     📋 Copy LaTeX
                   </button>
                 </div>
@@ -288,6 +332,10 @@ class SutraApp {
 
     this.appContainer.innerHTML = `
       <div class="sutra-hero">
+        <div class="ecosystem-pill">
+          <span>⚡</span>
+          <span>QuestionX & Formula X Ecosystem</span>
+        </div>
         <h1>Revision: <span>Formula Bank</span></h1>
         <p>Instant formulas, step-by-step derivations, and key concepts for NEET & JEE. Fast, clean, and offline-ready.</p>
 
@@ -320,39 +368,58 @@ class SutraApp {
           ${formulaCardsHtml}
         </section>
       </div>
+
+      <footer class="sutra-footer">
+        <div style="display: flex; justify-content: center; align-items: center; gap: 1.5rem; flex-wrap: wrap; margin-bottom: 0.75rem;">
+          <a href="https://padhai.altrusian.com" target="_blank" rel="noopener" style="color: var(--tulip-bloom-10); font-weight: 700; text-decoration: none;">🎯 Padhai: CBT Practice Papers</a>
+          <span style="opacity: 0.3;">•</span>
+          <span style="color: var(--neutral-10);">Revision: 3,500+ Formula Bank</span>
+          <span style="opacity: 0.3;">•</span>
+          <a href="https://padhai.altrusian.com" style="color: var(--neutral-11); text-decoration: none;">QuestionX & Formula X Ecosystem</a>
+        </div>
+        <p style="font-size: 0.78rem; color: var(--neutral-9); margin: 0;">Built for NEET & JEE aspirants. Offline-capable progressive web app.</p>
+      </footer>
     `;
 
     this.bindEvents();
   }
 
   private bindEvents() {
-    // Subject tab switching
     this.appContainer.querySelectorAll("[data-subject]").forEach((btn) => {
       btn.addEventListener("click", (e) => {
         const sub = (e.currentTarget as HTMLElement).getAttribute("data-subject");
         if (sub && sub !== this.currentSubject) {
+          telemetry.track("subject_switched", { subject: sub });
           this.loadSubject(sub);
         }
       });
     });
 
-    // Topic selection
     this.appContainer.querySelectorAll("[data-topic]").forEach((el) => {
       el.addEventListener("click", (e) => {
         const topic = (e.currentTarget as HTMLElement).getAttribute("data-topic");
         if (topic) {
           this.currentTopic = topic;
+          telemetry.track("topic_selected", { subject: this.currentSubject, topic });
           this.render();
           window.scrollTo({ top: 380, behavior: "smooth" });
         }
       });
     });
 
-    // Search input
     const searchInput = document.getElementById("search-input") as HTMLInputElement;
     if (searchInput) {
       searchInput.addEventListener("input", (e) => {
         this.searchQuery = (e.target as HTMLInputElement).value;
+        if (this.searchTimer) clearTimeout(this.searchTimer);
+        this.searchTimer = setTimeout(() => {
+          if (this.searchQuery.trim().length >= 2) {
+            telemetry.track("formula_searched", {
+              query: this.searchQuery.trim(),
+              subject: this.currentSubject,
+            });
+          }
+        }, 800);
         this.renderFormulaGridOnly();
       });
     }
@@ -362,27 +429,40 @@ class SutraApp {
       this.render();
     });
 
-    // Derivation expand/collapse
     this.appContainer.querySelectorAll(".formula-derivation-toggle").forEach((toggle) => {
       toggle.addEventListener("click", (e) => {
         const target = e.currentTarget as HTMLElement;
         const id = target.getAttribute("data-formula-id");
+        const title = decodeURIComponent(target.getAttribute("data-formula-title") || "");
         const content = document.getElementById(`derivation-${id}`);
         if (content) {
           const isHidden = content.style.display === "none";
           content.style.display = isHidden ? "block" : "none";
           target.innerHTML = isHidden ? "▼ Hide Derivation" : "▶ Show Derivation";
+          if (isHidden) {
+            telemetry.track("derivation_expanded", {
+              formula_id: id,
+              formula_title: title,
+              subject: this.currentSubject,
+            });
+          }
         }
       });
     });
 
-    // Copy LaTeX
     this.appContainer.querySelectorAll(".copy-latex-btn").forEach((btn) => {
       btn.addEventListener("click", async (e) => {
         const target = e.currentTarget as HTMLElement;
         const latex = decodeURIComponent(target.getAttribute("data-latex") || "");
+        const id = target.getAttribute("data-formula-id");
+        const title = decodeURIComponent(target.getAttribute("data-formula-title") || "");
         try {
           await navigator.clipboard.writeText(latex);
+          telemetry.track("latex_copied", {
+            formula_id: id,
+            formula_title: title,
+            subject: this.currentSubject,
+          });
           const orig = target.innerHTML;
           target.innerHTML = "✓ Copied!";
           setTimeout(() => {
@@ -394,7 +474,6 @@ class SutraApp {
   }
 
   private renderFormulaGridOnly() {
-    // Re-render when searching without destroying the input element
     let filtered = this.currentFormulas;
     if (this.currentTopic !== "All") {
       filtered = filtered.filter((f) => f.topic === this.currentTopic);
@@ -437,11 +516,18 @@ class SutraApp {
               }
 
               const formattedDesc = this.renderMathInText(f.description);
+              const w = this.getWeightage(this.currentSubject, f.topic);
+              const yieldBadge =
+                w === "high"
+                  ? `<span class="yield-badge-high" title="Frequently tested in exams">🔥 High Yield</span>`
+                  : w === "medium"
+                  ? `<span class="yield-badge-core" title="Core foundation concept">⚡ Core</span>`
+                  : "";
 
               const derivationHtml = f.derivation
                 ? `
                 <div class="formula-derivation">
-                  <div class="formula-derivation-toggle" data-formula-id="${f.id}">
+                  <div class="formula-derivation-toggle" data-formula-id="${f.id}" data-formula-title="${encodeURIComponent(f.title)}">
                     <span>▶ Show Derivation</span>
                   </div>
                   <div class="formula-derivation-content" id="derivation-${f.id}" style="display: none;">
@@ -454,9 +540,12 @@ class SutraApp {
               return `
             <div class="glass-card formula-card" id="card-${f.id}">
               <div class="formula-header">
-                <span class="formula-topic-badge">${f.topic}</span>
+                <div style="display: flex; align-items: center; gap: 0.45rem; flex-wrap: wrap;">
+                  <span class="formula-topic-badge">${f.topic}</span>
+                  ${yieldBadge}
+                </div>
                 <div class="formula-actions">
-                  <button class="formula-btn-icon copy-latex-btn" data-latex="${encodeURIComponent(f.visual_data)}" title="Copy LaTeX">
+                  <button class="formula-btn-icon copy-latex-btn" data-latex="${encodeURIComponent(f.visual_data)}" data-formula-id="${f.id}" data-formula-title="${encodeURIComponent(f.title)}" title="Copy LaTeX">
                     📋 Copy LaTeX
                   </button>
                 </div>
@@ -493,16 +582,23 @@ class SutraApp {
       this.renderFormulaGridOnly();
     });
 
-    // Rebind derivations and copy buttons
     grid.querySelectorAll(".formula-derivation-toggle").forEach((toggle) => {
       toggle.addEventListener("click", (e) => {
         const target = e.currentTarget as HTMLElement;
         const id = target.getAttribute("data-formula-id");
+        const title = decodeURIComponent(target.getAttribute("data-formula-title") || "");
         const content = document.getElementById(`derivation-${id}`);
         if (content) {
           const isHidden = content.style.display === "none";
           content.style.display = isHidden ? "block" : "none";
           target.innerHTML = isHidden ? "▼ Hide Derivation" : "▶ Show Derivation";
+          if (isHidden) {
+            telemetry.track("derivation_expanded", {
+              formula_id: id,
+              formula_title: title,
+              subject: this.currentSubject,
+            });
+          }
         }
       });
     });
@@ -511,8 +607,15 @@ class SutraApp {
       btn.addEventListener("click", async (e) => {
         const target = e.currentTarget as HTMLElement;
         const latex = decodeURIComponent(target.getAttribute("data-latex") || "");
+        const id = target.getAttribute("data-formula-id");
+        const title = decodeURIComponent(target.getAttribute("data-formula-title") || "");
         try {
           await navigator.clipboard.writeText(latex);
+          telemetry.track("latex_copied", {
+            formula_id: id,
+            formula_title: title,
+            subject: this.currentSubject,
+          });
           const orig = target.innerHTML;
           target.innerHTML = "✓ Copied!";
           setTimeout(() => {
@@ -525,7 +628,7 @@ class SutraApp {
 }
 
 if (document.readyState === "loading") {
-  document.addEventListener("DOMContentLoaded", () => new SutraApp());
+  document.addEventListener("DOMContentLoaded", () => new RevisionApp());
 } else {
-  new SutraApp();
+  new RevisionApp();
 }

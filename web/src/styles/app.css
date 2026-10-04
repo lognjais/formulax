@@ -11,6 +11,20 @@
   --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
 }
 
+:root[data-theme="dark"],
+html[data-theme="dark"],
+html.dark,
+:root.dark {
+  color-scheme: dark !important;
+}
+
+:root[data-theme="light"],
+html[data-theme="light"],
+html.light,
+:root.light {
+  color-scheme: light !important;
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -451,4 +465,55 @@ html, body {
   background: light-dark(var(--neutral-3), rgba(255, 255, 255, 0.05));
   border: 1px solid light-dark(var(--neutral-4), var(--tulip-bloom-2));
   color: var(--neutral-11);
+}
+
+/* QuestionX and Formula X Ecosystem Styling */
+
+.ecosystem-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.35rem 0.85rem;
+  border-radius: 9999px;
+  background: light-dark(var(--tulip-bloom-2), rgba(138, 126, 247, 0.12));
+  border: 1px solid light-dark(var(--tulip-bloom-5), var(--tulip-bloom-4));
+  color: light-dark(var(--tulip-bloom-11), var(--tulip-bloom-10));
+  font-size: 0.78rem;
+  font-weight: 750;
+  letter-spacing: 0.02em;
+  margin-bottom: 1rem;
+}
+
+.yield-badge-high {
+  font-size: 0.7rem;
+  font-weight: 750;
+  padding: 0.18rem 0.55rem;
+  border-radius: 9999px;
+  background: rgba(239, 68, 68, 0.14);
+  color: #f87171;
+  border: 1px solid rgba(239, 68, 68, 0.35);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.yield-badge-core {
+  font-size: 0.7rem;
+  font-weight: 750;
+  padding: 0.18rem 0.55rem;
+  border-radius: 9999px;
+  background: rgba(245, 158, 11, 0.14);
+  color: #fbbf24;
+  border: 1px solid rgba(245, 158, 11, 0.35);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.sutra-footer {
+  text-align: center;
+  padding: 3rem 1rem 2rem 1rem;
+  border-top: 1px solid light-dark(var(--neutral-4), var(--tulip-bloom-3));
+  color: var(--neutral-11);
+  font-size: 0.88rem;
 }
