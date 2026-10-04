@@ -54,7 +54,7 @@ class FormulaDeckApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Formula X',
+      title: 'Sutra',
       debugShowCheckedModeBanner: false,
       theme: _buildTheme(),
       home: const HomeScreen(),

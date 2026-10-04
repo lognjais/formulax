@@ -1,0 +1,454 @@
+@import "nilam/nilam.css";
+@import "nilam/motion.css";
+@import "nilam/tulip.css";
+@import "katex/dist/katex.min.css";
+
+/* ── Sutra TULIP Theme Tokens ────────────────────────────────────────────── */
+
+:root, html {
+  color-scheme: light dark;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Inter", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-sans);
+  background-color: var(--void);
+  color: var(--ink-reading);
+  line-height: 1.55;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+/* ── Layout & Surfaces ───────────────────────────────────────────────────── */
+
+.qx-container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 4rem 1.25rem;
+  flex: 1;
+}
+
+.glass-panel {
+  background: light-dark(rgba(255, 255, 255, 0.85), rgba(20, 16, 36, 0.72));
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid light-dark(var(--tulip-bloom-3), var(--tulip-bloom-4));
+  box-shadow: light-dark(
+    0 8px 28px -4px rgba(99, 102, 241, 0.08),
+    0 12px 40px -4px rgba(0, 0, 0, 0.55), 0 0 24px -4px rgba(138, 126, 247, 0.12)
+  );
+}
+
+.glass-card {
+  background: light-dark(rgba(255, 255, 255, 0.9), rgba(26, 22, 46, 0.65));
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid light-dark(var(--neutral-4), var(--tulip-bloom-3));
+  border-radius: 16px;
+  box-shadow: light-dark(
+    0 4px 20px rgba(0, 0, 0, 0.04),
+    0 8px 30px rgba(0, 0, 0, 0.35)
+  );
+  transition: transform var(--spring-snap-dur) var(--spring-snap),
+              border-color 0.2s ease,
+              box-shadow 0.2s ease;
+}
+
+.glass-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--tulip-bloom-7);
+  box-shadow: light-dark(
+    0 8px 30px rgba(99, 102, 241, 0.12),
+    0 12px 36px rgba(138, 126, 247, 0.22)
+  );
+}
+
+/* ── Header ──────────────────────────────────────────────────────────────── */
+
+.qx-header {
+  height: 64px;
+  background: light-dark(rgba(255, 255, 255, 0.82), rgba(14, 12, 26, 0.82));
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid light-dark(var(--neutral-4), var(--tulip-bloom-3));
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  transition: background 0.3s ease, border-color 0.3s ease;
+}
+
+.qx-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-decoration: none;
+  color: var(--ink-max);
+}
+
+.qx-brand-icon {
+  width: 34px;
+  height: 34px;
+  border-radius: 9px;
+  background: linear-gradient(135deg, var(--tulip-bloom-9), var(--tulip-plum-9));
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 10px rgba(138, 126, 247, 0.35);
+}
+
+.qx-header-right {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.qx-header-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 8px;
+  border: 1px solid light-dark(var(--neutral-5), var(--tulip-bloom-4));
+  background: light-dark(var(--neutral-2), rgba(255, 255, 255, 0.05));
+  color: var(--neutral-12);
+  font-size: 0.82rem;
+  font-weight: 650;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all var(--spring-snap-dur) var(--spring-snap);
+}
+
+.qx-header-link:hover {
+  border-color: var(--tulip-bloom-7);
+  color: var(--tulip-bloom-10);
+  background: light-dark(var(--tulip-bloom-2), rgba(186, 170, 240, 0.12));
+  transform: translateY(-1px);
+}
+
+.qx-theme-btn {
+  background: light-dark(var(--neutral-3), rgba(255, 255, 255, 0.07));
+  border: 1px solid light-dark(var(--neutral-5), var(--tulip-bloom-4));
+  border-radius: 8px;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all var(--spring-snap-dur) var(--spring-snap);
+}
+
+.qx-theme-btn:hover {
+  background: light-dark(var(--neutral-4), rgba(255, 255, 255, 0.14));
+  transform: scale(1.05);
+}
+
+/* ── Hero & Search ───────────────────────────────────────────────────────── */
+
+.sutra-hero {
+  text-align: center;
+  padding: 2rem 0 1.5rem 0;
+}
+
+.sutra-hero h1 {
+  font-size: 2.2rem;
+  font-weight: 850;
+  letter-spacing: -0.03em;
+  margin: 0 0 0.5rem 0;
+  color: var(--ink-max);
+}
+
+.sutra-hero h1 span {
+  background: linear-gradient(135deg, var(--tulip-bloom-9), var(--tulip-plum-9));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sutra-hero p {
+  font-size: 1rem;
+  color: var(--neutral-11);
+  margin: 0 0 1.75rem 0;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sutra-search-box {
+  max-width: 580px;
+  margin: 0 auto 1.5rem auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.sutra-search-input {
+  width: 100%;
+  padding: 0.85rem 1.25rem 0.85rem 2.85rem;
+  font-size: 1rem;
+  border-radius: 9999px;
+  border: 1.5px solid light-dark(var(--neutral-5), var(--tulip-bloom-4));
+  background: light-dark(rgba(255, 255, 255, 0.95), rgba(26, 22, 46, 0.8));
+  color: var(--ink-max);
+  outline: none;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease;
+}
+
+.sutra-search-input:focus {
+  border-color: var(--tulip-bloom-8);
+  box-shadow: 0 0 0 4px rgba(138, 126, 247, 0.2), 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.sutra-search-icon {
+  position: absolute;
+  left: 1rem;
+  color: var(--neutral-9);
+  pointer-events: none;
+}
+
+/* ── Subject Tabs ────────────────────────────────────────────────────────── */
+
+.sutra-subjects {
+  display: flex;
+  justify-content: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.sutra-subject-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.55rem 1.15rem;
+  border-radius: 9999px;
+  border: 1px solid light-dark(var(--neutral-4), var(--tulip-bloom-3));
+  background: light-dark(var(--neutral-2), rgba(255, 255, 255, 0.05));
+  color: var(--neutral-11);
+  font-size: 0.9rem;
+  font-weight: 650;
+  cursor: pointer;
+  transition: all var(--spring-snap-dur) var(--spring-snap);
+}
+
+.sutra-subject-btn:hover {
+  border-color: var(--tulip-bloom-7);
+  color: var(--ink-max);
+  transform: translateY(-1px);
+}
+
+.sutra-subject-btn.active {
+  background: var(--tulip-bloom-9);
+  color: white;
+  border-color: var(--tulip-bloom-9);
+  box-shadow: 0 4px 16px rgba(138, 126, 247, 0.35);
+}
+
+/* ── Topic Filter & Main Content Layout ──────────────────────────────────── */
+
+.sutra-layout {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+@media (max-width: 860px) {
+  .sutra-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.sutra-sidebar {
+  padding: 1.25rem;
+  position: sticky;
+  top: 80px;
+  max-height: calc(100vh - 100px);
+  overflow-y: auto;
+}
+
+.sutra-sidebar-title {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  color: var(--neutral-10);
+  margin-bottom: 0.85rem;
+}
+
+.sutra-topic-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.sutra-topic-item {
+  padding: 0.45rem 0.75rem;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  color: var(--neutral-11);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.15s ease;
+}
+
+.sutra-topic-item:hover {
+  background: light-dark(var(--neutral-3), rgba(255, 255, 255, 0.06));
+  color: var(--ink-max);
+}
+
+.sutra-topic-item.active {
+  background: light-dark(var(--tulip-bloom-3), rgba(186, 170, 240, 0.15));
+  color: var(--tulip-bloom-11);
+  font-weight: 700;
+}
+
+.sutra-topic-count {
+  font-size: 0.75rem;
+  color: var(--neutral-9);
+  background: light-dark(var(--neutral-4), rgba(255, 255, 255, 0.08));
+  padding: 0.1rem 0.45rem;
+  border-radius: 9999px;
+}
+
+/* ── Formula Cards ───────────────────────────────────────────────────────── */
+
+.formula-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.formula-card {
+  padding: 1.5rem;
+  border-radius: 16px;
+}
+
+.formula-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.formula-topic-badge {
+  font-size: 0.75rem;
+  font-weight: 750;
+  padding: 0.25rem 0.65rem;
+  border-radius: 9999px;
+  background: light-dark(var(--tulip-stem-2), rgba(100, 160, 180, 0.12));
+  color: light-dark(var(--tulip-stem-11), var(--tulip-stem-10));
+  border: 1px solid var(--tulip-stem-5);
+}
+
+.formula-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.formula-btn-icon {
+  background: light-dark(var(--neutral-3), rgba(255, 255, 255, 0.06));
+  border: 1px solid light-dark(var(--neutral-4), var(--tulip-bloom-3));
+  border-radius: 7px;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.75rem;
+  font-weight: 650;
+  color: var(--neutral-11);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.formula-btn-icon:hover {
+  color: var(--ink-max);
+  border-color: var(--tulip-bloom-7);
+  background: light-dark(var(--tulip-bloom-2), rgba(186, 170, 240, 0.12));
+}
+
+.formula-title {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: var(--ink-max);
+  margin-bottom: 0.75rem;
+}
+
+.formula-math-box {
+  background: light-dark(#f8f9fc, rgba(14, 12, 26, 0.7));
+  border: 1px solid light-dark(var(--neutral-4), var(--tulip-bloom-3));
+  border-radius: 12px;
+  padding: 1.25rem 1rem;
+  margin-bottom: 1rem;
+  overflow-x: auto;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.formula-description {
+  font-size: 0.92rem;
+  color: var(--neutral-11);
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.formula-derivation {
+  margin-top: 1rem;
+  border-top: 1px solid light-dark(var(--neutral-4), var(--tulip-bloom-3));
+  padding-top: 0.85rem;
+}
+
+.formula-derivation-toggle {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--tulip-bloom-10);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  user-select: none;
+}
+
+.formula-derivation-content {
+  margin-top: 0.75rem;
+  font-size: 0.88rem;
+  line-height: 1.6;
+  color: var(--neutral-11);
+  background: light-dark(var(--neutral-2), rgba(255, 255, 255, 0.03));
+  border-radius: 10px;
+  padding: 1rem;
+  white-space: pre-line;
+}
+
+.formula-concepts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.75rem;
+}
+
+.formula-concept-pill {
+  font-size: 0.75rem;
+  padding: 0.2rem 0.55rem;
+  border-radius: 6px;
+  background: light-dark(var(--neutral-3), rgba(255, 255, 255, 0.05));
+  border: 1px solid light-dark(var(--neutral-4), var(--tulip-bloom-2));
+  color: var(--neutral-11);
+}

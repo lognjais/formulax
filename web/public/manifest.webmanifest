@@ -1,0 +1,24 @@
+{
+  "name": "Sutra: NEET & JEE Formula Revision",
+  "short_name": "Sutra",
+  "description": "Fast, offline-ready formula revision for NEET & JEE with verified derivations, LaTeX rendering, and concepts.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0e0c1a",
+  "theme_color": "#8a7ef7",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "./assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

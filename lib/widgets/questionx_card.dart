@@ -61,7 +61,7 @@ class QuestionXCard extends StatelessWidget {
                 children: [
                   Row(
                     children: [
-                      Text('Question X',
+                      Text('Padhai CBT Practice',
                           style: TextStyle(
                               color: Colors.white,
                               fontWeight: FontWeight.bold,
@@ -72,7 +72,7 @@ class QuestionXCard extends StatelessWidget {
                   ),
                   SizedBox(height: 2),
                   Text(
-                    'Done revising? Practice previous-year questions (PYQs) — from the makers of Formula X.',
+                    'Done revising? Practice real NEET & JEE past year questions on Padhai.',
                     style: TextStyle(color: AppColors.textMuted, fontSize: 12),
                   ),
                 ],
