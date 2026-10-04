@@ -1,6 +1,6 @@
 {
-  "name": "Sutra: NEET & JEE Formula Revision",
-  "short_name": "Sutra",
+  "name": "Revision: NEET & JEE Formula Bank",
+  "short_name": "Revision",
   "description": "Fast, offline-ready formula revision for NEET & JEE with verified derivations, LaTeX rendering, and concepts.",
   "start_url": "./",
   "display": "standalone",

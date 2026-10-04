@@ -53,7 +53,7 @@ class SutraApp {
     const themeBtn = document.getElementById("theme-toggle");
     const themeIcon = document.getElementById("theme-icon");
 
-    const savedTheme = localStorage.getItem("sutra_theme");
+    const savedTheme = localStorage.getItem("revision_theme");
     const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
     const isDark = savedTheme ? savedTheme === "dark" : prefersDark;
 
@@ -65,7 +65,7 @@ class SutraApp {
       const willBeDark = !root.classList.contains("dark");
       root.classList.toggle("dark", willBeDark);
       root.classList.toggle("light", !willBeDark);
-      localStorage.setItem("sutra_theme", willBeDark ? "dark" : "light");
+      localStorage.setItem("revision_theme", willBeDark ? "dark" : "light");
       if (themeIcon) themeIcon.textContent = willBeDark ? "☀️" : "🌙";
     });
   }
@@ -288,7 +288,7 @@ class SutraApp {
 
     this.appContainer.innerHTML = `
       <div class="sutra-hero">
-        <h1>Sutra: <span>Formula Revision</span></h1>
+        <h1>Revision: <span>Formula Bank</span></h1>
         <p>Instant formulas, step-by-step derivations, and key concepts for NEET & JEE. Fast, clean, and offline-ready.</p>
 
         <div class="sutra-search-box">

@@ -1,5 +1,5 @@
-// Sutra Service Worker: Offline-First Formula Engine
-const CACHE_NAME = "sutra-v1";
+// Revision Service Worker: Offline-First Formula Engine
+const CACHE_NAME = "revision-v1";
 
 const PRECACHE_ASSETS = [
   "./",
