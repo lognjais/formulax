@@ -53,6 +53,7 @@ class RevisionApp {
 
   private initTheme() {
     const root = document.documentElement;
+    const body = document.body;
     const themeBtn = document.getElementById("theme-toggle");
     const themeIcon = document.getElementById("theme-icon");
 
@@ -61,19 +62,27 @@ class RevisionApp {
     const isDark = savedTheme ? savedTheme === "dark" : true;
 
     const applyTheme = (dark: boolean) => {
-      root.style.colorScheme = dark ? "dark" : "light";
-      root.setAttribute("data-theme", dark ? "dark" : "light");
+      const mode = dark ? "dark" : "light";
+      root.style.colorScheme = mode;
+      body.style.colorScheme = mode;
+      root.setAttribute("data-theme", mode);
+      body.setAttribute("data-theme", mode);
       root.classList.toggle("dark", dark);
       root.classList.toggle("light", !dark);
-      if (themeIcon) themeIcon.textContent = dark ? "☀️" : "🌙";
+      body.classList.toggle("dark", dark);
+      body.classList.toggle("light", !dark);
+      if (themeIcon) {
+        themeIcon.textContent = dark ? "🌙" : "☀️";
+      }
     };
 
     applyTheme(isDark);
 
     themeBtn?.addEventListener("click", () => {
-      const willBeDark = !root.classList.contains("dark");
-      applyTheme(willBeDark);
-      localStorage.setItem("revision_theme", willBeDark ? "dark" : "light");
+      const currentlyDark = root.classList.contains("dark") || root.style.colorScheme === "dark";
+      const nextDark = !currentlyDark;
+      applyTheme(nextDark);
+      localStorage.setItem("revision_theme", nextDark ? "dark" : "light");
     });
   }
 
@@ -163,13 +172,61 @@ class RevisionApp {
 
   private renderMathInText(text: string): string {
     if (!text) return "";
-    return text.replace(/\\\((.*?)\\\)/g, (_, latex) => {
-      try {
-        return katex.renderToString(latex, { displayMode: false, throwOnError: false });
-      } catch {
-        return latex;
+    const parts: string[] = [];
+    const regex = /(\$\$[\s\S]*?\$\$|\\\[[\s\S]*?\\\]|\$[^\$\n]+?\$|\\\([\s\S]*?\\\))/g;
+    let lastIndex = 0;
+    let match: RegExpExecArray | null;
+
+    while ((match = regex.exec(text)) !== null) {
+      if (match.index > lastIndex) {
+        const plain = text.substring(lastIndex, match.index);
+        parts.push(this.escapeHtml(plain).replace(/\n/g, "<br/>"));
       }
-    });
+
+      const raw = match[0];
+      let isDisplay = false;
+      let math = raw;
+
+      if (raw.startsWith("$$") && raw.endsWith("$$")) {
+        math = raw.slice(2, -2);
+        isDisplay = true;
+      } else if (raw.startsWith("\\[") && raw.endsWith("\\]")) {
+        math = raw.slice(2, -2);
+        isDisplay = true;
+      } else if (raw.startsWith("$") && raw.endsWith("$")) {
+        math = raw.slice(1, -1);
+      } else if (raw.startsWith("\\(") && raw.endsWith("\\)")) {
+        math = raw.slice(2, -2);
+      }
+
+      try {
+        const rendered = katex.renderToString(math.trim(), {
+          displayMode: isDisplay,
+          throwOnError: false,
+        });
+        parts.push(rendered);
+      } catch {
+        parts.push(this.escapeHtml(raw));
+      }
+
+      lastIndex = match.index + raw.length;
+    }
+
+    if (lastIndex < text.length) {
+      const trailing = text.substring(lastIndex);
+      parts.push(this.escapeHtml(trailing).replace(/\n/g, "<br/>"));
+    }
+
+    return parts.join("");
+  }
+
+  private escapeHtml(str: string): string {
+    return str
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#039;");
   }
 
   private render() {
