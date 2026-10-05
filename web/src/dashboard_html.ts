@@ -1465,7 +1465,7 @@ export const JAI_DASHBOARD_HTML = `<!doctype html>
     if (copyLogsBtn) {
       copyLogsBtn.addEventListener('click', () => {
         const feed = document.getElementById('terminal-feed');
-        const lines = Array.from(feed.querySelectorAll('.log-row')).map((r) => r.textContent.trim()).join('\n');
+        const lines = Array.from(feed.querySelectorAll('.log-row')).map((r) => r.textContent.trim()).join('\\n');
         navigator.clipboard.writeText(lines);
         const orig = copyLogsBtn.textContent;
         copyLogsBtn.textContent = 'Copied!';
