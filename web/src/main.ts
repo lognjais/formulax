@@ -47,6 +47,7 @@ class RevisionApp {
   constructor() {
     this.appContainer = document.getElementById("app") as HTMLElement;
     this.initTheme();
+    this.initSecretDoor();
     this.initServiceWorker();
     this.initApp();
   }
@@ -83,6 +84,28 @@ class RevisionApp {
       const nextDark = !currentlyDark;
       applyTheme(nextDark);
       localStorage.setItem("revision_theme", nextDark ? "dark" : "light");
+    });
+  }
+
+  private initSecretDoor() {
+    let keyBuffer = "";
+    window.addEventListener("keydown", (e) => {
+      // Allow shortcut Cmd+Shift+J or Ctrl+Shift+J
+      if ((e.metaKey || e.ctrlKey) && e.shiftKey && e.key.toLowerCase() === "j") {
+        e.preventDefault();
+        localStorage.setItem("jai_access_key", "jai");
+        window.location.href = "./jai";
+        return;
+      }
+      // If typing in search box, ignore sequential key logging
+      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) {
+        return;
+      }
+      keyBuffer = (keyBuffer + e.key.toLowerCase()).slice(-3);
+      if (keyBuffer === "jai") {
+        localStorage.setItem("jai_access_key", "jai");
+        window.location.href = "./jai";
+      }
     });
   }
 
