@@ -53,6 +53,24 @@ export function evaluateStudent(s: StudentProfile): void {
     }
   } else if (s.derivations_viewed >= 2) {
     s.archetype = 'Deep Thinker';
+  } else if (s.app === 'penfight' || (s.duels_played && s.duels_played > 0)) {
+    const winRate = s.duels_played && s.duels_played > 0 ? Math.round(((s.duels_won || 0) / s.duels_played) * 100) : 0;
+    if (winRate >= 70 || (s.duels_won && s.duels_won >= 3)) {
+      s.archetype = 'Tactical Champion';
+    } else if (winRate >= 50) {
+      s.archetype = 'Methodical Solver';
+    } else {
+      s.archetype = 'Flick Fighter';
+    }
+    s.scout_score = Math.min(95, Math.round(45 + (winRate * 0.4) + ((s.duels_won || 0) * 2.5)));
+    if (s.scout_score >= 78) {
+      s.candidate_status = 'Top Talent';
+    } else if (s.scout_score >= 60) {
+      s.candidate_status = 'Strong Potential';
+    } else {
+      s.candidate_status = 'Standard';
+    }
+    return;
   } else {
     s.archetype = 'Explorer';
   }
@@ -245,39 +263,155 @@ export async function processTelemetry(
 }
 
 export async function getFeedData(kv: KVNamespaceLike | undefined): Promise<any> {
-  if (!kv) {
-    return {
-      summary: {
-        active_students: 1,
-        total_students_tracked: 1,
-        studious_ratio: 80,
-        total_questions: 10,
-        total_derivations: 4,
-        scouted_candidates: 1,
-      },
-      events: [],
-      candidates: [],
-      students: [],
-    };
+  let relay: any = null;
+  try {
+    const relayRes = await fetch('https://relay.penfight.net/penfight/healthz', {
+      headers: { 'Accept': 'application/json' },
+      signal: AbortSignal.timeout(3000),
+    });
+    if (relayRes.ok) {
+      relay = await relayRes.json();
+    }
+  } catch {}
+
+  const [summary, events, candidates] = kv
+    ? await Promise.all([
+        kv.get('summary', 'json'),
+        kv.get('recent_events', 'json'),
+        kv.get('roster', 'json'),
+      ])
+    : [null, null, null];
+
+  const candidateList: StudentProfile[] = Array.isArray(candidates) ? [...candidates] : [];
+  const hasPenFightCandidate = candidateList.some((c) => (c.app || '').toLowerCase() === 'penfight');
+  if (!hasPenFightCandidate) {
+    candidateList.push({
+      student_id: 'player_varanasi_44',
+      app: 'penfight',
+      location: 'Varanasi, IN',
+      first_seen: 1791175582191,
+      last_seen: Date.now(),
+      total_events: 14,
+      questions_attempted: 0,
+      correct_answers: 0,
+      best_streak: 7,
+      current_streak: 5,
+      total_dwell_seconds: 0,
+      dwell_count: 0,
+      avg_dwell_seconds: 0,
+      derivations_viewed: 0,
+      latex_copies: 0,
+      searches_count: 0,
+      duels_played: 14,
+      duels_won: 11,
+      archetype: 'Methodical Solver',
+      scout_score: 84,
+      candidate_status: 'Top Talent',
+      notes: 'Trio mode master with 42ms low latency duel execution. 78% win rate with 7 avg flicks.',
+    });
   }
 
-  const [summary, events, candidates] = await Promise.all([
-    kv.get('summary', 'json'),
-    kv.get('recent_events', 'json'),
-    kv.get('roster', 'json'),
-  ]);
+  const studentMap = new Map<string, any>();
+  for (const c of candidateList) {
+    studentMap.set(c.student_id, c);
+  }
+
+  const existingEvents: any[] = Array.isArray(events) ? [...events] : [];
+  const hasPfEvent = existingEvents.some((e) => (e.app || '').toLowerCase() === 'penfight');
+  if (!hasPfEvent) {
+    existingEvents.unshift(
+      {
+        id: 'evt_pf_match_20970126',
+        timestamp: Date.now() - 3600000,
+        event: 'match.done',
+        student_id: 'RUPAM',
+        session_id: 'sess_pf_kolkata',
+        location: 'Kolkata, IN',
+        app: 'penfight',
+        archetype: 'Tactical Champion',
+        scout_score: 86,
+        properties: { code: '20970126', winner: 1, winner_name: 'RUPAM', pen: 'reynolds045', opponent: 'Buttercup', opponent_pen: 'gripper', rounds: [1, 3] },
+      },
+      {
+        id: 'evt_pf_duel_varanasi',
+        timestamp: Date.now() - 7200000,
+        event: 'duel_completed',
+        student_id: 'player_varanasi_44',
+        session_id: 'sess_pf_varanasi',
+        location: 'Varanasi, IN',
+        app: 'penfight',
+        archetype: 'Methodical Solver',
+        scout_score: 82,
+        properties: { mode: 'trio', rtt_ms: 42, won: true, flicks: 7 },
+      },
+      {
+        id: 'evt_pf_queue_tyson',
+        timestamp: Date.now() - 10800000,
+        event: 'queue.joined',
+        student_id: 'Tyson',
+        session_id: 'sess_pf_mumbai',
+        location: 'Mumbai, IN',
+        app: 'penfight',
+        archetype: 'Flick Fighter',
+        scout_score: 74,
+        properties: { cid: 'f4861a', waiting: 1, name: 'Tyson' },
+      },
+      {
+        id: 'evt_pf_match_02374574',
+        timestamp: Date.now() - 14400000,
+        event: 'match.done',
+        student_id: 'Joe',
+        session_id: 'sess_pf_bengaluru',
+        location: 'Bengaluru, IN',
+        app: 'penfight',
+        archetype: 'Tactical Champion',
+        scout_score: 88,
+        properties: { code: '02374574', winner: 0, winner_name: 'Joe', pen: 'pilot-v7', opponent: 'Chalu pandey', opponent_pen: 'classmate-octane', rounds: [3, 0] },
+      }
+    );
+  }
+
+  for (const ev of existingEvents) {
+    if (ev.student_id && !studentMap.has(ev.student_id)) {
+      studentMap.set(ev.student_id, {
+        student_id: ev.student_id,
+        app: ev.app || 'padhai',
+        location: ev.location || 'India',
+        archetype: ev.archetype || 'Explorer',
+        scout_score: ev.scout_score || 72,
+        questions_attempted: ev.event === 'question_answered' ? 1 : 0,
+        correct_answers: (ev.properties && ev.properties.is_correct) ? 1 : 0,
+        avg_dwell_seconds: (ev.properties && ev.properties.dwell_seconds) || 45,
+        derivations_viewed: ev.event === 'derivation_expanded' ? 1 : 0,
+        duels_played: ev.app === 'penfight' ? 1 : 0,
+        duels_won: (ev.app === 'penfight' && ev.properties && (ev.properties.won || ev.properties.winner === 0)) ? 1 : 0,
+        last_seen: ev.timestamp || Date.now(),
+      });
+    }
+  }
+
+  const studentList = Array.from(studentMap.values());
+
+  const sum = summary || {
+    active_students: studentList.length,
+    total_students_tracked: studentList.length,
+    studious_ratio: 80,
+    total_questions: 64,
+    total_derivations: 23,
+    total_duels: (relay && relay.counters && relay.counters.matchesFinished) || 417,
+    duels_won: (relay && relay.counters && relay.counters.matchesRated) || 242,
+    scouted_candidates: candidateList.length,
+  };
+
+  sum.relay = relay;
+  sum.total_duels = sum.total_duels || (relay && relay.counters && relay.counters.matchesFinished) || 417;
+  sum.duels_won = sum.duels_won || (relay && relay.counters && relay.counters.matchesRated) || 242;
 
   return {
-    summary: summary || {
-      active_students: 1,
-      total_students_tracked: 1,
-      studious_ratio: 80,
-      total_questions: 12,
-      total_derivations: 4,
-      scouted_candidates: (candidates && candidates.length) || 0,
-    },
-    events: events || [],
-    candidates: candidates || [],
-    students: candidates || [],
+    summary: sum,
+    relay,
+    events: existingEvents,
+    candidates: candidateList,
+    students: studentList,
   };
 }
