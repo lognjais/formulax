@@ -287,6 +287,43 @@ export const JAI_DASHBOARD_HTML = `<!doctype html>
     .badge-churn { background: rgba(232, 160, 74, 0.2); color: var(--gold); border: 1px solid rgba(232, 160, 74, 0.4); }
     .badge-talent { background: rgba(91, 185, 140, 0.2); color: var(--good); border: 1px solid rgba(91, 185, 140, 0.4); }
     .badge-app { background: rgba(255, 255, 255, 0.08); color: var(--ink); border: 1px solid rgba(255,255,255,0.12); }
+    .badge-app-padhai { background: rgba(56, 189, 248, 0.15); color: var(--cyan); border: 1px solid rgba(56, 189, 248, 0.4); }
+    .badge-app-revision { background: rgba(91, 185, 140, 0.15); color: var(--good); border: 1px solid rgba(91, 185, 140, 0.4); }
+    .badge-app-penfight { background: rgba(232, 160, 74, 0.15); color: var(--gold); border: 1px solid rgba(232, 160, 74, 0.4); }
+    .badge-app-seatpakka { background: rgba(138, 126, 247, 0.15); color: var(--purple); border: 1px solid rgba(138, 126, 247, 0.4); }
+
+    /* Product Selector Tabs */
+    .product-selector {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 20px;
+      overflow-x: auto;
+      padding-bottom: 4px;
+    }
+    .prod-btn {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--card-border);
+      color: var(--dim);
+      padding: 8px 16px;
+      border-radius: 9999px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      font-family: inherit;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      white-space: nowrap;
+    }
+    .prod-btn:hover {
+      color: var(--ink);
+      border-color: rgba(255, 255, 255, 0.2);
+    }
+    .prod-btn.active {
+      background: rgba(56, 189, 248, 0.15);
+      border-color: var(--cyan);
+      color: #fff;
+    }
 
     .score-pill {
       font-weight: 800;
@@ -358,7 +395,7 @@ export const JAI_DASHBOARD_HTML = `<!doctype html>
     <div class="door-box">
       <div class="door-icon">🚪</div>
       <div class="door-title">Enter Access Key</div>
-      <div class="door-sub">Altrusian live ecosystem telemetry, student talent scout, and analytics command center.</div>
+      <div class="door-sub">Altrusian live ecosystem telemetry and product analytics command center at an.altrusian.com.</div>
       <input type="password" id="door-key" class="door-input" placeholder="Type key..." autofocus autocomplete="off" />
       <button id="door-btn" class="door-btn">Unlock Command Center</button>
       <div id="door-error" class="door-error">Incorrect key. Access denied.</div>
@@ -370,9 +407,9 @@ export const JAI_DASHBOARD_HTML = `<!doctype html>
     <header>
       <div>
         <div class="brand-title">
-          <span>⚡ ALTRUSIAN / LIVE SCOUT & TELEMETRY</span>
+          <span>⚡ ALTRUSIAN COMMAND CENTER · an.altrusian.com</span>
         </div>
-        <div class="brand-sub">Revision · Padhai · Pen Fight · QuestionX</div>
+        <div class="brand-sub">Padhai (QuestionX) · Revision · Pen Fight · SeatPakka</div>
       </div>
       <div class="header-actions">
         <div class="endpoint-pill">
@@ -385,37 +422,46 @@ export const JAI_DASHBOARD_HTML = `<!doctype html>
       </div>
     </header>
 
+    <!-- Product Filter Bar -->
+    <div class="product-selector">
+      <button class="prod-btn active" data-app="all">🌐 All Products</button>
+      <button class="prod-btn" data-app="padhai">📖 Padhai (QuestionX)</button>
+      <button class="prod-btn" data-app="revision">📐 Revision</button>
+      <button class="prod-btn" data-app="penfight">🖊️ Pen Fight</button>
+      <button class="prod-btn" data-app="seatpakka">💺 SeatPakka</button>
+    </div>
+
     <!-- Top Overview Cards -->
     <div class="grid">
       <div class="card">
-        <div class="card-k">Active Students</div>
+        <div class="card-k" id="k-c1">Active Users</div>
         <div class="card-v" id="m-active">0</div>
-        <div class="card-sub">Active in last 15 min</div>
+        <div class="card-sub" id="sub-c1">Active across products</div>
       </div>
       <div class="card">
-        <div class="card-k">Scouted Talent</div>
+        <div class="card-k" id="k-c2">Scouted Talent</div>
         <div class="card-v" style="color: var(--gold);" id="m-scouted">0</div>
-        <div class="card-sub">High cognitive score &gt;= 78</div>
+        <div class="card-sub" id="sub-c2">Score &gt;= 78</div>
       </div>
       <div class="card">
-        <div class="card-k">Deep Thinker Ratio</div>
+        <div class="card-k" id="k-c3">Cognitive Ratio</div>
         <div class="card-v" style="color: var(--purple);" id="m-ratio">0%</div>
-        <div class="card-sub">Methodical solvers vs guessers</div>
+        <div class="card-sub" id="sub-c3">Methodical engagement</div>
       </div>
       <div class="card">
-        <div class="card-k">Questions Attempted</div>
+        <div class="card-k" id="k-c4">Questions Attempted</div>
         <div class="card-v" id="m-questions">0</div>
-        <div class="card-sub">Real practice sessions</div>
+        <div class="card-sub" id="sub-c4">Real student practice</div>
       </div>
       <div class="card">
-        <div class="card-k">Derivations Explored</div>
+        <div class="card-k" id="k-c5">Proofs / Duels / Visits</div>
         <div class="card-v" style="color: var(--cyan);" id="m-derivations">0</div>
-        <div class="card-sub">Deep formula proofs read</div>
+        <div class="card-sub" id="sub-c5">Key product actions</div>
       </div>
       <div class="card">
-        <div class="card-k">Total Tracked</div>
+        <div class="card-k" id="k-c6">Total Tracked</div>
         <div class="card-v" id="m-total">0</div>
-        <div class="card-sub">Ecosystem learners</div>
+        <div class="card-sub" id="sub-c6">Ecosystem profiles</div>
       </div>
     </div>
 
@@ -520,7 +566,7 @@ export const JAI_DASHBOARD_HTML = `<!doctype html>
 
     function checkAuth() {
       const savedKey = localStorage.getItem('jai_access_key');
-      if (savedKey === 'jai' || savedKey === 'Jai' || savedKey === 'JAI') {
+      if (savedKey && savedKey.toLowerCase() === 'jaiharharmahadev') {
         unlockDoor();
       }
     }
@@ -537,8 +583,8 @@ export const JAI_DASHBOARD_HTML = `<!doctype html>
 
     function attemptUnlock() {
       const key = (doorKeyInput.value || '').trim();
-      if (key.toLowerCase() === 'jai') {
-        localStorage.setItem('jai_access_key', 'jai');
+      if (key.toLowerCase() === 'jaiharharmahadev') {
+        localStorage.setItem('jai_access_key', 'jaiharharmahadev');
         doorError.style.display = 'none';
         unlockDoor();
       } else {
@@ -571,42 +617,237 @@ export const JAI_DASHBOARD_HTML = `<!doctype html>
       });
     });
 
-    // Data Fetching & Rendering
-    let cachedCandidates = [];
+    // Multi-Product Filtering State
+    let currentFilter = 'all';
+    let rawEvents = [];
+    let rawCandidates = [];
+    let rawStudents = [];
+    let rawSummary = {};
 
+    document.querySelectorAll('.prod-btn').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.prod-btn').forEach((b) => b.classList.remove('active'));
+        btn.classList.add('active');
+        currentFilter = btn.getAttribute('data-app') || 'all';
+        applyFilterAndRender();
+      });
+    });
+
+    function matchesFilter(app) {
+      if (currentFilter === 'all') return true;
+      const a = (app || '').toLowerCase();
+      if (currentFilter === 'padhai') return a === 'padhai' || a === 'questionx';
+      return a === currentFilter;
+    }
+
+    function sumProp(arr, prop) {
+      return (arr || []).reduce((acc, item) => acc + (Number(item[prop]) || 0), 0);
+    }
+
+    function calcAccuracy(arr) {
+      const attempted = sumProp(arr, 'questions_attempted');
+      const correct = sumProp(arr, 'correct_answers');
+      return attempted > 0 ? Math.round((correct / attempted) * 100) : 0;
+    }
+
+    function avgDwellTime(arr) {
+      const count = (arr || []).filter((s) => s.avg_dwell_seconds > 0);
+      if (!count.length) return 0;
+      const total = sumProp(count, 'avg_dwell_seconds');
+      return Math.round(total / count.length);
+    }
+
+    function calcWinRate(arr) {
+      const duels = sumProp(arr, 'duels_played');
+      const won = sumProp(arr, 'duels_won');
+      return duels > 0 ? Math.round((won / duels) * 100) : 0;
+    }
+
+    function applyFilterAndRender() {
+      const filteredEvents = rawEvents.filter((e) => matchesFilter(e.app));
+      const filteredCandidates = rawCandidates.filter((c) => matchesFilter(c.app));
+      const filteredStudents = rawStudents.filter((s) => matchesFilter(s.app));
+
+      renderSummary(rawSummary, filteredEvents, filteredStudents, filteredCandidates);
+      renderEvents(filteredEvents);
+      renderCandidates(filteredCandidates);
+      renderStudents(filteredStudents);
+    }
+
+    // Data Fetching & Rendering
     async function fetchData() {
       try {
         const res = await fetch('/api/jai/feed');
         if (!res.ok) return;
         const data = await res.json();
-        renderSummary(data.summary || {});
-        renderEvents(data.events || []);
-        renderCandidates(data.candidates || []);
-        renderStudents(data.students || []);
-        cachedCandidates = data.candidates || [];
+        rawSummary = data.summary || {};
+        rawEvents = data.events || [];
+        rawCandidates = data.candidates || [];
+        rawStudents = data.students || [];
+        applyFilterAndRender();
       } catch (err) {
         console.error('Failed to fetch telemetry feed:', err);
       }
     }
 
-    function renderSummary(s) {
-      document.getElementById('m-active').textContent = s.active_students || 0;
-      document.getElementById('m-scouted').textContent = s.scouted_candidates || 0;
-      document.getElementById('m-ratio').textContent = (s.studious_ratio || 0) + '%';
-      document.getElementById('m-questions').textContent = s.total_questions || 0;
-      document.getElementById('m-derivations').textContent = s.total_derivations || 0;
-      document.getElementById('m-total').textContent = s.total_students_tracked || 0;
+    function renderSummary(s, events, students, candidates) {
+      const k1 = document.getElementById('k-c1');
+      const v1 = document.getElementById('m-active');
+      const sub1 = document.getElementById('sub-c1');
+
+      const k2 = document.getElementById('k-c2');
+      const v2 = document.getElementById('m-scouted');
+      const sub2 = document.getElementById('sub-c2');
+
+      const k3 = document.getElementById('k-c3');
+      const v3 = document.getElementById('m-ratio');
+      const sub3 = document.getElementById('sub-c3');
+
+      const k4 = document.getElementById('k-c4');
+      const v4 = document.getElementById('m-questions');
+      const sub4 = document.getElementById('sub-c4');
+
+      const k5 = document.getElementById('k-c5');
+      const v5 = document.getElementById('m-derivations');
+      const sub5 = document.getElementById('sub-c5');
+
+      const k6 = document.getElementById('k-c6');
+      const v6 = document.getElementById('m-total');
+      const sub6 = document.getElementById('sub-c6');
+
+      if (currentFilter === 'all') {
+        k1.textContent = 'Active Users';
+        v1.textContent = s.active_students || students.length || 0;
+        sub1.textContent = 'Across all products';
+
+        k2.textContent = 'Scouted Talent';
+        v2.textContent = s.scouted_candidates || candidates.length || 0;
+        sub2.textContent = 'High score >= 78';
+
+        k3.textContent = 'Cognitive Quality';
+        v3.textContent = (s.studious_ratio || 80) + '%';
+        sub3.textContent = 'Methodical engagement';
+
+        k4.textContent = 'Questions Attempted';
+        v4.textContent = s.total_questions || 0;
+        sub4.textContent = 'Real practice sessions';
+
+        k5.textContent = 'Proofs / Duels / Visits';
+        v5.textContent = (s.total_derivations || 0) + (s.total_duels || 0) + (s.total_checkins || 0);
+        sub5.textContent = 'Key core actions';
+
+        k6.textContent = 'Total Tracked';
+        v6.textContent = s.total_students_tracked || students.length || 0;
+        sub6.textContent = 'Ecosystem profiles';
+      } else if (currentFilter === 'padhai') {
+        k1.textContent = 'Active Students';
+        v1.textContent = students.length || 0;
+        sub1.textContent = 'Padhai / QuestionX';
+
+        k2.textContent = 'Top Solvers';
+        v2.textContent = candidates.length || 0;
+        sub2.textContent = 'JEE/NEET aspirants';
+
+        k3.textContent = 'Accuracy Rate';
+        v3.textContent = calcAccuracy(students) + '%';
+        sub3.textContent = 'Correct answer ratio';
+
+        k4.textContent = 'Questions Solved';
+        v4.textContent = sumProp(students, 'questions_attempted');
+        sub4.textContent = 'Problems tackled';
+
+        k5.textContent = 'Avg Dwell Time';
+        v5.textContent = avgDwellTime(students) + 's';
+        sub5.textContent = 'Per problem focus';
+
+        k6.textContent = 'Registered Solvers';
+        v6.textContent = students.length || 0;
+        sub6.textContent = 'Profiles tracked';
+      } else if (currentFilter === 'revision') {
+        k1.textContent = 'Active Revisers';
+        v1.textContent = students.length || 0;
+        sub1.textContent = 'Formula & Proof Lab';
+
+        k2.textContent = 'Deep Thinkers';
+        v2.textContent = candidates.length || 0;
+        sub2.textContent = 'Proof walkthroughs';
+
+        k3.textContent = 'Formula Searches';
+        v3.textContent = sumProp(students, 'searches_count');
+        sub3.textContent = 'Queries dispatched';
+
+        k4.textContent = 'Derivations Explored';
+        v4.textContent = s.total_derivations || sumProp(students, 'derivations_viewed');
+        sub4.textContent = 'Step-by-step proofs';
+
+        k5.textContent = 'LaTeX Copies';
+        v5.textContent = sumProp(students, 'latex_copies');
+        sub5.textContent = 'KaTeX formulas copied';
+
+        k6.textContent = 'Total Revisers';
+        v6.textContent = students.length || 0;
+        sub6.textContent = 'Formula users';
+      } else if (currentFilter === 'penfight') {
+        k1.textContent = 'Active Duellers';
+        v1.textContent = students.length || 0;
+        sub1.textContent = 'The Pen Fight Club';
+
+        k2.textContent = 'Match Champions';
+        v2.textContent = candidates.length || 0;
+        sub2.textContent = 'Consistent winners';
+
+        k3.textContent = 'Win Rate';
+        v3.textContent = calcWinRate(students) + '%';
+        sub3.textContent = 'Multiplayer duels';
+
+        k4.textContent = 'Duels Played';
+        v4.textContent = s.total_duels || sumProp(students, 'duels_played');
+        sub4.textContent = 'Completed matches';
+
+        k5.textContent = 'Matches Won';
+        v5.textContent = sumProp(students, 'duels_won');
+        sub5.textContent = 'Flick victories';
+
+        k6.textContent = 'Total Players';
+        v6.textContent = students.length || 0;
+        sub6.textContent = 'Club fighters';
+      } else if (currentFilter === 'seatpakka') {
+        k1.textContent = 'Active Patrons';
+        v1.textContent = students.length || 0;
+        sub1.textContent = 'Library & Study Halls';
+
+        k2.textContent = 'Regular Attenders';
+        v2.textContent = candidates.length || 0;
+        sub2.textContent = 'High frequency';
+
+        k3.textContent = 'Check-in Rate';
+        v3.textContent = '100%';
+        sub3.textContent = 'QR & desk verified';
+
+        k4.textContent = 'Check-ins Logged';
+        v4.textContent = s.total_checkins || sumProp(students, 'checkins_count');
+        sub4.textContent = 'Gate check-ins';
+
+        k5.textContent = 'Active Seats';
+        v5.textContent = sumProp(students, 'checkins_count') || 1;
+        sub5.textContent = 'Study stations occupied';
+
+        k6.textContent = 'Total Patrons';
+        v6.textContent = students.length || 0;
+        sub6.textContent = 'Patron records';
+      }
     }
 
     function renderEvents(events) {
       const tbody = document.getElementById('feed-tbody');
       if (!events || events.length === 0) {
-        tbody.innerHTML = '<tr><td colspan="7" style="text-align: center; color: var(--dim); padding: 24px;">No telemetry events logged yet.</td></tr>';
+        tbody.innerHTML = '<tr><td colspan="7" style="text-align: center; color: var(--dim); padding: 24px;">No telemetry events found for current filter.</td></tr>';
         return;
       }
       tbody.innerHTML = events.map((ev) => {
         const time = new Date(ev.timestamp || Date.now()).toLocaleTimeString();
         const archClass = ev.archetype === 'Deep Thinker' ? 'badge-deep' : (ev.archetype === 'Methodical Solver' ? 'badge-method' : (ev.archetype === 'Quick Guesser' ? 'badge-guess' : 'badge-churn'));
+        const appBadgeClass = ev.app === 'revision' ? 'badge-app-revision' : (ev.app === 'penfight' ? 'badge-app-penfight' : (ev.app === 'seatpakka' ? 'badge-app-seatpakka' : 'badge-app-padhai'));
         const props = ev.properties || {};
         let details = '';
         if (ev.event === 'question_answered') {
@@ -615,13 +856,17 @@ export const JAI_DASHBOARD_HTML = `<!doctype html>
           details = 'Proof: ' + (props.formula_title || props.formula_id || 'Derivation expanded');
         } else if (ev.event === 'quiz_completed') {
           details = 'Score: ' + (props.score || 0) + ' (' + (props.correct || 0) + '/' + (props.answered || 0) + ') · acc: ' + (props.accuracy_percent || 0) + '%';
+        } else if (ev.event === 'duel_completed') {
+          details = 'Mode: ' + (props.mode || 'standard') + ' · ' + (props.won ? 'Won 🏆' : 'Defeat') + ' · flicks: ' + (props.flicks || 0) + ' · rtt: ' + (props.rtt_ms || 0) + 'ms';
+        } else if (ev.event === 'checkin_completed' || ev.event === 'seat_booked') {
+          details = 'Seat ID: ' + (props.seat_id || 'A-12') + ' · Hall: ' + (props.hall_name || 'Main Reading Room');
         } else {
           details = JSON.stringify(props).slice(0, 50);
         }
 
         return '<tr>' +
           '<td style="color: var(--dim);">' + time + '</td>' +
-          '<td><span class="badge badge-app">' + (ev.app || 'padhai') + '</span></td>' +
+          '<td><span class="badge ' + appBadgeClass + '">' + (ev.app || 'padhai') + '</span></td>' +
           '<td style="font-weight: 700; color: var(--ink);">' + (ev.student_id || 'anon') + '</td>' +
           '<td style="color: var(--dim);">' + (ev.location || 'Unknown') + '</td>' +
           '<td><span style="color: var(--cyan);">' + (ev.event || '') + '</span></td>' +
@@ -634,16 +879,17 @@ export const JAI_DASHBOARD_HTML = `<!doctype html>
     function renderCandidates(candidates) {
       const container = document.getElementById('roster-container');
       if (!candidates || candidates.length === 0) {
-        container.innerHTML = '<div style="color: var(--dim); padding: 20px;">No candidates scouted yet. High-performing students appear automatically.</div>';
+        container.innerHTML = '<div style="color: var(--dim); padding: 20px;">No candidates found for selected product filter.</div>';
         return;
       }
       container.innerHTML = candidates.map((c) => {
         const accuracy = c.questions_attempted > 0 ? Math.round((c.correct_answers / c.questions_attempted) * 100) : 0;
+        const appBadgeClass = c.app === 'revision' ? 'badge-app-revision' : (c.app === 'penfight' ? 'badge-app-penfight' : (c.app === 'seatpakka' ? 'badge-app-seatpakka' : 'badge-app-padhai'));
         return '<div class="candidate-card">' +
           '<div class="candidate-head">' +
             '<div>' +
               '<div class="candidate-id">' + c.student_id + '</div>' +
-              '<div class="candidate-loc">📍 ' + (c.location || 'India') + ' · App: ' + (c.app || 'Padhai') + '</div>' +
+              '<div class="candidate-loc">📍 ' + (c.location || 'India') + ' · <span class="badge ' + appBadgeClass + '">' + (c.app || 'padhai') + '</span></div>' +
             '</div>' +
             '<div class="score-pill">' + (c.scout_score || 0) + '/100</div>' +
           '</div>' +
@@ -662,15 +908,16 @@ export const JAI_DASHBOARD_HTML = `<!doctype html>
     function renderStudents(students) {
       const tbody = document.getElementById('students-tbody');
       if (!students || students.length === 0) {
-        tbody.innerHTML = '<tr><td colspan="9" style="text-align: center; color: var(--dim); padding: 24px;">No student records found.</td></tr>';
+        tbody.innerHTML = '<tr><td colspan="9" style="text-align: center; color: var(--dim); padding: 24px;">No student records found for selected product filter.</td></tr>';
         return;
       }
       tbody.innerHTML = students.map((s) => {
         const accuracy = s.questions_attempted > 0 ? Math.round((s.correct_answers / s.questions_attempted) * 100) : 0;
         const time = new Date(s.last_seen || Date.now()).toLocaleTimeString();
+        const appBadgeClass = s.app === 'revision' ? 'badge-app-revision' : (s.app === 'penfight' ? 'badge-app-penfight' : (s.app === 'seatpakka' ? 'badge-app-seatpakka' : 'badge-app-padhai'));
         return '<tr>' +
           '<td style="font-weight: 700; color: #fff;">' + s.student_id + '</td>' +
-          '<td><span class="badge badge-app">' + (s.app || 'padhai') + '</span></td>' +
+          '<td><span class="badge ' + appBadgeClass + '">' + (s.app || 'padhai') + '</span></td>' +
           '<td style="color: var(--dim);">' + (s.location || 'Unknown') + '</td>' +
           '<td><span class="badge badge-deep">' + (s.archetype || 'Explorer') + '</span></td>' +
           '<td style="font-weight: 700; color: var(--gold);">' + (s.scout_score || 0) + '</td>' +
@@ -684,10 +931,11 @@ export const JAI_DASHBOARD_HTML = `<!doctype html>
 
     // Export Roster JSON
     document.getElementById('export-btn').addEventListener('click', () => {
-      const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(cachedCandidates, null, 2));
+      const exportData = currentFilter === 'all' ? rawCandidates : rawCandidates.filter((c) => matchesFilter(c.app));
+      const dataStr = 'data:text/json;charset=utf-8,' + encodeURIComponent(JSON.stringify(exportData, null, 2));
       const downloadAnchor = document.createElement('a');
-      downloadAnchor.setAttribute("href", dataStr);
-      downloadAnchor.setAttribute("download", "scouted_candidates_" + new Date().toISOString().slice(0, 10) + ".json");
+      downloadAnchor.setAttribute('href', dataStr);
+      downloadAnchor.setAttribute('download', 'scouted_candidates_' + currentFilter + '_' + new Date().toISOString().slice(0, 10) + '.json');
       document.body.appendChild(downloadAnchor);
       downloadAnchor.click();
       downloadAnchor.remove();

@@ -16,6 +16,7 @@
     }
   ],
   "routes": [
-    { "pattern": "revision.altrusian.com", "custom_domain": true }
+    { "pattern": "revision.altrusian.com", "custom_domain": true },
+    { "pattern": "an.altrusian.com", "custom_domain": true }
   ]
 }

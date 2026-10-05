@@ -32,8 +32,10 @@ export default {
       return new Response('OK', { status: 200 });
     }
 
-    // Secret Door: Jai Analytics & Talent Command Center
-    if (url.pathname === '/jai' || url.pathname === '/jai/') {
+    const isCentralHub = url.hostname === 'an.altrusian.com';
+
+    // Central command center on an.altrusian.com
+    if (isCentralHub && (url.pathname === '/' || url.pathname === '/jai' || url.pathname === '/jai/' || url.pathname === '/dashboard')) {
       return new Response(JAI_DASHBOARD_HTML, {
         status: 200,
         headers: {
@@ -41,6 +43,11 @@ export default {
           'Cache-Control': 'no-cache, no-store, must-revalidate',
         },
       });
+    }
+
+    // Redirect legacy revision /jai route to central an.altrusian.com
+    if (!isCentralHub && (url.pathname === '/jai' || url.pathname === '/jai/')) {
+      return Response.redirect('https://an.altrusian.com', 302);
     }
 
     // API feed for /jai dashboard
